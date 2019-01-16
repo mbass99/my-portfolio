@@ -1,0 +1,28 @@
+/*Portfolio CSS */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+    
+    
+    /*  Media Queries */
+    @media screen and (min-width: 575px){
+   .container {
+    margin: 2%;
+    width: 80%;
+  }
+
+   .preview {
+    float:left;
+    width: 45%;   
+    }
+    
+    @media screen and (min-width: 991px){
+   .container {
+    margin: 2%;
+    width: 90%;  
+  }
+
+   .preview {
+    float:left;
+    width: 23%;   
+    }

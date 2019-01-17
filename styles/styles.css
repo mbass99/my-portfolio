@@ -2,8 +2,11 @@
 
 *, *:before, *:after {
   box-sizing: border-box;
+}
     
-    
+p{
+    color: red;
+}
     /*  Media Queries */
     @media screen and (min-width: 575px){
    .container {

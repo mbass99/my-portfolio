@@ -1,31 +1,90 @@
 /*Portfolio CSS */
 
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-    
-p{
-    color: red;
-}
-    /*  Media Queries */
-    @media screen and (min-width: 575px){
-   .container {
-    margin: 2%;
-    width: 80%;
-  }
 
-   .preview {
-    float:left;
-    width: 45%;   
-    }
-    
-    @media screen and (min-width: 991px){
-   .container {
-    margin: 2%;
-    width: 90%;  
-  }
+/* FONT LABELING
+    font-family: 'Major Mono Display', monospace;
+    font-family: 'Zilla Slab', serif;
+    font-family: 'Zilla Slab Highlight', cursive; */
 
-   .preview {
-    float:left;
-    width: 23%;   
+/* Colors - #B30000 (main red)
+            #0E0B06 (off black for most text)
+            #A6E6FC (background blue)*/
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* HEADER AREA */
+.header-link {
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 26px;
+}
+
+
+.Introduction {
+    color: #0E0B06;
+    font-size: 48px;
+}
+
+.designer-text-big {
+    font-family: 'Major Mono Display', monospace;
+    text-transform: uppercase;
+}
+
+
+/* PROJECT PAGES */
+.Recent-Work {
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+.Project-Name {
+    color: #B30000;
+    font-family: 'Zilla Slab', serif;
+    font-size: 50px;
+}
+
+
+/*MAIN TEXT*/
+p {
+    color: #0e0b06;
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    line-height: 115%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #B30000;
+}
+
+.mdl-mini-footer__link-list {
+    align-content: center;
+    color: white;
+}
+
+
+/*  Media Queries */
+@media screen and (min-width: 575px) {
+    .container {
+        margin: 2%;
+        width: 80%;
     }
+
+    .preview {
+        float: left;
+        width: 45%;
+    }
+
+    @media screen and (min-width: 991px) {
+        .container {
+            margin: 2%;
+            width: 90%;
+        }
+
+        .preview {
+            float: left;
+            width: 23%;
+        }

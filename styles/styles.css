@@ -16,46 +16,24 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 10px;
+}
+
+/* ALL PAGES */
 /* HEADER AREA */
 .header-link {
     color: white;
     font-family: 'Zilla Slab', serif;
-    font-size: 26px;
+    font-size: 1.6rem;
 }
 
-#button {
-    color: B30000;
-}
+/* SECTIONS*/
+section {
+    padding-top: 10rem;
+    padding-left: 18.6rem;
+    padding-right: 13.5rem;
 
-.Introduction {
-    color: #0E0B06;
-    font-size: 48px;
-}
-
-.designer-text-big {
-    font-family: 'Major Mono Display', monospace;
-    text-transform: uppercase;
-}
-
-
-/* PROJECT PAGES */
-.Recent-Work {
-    font-family: 'Zilla Slab Highlight', cursive;
-}
-
-.Project-Name {
-    color: #B30000;
-    font-family: 'Zilla Slab', serif;
-    font-size: 50px;
-}
-
-
-/*MAIN TEXT*/
-p {
-    color: #0e0b06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 30px;
-    line-height: 115%;
 }
 
 /* FOOTER */
@@ -68,6 +46,135 @@ footer {
     color: white;
 }
 
+#button {
+    color: B30000;
+}
+
+
+
+/* LANDING PAGE */
+.Introduction {
+    color: #0E0B06;
+    font-size: 4.8rem;
+    font-family: Zilla Slab', serif;
+
+}
+
+.designer-text-big {
+    color: #0E0B06;
+    font-family: 'Major Mono Display', monospace;
+    text-transform: uppercase;
+}
+
+.designer-text-small {
+    color: #0E0B06;
+    font-family: 'Major Mono Display', monospace;
+    text-transform: lowercase;
+}
+
+
+/* PROJECT PAGES */
+.Recent-Work {
+    color: #0E0B06;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+.Project-Name {
+    color: #B30000;
+    font-family: 'Zilla Slab', serif;
+    font-size: 5rem;
+}
+
+.section-header {
+    color: #B30000;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 4rem;
+    text-transform: lowercase;
+}
+
+.section-questions {
+    color: #0E0B06;
+    font-family: 'Zilla Slab', serif;
+    font-size: 3.2rem;
+    text-transform: lowercase;
+    font-weight: 500;
+}
+
+
+.body-list-headers {
+    color: #0E0B06;
+    font-family: 'Zilla Slab', serif;
+    font-size: 2.8rem;
+    font-weight: semi bold;
+}
+
+li {
+    color: #0E0B06;
+    font-family: 'Zilla Slab', serif;
+    font-size: 2.4rem;
+    line-height: 120%;
+
+}
+
+.products {
+    color: #0e0b06;
+    font-family: 'Zilla Slab', serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.mdl-card_title {
+    color: #B30000;
+    font-family: 'Zilla Slab', serif;
+    font-size: 3rem;
+    font-weight: medium;
+}
+
+.mdl-card_supporting-text {
+    color: #0e0b06;
+    font-family: 'Zilla Slab', serif;
+    font-size: 2.4rem;
+    line-height: 130%;
+
+}
+
+.conclusions {
+    color: #B30000;
+    font-family: 'Zilla Slab', serif;
+    font-size: 3.2rem;
+    text-transform: lowercase;
+}
+
+.wireframe-labels {
+    color: #0e0b06;
+    font-family: 'Zilla Slab', serif;
+    font-size: 3rem;
+}
+
+
+.sitemap {
+    width: auto;
+    height: auto;
+}
+
+/*MAIN TEXT*/
+p {
+    color: #0e0b06;
+    font-family: 'Zilla Slab', serif;
+    font-size: 3rem;
+    line-height: 115%;
+}
+
+.study-project-overview {
+    background-color: #A6E6FC;
+}
+
+
+/*BIOGRAPHY */
+
+.about-me {
+    font-size: 3rem;
+}
 
 /*  Media Queries */
 @media screen and (min-width: 575px) {

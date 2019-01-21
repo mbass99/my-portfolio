@@ -159,27 +159,35 @@
                 <div class="survey-charts">
                     <h3 class="section-questions">is there a market where wine drinkers might use this?</h3>
 
-
-                    <img src="/Images/pie-chart-1.png">
-
-
-                    <p class="picture-explanation">75% showed interest</p>
+                    <!-- JPEG CHART
+                    <img src="/Images/pie-chart-1.png"> -->
+                    <!--CHARTONE JS LINK-->
+                    <div class="charts">
+                        <canvas id="wineChart" width="400" height="400"></canvas>
+                    </div>
+                    <p class="picture-explanation">53% showed interest</p>
                 </div>
                 <div class="survey-charts">
                     <h3 class="section-questions">would people use it for more than wine?</h3>
 
-
-                    <img src="/Images/pie-chart-2.png">
-
+                    <!-- JPEG CHART
+                    <img src="/Images/pie-chart-2.png">-->
+                    <!--CHARTTWO JS LINK-->
+                    <div class="charts">
+                        <canvas id="winePlusChart" width="400" height="400"></canvas>
+                    </div>
 
                     <p class="picture-explanation">70% would potentially use this for more than just wine</p>
                 </div>
                 <div class="survey-charts"></div>
                 <h3 class="section-questions">what are the main things users would want from the product</h3>
 
-
-                <img src="/Images/graph-chart-3.png">
-
+                <!-- JPEG CHART
+                <img src="/Images/graph-chart-3.png">-->
+                <!--CHARTTHREE JS LINK-->
+                <div class="charts">
+                    <canvas id="productChart" width="400" height="400"></canvas>
+                </div>
 
                 <ul class="picture-explanation">
                     <li>77% Tasting Notes</li>
@@ -381,7 +389,7 @@
                 <h3 class="section-questions">what was the process for colors?</h3>
                 <p>Created color scheme based on grape colors given grapes are the starting point for wine. Tested multiple versions with users before landing on the final version
                 </p>
-                <img src="/Images/grapes.jpeg">
+                <img src="/Images/grapes.png">
 
                 <p>Multiple color versions were tested to user preferences, eventually landing darker primary grape colors for the primary usage. Users really responded to the boldness of the purple, and connection with both wine tasting.</p>
                 <!-- Accent-colored raised button -->
@@ -489,6 +497,8 @@
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
     <!-- CHART JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script type="text/javascript" src="/scripts/charts.js"></script>
 
 </body>
 

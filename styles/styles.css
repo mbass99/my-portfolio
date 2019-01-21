@@ -123,6 +123,15 @@ li {
     font-weight: 500;
 }
 
+.charts {
+    width: 75%;
+}
+
+.picture-explanation {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
 .mdl-card_title {
     color: #B30000;
     font-family: 'Zilla Slab', serif;

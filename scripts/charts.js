@@ -1,3 +1,5 @@
+//CHARTS PAGE
+
 //CHART 1 WOULD WINE DRINKERS USE- 54% SHOWED INTEREST  
 
 var chartOne = document.getElementById('wineChart').getContext('2d');

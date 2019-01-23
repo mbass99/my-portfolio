@@ -53,7 +53,7 @@ footer {
 
 
 /* LANDING PAGE */
-.Introduction {
+.introduction {
     color: #0E0B06;
     font-size: 4.8rem;
     font-family: Zilla Slab', serif;
@@ -74,12 +74,12 @@ footer {
 
 
 /* PROJECT PAGES */
-.Recent-Work {
+.recent-work {
     color: #0E0B06;
     font-family: 'Zilla Slab Highlight', cursive;
 }
 
-.Project-Name {
+.project-name {
     color: #B30000;
     font-family: 'Zilla Slab', serif;
     font-size: 5rem;

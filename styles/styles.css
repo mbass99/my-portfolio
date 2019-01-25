@@ -41,8 +41,13 @@ body {
     margin-top: 1rem;
 }
 
-.designer-text-big {
+.introduction {
     font-family: 'Zilla Slab', serif;
+}
+
+.designer-text-large {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 7rem;
 }
 
 

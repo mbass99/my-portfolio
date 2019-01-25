@@ -10,6 +10,7 @@
             #0E0B06 (off black for most text)
             #A6E6FC (background blue)*/
 
+/*Grid should 9 columns for desktop and 3 for mobile*/
 *,
 *:before,
 *:after {
@@ -21,189 +22,45 @@ html {
 }
 
 /* ALL PAGES */
-/* HEADER AREA */
-.header-link {
-    color: white;
-    font-family: 'Zilla Slab', serif;
-    font-size: 1.6rem;
-}
 
-/* SECTIONS*/
-section {
-    padding-top: 10rem;
-    padding-left: 18.6rem;
-    padding-right: 13.5rem;
+
+body {
+    background-color: #ebe9ac;
+    margin: auto 0;
 
 }
 
-/* FOOTER */
-footer {
-    background-color: #B30000;
+.container {
+    background-color: white;
+    margin: 0 auto;
+    width: 132rem;
 }
 
-.mdl-mini-footer__link-list {
-    align-content: center;
-    color: white;
-}
-
-#button {
-    color: B30000;
-}
-
-
-
-/* LANDING PAGE */
-.introduction {
-    color: #0E0B06;
-    font-size: 4.8rem;
-    font-family: Zilla Slab', serif;
-
+/*Landing Page*/
+.hero {
+    margin-top: 1rem;
 }
 
 .designer-text-big {
-    color: #0E0B06;
-    font-family: 'Major Mono Display', monospace;
-    text-transform: uppercase;
-}
-
-.designer-text-small {
-    color: #0E0B06;
-    font-family: 'Major Mono Display', monospace;
-    text-transform: lowercase;
-}
-
-
-/* PROJECT PAGES */
-.recent-work {
-    color: #0E0B06;
-    font-family: 'Zilla Slab Highlight', cursive;
-}
-
-.project-name {
-    color: #B30000;
     font-family: 'Zilla Slab', serif;
-    font-size: 5rem;
-}
-
-.section-header {
-    color: #B30000;
-    font-family: 'Major Mono Display', monospace;
-    font-size: 4rem;
-    text-transform: lowercase;
-}
-
-.section-questions {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3.2rem;
-    text-transform: lowercase;
-    font-weight: 500;
 }
 
 
-.body-list-headers {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 2.8rem;
-    font-weight: semi bold;
+section {
+    padding: 10rem 0;
 }
 
-li {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 2.4rem;
-    line-height: 120%;
+/*
 
-}
-
-.products {
-    color: #0e0b06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3rem;
-    font-weight: 500;
-}
-
-.charts {
-    width: 75%;
-}
-
-.picture-explanation {
-    font-weight: 500;
-    text-transform: uppercase;
-}
-
-.mdl-card_title {
-    color: #B30000;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3rem;
-    font-weight: medium;
-}
-
-.mdl-card_supporting-text {
-    color: #0e0b06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 2.4rem;
-    line-height: 130%;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2.5rem;
 
 }
 
-.conclusions {
-    color: #B30000;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3.2rem;
-    text-transform: lowercase;
+.navbar {
+    width: 200rem;
+
 }
-
-.wireframe-labels {
-    color: #0e0b06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3rem;
-}
-
-
-.sitemap {
-    width: auto;
-    height: auto;
-}
-
-/*MAIN TEXT*/
-p {
-    color: #0e0b06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3rem;
-    line-height: 115%;
-}
-
-.study-project-overview {
-    background-color: #A6E6FC;
-}
-
-
-/*BIOGRAPHY */
-
-.about-me {
-    font-size: 3rem;
-}
-
-/*  Media Queries */
-@media screen and (min-width: 575px) {
-    .container {
-        margin: 2%;
-        width: 80%;
-    }
-
-    .preview {
-        float: left;
-        width: 45%;
-    }
-
-    @media screen and (min-width: 991px) {
-        .container {
-            margin: 2%;
-            width: 90%;
-        }
-
-        .preview {
-            float: left;
-            width: 23%;
-        }
+*/

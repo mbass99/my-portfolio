@@ -1,425 +1,409 @@
-/*Portfolio CSS */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-
-/*pull all other stylesheets into this per mentor slack chat*/
-
-/* FONT LABELING
-    font-family: 'Major Mono Display', monospace;
-    font-family: 'Zilla Slab', serif;
-    NOT USING - font-family: 'Zilla Slab Highlight', cursive; */
-
-/* Colors - #B30000 (main red)
-            #0E0B06 (off black for most text)
-            #A6E6FC (background blue)*/
-
-/*Grid should 9 columns for desktop and 3 for mobile*/
-
-
-
-/* MEYERWEB RESET*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-
 body {
-    line-height: 1;
+	line-height: 1;
 }
-
-ol,
-ul {
-    list-style: none;
+ol, ul {
+	list-style: none;
 }
-
-blockquote,
-q {
-    quotes: none;
+blockquote, q {
+	quotes: none;
 }
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
+/*end meyer reset*/
+
+/*PLACE MDL STYLES HERE */
+/*PLACE FONT AWESOME ICONS STYLES HERE*/
+
+/*GOOGLE FONTS*/
+<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Zilla+Slab" rel="stylesheet">
 
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-    font-size: 10px;
+	font-size: 10px;
 }
 
 /* ALL PAGES */
 
 
 body {
-    background-color: #ebe9ac;
-    margin: auto 0;
+	background-color: #ebe9ac;
+	margin: auto 0;
+	width: 144rem;
 
 }
 
 .container {
-    background-color: white;
-    display: grid;
-    /*    grid-template-columns: 1fr 7fr 1fr 1fr;*/
+	background-color: white;
+	display: grid;
+	/*    grid-template-columns: 1fr 7fr 1fr 1fr;*/
 
-    margin: 0 auto;
-    width: 144rem;
+	margin: 0 auto;
 
 }
 
 
-/*
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    padding: 2.5rem;*/
+
+.nav-flex {
+	display: flex;
+	flex-direction: row;
+	padding: 2.5rem;
+	width: 100%;
 
 }
 
 .navbar {
-    width: 231rem;
-    font-family: 'Zilla Slab', serif;
-    font-size: 2.6rem;
-    font-weight: 500;
-    line-height: 3.7rem;
-    text-transform: uppercase;
+	font-family: 'Zilla Slab', serif;
+	font-size: 2.6rem;
+	font-weight: 500;
+	height: 6rem;
+	line-height: 3.7rem;
+	text-transform: uppercase;
 }
 
 
 /*GENERAL TEXT*/
 p {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 4.1rem;
-    margin-left: 3.21rem;
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 4.1rem;
 
 }
 
 
 /*Landing Page*/
 .hero {
-    margin-top: 1rem;
-    background-image: url(../images/landing-hero-image.jpg);
-    background-size: cover;
+	background-image: url(../images/landing-hero-image.jpg);
+	background-size: cover;
+	margin-top: 1rem;
+	
 }
 
 .introduction {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 4.8rem;
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 4.8rem;
 }
 
 .designer-text-big {
-    color: #0E0B06;
-    font-size: 7rem;
-    font-family: 'Major Mono Display', monospace;
-    font-weight: normal;
-    line-height: 8.4rem;
-    text-transform: uppercase;
+	color: #0E0B06;
+	font-size: 7rem;
+	font-family: 'Major Mono Display', monospace;
+	font-weight: normal;
+	line-height: 8.4rem;
+	text-transform: uppercase;
 
 }
 
 .designer-text-small {
-    color: #0E0B06;
-    font-family: 'Major Mono Display', monospace;
-    font-size: 4.8rem;
-    font-style: normal;
-    line-height: 6.9rem;
-    text-transform: lowercase;
+	color: #0E0B06;
+	font-family: 'Major Mono Display', monospace;
+	font-size: 4.8rem;
+	font-style: normal;
+	line-height: 6.9rem;
+	text-transform: lowercase;
 }
 
 .bunk {
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 /*Landing Page Project Sections*/
 
 section {
-    margin-left: 18.5rem;
-    margin-right: 18.5rem;
-    padding: 10rem 0;
+	padding-bottom: 10rem;
+	padding-left: 18.5rem;
+	padding-right: 18.5rem;
+	padding-top: 10rem;
 }
 
 .recent-work {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3.6rem;
-    text-decoration: underline;
-    text-transform: uppercase;
+	text-align: center;
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 3.6rem;
+	padding-bottom: 2.5rem;
+	text-decoration: underline;
+	text-transform: uppercase;
 }
 
 .project-name {
-    color: #B30000;
-    font-family: 'Zilla Slab', serif;
-    font-size: 5rem;
-    font-weight: 500;
-    line-height: 7.2rem;
+	color: #B30000;
+	font-family: 'Zilla Slab', serif;
+	font-size: 5rem;
+	font-weight: 500;
+	line-height: 7.2rem;
 }
 
 .project-explanation {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
 }
 
-.two .four .six. .eight .ten .twelve .fourteen {
-    background-color: #A6E6FC;
+.prototype{
+/* need to create outside border*/
+	box-shadow: 0 0 2rem #777777;
+}
+
+.two, .four, .six, .eight, .ten, .twelve {
+	background-color: #A6E6FC;
 }
 
 /*PROJECT CASE STUDY PAGES*/
+.content-conclusions{
+	color: #B30000;
+	font-family: 'Zilla Slab', serif;
+	font-size: 3.2rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 4.6rem;
+	text-transform: lowercase;
+}
+
 .section-header {
-    color: #B30000;
-    font-family: 'Major Mono Display', monospace;
-    font-size: 4rem;
-    text-transform: lowercase;
+	color: #B30000;
+	font-family: 'Major Mono Display', monospace;
+	font-size: 4rem;
+	padding-bottom: 2rem;;
+	text-transform: lowercase;
 }
 
 .section-questions {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3.2rem;
-    text-transform: lowercase;
-    font-weight: 500;
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 3.2rem;
+	font-weight: 500;
+	padding-bottom: 5rem;
+	text-transform: lowercase;
+}
+
+.twelve > .section-questions{
+	padding-top: 5rem;
 }
 
 .body-list-headers {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 2.8rem;
-    font-weight: semi bold;
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 2.8rem;
+	font-weight: semi bold;
 }
 
-li {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 2.4rem;
-    line-height: 120%;
+.list-answers{
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 2.4rem;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 3.5rem;
+}
+
+.performed {
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 2.4rem;
+	line-height: 120%;
 
 }
 
 .products {
-    color: #0e0b06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3rem;
-    font-weight: 500;
+	color: #0e0b06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 3rem;
+	font-weight: 500;
 }
 
 .charts {
-    width: 50%;
+	width: 75%;
 }
 
+.sitemap{
+	box-shadow: inset 0 0 10rem #777777;
+	margin-top: 2rem;
+}
 .picture-explanation {
-    font-weight: 500;
-    text-transform: uppercase;
+	font-weight: 500;
+	text-transform: uppercase;
 }
 
+.wireframe-labels{
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 4.3rem;
+	text-transform: capitalize;
+}
+
+.flow-charts{
+	display: block;
+	border: .1rem solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lofi-wireframes{
+	display: block;
+	margin: auto 0;
+}
 
 /*BIOGRAPHY */
 
 .about-me {
-    color: #0E0B06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 4.3px;
-    padding: 4.8rem;
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 3rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 4.3px;
+	padding: 4.8rem;
 }
 
 .why-design {
-    /*    align right*/
+	/*    align right*/
 }
 
 .designer .storyboard .frustrated .chaplin .privacy {
-    /*    logo align left text*/
+	/*    logo align left text*/
 }
 
 .bio-question-red {
-    color: #B30000;
-    font-family: 'Zilla Slab', serif;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 5.8rem;
-    text-transform: capitalize;
+	color: #B30000;
+	font-family: 'Zilla Slab', serif;
+	font-size: 4rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 5.8rem;
+	text-transform: capitalize;
 
 }
 
 .bio-question-black {
-    color: #0e0b06;
-    font-family: 'Zilla Slab', serif;
-    font-size: 4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 5.8rem;
-    text-transform: capitalize;
+	color: #0e0b06;
+	font-family: 'Zilla Slab', serif;
+	font-size: 4rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 5.8rem;
+	text-transform: capitalize;
 }
 
 .mini-subhead {
-    font-family: 'Zilla Slab', serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 43px;
+	font-family: 'Zilla Slab', serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 43px;
 }
 
 .bio-italics {
-    font-family: 'Zilla Slab', serif;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 600;
-    line-height: 4.3rem;
+	font-family: 'Zilla Slab', serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 600;
+	line-height: 4.3rem;
 }
 
 .golf-group {
-    /*    align center*/
+	/*    align center*/
 }
 
 .architect {
-    /*    align center left*/
+	/*    align center left*/
 }
 
 .film {
-    /*    align center right*/
+	/*    align center right*/
 }
 
 .block {
-    display: block;
+	display: block;
 }
 
 /*Button Sizes*/
 
+#button {
+	background-color: #B30000;
+	border-color: #B30000;
+	border-radius: 4rem;
+	box-shadow: .5rem .5rem .5rem #777777;
+	color: white;
+	font-family: 'Zilla Slab', serif;
+	font-size: 1.8rem;
+	font-style: normal;
+	font-weight: 600;
+	height: 4.4rem;
+	line-height: 2.6rem;
+	text-align: center;
+	text-transform: uppercase;
+	width: 26.6rem;
+	
+
+
+}
+
 footer {
-    background-color: #B30000;
+	background-color: #B30000;
 }
 
 
 .mdl-mini-footer {
-    background-color: #B30000
+	background-color: #B30000
 }
 
 background-color: #B30000;
 
 .mdl-mini-footer__link-list {
-    color: white;
+	color: white;
 }
 
 /*MEDIA QUERIES*/
-
 /*
+
 @media screen and (min-width 768px) {
     .container {
         margin: 0 auto;

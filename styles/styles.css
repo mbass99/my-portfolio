@@ -54,8 +54,7 @@ table {
 /*end meyer reset*/
 
 /*PLACE MDL STYLES HERE */
-/*PLACE FONT AWESOME ICONS STYLES HERE*/
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 /*GOOGLE FONTS*/
 <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Zilla+Slab" rel="stylesheet">
 
@@ -177,6 +176,7 @@ img{
 .left-wrap{
 	margin: auto;
 }
+
 .right-wrap{
 	margin:auto;
 	padding-right: 10rem;
@@ -186,6 +186,7 @@ img{
 
 
 /*Landing Page Project Sections*/
+
 
 section {
 	padding-top: 10em;
@@ -216,7 +217,7 @@ section {
 }
 
 .prototype{
-/* need to create outside border*/
+/* outside border*/
 	box-shadow: 0 0 2rem #777777;
 }
 
@@ -225,6 +226,12 @@ section {
 }
 
 /*PROJECT CASE STUDY PAGES*/
+
+.deliverables-list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
 .content-conclusions{
 	color: #B30000;
 	font-family: 'Zilla Slab', serif;
@@ -287,6 +294,47 @@ section {
 	font-weight: 500;
 }
 
+.market-products{
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	margin: 0 auto;
+}
+
+
+.persona-wrap{
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	grid-gap: 3rem;
+	justify-content: space-around;
+	
+}
+
+.persona-one .persona-two .persona-three{
+	box-shadow: inset 0 0 10px #777777;
+
+}
+
+.persona-name{
+	color: #B30000;
+	font-family: 'Zilla Slab', serif;
+	font-size: 3rem;
+	font-weight: 500;
+	line-height: 4.3rem;
+	text-transform: capitalize;
+	
+}
+
+.persona-text{
+		color: #0e0b06;
+	font-family: 'Zilla Slab', serif;
+	font-style: normal;
+	font-size: 2.4rem;
+	font-weight: normal;
+	line-height: 3.7rem;
+}
+
+
+
 .charts {
 	width: 75%;
 }
@@ -307,7 +355,21 @@ section {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 4.3rem;
+	text-align: center;
 	text-transform: capitalize;
+}
+
+.button-center{
+	text-align: center;
+	
+}
+
+.image-center{
+	display: grid;
+	grid-template-columns: auto;
+}
+.wireframes{
+	box-shadow: inset 0 0 10px #777777;
 }
 
 .flow-charts{
@@ -318,16 +380,35 @@ section {
 }
 
 .lofi-wireframes{
-	
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr;
+	margin: 0 auto;
 }
+
+
+
 
 /*BIOGRAPHY */
 
 .bio-center{
 	display: grid;
-	margin-left: 18.5rem;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
+.icon-text-designer{
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+}
+
+
+.text-center{
+	margin-left: 13%
+}
+.designer{
+	margin-right: 7%;
+	
+}
 .icon-text{
 	display: flex;
 }
@@ -339,14 +420,29 @@ section {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 4.3px;
+	margin-bottom: 4.8rem;
 }
 
-.why-design {
-	/*    align right*/
+.bio-question-red{
+	display: flex
+	flex-grow: 2;
+}
+
+
+.school{
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.golf-group {
+	display: block;
+	margin: auto;
 }
 
 .designer .storyboard .frustrated .chaplin .privacy {
-	/*    logo align left text*/
+	
 }
 
 .bio-question-red {
@@ -385,21 +481,15 @@ section {
 	font-weight: 600;
 	line-height: 4.3rem;
 }
-
-.golf-group {
-	/*    align center*/
+ 
+.icon-text{
+	
 }
 
-.architect {
-	/*    align center left*/
-}
-
-.film {
-	/*    align center right*/
-}
-
-.block {
-	display: block;
+.privacy-icon-text{
+	display:  inline-grid;
+	text-align: center;
+	
 }
 
 /*Button Sizes*/
@@ -424,18 +514,11 @@ section {
 
 footer {
 	background-color: #B30000;
+	display: flex;
+	flex-direction: column;
 }
 
 
-.mdl-mini-footer {
-	background-color: #B30000
-}
-
-background-color: #B30000;
-
-.mdl-mini-footer__link-list {
-	color: white;
-}
 
 /*MEDIA QUERIES*/
 /*

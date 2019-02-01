@@ -390,17 +390,19 @@ section {
 
 /*BIOGRAPHY */
 
-.bio-center{
+.bio-flex{
 	display: grid;
-	margin-left: 10%;
-	margin-right: 10%;
 }
+
+
 
 .icon-text-designer{
-	display: grid;
-	grid-template-columns: 1fr 3fr 1fr;
+	display: flex;
 }
 
+.why-design{
+
+}
 
 .text-center{
 	margin-left: 13%
@@ -423,16 +425,11 @@ section {
 	margin-bottom: 4.8rem;
 }
 
-.bio-question-red{
-	display: flex
-	flex-grow: 2;
-}
 
 
 .school{
 	display: flex;
 	justify-content: center;
-
 }
 
 
@@ -453,7 +450,6 @@ section {
 	font-weight: 600;
 	line-height: 5.8rem;
 	text-transform: capitalize;
-
 }
 
 .bio-question-black {

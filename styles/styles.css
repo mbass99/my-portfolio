@@ -55,6 +55,8 @@ table {
 
 /*PLACE MDL STYLES HERE */
 
+/*PLACE FONT AWESOME HERE*/
+
 /*GOOGLE FONTS*/
 <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Zilla+Slab" rel="stylesheet">
 
@@ -87,20 +89,30 @@ body {
 
 
 .nav-flex {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-	width: 100%;
-}
-
-.navbar {
+/*	display: grid;*/
 	font-family: 'Zilla Slab', serif;
-	font-size: 2.6rem;
+	font-size: 3rem;
 	font-weight: 500;
 	height: 6rem;
+/*	grid-template-columns: 1fr 1fr 1fr 1fr;*/
 	line-height: 3.7rem;
 	text-transform: uppercase;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+
 }
+
+.nav-logo{
+	margin-left: 2%
+}
+
+.nav-contact{
+	margin-left: 40%
+}
+
 
 
 /*GENERAL TEXT*/
@@ -394,15 +406,14 @@ section {
 	display: grid;
 }
 
-
+.why-design{
+	margin-left: 56%
+}
 
 .icon-text-designer{
 	display: flex;
 }
 
-.why-design{
-
-}
 
 .text-center{
 	margin-left: 13%
@@ -508,11 +519,14 @@ section {
 	width: 26.6rem;
 }
 
-footer {
+
+.contact-info{
 	background-color: #B30000;
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	text-align: center;
 }
+
 
 
 

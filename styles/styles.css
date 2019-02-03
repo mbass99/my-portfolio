@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	outline: solid .1rem #ddd;
+	/*	outline: solid .1rem #ddd;*/
 }
 
 html,
@@ -220,6 +220,8 @@ p {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 4.1rem;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
 
 }
 
@@ -236,6 +238,12 @@ section {
 	padding-top: 10rem;
 	padding-bottom: 10rem;
 }
+
+.hero {
+	padding-top: 0;
+	height: 100%vf;
+}
+
 
 .two,
 .four,
@@ -269,16 +277,18 @@ section {
 	text-align: center;
 	text-transform: uppercase;
 	width: 26.6rem;
+	margin-bottom: 3rem;
 }
 
-
+/*FOOTER*/
 .contact-info {
 	background-color: #B30000;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	height: 7rem;
 	text-align: center;
+	align-items: center;
 }
-
 
 
 /*Landing Page*/
@@ -346,6 +356,21 @@ section {
 
 /*Landing Page Project Sections*/
 
+.pinterest-logo {
+	display: block;
+	margin: 0 auto;
+
+}
+
+.drive-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.wunderlist-logo {
+	display: block;
+	margin: 0 auto;
+}
 
 .recent-work {
 	text-align: center;
@@ -382,10 +407,17 @@ section {
 
 /*PROJECT CASE STUDY PAGES*/
 
+.project-case-study {
+	margin: 0 11%;
+}
+
 .deliverables-list {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 3rem;
 }
+
+
 
 .content-conclusions {
 	color: #B30000;
@@ -424,6 +456,7 @@ section {
 	font-family: 'Zilla Slab', serif;
 	font-size: 2.8rem;
 	font-weight: semi bold;
+	margin-bottom: 1rem;
 }
 
 .list-answers {
@@ -448,14 +481,26 @@ section {
 	font-family: 'Zilla Slab', serif;
 	font-size: 3rem;
 	font-weight: 500;
+	text-align: center;
 }
 
 .market-products {
-	display: grid;
-	grid-template-columns: 2fr 2fr 2fr;
-	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
 }
 
+.market-survey-responses {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 3rem;
+	margin-bottom: 3rem;
+}
+
+.swot-button-center {
+	text-align: center;
+}
 
 .persona-wrap {
 	display: grid;
@@ -496,12 +541,36 @@ section {
 
 .sitemap {
 	box-shadow: inset 0 0 10rem #777777;
+	justify-content: center;
 	margin-top: 2rem;
+}
+
+.previous-attempts {
+	display: block;
+	margin: 0 auto;
+}
+
+.final-styleguide-logo {
+	text-align: center;
+}
+
+.final-fonts {
+	display: flex;
+	flex-direction: row;
+}
+
+.wine-colors {
+	display: block;
+	margin: 0 auto;
 }
 
 .picture-explanation {
 	font-weight: 500;
-	text-transform: uppercase;
+
+}
+
+.picture-explanation-center {
+	text-align: center;
 }
 
 .wireframe-labels {
@@ -513,6 +582,7 @@ section {
 	line-height: 4.3rem;
 	text-align: center;
 	text-transform: capitalize;
+	margin-bottom: 1rem;
 }
 
 .button-center {
@@ -537,20 +607,48 @@ section {
 }
 
 .lofi-wireframes {
-	display: grid;
-	grid-template-columns: 2fr 2fr 2fr;
+	display: flex;
+	/*	grid-template-columns: 2fr 2fr 2fr;*/
+	justify-content: space-around;
 	margin: 0 auto;
 }
 
+.hifi-wireframes {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.landing-pictures {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.landing-options {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
 
+.logo-options {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.organization-options {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
 /*BIOGRAPHY */
 
 .bio-flex {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 }
 
 .icon-text-designer {
@@ -567,7 +665,7 @@ section {
 	padding-right: 3%
 }
 
-.icon-plus-text {
+.designer-text {
 	display: flex;
 	margin-bottom: 2rem;
 }
@@ -588,19 +686,19 @@ section {
 }
 
 
-.icon-text {
+.design-characters {
 	display: flex;
 
 }
 
-.icon-and-text {
+.design-story {
 	display: flex;
 }
 
 
-
-.text-icon {
+.design-frustration {
 	display: flex;
+	flex-direction: row;
 
 }
 
@@ -676,8 +774,9 @@ section {
 	line-height: 4.3rem;
 }
 
-.icon-text {
+.privacy-future {
 	display: flex;
+	flex-direction: row;
 	margin-bottom: 2rem;
 }
 

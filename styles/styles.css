@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	/*	outline: solid .1rem #ddd;*/
+	outline: solid .1rem #ddd;
 }
 
 html,
@@ -241,7 +241,6 @@ section {
 
 .hero {
 	padding-top: 0;
-	height: 100%vf;
 }
 
 
@@ -297,13 +296,14 @@ section {
 	display: flex;
 	grid-template-columns: 2fr, 1fr;
 	margin: auto 0;
+	height: 100vh;
 }
 
 .hero {
 	background-image: url(../images/landing-hero-image.jpg);
 	background-size: cover;
-	margin: 0;
-
+	margin: auto 0;
+	height: 100vh;
 }
 
 .introduction {
@@ -333,6 +333,8 @@ section {
 
 .bunk {
 	border-radius: 50%;
+	max-height: 30rem;
+	max-width: 30rem;
 }
 
 .project-wrap {

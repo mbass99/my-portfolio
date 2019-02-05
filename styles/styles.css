@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	/*	outline: solid .1rem #ddd;*/
+	outline: solid .1rem #ddd;
 }
 
 html,
@@ -170,6 +170,7 @@ body {
 	background-color: white;
 	display: grid;
 	margin: 0 auto;
+	width: 100%;
 
 }
 
@@ -220,8 +221,8 @@ p {
 	font-style: normal;
 	font-weight: normal;
 	line-height: 4.1rem;
-	margin-top: 1rem;
-	margin-bottom: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 2rem;
 
 }
 
@@ -395,6 +396,7 @@ section {
 	font-size: 5rem;
 	font-weight: 500;
 	line-height: 7.2rem;
+	text-transform: uppercase
 }
 
 .project-explanation {
@@ -453,8 +455,9 @@ section {
 	color: #0E0B06;
 	font-family: 'Zilla Slab', serif;
 	font-size: 3.2rem;
-	font-weight: 500;
+	font-weight: 700;
 	padding-bottom: 5rem;
+	padding-top: 3rem;
 	text-transform: lowercase;
 }
 
@@ -467,7 +470,7 @@ section {
 	font-family: 'Zilla Slab', serif;
 	font-size: 2.8rem;
 	font-weight: semi bold;
-	margin-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 .list-answers {
@@ -506,7 +509,7 @@ section {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 3rem;
-	margin-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 
 .swot-button-center {
@@ -547,13 +550,14 @@ section {
 
 
 .charts {
-	width: 75%;
+	max-height: 50%;
+	max-width: 50%;
 }
 
 .sitemap {
 	box-shadow: inset 0 0 10rem #777777;
 	justify-content: center;
-	margin-top: 2rem;
+	padding-top: 2rem;
 }
 
 .previous-attempts {
@@ -593,7 +597,7 @@ section {
 	line-height: 4.3rem;
 	text-align: center;
 	text-transform: capitalize;
-	margin-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 .button-center {
@@ -657,7 +661,7 @@ section {
 
 .project-conclusion-text {
 	line-height: 5rem;
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 	padding-left: 4%;
 	padding-right: 4%;
 
@@ -676,7 +680,7 @@ section {
 
 .icon-text-designer {
 	display: flex;
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 .why-design {
@@ -690,7 +694,7 @@ section {
 
 .designer-text {
 	display: flex;
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 
@@ -736,12 +740,12 @@ section {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 4.3px;
-	margin-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 
 .text-middle {
 	margin-left: 11%;
-	margin-bottom: 1rem;
+	padding-bottom: 1rem;
 }
 
 .school {
@@ -750,13 +754,13 @@ section {
 	justify-content: space-between;
 	margin-left: 40%;
 	margin-right: 32%;
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 .golf-group {
 	display: block;
 	margin: auto;
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 .bio-question-red {
@@ -800,7 +804,7 @@ section {
 .privacy-future {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 }
 
 .privacy {
@@ -810,15 +814,41 @@ section {
 
 
 /*MEDIA QUERIES*/
-/*
+
+/*MOBILE*/
+
+
+}
+
+
+/*TABLET*/
 
 @media screen and (min-width 768px) {
-    .container {
-        margin: 0 auto;
-        width: 70rem;
-    }
-}
-*/
+	.container {
+		background-color: orange;
+		width: 75rem;
+	}
+
+	.section {
+		display: flex;
+		flex-direction: column-reverse;
+		margin: 0 auto;
+	}
 
 
-/*PHONE*/
+	@media screen and (min-width 768px) {
+		.container {
+			margin: 0 auto;
+			width: 70rem;
+		}
+	}
+
+
+
+	/*DESKTOP*/
+	/*
+@media screen and (min-width){
+	.container {
+		
+	}
+}*/

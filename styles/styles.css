@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	/*	outline: solid .1rem #ddd;*/
+	outline: solid .1rem #ddd;
 }
 
 html,
@@ -175,13 +175,20 @@ header {
 	align-items: center;
 	display: grid;
 	font-family: 'Zilla Slab', serif;
-	font-size: 1.2rem;
+	/*	font-size: 1.2rem;*/
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 2rem;
-	padding-left: 5rem;
+	/*	grid-gap: 2rem;*/
+	/*	padding-left: 5rem;*/
 	text-align: center;
 	text-transform: uppercase;
 	width: auto;
+
+
+	/*	responsive changes below*/
+	font-size: 2.6rem;
+	grid-gap: 2rem;
+	padding-left: 21rem;
+
 
 }
 
@@ -190,28 +197,28 @@ header li a {
 }
 
 .nav-logo {
-	padding-left: 2rem;
+	/*	padding-left: 3rem;*/
+	/*	responsive changes below*/
+	padding-left: 3rem;
 }
 
 li .nav-contact {
 	color: #B30000;
 }
 
-.nav-bio {}
-
-.nav-resume {}
-
-
 /*GENERAL TEXT*/
 p {
 	color: #0E0B06;
 	font-family: 'Zilla Slab', serif;
-	font-size: 1.8rem;
+	/*	font-size: 1.8rem;*/
 	line-height: 2.6rem;
 	padding-left: 3%;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	padding-right: 3%;
+
+	/*	responsive changes below*/
+	font-size: 2.4rem;
 }
 
 
@@ -225,6 +232,9 @@ img {
 section {
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
+
+	/*	responsive changes below*/
+	/*	btw 25 and 50*/
 }
 
 .hero {
@@ -245,8 +255,8 @@ section {
 }
 
 .no-background {
-	padding-left: 5%;
-	padding-right: 5%
+	padding-left: 3%;
+	padding-right: 3%
 }
 
 
@@ -281,13 +291,19 @@ section {
 
 /*Landing Page*/
 
-/*need to do opacity with background image*/
 
 .hero-wrap {
-	display: flex;
-	flex-direction: column;
-	height: 90vh;
+	/*	display: flex;*/
+	/*	flex-direction: column;*/
+	/*	height: 90vh;*/
 	margin: auto;
+
+	/*	responsive design below*/
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-content: center;
+	height: 60vh;
 
 }
 
@@ -300,9 +316,12 @@ section {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
+	/*	height: 100%;*/
 	z-index: -2;
 	opacity: 0.6;
+
+	/*	responsive design below*/
+	height: 65%;
 }
 
 
@@ -310,40 +329,71 @@ section {
 .introduction {
 	color: #0E0B06;
 	font-family: 'Zilla Slab', serif;
-	font-size: 2.2rem;
-	line-height: 3rem;
+	/*	font-size: 2.2rem;*/
+	/*	line-height: 3rem;*/
+	/*
+	ATTEMPT AT ALIGNING LEFT IN MOBILE
 	padding-left: 9rem;
 	text-align: left;
+*/
+	/*	responsive changes below*/
+	font-size: 3.5rem;
+
 }
 
 .designer-text-big {
 	color: #0E0B06;
-	font-size: 3rem;
+	/*	font-size: 3rem;*/
 	font-family: 'Major Mono Display', monospace;
 	text-transform: uppercase;
+
+	/*	responsive changes below*/
+	font-size: 4.7rem;
 
 }
 
 .designer-text-small {
 	color: #0E0B06;
 	font-family: 'Major Mono Display', monospace;
-	font-size: 2.2rem;
+	/*	font-size: 2.2rem;*/
 	text-transform: lowercase;
+
+	/*	responsive changes below*/
+	font-size: 3.5rem;
 }
 
 
 .bunk {
 	border-radius: 50%;
+	/*
 	max-height: 20rem;
 	max-width: 20rem;
+*/
+
+	/*	responsive design below*/
+	max-height: 21rem;
+	max-width: 21rem;
+
 }
 
 .project-wrap {
 	align-content: center;
+	/*
 	display: flex;
 	flex-direction: column;
+*/
 	margin: 0 auto;
 
+	/*	responsive design below*/
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	grid-gap: 2rem;
+}
+
+/*responsive design below*/
+.two .project-wrap {
+	direction: rtl;
 }
 
 .left-wrap {
@@ -351,13 +401,21 @@ section {
 	grid-template-columns: 1fr;
 	margin: auto;
 	padding-bottom: 2.5rem;
-	text-align: center;
+	text-align: left;
+}
+
+/*responsive design below*/
+.hero-wrap .left-wrap {
+	padding-left: 6rem;
 }
 
 .right-wrap {
 	margin: 0;
 	padding-bottom: 2.5rem;
-	text-align: center;
+	/*	text-align: center;*/
+
+	/*	responsive design below*/
+	text-align: left;
 }
 
 
@@ -388,22 +446,30 @@ section {
 	text-align: center;
 	color: #0E0B06;
 	font-family: 'Zilla Slab', serif;
-	font-size: 2rem;
+	/*	font-size: 2rem;*/
 	font-weight: 600;
 	text-decoration: underline;
 	text-transform: uppercase;
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
+
+	/*	responsive design below*/
+	font-size: 2.8rem
 }
 
 .project-name {
 	color: #B30000;
 	font-family: 'Zilla Slab', serif;
-	font-size: 2.4rem;
+	/*	font-size: 2.4rem;*/
 	font-weight: 600;
-	text-align: center;
+	/*	text-align: center;*/
 	text-transform: uppercase;
 	padding-top: 2.5rem;
+
+	/*	responsive below*/
+	font-size: 3.7rem;
+	text-align: left;
+	padding: 0 3%;
 }
 
 .project-explanation {
@@ -416,6 +482,10 @@ section {
 
 .prototype {
 	outside border box-shadow: 0 0 2rem #777777;
+
+	/*	responsive design below*/
+	height: auto;
+	width: auto;
 }
 
 
@@ -525,17 +595,13 @@ section {
 }
 
 .survey-responses-one {
-padding-top: 1rem;
+	padding-top: 1rem;
 }
 
 
-.survey-responses-two {
+.survey-responses-two {}
 
-}
-
-.survey-responses-three {
-
-}
+.survey-responses-three {}
 
 .swot-button-center {
 	text-align: center;
@@ -579,7 +645,7 @@ padding-top: 1rem;
 }
 
 .sitemap {
-/*	box-shadow: inset 0 0 10rem #777777;*/
+	/*	box-shadow: inset 0 0 10rem #777777;*/
 	align-content: center;
 	justify-content: center;
 }
@@ -651,7 +717,7 @@ padding-top: 1rem;
 }
 
 .wireframes {
-/*	box-shadow: 0 0 10px #777777;*/
+	/*	box-shadow: 0 0 10px #777777;*/
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: 2rem auto;
@@ -663,7 +729,7 @@ img .wireframes {
 
 .flow-charts {
 	display: block;
-/*	border: .1rem solid black;*/
+	/*	border: .1rem solid black;*/
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 1rem;
@@ -711,7 +777,6 @@ img .wireframes {
 
 .project-conclusion-text {
 	padding-bottom: 2rem;
-
 }
 
 
@@ -725,14 +790,35 @@ img .wireframes {
 }
 
 .bio-flex {
+	/*
 	display: grid;
 	grid-template-columns: 1fr;
+*/
 
+	/*	responsie design below*/
+	display: flex;
+	flex-direction: column;
+
+}
+
+.about-me {
+	color: #0E0B06;
+	font-family: 'Zilla Slab', serif;
+	/*	font-size: 1.8rem;*/
+	font-weight: 600;
+	padding-bottom: 2rem;
+
+	/*	responsive design below*/
+	font-size: 2.4rem;
 }
 
 .icon-text-designer {
 	display: flex;
-	flex-flow: column-reverse;
+	/*	responsive design below*/
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 3%;
 }
 
 .why-design {
@@ -741,16 +827,23 @@ img .wireframes {
 
 .designer {
 	padding-bottom: 1rem;
+	padding-left: 3%;
 
 }
-
 
 .bio-designer-text {
-	display: flex;
-	flex-direction: column;
-
+	/*	display: flex;*/
+	/*	flex-direction: column;*/
+	/*responsive design below*/
+	/*	flex-flow: row;*/
+	display: grid;
+	grid-template-columns: 1fr 7fr;
 }
 
+/*responsive design below*/
+.bio-center {
+	padding-left: 15%
+}
 
 /*ICONS*/
 .storyboard {
@@ -759,41 +852,50 @@ img .wireframes {
 
 .frustrated {
 	padding-bottom: 1rem;
+	float: left;
+}
+
+.bio-center-absolute {
+	position: relative;
 }
 
 .chaplin {
-	padding-bottom: 1rem;
+	/*	padding-bottom: 1rem;*/
+	/*	responsive design below*/
+	/*	float: left;*/
+	padding: 1rem;
 }
 
 
 .design-characters {
-	display: flex;
-	flex-flow: column;
-
+	display: grid;
+	/*	flex-flow: column;*/
+	/*progressive design below*/
+	grid-template-columns: 1fr 6fr;
 }
 
 .design-story {
-	display: flex;
-	flex-direction: column;
+	/*	display: flex;*/
+	/*	flex-direction: column;*/
 	padding: 1rem;
+
+	/*	responsive design below*/
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+	padding-left: 3%;
 }
 
 
 .design-frustration {
-	display: flex;
-	flex-direction: column;
+	/*	display: flex;*/
+	/*	flex-direction: column;*/
 	padding: 1rem;
+
+	/*	progressive design below*/
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+
 }
-
-
-.about-me {
-	color: #0E0B06;
-	font-family: 'Zilla Slab', serif;
-	font-size: 1.8rem;
-	font-weight: 600;
-	padding-bottom: 2rem;
-}
-
 
 
 .school {
@@ -849,6 +951,8 @@ img .wireframes {
 	font-weight: 600;
 	padding-top: 1rem;
 	text-align: left;
+
+	/*	progressive design below*/
 }
 
 .bio-italics {
@@ -860,15 +964,28 @@ img .wireframes {
 }
 
 .privacy-future {
+
+	/*	responsive design below*/
+	/*
 	display: flex;
 	flex-flow: column;
 	padding: 1rem;
+*/
 }
 
 .privacy {
 	height: 100%;
+	/*	responsive design below*/
+	float: left;
+	padding: 2rem;
+
 }
 
+/*responsive design below*/
+.float-text {
+	position: absolute;
+	margin-left: 11%
+}
 
 /*MEDIA QUERIES*/
 
@@ -894,19 +1011,13 @@ img .wireframes {
 
 /*TABLET*/
 
-/*
 @media screen and (min-width 768px) {
 	.container {
 		width: 75rem;
 	}
 
-	.section {
-		display: grid;
-		grid-auto-columns: 1fr 1fr;
-		margin: 0 auto;
-	}
+
 }
-*/
 
 
 

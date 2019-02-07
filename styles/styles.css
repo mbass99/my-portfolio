@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	outline: solid .1rem #ddd;
+	/*	outline: solid .1rem #ddd;*/
 }
 
 html,
@@ -175,7 +175,7 @@ header {
 	align-items: center;
 	display: grid;
 	font-family: 'Zilla Slab', serif;
-	/*	font-size: 1.2rem;*/
+	font-size: 1.2rem;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 2rem;
 	padding: 3rem;
@@ -183,7 +183,7 @@ header {
 	text-transform: uppercase;
 	width: auto;
 	/*	desktop responsive*/
-	font-size: 2.6rem;
+	/*	font-size: 2.6rem;*/
 
 
 
@@ -569,7 +569,8 @@ section {
 .persona-one,
 .persona-two,
 .persona-three {
-	/*	box-shadow: inset 0 0 10px #777777;*/
+	/*		box-shadow: inset 0 0 10px #777777;*/
+	padding: 3rem;
 }
 
 .persona-name {
@@ -895,7 +896,9 @@ img .wireframes {
 }
 
 
-.float-text {}
+.float-text {
+	margin-left: 1.5%
+}
 
 /*MEDIA QUERIES*/
 
@@ -910,7 +913,7 @@ img .wireframes {
 
 @media screen and (min-width: 768px) {
 	.container {
-		width: 75rem;
+		width: 100%;
 	}
 
 	.nav-flex {
@@ -935,11 +938,11 @@ img .wireframes {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		align-content: center;
-		height: 60vh;
+		height: 50vh;
 	}
 
 	.hero::before {
-		height: 65%;
+		height: 60%;
 	}
 
 	.introduction {
@@ -964,7 +967,9 @@ img .wireframes {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		align-items: center;
-		grid-gap: 2rem;
+		grid-gap: 1rem;
+		justify-content: space-between;
+		margin: 0 3%;
 	}
 
 	.two .project-wrap {
@@ -980,7 +985,7 @@ img .wireframes {
 	}
 
 	.recent-work {
-		font-size: 2.8rem
+		font-size: 2.8rem;
 	}
 
 	.project-name {
@@ -1031,26 +1036,26 @@ img .wireframes {
 	}
 
 	.persona-wrap {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
 
 
 
-.persona-one,
-.persona-two,
-.persona-three {
-	/*	box-shadow: inset 0 0 10px #777777;*/
-	flex: 1;
-	text-align: center;
-}
+	.persona-one,
+	.persona-two,
+	.persona-three {
+		/*	box-shadow: inset 0 0 10px #777777;*/
+		flex: 1;
+		text-align: center;
+	}
 
-.persona-three {
-	text-align: center;
-	max-width: 34.5rem;
-	margin: 0 auto;
-}
+	.persona-three {
+		text-align: center;
+		max-width: 34.5rem;
+		margin: 0 auto;
+	}
 
 	.persona-text {
 		font-size: 2.1rem;
@@ -1116,17 +1121,24 @@ img .wireframes {
 	}
 
 	.icon-text-designer {
-		display: grid;
-		grid-template-columns: 1fr;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 
 
 	.bio-designer-text {
 		display: grid;
-		grid-template-columns: 1fr 7fr;
+		grid-template-columns: 1fr 6fr;
 	}
 
+	.designer {}
+
+
+	.mini-subhead {
+		font-size: 2.4rem;
+	}
 
 	.bio-center {
 		padding-left: 17.5%;
@@ -1140,26 +1152,30 @@ img .wireframes {
 
 
 	.design-characters {
-		display: flex;
-		flex-direction: column;
+		grid-template-columns: 1fr 6fr;
 	}
 
 	.design-story {
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 7fr;
+		padding-left: 3%;
 	}
 
 	.design-frustration {
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		grid-template-columns: 1fr 6fr;
 	}
 
 	.privacy-future {
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
+		align-items: center;
 	}
 
-	.privacy {}
+	.privacy {
+		padding: 1rem;
+		padding-left: 4%
+	}
 
 	.float-text {}
 

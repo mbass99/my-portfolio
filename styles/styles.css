@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	/*	outline: solid .1rem #ddd;*/
+	outline: solid .1rem #ddd;
 }
 
 html,
@@ -146,9 +146,7 @@ table {
 /*PLACE FONT AWESOME HERE*/
 
 /*GOOGLE FONTS*/
-<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Zilla+Slab"rel="stylesheet"> 
-
-*:before,
+<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Zilla+Slab"rel="stylesheet" > *:before,
 *:after {
 	box-sizing: border-box;
 }
@@ -177,13 +175,16 @@ header {
 	align-items: center;
 	display: grid;
 	font-family: 'Zilla Slab', serif;
-	font-size: 1.2rem;
+	/*	font-size: 1.2rem;*/
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 2rem;
 	padding: 3rem;
 	text-align: center;
 	text-transform: uppercase;
 	width: auto;
+	/*	desktop responsive*/
+	font-size: 2.6rem;
+
 
 
 }
@@ -540,22 +541,33 @@ section {
 	text-align: center;
 }
 
-.persona-wrap {
-	display: grid;
-	grid-template-columns: minmax(min-content, 100px) minmax(300px, 1fr) 150px;
-	text-align: center;
-	grid-gap: 5rem;
-	
-	
 
+.persona-wrap {
+	/*
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: center;
+*/
+	/*	tablet below */
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
+
 
 
 .persona-one .persona-two .persona-three {
 	box-shadow: inset 0 0 10px #777777;
+}
 
 
+.persona-one .persona-two {
+	flex: 1;
+}
 
+.persona-three {
+	flex: 100%
 }
 
 .persona-name {

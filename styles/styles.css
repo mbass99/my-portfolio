@@ -225,6 +225,9 @@ section {
 
 .hero {
 	padding-top: 0;
+	background-image: url(../Images/landing-hero-image.jpg);
+	background-size: cover;
+
 }
 
 
@@ -294,8 +297,8 @@ section {
 }
 
 .hero::before {
-	background-image: url(../Images/landing-hero-image.jpg);
-	background-size: cover;
+	/*	background-image: url(../Images/landing-hero-image.jpg);*/
+	/*	background-size: cover;*/
 	content: "";
 	display: block;
 	position: absolute;

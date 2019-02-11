@@ -294,7 +294,7 @@ section {
 }
 
 .hero::before {
-	background-image: url(/images/landing-hero-image.jpg);
+	background-image: url(../images/landing-hero-image.jpg);
 	background-size: cover;
 	content: "";
 	display: block;

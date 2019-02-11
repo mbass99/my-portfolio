@@ -227,6 +227,7 @@ section {
 	padding-top: 0;
 	background-image: url(../Images/landing-hero-image.jpg);
 	background-size: cover;
+	height: 100vh;
 
 }
 

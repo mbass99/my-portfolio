@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	/*	outline: solid .1rem #ddd;*/
+	outline: solid .1rem #ddd;
 }
 
 html,
@@ -147,6 +147,7 @@ table {
 
 /*font-family: 'Oswald', sans-serif;*/
 /*font-family: 'Merriweather', serif;*/
+/*red color #B30000*/
 
 
 *:before,
@@ -206,11 +207,15 @@ p {
 	font-size: 1.8rem;
 	line-height: 2.6rem;
 	max-width: 95rem;
+	/*
 	padding-left: 3%;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	padding-right: 3%;
+*/
+	padding: 1rem 0;
 	text-align: left;
+	margin: 0 auto;
 
 }
 
@@ -218,7 +223,9 @@ p {
 /*IMAGES*/
 img {
 	height: auto;
-	max-width: 100%;
+	max-width: 60rem;
+	max-height: 60rem;
+	margin: auto;
 }
 
 
@@ -259,7 +266,7 @@ section {
 
 /*Button Sizes*/
 
-#button {
+.button {
 	background-color: #B30000;
 	border-color: #B30000;
 	border-radius: 4rem;
@@ -369,28 +376,22 @@ section {
 
 
 
+.pinterest-logo,
+.drive-logo,
 .pinterest-logo {
 	display: block;
 	margin: 0 auto;
-
+	max-height: 1.1rem;
+	max-width: 1.1rem;
 }
 
-.drive-logo {
-	display: block;
-	margin: 0 auto;
-}
-
-.wunderlist-logo {
-	display: block;
-	margin: 0 auto;
-}
 
 .recent-work {
 	text-align: center;
-	color: #0E0B06;
+	font-family: 'Oswald', sans-serif;
+	color: #B30000;
 	font-size: 2rem;
-	font-weight: 600;
-	text-decoration: underline;
+	font-weight: 200;
 	text-transform: uppercase;
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
@@ -455,6 +456,7 @@ section {
 .section-header {
 	color: #B30000;
 	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
 	font-size: 2.8rem;
 	padding-bottom: 1rem;
 	text-transform: uppercase;
@@ -564,10 +566,10 @@ section {
 
 
 .charts {
-	background-color: white;
+	/*	background-color: white;*/
 	margin: 2rem auto;
-	max-height: 50%;
-	max-width: 50%;
+	max-height: 40rem;
+	max-width: 40rem;
 
 
 }
@@ -581,6 +583,8 @@ section {
 .previous-attempts {
 	display: block;
 	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .final-styleguide-logo {
@@ -608,6 +612,8 @@ section {
 .wine-colors {
 	display: block;
 	margin: 0 auto;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .picture-explanation {
@@ -685,8 +691,8 @@ img .wireframes {
 }
 
 .mind-map {
-	height: 75%;
-	width: 75%;
+	max-height: 100%;
+	max-width: 100%;
 }
 
 .final-styleguide-logo {
@@ -762,6 +768,8 @@ img .wireframes {
 
 .designer {
 	padding: 1rem;
+	max-width: 7.5rem;
+	max-height: 7.5rem;
 
 }
 
@@ -777,10 +785,14 @@ img .wireframes {
 /*ICONS*/
 .storyboard {
 	padding: 1rem;
+	max-height: 7.5rem;
+	max-width: 7.5rem;
 }
 
 .frustrated {
 	padding: 1rem;
+	max-height: 7.5rem;
+	max-width: 7.5rem;
 }
 
 .bio-center-absolute {
@@ -789,7 +801,8 @@ img .wireframes {
 
 .chaplin {
 	margin: 0 auto;
-	/*	padding-bottom: 1rem;*/
+	max-height: 7.5rem;
+	max-width: 7.5rem;
 
 }
 
@@ -822,11 +835,15 @@ img .wireframes {
 }
 
 .architect {
-	padding-right: 10%
+	padding-right: 10%;
+	max-height: 7.5rem;
+	max-width: 7.5rem;
 }
 
 .film {
-	padding-left: 10%
+	padding-left: 10%;
+	max-height: 7.5rem;
+	max-width: 7.5rem;
 }
 
 
@@ -883,8 +900,9 @@ img .wireframes {
 }
 
 .privacy {
-	height: 100%;
 	padding: 1rem;
+	max-height: 7.5rem;
+	max-width: 7.5rem;
 }
 
 
@@ -1294,6 +1312,7 @@ img .wireframes {
 		background-size: cover;
 	}
 
+
 	section {
 		padding-top: 7.5rem;
 		padding-bottom: 7.5rem;
@@ -1465,24 +1484,34 @@ img .wireframes {
 		text-transform: none;
 	}
 
+	.mind-map {
+		max-height: 55%;
+		max-width: 55%;
+		margin: 0 auto;
+	}
+
+	.wine-colors {
+		max-height: 45%;
+		max-width: 45%;
+	}
+
 	.persona-text {
 		font-size: 1.8rem;
 		line-height: 1.3;
-		/*		text-align: justify;*/
 	}
 
 	.picture-explanation {
-		font-size: 3rem;
+		font-size: 2.4rem;
 		padding-left: 20%;
-		text-align: justify;
+		text-align: left;
 		text-transform: none;
 
 	}
 
 	.sitemap {
-		height: 100%;
-		padding: 2rem 0;
-		width: 100%;
+		margin: auto 0;
+		max-height: 100%;
+		max-width: 100%;
 	}
 
 	.data-security {
@@ -1498,14 +1527,12 @@ img .wireframes {
 
 	.mind-map {
 		height: 100%;
-		padding: 2rem 0;
 		width: 100%;
 	}
 
 	.hand-drawn {
-		height: 100%;
-		padding: 2rem 0;
-		width: 100%;
+		max-height: 100%;
+		max-width: 100%;
 	}
 
 	.previous-attempts {

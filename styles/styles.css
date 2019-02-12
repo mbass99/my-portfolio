@@ -298,8 +298,8 @@ section {
 }
 
 .hero::before {
-	/*	background-image: url(../Images/landing-hero-image.jpg);*/
-	/*	background-size: cover;*/
+	background-image: url(../Images/landing-hero-image.jpg);
+	background-size: cover;
 	content: "";
 	display: block;
 	position: absolute;
@@ -935,8 +935,18 @@ img .wireframes {
 		font-size: 3.7rem;
 	}
 
+	/*	new responsive below*/
+	.hero {
+		height: 100%;
+	}
+
 	.hero::before {
 		height: 60%;
+	}
+
+	/*	new responsive below*/
+	#header {
+		padding-bottom: 5rem;
 	}
 
 	.introduction {
@@ -956,6 +966,17 @@ img .wireframes {
 	.bunk {
 		max-height: 21rem;
 		max-width: 21rem;
+	}
+
+	/*new responsive below*/
+	.hero-wrap {
+		padding-bottom: 15rem;
+		justify-content: center;
+	}
+
+	/*	responsive below*/
+	.introduction {
+		padding-top: 15rem;
 	}
 
 	.project-wrap {
@@ -1170,6 +1191,7 @@ img .wireframes {
 		align-items: center;
 	}
 
+
 	.bio-question-black {
 		font-size: 3.1rem;
 	}
@@ -1177,6 +1199,8 @@ img .wireframes {
 	.design-story {
 		align-items: center;
 	}
+
+	.storyboard {}
 
 	.design-frustration {
 		align-items: center;
@@ -1232,12 +1256,38 @@ img .wireframes {
 	}
 }
 
+/*new responsive below*/
 
+@media screen and (min-width: 1023px) {
+	#header {
+		display: flex;
+	}
+
+	.hero {
+		background-size: cover;
+		width: 100%;
+	}
+
+	/*	more responsive*/
+	.designer,
+	.storyboard,
+	.frustrated,
+	.chaplin,
+	.privacy {
+		margin-right: 2rem;
+	}
+
+}
 
 /*DESKTOP*/
 @media screen and (min-width: 1024px) {
 	.container {
 		width: 100%;
+	}
+
+	/*new responsive*/
+	.hero {
+		background-size: cover;
 	}
 
 	.section {

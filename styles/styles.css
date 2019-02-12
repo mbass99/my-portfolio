@@ -280,8 +280,9 @@ section {
 	/*	text-transform: uppercase;*/
 	width: 26.6rem;
 	padding 3rem 0;
-
 }
+
+#button:hover {}
 
 /*FOOTER*/
 .contact-info {
@@ -328,8 +329,8 @@ section {
 
 }
 
-.designer-text-big {
-	color: #0E0B06;
+.colored-name {
+	color: #B30000;
 	font-size: 3rem;
 	font-family: 'Oswald', sans-serif;
 	/*	font-family: 'Major Mono Display', monospace;*/
@@ -337,14 +338,16 @@ section {
 
 }
 
+/*
 .designer-text-small {
-	/*	font-size: 4.8rem;*/
+		font-size: 4.8rem;
 	font-size: 2.2rem;
 	color: #0E0B06;
-	/*	font-family: 'Major Mono Display', monospace;*/
+		font-family: 'Major Mono Display', monospace;
 	font-family: 'Oswald', sans-serif font-size: 2.2rem;
 	text-transform: lowercase;
 }
+*/
 
 
 .bunk {
@@ -426,6 +429,7 @@ section {
 .project-explanation {
 	color: #0E0B06;
 	font-family: 'Zilla Slab', serif;
+	line-height: 1;
 	padding-bottom: 1.5rem;
 	padding-top: 1.5rem;
 	text-align: left;
@@ -949,6 +953,7 @@ img .wireframes {
 
 	p {
 		font-size: 2rem;
+		max-width: 68rem;
 	}
 
 	section {
@@ -988,13 +993,15 @@ img .wireframes {
 		line-height: 1.2;
 	}
 
-	.designer-text-big {
+	.colored-name {
 		font-size: 4.7rem;
 	}
 
+	/*
 	.designer-text-small {
 		font-size: 3.5rem;
 	}
+*/
 
 
 	.bunk {
@@ -1346,6 +1353,7 @@ img .wireframes {
 		font-size: 2.2rem;
 		line-height: 1.2;
 		padding: 1rem 0;
+		max-width: 75rem;
 		;
 	}
 
@@ -1385,17 +1393,10 @@ img .wireframes {
 		padding: 0;
 	}
 
-	.designer-text-big {
-		font-size: 7rem;
-	}
-
-	.designer-text-small {
+	.colored-name {
 		font-size: 4.4rem;
 	}
 
-	.designer-text-small {
-		font-size: 4.4rem;
-	}
 
 	.bunk {
 		max-height: 25rem;

@@ -23,7 +23,7 @@
 	<!--FONT AWESOME ICONS-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<!-- GOOGLE FONTS OSWALD & MERRIWEATHER-->
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i|Oswald:200,400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Oswald:200,400,600" rel="stylesheet">
 	<!--MAIN STYLESHEET LINK -->
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -43,12 +43,12 @@
 			<!--PROJECT INTRODUCTION-->
 			<section class="one">
 				<div class="no-background">
-					<div class="project-wrap">
-						<div class="left-wrap">
-							<img src="Images/taster-landing-page.png" class="prototype" alt="taster prototype">
+					<div class="case-study-wrap">
+						<h3 class="project-name">Case Study</h3>
+						<div class="wireframe-wrap">
+							<img src="Images/account-created.svg" class="account-created" alt="account created"> <img src="Images/privacy.svg" class="privacy-wireframe" alt="privacy">
 						</div>
-						<div class="right-wrap">
-							<h3 class="project-name">Case Study</h3>
+						<div class="text-wrap">
 							<p class="project-explanation">Taster redefines how users might create and store content in the cloud, then share with a controlled network.
 							</p>
 							<a href="https://invis.io/S5PPSI6EK98" target="_blank"><button class="button" alt="taster">View Prototype</button></a>
@@ -131,7 +131,7 @@
 						<div class="product-three">
 							<h4 class="products">Wunderlist</h4>
 							<!-- Wunderlist Logo -->
-							<img src="Images/wunderlist-logo.svg"  class="market-logo" alt="wunderlist">
+							<img src="Images/wunderlist-logo.svg" class="market-logo" alt="wunderlist">
 							<p class="product-text">User friendly with both personal and professional options, and simple collaboration</p>
 
 							<p class="product-text">Microsoft might discontinue, file uploading isn’t a strongsuit</p>
@@ -170,55 +170,57 @@
 							</ul>
 						</div>
 						<div class="survey-responses-two">
-							<ul class="body-list-headers">Digital Or On Hand
+							<ul>
+								<li class="body-list-headers">Digital Or On Hand</li>
 								<li class="list-answers">89% Surveyed want to store information either digitally, or digitally combined with on hand</li>
 							</ul>
 						</div>
 						<div class="survey-responses-three">
-							<ul class="body-list-headers">Data Security
+							<ul>
+								<li class="body-list-headers">Data Security</li>
 								<li class="list-answers">80% Are worried about data security</li>
 							</ul>
 						</div>
-					</div>
+					</div><br>
 					<!--USE JS SCRIPT FOR CHARTS-->
 					<div class="survey-charts">
-						<h3 class="section-questions">is there a market where wine drinkers might use this?</h3>
 
-						<!-- OLD JPEG CHART
-                    <img src="Images/pie-chart-1.png"> -->
+						<div class="chartjs-one">
+							<h3 class="section-questions">is there a market for a storage based product for wine drinkers?</h3>
 
-						<!--CHARTONE JS LINK-->
-						<div class="charts">
-							<canvas id="wineChart"></canvas>
+							<!--CHARTONE JS LINK-->
+							<div class="charts">
+								<canvas id="wineChart" class="first-chartjs"></canvas>
+							</div>
+							<p class="chart-explanation">53% showed interest in a wine storage/sharing product</p>
 						</div>
-						<p class="picture-explanation">53% showed interest in a wine storage/sharing product</p>
 					</div>
-					<div class="survey-charts">
-						<h3 class="section-questions">would people use it for more than wine?</h3>
+					<div class="chartjs-two">
+						<div class="survey-charts">
+							<h3 class="section-questions">would people use it for more than wine?</h3>
 
-						<!-- OLD JPEG CHART
-                    <img src="Images/pie-chart-2.png">-->
-						<!--CHARTTWO JS LINK-->
-						<div class="charts">
-							<canvas id="winePlusChart"></canvas>
+							<!--CHARTTWO JS LINK-->
+							<div class="charts">
+								<canvas id="winePlusChart" class="second-chartjs"></canvas>
+							</div>
+
+							<p class="chart-explanation">70% would potentially use this for more than just wine</p>
 						</div>
-
-						<p class="picture-explanation">70% would potentially use this for more than just wine</p>
 					</div>
 					<div class="survey-charts"></div>
-					<h3 class="section-questions">what are the main things users would want from the product</h3>
+					<div class="chartjs-three">
+						<h3 class="section-questions">what are the main things users would want from the product</h3>
 
-					<!-- JPEG CHART
-                <img src="Images/graph-chart-3.png">-->
-					<!--CHARTTHREE JS LINK-->
-					<div class="charts-product">
-						<canvas id="productChart"></canvas>
+						<!--CHARTTHREE JS LINK-->
+						<div class="charts-product">
+							<canvas id="productChart" class="third-chartjs"></canvas>
+						</div>
+						<ul class="chart-explanation">
+							<li class="chart-answers">77% Save tasting notes</li>
+							<li class="chart-answers">71% Sort and suggestions</li>
+							<li class="chart-answers">53% Purchase history</li>
+						</ul>
 					</div>
-					<ul class="picture-explanation">
-						<li class="list-answers">77% Tasting Notes</li>
-						<li class="list-answers">71% Sort types and get suggestions</li>
-						<li class="list-answers">53% Purchase History</li>
-					</ul>
 					<div class="conclusions">
 						<h5 class="content-conclusions">conclusions</h5>
 						<p>Based on those surveyed, there would be a desire for an app to share wine content, as well as additional alcoholic beverages. The main goals would be create notes, and both get and receive suggestions from a secure network.</p>
@@ -229,14 +231,17 @@
 			<section class="five">
 				<div class="no-background">
 					<h2 class="section-header">User Personas</h2>
-					<h3 class="section-questions">what would the target user look like?</h3>
+					<h3 class="section-questions">potential target users?</h3>
+
 					<!--USER PERSONAS -->
 
 					<div class="persona-wrap">
 						<div class="persona-one">
-							<img src="Images/javier-power.jpg" class="persona-picture" alt="javier persona">
-							<h3 class="persona-name">Javier - Power User</h3>
-							<h4 class="persona-text">Always on the go, needs access to lots of information. <br>Constantly networking and network trust is paramount to him.</h4>
+							<div class="javier-info">
+								<img src="Images/javier-power.jpg" class="persona-picture" alt="javier persona">
+								<h3 class="persona-name">Javier - Power User</h3>
+								<h4 class="persona-text">Always on the go, needs access to lots of information. <br>Constantly networking and network trust is paramount to him.</h4>
+							</div>
 							<!--							<a href="https://drive.google.com/open?id=1Dw5kCrLk1lDjRkTY0u-_hWsfCXdSHm9e" target="_blank"><button class="button" alt="taster">View User Persona</button></a>-->
 
 						</div>
@@ -256,7 +261,7 @@
 						</div>
 					</div>
 					<div class="persona-button-center">
-						<a href="https://drive.google.com/open?id=13NLamHbpq8lmDiJ-ZLotbdSMv4e-7UM-" target="_blank"><button class="button" alt="taster">View User Personas</button></a></div>
+						<a href="https://drive.google.com/open?id=13NLamHbpq8lmDiJ-ZLotbdSMv4e-7UM-" target="_blank"><button class="button" alt="taster">View All User Personas</button></a></div>
 
 				</div>
 			</section>
@@ -301,7 +306,6 @@
 						<img class="flow-charts" src="Images/privacy-create-account.png">
 					</div>
 -->
-
 					<h3 class="section-questions">signing in/up</h3>
 					<div class="sign-in-flow">
 
@@ -310,6 +314,9 @@
 						<!-- FLOW -->
 						<img class="flow-charts" src="Images/sign-in-up.jpg">
 					</div>
+					<div class="userflow-button-center">
+						<a href="https://drive.google.com/open?id=143NOVm91-WGDiVdSSiP-q_jM-uT17O4X" target="_blank"><button class="button" alt="taster">View Additional User Flows</button></a></div>
+
 				</div>
 			</section>
 			<!--LO FI WIREFRAMES-->
@@ -330,7 +337,7 @@
 						<img src="Images/lofi-dash-2.png" class="wireframes">
 						<img src="Images/lofi-dash-3.png" class="wireframes">
 					</div>
-					<p class="picture-italics">The idea was to keep things simple and uncluttered</p>
+					<p class="picture-italics">Concept was to be simple and uncluttered</p>
 					<h4 class="wireframe-labels">Privacy/Data Security Pages</h4>
 					<div class="lofi-wireframes">
 						<!-- wireframes -->
@@ -345,7 +352,7 @@
 			<section class="nine">
 				<div class="no-background">
 					<h2 class="section-header">Testing Results</h2>
-					<p>The idea was to be simple with only each section on the dashboard, and adding specific content within each section. Users asked about a clear “add note” button on the dashboard, so that was addressed.</p>
+					<p>Initial idea was not to have each section on the dashboard, then add content within each section. Users asked about a clear “add note” button on the dashboard, so that was addressed.</p>
 					<div class="lofi-wireframes">
 						<div class="pic-one">
 							<p class="picture-explanation-center">First Iteration</p>
@@ -358,7 +365,7 @@
 							<img src="Images/lofi-dash-2.png" class="wireframes">
 						</div>
 					</div>
-					<p>Initially the screen where you add information for a new note included a picture of the bottle. That cluttered the view for users, so it was removed to add space more relevant note information</p>
+					<p>Initially the screen where you add information for a new note included a picture of the bottle. That cluttered the view for users, and removed to add space more relevant note information</p>
 
 
 					<div class="lofi-wireframes">
@@ -373,7 +380,7 @@
 							<img src="Images/lofi-bottle-note-2.png" class="wireframes">
 						</div>
 					</div>
-					<p>Based on the importance of privacy, we always needed to keep the idea of how the product would address security in the back of our head. Users again wanted something simple and obvious, letting you know how your data was controlled.</p>
+					<p>Based on the importance of privacy, we always knew we wanted to address security. Users again wanted something simple and obvious, letting you know how your data was controlled.</p>
 				</div>
 			</section>
 
@@ -389,34 +396,36 @@
 					<p>The idea was to create a logo, organically and connected to the name of the product. Multiple versions of logos as well and names, were iterated starting with hand drawn sketches. before moving to polished digital versions. </p>
 
 					<img src="Images/hand-drawn-logo.png" class="hand-drawn">
-					<p>Taster stuck, opening up the product past wine connoisseurs alone, with the logo functioning as a “T” in the name.</p>
+					<p>Taster stuck and the market expanded past wine connoisseurs, and the logo functioned as the “T” in the name.</p>
 					<h3 class="section-questions">what was the process for fonts?</h3>
-					<p>Below are some of the 20 pairing attempts eventually the final versions also were tested over colors. The hope was to have a fancy font for branding, paired with serif or sans-serif fonts for body copy and buttons. </p>
+					<p>The ideal pairing was a fancy branding font, with a serif/sans-serif for body copy. Here are some of the 20 pairing attempts which didn't make the cut, and later in the process. </p>
 
-					<img src="Images/previous-font-attempts.png" class="previous-attempts">
+					<img src="Images/old-font-styles.svg" class="previous-attempts" alt="previous fonts">
+					<!--					<img src="Images/previous-font-attempts.png" class="previous-attempts">-->
 
-					<p>Pacifico became the cursive brand font as it was reminiscent of Instagram and felt bold and classy. Coustard / Arimo / Bookman Old Style / Lato were all attempted as pairings with Pacifico. </p>
+					<p>Pacifico became the brand font reminiscent of Instagram. Coustard / Arimo / Bookman Old Style / Lato were all attempted as pairings with Pacifico. </p>
 
-					<img src="Images/fonts-with-color.png" class="previous-attempts">
+					<!--					<img src="Images/fonts-with-color.png" class="previous-attempts">-->
+					<!--					<p>Eventually the final versions were also tested over colors </p>-->
 
-					<p> Arimo was replaced when it became a bit harder for users to read once it was in larger formats, and it was replaced with Lato. Bookman Old Style was being used solely for buttons, but because Lato was simple and bold with a wide variety of options, it became the main font used.</p>
+					<p> Arimo's readability didn't scale as well and was replaced with Lato. It's versatility, also allowed us to also replace Bookman Old Style on buttons for simplicity</p>
 
-					<p>User testing was continually done, refining the look. Pacifico was scaled back from use on the menu as some users believed it was harder to read than it needed to be. Below is the final version. </p>
+					<p>Below is the final output after continual refining and user testing. Pacifico was removed from menu use as some users thought it was harder to read than it needed to be </p>
 
 					<!-- final fonts and logos -->
 
 					<div class="final-styleguide-logo">
-						<img src="Images/black-and-white-final-taster.png">
+						<img src="Images/black-and-white-final-taster.svg">
 						<div class="final-fonts">
 
 							<div class="logo-stack-one">
-								<img src="Images/final-h1&h2.png">
+								<img src="Images/final-h1-h2.svg">
 							</div>
 							<div class="logo-stack-two">
-								<img src="Images/final-h3&h4.png">
+								<img src="Images/final-h3-h4.svg">
 							</div>
 							<div class="logo-stack-three">
-								<img src="Images/final-h5-&-h6.png">
+								<img src="Images/final-h5-h6.svg">
 							</div>
 						</div>
 					</div>
@@ -438,7 +447,7 @@
 				<div class="no-background">
 					<h2 class="section-header">High Fidelity Wireframes</h2>
 					<h3 class="section-questions">what was the progressions and why?</h3>
-					<p>High fidelity mock-ups were created using the banding and Lo-Fi wireframes. Clickable prototypes were tested via Invision, and A/B preference testing through Usability Hub. Testing ranged from button preference, to creating a new note and switching between sections.
+					<p>High fidelity mock-ups combined the branding and Lo-Fi wireframes. Clickable prototypes were tested via Invision, and A/B preference testing through Usability Hub. Testing ranged from button preference, to creating a new note and switching between sections.
 					</p>
 					<!-- Accent-colored raised button -->
 					<div class="button-center">
@@ -468,22 +477,22 @@
 					</div>
 					<p>Two versions of a landing page were attempted - the lighter came into play when visibility became an issue. 75% of those tested preferred the darker option, which ended up a strong choice once I was finally able to make the font visibility work as needed.</p>
 					<div class="landing-pictures">
-						<img src="Images/landing-dark.png">
-						<img src="Images/landing-light.png">
+						<img src="Images/landing-dark.png" class="landing-image-one">
+						<img src="Images/landing-light.png" class="landing-image-two">
 					</div>
 					<p>For the logo, the desire was to have the corkscrew as part of the “T” in the logo. A/B testing was done with users, 83% confirming my design decision to use the logo as part of the name.
 					</p>
 					<div class="logo-options">
-						<img src="Images/logo-attached-name.svg">
-						<img src="Images/logo-not-attached-name.svg">
+						<img src="Images/logo-attached-name.svg" class="taster-logo-attached" alt="taster logo">
+						<img src="Images/logo-not-attached-name.svg" class="taster-logo-unattached" alt="taster logo">
 					</div>
-					<p>The next to last version of the landing page was tweaked for simplicity after user conversations, adding an obvious button on the bottom to create a new account, and single sign in link on the top. That allows current users to see the ability to sign in right away, and also emphasize the body content of what this is, leading new users down to the create account button.</p>
+					<p>Users requested an obvious button to create a new account, and single sign in link on the top. Current users see how to sign in right away, and new users are led down to the create account button.</p>
 					<div class="landing-pages">
 						<div class="landing-options">
-							<img src="Images/mobile-landing-no-button.png" class="wireframes">
-							<img src="Images/mobile-landing-with-button.png" class="wireframes">
+							<img src="Images/mobile-landing-no-button.png" class="home-page-original">
+							<img src="Images/mobile-landing-with-button.png" class="home-page-final">
 						</div>
-						<p>The dashboard organization went through multiple iterations and tests. Users preferred adding content from up top, so that process was moved from where it was in the lo-fi versions. Testing progressed it from “plus sign” with a label, to different border options around both pieces, then eventually a centered button.</p>
+						<p>The dashboard organization changed when users preferred adding content from up top, vs the location in the lo-fi versions. Testing progressed it from “plus sign” with a label, to border options, eventually a centered button.</p>
 						<div class="dashboard-organization">
 							<!--LONG OPTION -->
 							<div class="organization-options">

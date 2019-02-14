@@ -1639,7 +1639,7 @@ img .wireframes {
 
 	p {
 		text-align: left;
-		font-size: 2.2rem;
+		font-size: 2rem;
 		line-height: 1.3;
 		padding: 1rem 0;
 		max-width: 85rem;
@@ -2179,7 +2179,7 @@ img .wireframes {
 */
 		display: flex;
 		flex-direction: row;
-		padding-left: 10%
+		padding-left: 8%
 	}
 
 	.bio-rows-two {
@@ -2211,7 +2211,7 @@ img .wireframes {
 
 	.text-move {
 		margin: 0;
-		padding-left: 23%
+		padding-left: 20%
 	}
 
 	.privacy-future p {

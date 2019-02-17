@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	outline: solid .1rem #ddd;
+/*	outline: solid .1rem #ddd;*/
 }
 
 html,
@@ -419,7 +419,6 @@ section {
 }
 
 p {
-	padding: 1rem;
 	line-height: 1.5;
 }
 
@@ -446,7 +445,7 @@ p {
 	opacity: 25%;
 }
 
-.case-study-wrap {
+.wireframe-wrap {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -458,6 +457,11 @@ p {
 	padding: 2rem 2rem;
 	text-align: left;
 }
+
+.text-wrap {
+	text-align: center;
+}
+
 
 /*TWO*/
 
@@ -700,13 +704,124 @@ p {
 
 /*BIOGRAPHY*/
 
+.about-me {
+	font-family: 'Oswald', sans-serif;
+	padding: 2rem 1rem;
+}
 
+.bio-align-box {
+	display: flex;
+	flex-direction: column;
+}
 
+.icon-text-designer {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem
+}
 
+.bio-question-red {
+	color: #B30000;
+	padding: 3rem 0;
+}
 
+.why-design {
+	padding: 2rem;
+}
 
+.bio-designer-text {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
 
+}
 
+.designer {
+	padding: 2rem;
+}
+
+.bio-rows {
+	padding: 1rem;
+}
+
+.golf-group {
+	max-width: 90%;
+	padding: 2rem;
+}
+
+.school {
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+	padding: 2rem 5rem;
+}
+
+.architect,
+.film {
+	margin: auto;
+}
+
+.bio-italics {
+	font-style: italic;
+
+}
+
+.bio-align-two {
+	padding: 1rem 0;
+}
+
+.bio-question-black {
+	padding: 3rem 1rem;
+}
+
+.design-story {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 1rem;
+}
+
+.storyboard {
+	padding: 2rem;
+	;
+}
+
+.mini-subhead {
+	font-weight: 700;
+}
+
+.design-frustration {
+	display: flex;
+	flex-direction: column;
+	padding: 3rem 1rem;
+
+}
+
+.frustrated {
+	padding: 2rem;
+}
+
+.design-characters {
+	display: flex;
+	flex-direction: column;
+	padding: 4rem 1rem;
+}
+
+.chaplin {
+	padding: 2rem;
+}
+
+.bio-align-three {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem
+}
+
+.privacy-future {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem 0;
+
+}
 
 /*MEDIA QUERIES*/
 
@@ -812,9 +927,7 @@ p {
 	/*	CASE STUDY*/
 
 	/*	recurring */
-	p {
-		padding: 2rem;
-	}
+
 
 	.center-button {
 		text-align: center;
@@ -848,14 +961,60 @@ p {
 		max-width: 90%;
 	}
 
-	.text-wrap {}
+	.text-wrap {
+		text-align: center;
+	}
+
+	.text-wrap,
+	button {
+		text-align: center;
+	}
 
 
 
 
 
 	/*	two */
+
+	.deliverables-list {
+		align-items: baseline;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 8rem;
+		padding: 5rem;
+	}
+
+	.performed {
+		line-height: 1.5;
+	}
+
+
 	/*three*/
+
+	.market-products {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.products {
+		font-size: 2.5rem;
+	}
+
+	.product-text {
+		font-size: 2.5rem;
+		padding: 0 2rem;
+	}
+
+	.swot-button-center {
+		padding-top: 9rem;
+		text-align: center;
+	}
+
+	.swot-conclusions {
+		padding: 5rem;
+		text-align: left;
+	}
+
 	/*	four*/
 
 	.charts {

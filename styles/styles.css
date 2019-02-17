@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-/*	outline: solid .1rem #ddd;*/
+	/*	outline: solid .1rem #ddd;*/
 }
 
 html,
@@ -703,6 +703,11 @@ p {
 
 
 /*BIOGRAPHY*/
+
+#top-bio {
+	background-color: #d2e7ee;
+	opacity: 25%;
+}
 
 .about-me {
 	font-family: 'Oswald', sans-serif;

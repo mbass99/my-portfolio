@@ -381,7 +381,7 @@ section {
 	text-align: center;
 }
 
-.project-name {
+.landing-project-name {
 	color: #B30000;
 	font-size: 2.6rem;
 	font-weight: 600;
@@ -391,8 +391,8 @@ section {
 }
 
 .project-logline {
-	line-height: 1.5;
 	font-size: 1.8rem;
+	line-height: 1.5;
 
 }
 
@@ -458,7 +458,7 @@ section {
 
 .case-explanation {
 	padding: 2rem 2rem;
-	text-align: left;
+
 }
 
 .text-wrap {
@@ -502,6 +502,7 @@ section {
 	grid-template-columns: 1fr;
 	grid-gap: 3rem;
 	padding: 3rem 0;
+	align-items: baseline;
 }
 
 .product-one,
@@ -515,11 +516,13 @@ section {
 	font-size: 2rem;
 	margin: auto;
 	font-weight: 700;
+	text-transform: uppercase;
 }
 
 .market-logo {
 	margin: auto;
 	padding: 3rem 0;
+	max-width: 90%;
 }
 
 .product-text {
@@ -586,8 +589,9 @@ section {
 /*FIVE*/
 
 .persona-wrap {
-	display: flex;
-	flex-direction: column;
+	display: grid;
+	grid-template-columns: 1fr;
+	text-align: left;
 
 }
 
@@ -597,12 +601,14 @@ section {
 }
 
 .persona-name {
+	color: #B30000;
 	padding: 1rem;
 	text-align: center;
 }
 
 .persona-text {
 	padding: 2rem;
+	line-height: 1.3;
 }
 
 
@@ -615,6 +621,7 @@ section {
 
 .sitemap-text {
 	padding: 1rem;
+
 }
 
 /*SE7EN*/
@@ -936,6 +943,18 @@ section {
 
 	/*GLOBAL*/
 
+	/*
+	.background-pad{
+		max-width: 60rem;
+		margin: auto;
+	}
+	
+	.no-background{
+		max-width: 60rem;
+		margin: auto;
+	}
+*/
+
 	p {
 		font-size: 2rem;
 		max-width: 68rem;
@@ -1010,6 +1029,7 @@ section {
 		font-size: 2.7rem;
 		font-weight: 600;
 		text-align: left;
+		padding: 0;
 
 
 	}
@@ -1030,9 +1050,6 @@ section {
 		text-align: left;
 	}
 
-	.button {
-		float: left;
-	}
 
 
 	/*	CASE STUDY*/
@@ -1076,9 +1093,8 @@ section {
 		text-align: center;
 	}
 
-	.text-wrap,
-	button {
-		text-align: center;
+	.case-explanation {
+		text-align: left;
 	}
 
 
@@ -1107,32 +1123,104 @@ section {
 		flex-wrap: wrap;
 	}
 
+	.product-one,
+	.product-two,
+	.product-three {
+		flex: 1;
+		text-align: left;
+
+	}
+
+	.product-three {
+		max-width: 33rem;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.market-logo {
+		max-width: 65%;
+	}
+
 	.products {
 		font-size: 2.5rem;
 	}
 
 	.product-text {
 		font-size: 2.5rem;
-		padding: 0 2rem;
+		padding: 2rem;
+		text-align: left;
+
 	}
 
 	.swot-button-center {
-		padding-top: 9rem;
+		padding-top: 4rem;
 		text-align: center;
 	}
 
 	.swot-conclusions {
-		padding: 5rem;
+		padding: 1rem;
 		text-align: left;
 	}
 
 	/*	four*/
 
+	.market-survey-responses {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		padding: 3rem;
+	}
+
+
 	.charts {
-		max-width: 60%;
+		max-width: 50%;
+
+	}
+
+	.chartje-one,
+	.chartjs-two,
+	.chartjs-three {
+		display: grid;
+		grid-template-rows: auto;
+		grid-gap: 5rem;
+	}
+
+	.chart-explanation {
+		font-size: 2.4rem;
+		padding: 3rem;
+	}
+
+	.chart-list {
+		font-size: 2.4rem;
+		line-height: 1.5;
 	}
 
 	/*	five*/
+
+	.persona-wrap {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		max-width: 90%;
+	}
+
+	.persona-text {
+		font-size: 2.1rem;
+		text-align: left;
+		max-width: 35rem;
+	}
+
+	.survey .persona-one,
+	.persona-two,
+	.persona-three {
+		flex: 1;
+		text-align: center;
+	}
+
+	.javier-info {
+		margin: auto;
+		padding-left: 40%;
+	}
+
 	/*	six*/
 
 	.sitemap {
@@ -1140,8 +1228,31 @@ section {
 		padding: 3rem 6rem;
 	}
 
+	.sitemap-text {
+		font-size: 2rem;
+		margin: auto;
+		max-width: 60rem;
+
+	}
+
 	/*	seven*/
+
+	.user-flow-intro {
+		padding: 2rem;
+	}
+
+	.sign-in-flow {
+		padding: 2rem;
+	}
+
 	/*eight	*/
+
+	.lofi-wireframes {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: auto;
+	}
+
 	/*nine*/
 
 	/*	ten*/
@@ -1158,10 +1269,6 @@ section {
 
 	}
 
-	.previous-attempts {
-		padding: 4rem 13rem;
-	}
-
 	.final-styleguide-logo {}
 
 	.wine-colors {
@@ -1169,9 +1276,18 @@ section {
 		padding: 4rem 8rem;
 	}
 
+	.previous-attempts {
+		padding: 4rem;
+	}
 
 
 	/*eleven*/
+
+	.hifi-wireframes {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
 	/*twelve*/
 
 	.landing-image-one,
@@ -1385,6 +1501,11 @@ section {
 
 	.project-wrap {
 		max-width: 90rem;
+	}
+
+	.left-wrap,
+	.right-wrap {
+		text-align: left;
 	}
 
 	.project-name {

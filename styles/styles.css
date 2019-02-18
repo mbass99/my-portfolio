@@ -443,6 +443,7 @@ p {
 #top-taster {
 	background-color: #d2e7ee;
 	opacity: 25%;
+	max-width: 100%;
 }
 
 .wireframe-wrap {
@@ -707,6 +708,7 @@ p {
 #top-bio {
 	background-color: #d2e7ee;
 	opacity: 25%;
+	max-width: 100%
 }
 
 .about-me {
@@ -728,6 +730,7 @@ p {
 .bio-question-red {
 	color: #B30000;
 	padding: 3rem 0;
+	font-weight: 700;
 }
 
 .why-design {
@@ -777,6 +780,7 @@ p {
 
 .bio-question-black {
 	padding: 3rem 1rem;
+	font-weight: 700;
 }
 
 .design-story {
@@ -1092,7 +1096,139 @@ p {
 
 
 	/*	BIOGRAPHY*/
+
 }
+
+.about-me {
+	font-size: 3rem;
+	padding: 0 3rem;
+}
+
+.icon-text-designer {
+	align-items: center;
+	display: grid;
+	grid-gap: 3rem;
+	grid-template-columns: 1fr auto;
+	max-width: 70rem;
+	padding-left: 3rem;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.bio-designer-text {
+	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	padding-left: 3rem;
+	max-width: 67rem;
+}
+
+.bio-designer-text p {
+	font-size: 1.8rem;
+}
+
+.designer {
+	padding: 1rem;
+}
+
+.bio-question-red {
+	font-size: 2.4rem;
+	text-transform: capitalize;
+}
+
+
+.bio-rows {
+	grid-template-rows: auto;
+	padding-left: 13rem;
+	max-width: 58rem;
+
+}
+
+.bio-rows p {
+	font-size: 1.8rem;
+}
+
+.golf-group {
+	padding: 3rem 9rem;
+}
+
+.school {
+	padding: 3rem;
+}
+
+.bio-italics {
+	font-size: 2rem;
+}
+
+.bio-align-two {
+	max-width: 72rem;
+	margin: auto;
+}
+
+.bio-question-black {
+	font-size: 2.4rem;
+	text-transform: capitalize;
+}
+
+.mini-subhead {
+	font-size: 2rem;
+}
+
+.design-story {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	padding: 0;
+}
+
+
+.design-story p {
+	font-size: 1.8rem;
+}
+
+.design-frustration {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	padding: 2rem 0;
+}
+
+.design-frustration p {
+	font-size: 1.8rem;
+}
+
+.design-characters {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	padding-left: 0;
+}
+
+.design-characters p {
+	font-size: 1.8rem;
+}
+
+.text-move {
+	font-size: 1.8rem;
+	padding-left: 12rem;
+	max-width: 58rem;
+}
+
+.bio-align-three {
+	max-width: 70rem;
+	margin: auto;
+
+}
+
+.privacy-future {
+	display: grid;
+	grid-template-columns: 1fr 7fr;
+	padding-left: 3rem;
+}
+
+.privacy-future p {
+	font-size: 1.8rem;
+}
+
+
+
 
 /*DESKTOP*/
 @media screen and (min-width: 1024px) {

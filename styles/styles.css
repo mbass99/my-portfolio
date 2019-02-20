@@ -438,7 +438,6 @@ section {
 
 #top-taster {
 	background-color: #d2e7ee;
-	opacity: 25%;
 	max-width: 100%;
 }
 
@@ -803,11 +802,15 @@ section {
 
 /*BIOGRAPHY*/
 
-#top-bio {
+.head-background {
 	background-color: #d2e7ee;
-	opacity: 25%;
-	max-width: 100%
 }
+
+#top-bio {
+	/*	background-color: #d2e7ee;*/
+	max-width: 100%;
+}
+
 
 .bio-content {
 	padding: 1rem;
@@ -829,10 +832,8 @@ section {
 }
 
 .bio-question-red {
-	font-size: 2.2rem;
 	color: #B30000;
-	padding: 3rem 0;
-	font-weight: 700;
+
 }
 
 
@@ -850,18 +851,18 @@ section {
 }
 
 
-
-
 .golf-group {
 	display: block;
 	max-width: 80%;
 	margin: auto;
+	padding: 2rem;
 }
 
 .school {
 	align-content: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	padding: 2rem;
 }
 
 .architect,
@@ -875,7 +876,7 @@ section {
 }
 
 
-.bio-question-black {
+.content-two {
 	font-size: 2.2rem;
 	padding: 3rem 0;
 	font-weight: 700;
@@ -1310,7 +1311,9 @@ section {
 
 	/*	BIOGRAPHY*/
 
-
+	#top-bio {
+		max-width: 70rem;
+	}
 
 	.bio-content {
 		max-width: 65rem;
@@ -1336,12 +1339,12 @@ section {
 		text-transform: capitalize;
 	}
 
-	.icon-text-designer {
+	.content-two {
 		align-items: center;
 		display: grid;
 		grid-gap: 3rem;
 		grid-template-columns: 1fr auto;
-
+		padding: 3rem 0;
 	}
 
 
@@ -1352,8 +1355,6 @@ section {
 		grid-column-gap: 5rem;
 
 	}
-
-
 
 	.icon-left {
 		margin: 0;
@@ -1383,193 +1384,114 @@ section {
 	.content-row {
 		padding-bottom: 2rem;
 	}
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 1024px) {
+
+	/*	GLOBAL*/
+
+	p {
+		font-size: 2.4rem;
+	}
+
+	section {
+		padding-top: 10rem;
+		padding-bottom: 10rem;
+	}
 
 
-	/*DESKTOP*/
-	@media screen and (min-width: 1024px) {
+	header {
+		max-width: 100rem;
+	}
 
-		/*	GLOBAL*/
+	.nav-flex {
+		font-size: 1.8rem;
+		grid-gap: 3rem;
+	}
 
-		p {
-			font-size: 2.4rem;
-		}
+	/*	LANDING PAGE */
 
-		section {
-			padding-top: 10rem;
-			padding-bottom: 10rem;
-		}
+	.hero {
+		height: 100vh;
+	}
 
+	.hero::before {
+		height: 100vh;
+	}
 
-		header {
-			max-width: 100rem;
-		}
+	.hero-wrap {
+		max-width: 70rem;
+	}
 
-		.nav-flex {
-			font-size: 1.8rem;
-			grid-gap: 3rem;
-		}
+	.introduction {
+		font-size: 4.4rem;
+	}
 
-		/*	LANDING PAGE */
+	.colored-name {
+		font-size: 7rem;
+	}
 
-		.hero {
-			height: 100vh;
-		}
+	.landing-project-name {
+		font-size: 3.2rem;
+		text-align: left;
+	}
 
-		.hero::before {
-			height: 100vh;
-		}
+	.project-wrap {
+		max-width: 90rem;
+	}
 
-		.hero-wrap {
-			max-width: 70rem;
-		}
+	.left-wrap,
+	.right-wrap {
+		text-align: left;
+	}
 
-		.introduction {
-			font-size: 4.4rem;
-		}
-
-		.colored-name {
-			font-size: 7rem;
-		}
-
-		.landing-project-name {
-			font-size: 3.2rem;
-			text-align: left;
-		}
-
-		.project-wrap {
-			max-width: 90rem;
-		}
-
-		.left-wrap,
-		.right-wrap {
-			text-align: left;
-		}
-
-		.project-name {
-			font-size: 3.2rem;
-		}
+	.project-name {
+		font-size: 3.2rem;
+	}
 
 
-		.project-logline {
-			font-size: 2.6rem;
-		}
+	.project-logline {
+		font-size: 2.6rem;
+	}
 
-		/*	CASE STUDY*/
+	/*	CASE STUDY*/
 
-		/*	BIOGRAPHY*/
-
-		.about-me {
-			font-size: 3.2rem;
-			padding-left: 4rem;
-		}
-
-		.bio-align-box {
-			display: grid;
-			grid-gap: 4rem;
-			margin: auto;
-			max-width: 110rem;
-			/*		padding-left: 35rem;*/
-
-		}
-
-		.icon-text-designer {
-			padding-left: 4rem;
-			max-width: 80rem;
-		}
-
-		.bio-designer-text p {
-			font-size: 2.4rem;
-
-		}
-
-		.bio-rows {
-			max-width: 100rem;
-		}
-
-		.bio-rows p {
-			font-size: 2.4rem
-		}
-
-		.school {
-			max-width: 50rem;
-		}
-
-		.bio-designer-red {
-			font-size: 4rem;
-		}
-
-		.bio-italics {
-			font-size: 2.4rem;
-		}
-
-		.bio-align-two {
-			display: grid;
-			grid-gap: 3rem;
-			margin: auto;
-			max-width: 100rem;
-			/*		padding-left: 33rem;*/
-		}
+	/*	BIOGRAPHY*/
 
 
-		.bio-designer-black {
-			font-size: 4rem;
-		}
+	#top-bio {
+		max-width: 120rem;
+	}
+
+	.bio-content {
+		font-size: 2.4rem;
+		max-width: 110rem;
+	}
+
+	.about-me {
+		font-size: 3.2rem;
+	}
 
 
-		.mini-subhead {
-			font-size: 3rem;
-			padding: 2rem 0;
-		}
-
-		.design-story {
-			grid-template-columns: 1fr 9fr;
-		}
-
-		.design-story p {
-			font-size: 2.4rem;
-		}
-
-
-		.design-frustration {
-			grid-template-columns: 1fr 9fr;
-		}
-
-		.design-frustration p {
-			font-size: 2.4rem;
-		}
-
-		.text-move {
-			font-size: 2.4rem;
-			padding-left: 10rem;
-		}
-
-
-		.design-characters {
-			grid-template-columns: 1fr 9fr;
-		}
-
-		.design-characters p {
-			font-size: 2.4rem;
-		}
-
-
-		.bio-align-three {
-			display: grid;
-			grid-gap: 3rem;
-			margin: auto;
-			max-width: 100rem;
-			padding: 0
-				/*		padding-left: 33rem;*/
-		}
-
-
-
-		.privacy-future {
-			grid-template-columns: 1fr 13fr;
-		}
-
-		.privacy-future p {
-			font-size: 2.4rem;
-		}
+	.school {
+		margin: auto;
+		max-width: 45rem;
 
 	}
+
+	.bio-italics {
+		font-size: 2.4rem;
+	}
+
+	.content-three {
+		grid-template-columns: auto;
+	}
+
+
+	.mini-subhead {
+		font-size: 3rem;
+	}
+
+
+}

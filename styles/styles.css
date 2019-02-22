@@ -224,15 +224,19 @@ h1 {
 
 h2 {
 	font-size: 3.2rem;
+	font-weight: 200;
 }
 
 h3 {
 
 	font-size: 2.6rem;
+	font-weight: 700
 }
 
 h4 {
 	font-size: 1.8rem;
+	line-height: 1.5;
+	max-width: 80rem;
 }
 
 h5 {
@@ -243,11 +247,6 @@ h6 {
 	font-size: 1.2rem;
 }
 
-p {
-	font-size: 1.8rem;
-	line-height: 1.5;
-	max-width: 80rem;
-}
 
 /*IMAGES*/
 img {
@@ -292,10 +291,11 @@ section {
 	/*	box-shadow: .5rem .5rem .5rem #777777;*/
 	color: white;
 	font-size: 1.8rem;
-	height: 4.4rem;
 	line-height: 2.6rem;
 	margin-bottom: 2rem;
 	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	text-align: center;
 	text-transform: capitalize;
 	width: 26.6rem;
@@ -305,8 +305,8 @@ section {
 .button:hover {
 	background-color: #ef0e0e;
 	border-color: rgba(137, 91, 91, 0.38);
-	transform: translateY(5px);
-
+	box-shadow: .5rem .5rem .5rem #777777;
+	transform: translateY(-5px);
 }
 
 
@@ -382,8 +382,6 @@ section {
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	color: #B30000;
-	font-size: 3.2rem;
-	font-weight: 200;
 	text-transform: uppercase;
 	padding: 5rem 0;
 }
@@ -407,12 +405,21 @@ section {
 .project-logline {
 	font-size: 1.8rem;
 	line-height: 1.5;
+	text-align: left;
 
 }
 
-.three,
-.prototype {
-	border: .1px solid #4d4b4b;
+.taster-prototype {
+	max-width: 30rem;
+}
+
+.bloc-jams-image {
+	max-width: 30rem;
+}
+
+.bus-prototype {
+	max-width: 30rem;
+	outline: 1px solid rgba(0, 0, 0, 0.22);
 }
 
 /*CASE STUDY*/
@@ -426,15 +433,11 @@ section {
 .section-header {
 	color: #B30000;
 	font-family: 'Oswald', sans-serif;
-	font-weight: 200;
-	font-size: 2.8rem;
 	text-transform: uppercase;
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 
 .section-questions {
-	font-size: 1.8rem;
-	font-weight: 700;
 	padding: 2rem 0;
 	text-transform: lowercase;
 }
@@ -888,15 +891,15 @@ section {
 
 .about-me {
 	font-family: 'Oswald', sans-serif;
-	font-size: 2.2rem;
+	/*	font-size: 2.2rem;*/
 	/*	padding: 2rem 1rem;*/
 }
 
 
-
-.icon-text-designer {
+.content-two {
 	display: grid;
-	grid-template-rows: auto;
+	grid-gap: 1rem;
+	grid-template-columns: auto;
 	padding: 3rem 0;
 }
 
@@ -917,21 +920,25 @@ section {
 
 .content-row {
 	padding-bottom: 2rem;
+
 }
 
+.mini-subhead {
+	line-height: 1.3;
+	padding: 1rem 0;
+}
 
 .golf-group {
 	display: block;
 	max-width: 80%;
 	margin: auto;
-	padding: 2rem;
+	padding: 2rem 2rem 3rem 2rem;
 }
 
 .school {
-	align-content: center;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	padding: 2rem;
+	padding: 3rem;
 }
 
 .architect,
@@ -946,17 +953,9 @@ section {
 
 
 .content-two {
-	font-size: 2.2rem;
 	padding: 3rem 0;
-	font-weight: 700;
 }
 
-/*
-.design-story {
-	display: grid;
-	grid-template-rows:auto;
-}
-*/
 
 .why-design,
 .designer,
@@ -969,11 +968,7 @@ section {
 	padding: 2rem;
 }
 
-.mini-subhead {
-	font-weight: 700;
-}
-
-.design-frustration {
+. .design-frustration {
 	display: grid;
 	grid-template-columns: auto;
 
@@ -983,20 +978,17 @@ section {
 .design-characters {
 	display: grid;
 	grid-template-columns: auto;
-
 }
 
 
 .bio-align-three {
 	display: flex;
 	flex-direction: column;
-	padding: 1rem
 }
 
 .privacy-future {
 	display: grid;
 	grid-template-columns: auto;
-	padding: 2rem 0;
 
 }
 
@@ -1013,12 +1005,6 @@ section {
 		max-width: 70rem;
 	}
 
-
-
-	p {
-		font-size: 2rem;
-		line-height: 1.5;
-	}
 
 	section {
 		padding-top: 7.5rem;
@@ -1126,16 +1112,6 @@ section {
 		text-align: center;
 	}
 
-
-	.section-header {
-		font-size: 3.9rem;
-		padding: 2rem 0;
-	}
-
-	.section-questions {
-		font-size: 2.7rem;
-		padding: 2rem 0;
-	}
 
 	/*	one */
 	.project-name {
@@ -1327,6 +1303,7 @@ section {
 
 	.lofi-dashboard {
 		grid-template-columns: 1fr 1fr 1fr;
+		margin: auto;
 	}
 
 
@@ -1461,9 +1438,6 @@ section {
 		margin: auto
 	}
 
-	.about-me {
-		font-size: 3rem;
-	}
 
 	.why-design,
 	.designer,
@@ -1471,34 +1445,42 @@ section {
 	.frustrated,
 	.chaplin,
 	.privacy {
-		align-content: flex-start;
+		align-items: center;
 		padding: 0 3rem;
 	}
 
-	.bio-question-red {
-		font-size: 2.4rem;
-		text-transform: capitalize;
+
+	.storyboard,
+	.frustrated,
+	.chaplin {
+		padding-top: 3rem;
 	}
+
 
 	.content-two {
 		align-items: center;
-		display: grid;
-		grid-gap: 3rem;
+		grid-gap: 4rem;
 		grid-template-columns: 1fr auto;
-		padding: 3rem 0;
+
 	}
 
+	.mini-subhead {}
+
+	.bio-italics {
+		padding: 2rem 0;
+	}
 
 	.content-three {
 		display: grid;
 		font-size: 1.8rem;
-		grid-template-areas: "icon-left icon-right icon-right";
+		grid-template-areas: "icon-left icon-right";
 		grid-column-gap: 5rem;
 
 	}
 
 	.icon-left {
 		margin: 0;
+
 	}
 
 	.golf-group {
@@ -1508,23 +1490,11 @@ section {
 	}
 
 
-	.bio-italics {
-		font-size: 2rem;
-	}
-
-
-	.bio-question-black {
-		font-size: 2.4rem;
-		text-transform: capitalize;
-	}
 
 	.mini-subhead {
 		font-size: 2rem;
 	}
 
-	.content-row {
-		padding-bottom: 2rem;
-	}
 }
 
 /*DESKTOP*/
@@ -1538,10 +1508,6 @@ section {
 
 	#top-taster {
 		max-width: 120rem;
-	}
-
-	p {
-		font-size: 2.4rem;
 	}
 
 	section {
@@ -1590,8 +1556,17 @@ section {
 		text-align: left;
 	}
 
-	.prototype {
-		max-width: 30rem
+	.taster-prototype {
+		max-width: 30rem;
+	}
+
+	.bloc-jams-image {
+		max-width: 40rem;
+	}
+
+	.bus-prototype {
+		max-width: 30rem;
+
 	}
 
 	.project-wrap {
@@ -1619,13 +1594,12 @@ section {
 		margin: auto;
 	}
 
-	.section-headers {
+	/*
+	.section-header {
 		font-size: 5rem;
 	}
+*/
 
-	.section-questions {
-		font-size: 2.8rem;
-	}
 
 	/*	individual */
 
@@ -1782,19 +1756,17 @@ section {
 	/*	BIOGRAPHY*/
 
 
+
+
 	#top-bio {
-		max-width: 120rem;
+		max-width: 100rem;
 	}
 
 	.bio-content {
-		font-size: 2.4rem;
-		max-width: 110rem;
+		max-width: 85rem;
 	}
 
-	.about-me {
-		font-size: 3.2rem;
-	}
-
+	/*
 
 	.school {
 		margin: auto;
@@ -1802,18 +1774,15 @@ section {
 
 	}
 
-	.bio-italics {
-		font-size: 2.4rem;
-	}
 
 	.content-three {
 		grid-template-columns: auto;
 	}
+*/
 
 
-	.mini-subhead {
-		font-size: 3rem;
-	}
+
+
 
 
 }

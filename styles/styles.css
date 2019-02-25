@@ -572,11 +572,12 @@ section {
 	text-align: center;
 }
 
-.market-logo {
+.pinterest-logo,
+.wunderlist-logo,
+.drive-logo {
 	display: block;
 	margin: auto;
 	padding: 3rem 0;
-	max-width: 90%;
 }
 
 .product-text {
@@ -584,7 +585,7 @@ section {
 
 }
 
-.swot-conclusions {}
+
 
 .content-conclusions {
 	color: #B30000;
@@ -800,6 +801,10 @@ section {
 	padding: 1rem 0;
 }
 
+.styleguide-logo {
+	width: 20rem;
+}
+
 .final-styleguide-logo {
 	display: grid;
 	grid-template-columns: auto;
@@ -849,6 +854,7 @@ section {
 
 .taster-logo-attached,
 .taster-logo-unattached {
+	width: 50rem;
 	padding: 2rem 0;
 }
 
@@ -906,7 +912,7 @@ section {
 
 
 .bio-content {
-	padding: 1rem 0;
+	padding: 0 1rem;
 }
 
 
@@ -1143,7 +1149,7 @@ section {
 
 	.wireframe-wrap {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 		justify-content: space-between;
 
 	}
@@ -1191,19 +1197,15 @@ section {
 	}
 
 
-
-
-
-	.product-three {
-		/*
-		max-width: 33rem;
-		margin: 0 auto;
-		text-align: center;
-*/
+	.pinterest-logo,
+	.wunderlist-logo,
+	.drive-logo {
+		max-width: 50%;
+		padding: 0;
 	}
 
-	.market-logo {
-		max-width: 50%;
+	.drive-logo {
+		height: 10rem;
 	}
 
 	.products {
@@ -1299,30 +1301,6 @@ section {
 		line-height: 1.6;
 		text-align: left;
 	}
-
-	/*
-	.survey .persona-one,
-	.persona-two,
-	.persona-three {
-		flex: 1;
-		text-align: left;
-	}
-*/
-
-
-
-	/*
-	.persona-one {
-		margin: auto;
-	}
-*/
-
-	/*
-	.persona-one,
-	.persona-text {
-		max-width: 50rem;
-	}
-*/
 
 	.
 	/*	six*/
@@ -1683,23 +1661,19 @@ section {
 		;
 	}
 
-	/*
-	.product-one,
-	.product-two,
-	.product-three {
-		max-width: 39rem;
-		padding: 0 8rem;
 
-	}
-*/
 
-	.products {
-		/*		font-size: 3rem;*/
 
-	}
 
-	.market-logo {
+	.pinterest-logo,
+	.wunderlist-logo,
+	.drive-logo {
 		max-width: 50%;
+	}
+
+	.drive-logo {
+		height: 14rem;
+
 	}
 
 	.content-conclusions {

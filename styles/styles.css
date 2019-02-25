@@ -707,6 +707,9 @@ section {
 	padding: 1rem 0;
 }
 
+.sign-in-up {
+	max-width: 100%;
+}
 
 .sign-in-flow {
 	display: grid;

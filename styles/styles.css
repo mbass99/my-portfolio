@@ -657,7 +657,7 @@ section {
 	display: flex;
 	flex-direction: column;
 */
-	padding: 3rem 0;
+	padding: 3rem 0rem;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 3rem;
@@ -669,17 +669,24 @@ section {
 .persona-picture {
 	display: block;
 	margin: auto;
+
 }
 
 .persona-name {
 	color: #B30000;
-	padding: 2rem 0;
-	text-align: center;
+	line-height: 1.3;
+	padding: 2rem 1rem;
+	text-align: left;
+
 }
 
 .persona-text {
 	padding: 1rem;
 	line-height: 1.6;
+}
+
+.persona-italics {
+	font-style: italic;
 }
 
 
@@ -1299,6 +1306,7 @@ section {
 	}
 
 	.persona-name {
+		text-align: left;
 		font-size: 2.2rem;
 	}
 

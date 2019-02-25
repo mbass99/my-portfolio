@@ -14,7 +14,6 @@
 		gtag('js', new Date());
 
 		gtag('config', 'UA-134212941-1');
-
 	</script>
 
 	<title>Taster Project Case Study</title>
@@ -50,7 +49,14 @@
 						<div class="case-study-wrap">
 							<h3 class="project-name">Case Study</h3>
 							<div class="wireframe-wrap">
-								<img src="Images/account-created.svg" class="account-created" alt="account created"> <img src="Images/privacy.svg" class="privacy-wireframe" alt="privacy">
+								<!--	new wireframes-->
+								<img src="Images/empty-dashboard-notes-tab.svg" class="empty-notes-dash" alt="empty notes dashboard" />
+								<img src="Images/enter-note-no-text.svg" class="enter-note-no-text" alt="enter note no text" />
+								<img src="Images/note-entering.svg" class="note-entering" alt="note-entering" />
+								<img src="Images/new-note-added-notes-dashboard.svg" class="new-note-added-dash" alt="new note added" />
+
+								<!--old wireframes-->
+								<!--								<img src="Images/account-created.svg" class="account-created" alt="account created"> <img src="Images/privacy.svg" class="privacy-wireframe" alt="privacy">-->
 							</div>
 							<div class="text-wrap">
 								<h4 class="case-explanation">Taster rethinks how users might create and store content in the cloud, then share with a controlled network.
@@ -196,49 +202,46 @@
 						</div><br>
 						<!--USE JS SCRIPT FOR CHARTS-->
 						<div class="survey-charts">
-
-
 							<h3 class="section-questions">is there a market for a storage based product for wine drinkers?</h3>
 							<div class="chartjs-one">
 
 								<!--CHARTONE JS LINK-->
-								<div class="charts">
-									<canvas id="wineChart" class="first-chartjs"></canvas>
 
-									<h4 class="chart-explanation">53% showed interest in a wine storage/sharing product</h4>
-								</div>
+								<canvas id="wineChart"></canvas>
+
+								<h4 class="chart-explanation">53% showed interest in a wine storage/sharing product</h4>
+
 							</div>
-						</div>
-						<div class="chartjs-two">
-							<div class="survey-charts">
-								<h3 class="section-questions">would people use it for more than wine?</h3>
 
+
+
+							<h3 class="section-questions">would people use it for more than wine?</h3>
+							<div class="chartjs-two">
 								<!--CHARTTWO JS LINK-->
-								<div class="charts">
-									<canvas id="winePlusChart" class="second-chartjs"></canvas>
+
+								<canvas id="winePlusChart"></canvas>
+								<h4 class="chart-explanation">70% would potentially use this for more than just wine</h4>
 
 
-									<h4 class="chart-explanation">70% would potentially use this for more than just wine</h4>
-								</div>
 							</div>
-						</div>
-						<div class="survey-charts"></div>
-						<div class="chartjs-three">
-							<h3 class="section-questions">what are the main things users would want from the product</h3>
+							<div class="chartjs-three">
+								<h3 class="section-questions">what are the main things users would want from the product</h3>
 
-							<!--CHARTTHREE JS LINK-->
-							<div class="charts-product">
-								<canvas id="productChart" class="third-chartjs"></canvas>
+								<!--CHARTTHREE JS LINK-->
+
+								<canvas id="productChart"></canvas>
+
+								<ul class="chart-explanation">
+									<li class="list-answers">77% Save tasting notes</li>
+									<li class="list-answers">71% Sort and suggestions</li>
+									<li class="list-answers">53% Purchase history</li>
+								</ul>
 							</div>
-							<ul class="chart-explanation">
-								<li class="chart-graph-answers">77% Save tasting notes</li>
-								<li class="chart-list">71% Sort and suggestions</li>
-								<li class="chart-list">53% Purchase history</li>
-							</ul>
-						</div>
-						<div class="survey-conclusions">
-							<h2 class="content-conclusions">conclusions</h2>
-							<h4>Based on those surveyed, there would be a desire for an app to share wine content, as well as additional alcoholic beverages. The main goals would be create notes, and both get and receive suggestions from a secure network.</h4>
+							<div class="survey-conclusions">
+								<h2 class="content-conclusions">conclusions</h2>
+								<h4>Based on those surveyed, there would be a desire for an app to share wine content, as well as additional alcoholic beverages. The main goals would be create notes, and both get and receive suggestions from a secure network.</h4>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -256,14 +259,16 @@
 							<div class="persona-one">
 								<img src="Images/javier-power.jpg" class="persona-picture" alt="javier persona">
 								<h3 class="persona-name">Javier - Power User</h3>
-								<h4 class="persona-text">Always on the go, needs access to lots of information. <br>Constantly networking and network trust is paramount to him.</h4>
+								<h4 class="persona-text">Always on the go, needs access to lots of information. </h4>
+								<h4 class="persona-text">Constantly networking and network trust is paramount to him.</h4>
 								<!--							<a href="https://drive.google.com/open?id=1Dw5kCrLk1lDjRkTY0u-_hWsfCXdSHm9e" target="_blank"><button class="button" alt="taster">View User Persona</button></a>-->
 
 							</div>
 							<div class="persona-two">
 								<img src="Images/alexa-casual.jpg" class="persona-picture" alt="alexa persona">
 								<h3 class="persona-name">Alexa - Casual User</h3>
-								<h4 class="persona-text">Open to trying new products, but isn't particular about what she drinks. <br>Data security is important to her.</h4>
+								<h4 class="persona-text">Open to trying new products, but isn't particular about what she drinks. </h4>
+								<h4 class="persona-text">Data security is important to her.</h4>
 								<!--							<a href="https://drive.google.com/open?id=1VQzHcLFihKtPojqgzk6PV5-u9gZmI4rb" target="_blank"><button class="button" alt="taster">View User Persona</button></a>-->
 
 							</div>
@@ -271,7 +276,9 @@
 							<div class="persona-three">
 								<img src="Images/aaron-potential.jpg" class="persona-picture" alt="aaron persona">
 								<h3 class="persona-name">Aaron - Potential User</h3>
-								<h4 class="persona-text">Doesn't need technology, but needs quick acess to information, thus preferring it on hand.<br>Not driven by digital conveniences</h4>
+								<h4 class="persona-text">Doesn't need technology, but needs quick acess to information, thus preferring it on hand.</h4>
+								<h4 class="persona-text">
+									Not driven by digital conveniences</h4>
 								<!--							<a href="https://drive.google.com/open?id=1mCzV2NkRswR_uqLRk0WC7jVFOswwA0Sv" target="_blank"><button class="button" alt="taster">View User Persona</button></a>-->
 							</div>
 						</div>
@@ -360,15 +367,15 @@
 						<div class="lofi-dashboard">
 							<!-- WIREFRAMES-->
 							<img src="Images/lofi-dash-1.png" class="lofi-dash-wireframes">
-							<img src="Images/lofi-dash-2.png" class="lofi--dash-wireframes">
+							<img src="Images/lofi-dash-2.png" class="lofi-dash-wireframes">
 							<img src="Images/lofi-dash-3.png" class="lofi-dash-wireframes">
 						</div>
 						<h4 class="picture-italics">Concept was to be simple and uncluttered</h4>
 						<h4 class="wireframe-labels">Privacy/Data Security Pages</h4>
 						<div class="lofi-security">
 							<!-- wireframes -->
-							<img src="Images/lofi-security-1.png" class="lofi-wireframes">
-							<img src="Images/lofi-security-2.png" class="lofi-wireframes">
+							<img src="Images/lofi-security-1.png" class="lofi-security-wireframes">
+							<img src="Images/lofi-security-2.png" class="lofi-security-wireframes">
 							<!--					moved data security out of this-->
 						</div>
 						<h4 class="picture-italics">Data security was a concern from the initial surveys, so an effort was made to create processes that would set the users mind at ease.</h4>

@@ -5,7 +5,7 @@
 
 /*development hack*/
 * {
-	/*		outline: solid .1rem #ddd;*/
+	/*	outline: solid .1rem #ddd;*/
 }
 
 html,
@@ -273,13 +273,6 @@ section {
 
 }
 
-/*new universal padding option to put inside each section*/
-/*
-.sub-section-padding {
-	padding-left: 5%;
-	padding-right: 5%
-}
-*/
 
 
 /*BUTTONS*/
@@ -427,7 +420,8 @@ section {
 /*RECURRING*/
 
 .taster-content {
-	padding: 1rem;
+	padding: 0 1rem;
+	;
 }
 
 .section-header {
@@ -507,6 +501,13 @@ section {
 
 }
 
+.empty-notes-dash,
+.enter-note-no-text,
+.note-entering,
+.new-note-added-dash {
+	outline: 1px solid rgba(0, 0, 0, 0.22);
+}
+
 .case-explanation {
 	padding: 2rem 0rem;
 
@@ -551,7 +552,6 @@ section {
 .market-products {
 	display: flex;
 	flex-direction: column;
-	padding: 3rem 0;
 }
 
 .product-one,
@@ -563,9 +563,9 @@ section {
 }
 
 .products {
-	font-size: 2rem;
+	color: #b30000;
 	font-weight: 700;
-	padding-top: 3rem;
+	padding: 2rem 0;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -579,8 +579,6 @@ section {
 
 .product-text {
 	font-size: 1.8rem;
-	padding-bottom: 3rem;
-	padding-left: 1rem;
 
 }
 
@@ -601,7 +599,7 @@ section {
 /*FOUR*/
 
 .survey-intro {
-	padding: 1rem;
+	padding: 1rem 0;
 }
 
 
@@ -623,15 +621,21 @@ section {
 	line-height: 1.4;
 }
 
-.charts {
-	margin: auto;
+
+#wineChart {
 	max-width: 70%;
-	padding: 5rem;
+	margin: auto;
 }
+
+.winePlusChart {
+	max-width: 70%;
+	margin: auto;
+}
+
 
 .chart-explanation {
 	font-size: 1.8rem;
-	padding: 0 1rem;
+	padding: 1rem 0;
 }
 
 .survey-conclusions {
@@ -644,22 +648,21 @@ section {
 .persona-two,
 .persona-three {
 	box-shadow: 0 0 5px #e2d4d4;
-	padding-bottom: 3rem;
-	padding-left: 1rem;
+
 }
 
 .persona-wrap {
+	/*
 
 	display: flex;
 	flex-direction: column;
+*/
 	padding: 3rem 0;
-	/*
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 3rem;
-	padding: 3rem 0;
 	text-align: left;
-*/
+
 
 }
 
@@ -670,13 +673,13 @@ section {
 
 .persona-name {
 	color: #B30000;
-	padding: 1rem;
+	padding: 2rem 0;
 	text-align: center;
 }
 
 .persona-text {
-	padding: 1rem 0;
-	line-height: 1.5;
+	padding: 1rem;
+	line-height: 1.6;
 }
 
 
@@ -684,7 +687,6 @@ section {
 
 .sitemap {
 	max-width: 90%;
-	padding: 1.5rem
 }
 
 .sitemap-text {
@@ -702,7 +704,7 @@ section {
 .sign-in-flow {
 	display: grid;
 	grid-template-columns: auto;
-	padding: 1rem;
+	padding: 1rem 0;
 }
 
 .flow-charts {
@@ -724,11 +726,17 @@ section {
 	text-transform: uppercase;
 }
 
+.lofi-dash-wireframes {
+	margin: auto;
+}
 
+.lofi-security-wireframes {
+	margin: auto;
+}
 
 .picture-italics {
 	font-style: italic;
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 
 
@@ -743,6 +751,7 @@ section {
 	font-family: 'Oswald', sans-serif;
 	font-size: 2.2rem;
 	font-weight: bold;
+	padding: 2rem 0;
 	text-align: center;
 }
 
@@ -798,7 +807,7 @@ section {
 /*ELEVEN*/
 
 .hifi-conversation {
-	padding: 1rem;
+	padding: 1rem 0;
 }
 
 .hifi-wireframes {
@@ -885,7 +894,7 @@ section {
 
 
 .bio-content {
-	padding: 1rem;
+	padding: 1rem 0;
 }
 
 
@@ -1122,7 +1131,7 @@ section {
 
 	.wireframe-wrap {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		justify-content: space-between;
 
 	}
@@ -1163,29 +1172,46 @@ section {
 	/*three*/
 
 	.market-products {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		/*
 		flex-direction: row;
 		flex-wrap: wrap;
+*/
 
 	}
 
 	.product-one,
 	.product-two,
 	.product-three {
+		/*
+		align-items: center;
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		direction: ltr;
+*/
+
+
+		/*		grid-template-rows: 1fr 1fr;*/
+
+		/*
 		flex: 1;
 		text-align: left;
-		padding: 3rem;
+*/
 
 	}
 
 
 	.product-three {
+		/*
 		max-width: 33rem;
 		margin: 0 auto;
 		text-align: center;
+*/
 	}
 
 	.market-logo {
-		max-width: 65%;
+		max-width: 50%;
 		padding: 0;
 	}
 
@@ -1218,23 +1244,41 @@ section {
 	}
 
 
-	.charts {
+
+
+	.chartjs-one {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		padding: 5rem 0;
+	}
+
+	.chartjs-two {
+		align-items: center;
+		display: flex;
+		flex-direction: row-reverse;
+		padding: 5rem 0;
+	}
+
+	#wineChart {
+		max-width: 50%;
+	}
+
+	#winePlusChart {
 		max-width: 50%;
 
 	}
 
-	.chartje-one,
-	.chartjs-two,
 	.chartjs-three {
-		display: grid;
-		grid-template-rows: auto;
-		grid-gap: 5rem;
+		padding: 5rem 0;
 	}
 
+	/*
 	.chart-explanation {
 		font-size: 2.4rem;
 		padding: 3rem;
 	}
+*/
 
 	.chart-list {
 		font-size: 2.4rem;
@@ -1244,35 +1288,48 @@ section {
 	/*	five*/
 
 	.persona-wrap {
+
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 2rem;
+		/*
 		flex-direction: row;
 		flex-wrap: wrap;
+*/
 
+	}
+
+	.persona-name {
+		font-size: 2.2rem;
 	}
 
 	.persona-text {
-		font-size: 2.1rem;
-		line-height: 1.5;
+		line-height: 1.6;
 		text-align: left;
 	}
 
+	/*
 	.survey .persona-one,
 	.persona-two,
 	.persona-three {
 		flex: 1;
 		text-align: left;
-		padding: 3rem;
 	}
+*/
 
 
 
+	/*
 	.persona-one {
 		margin: auto;
 	}
+*/
 
+	/*
 	.persona-one,
 	.persona-text {
 		max-width: 50rem;
 	}
+*/
 
 	.
 	/*	six*/
@@ -1312,7 +1369,8 @@ section {
 	}
 
 	.picture-italics {
-		margin: auto;
+		/*		margin: auto;*/
+
 	}
 
 	.wireframe-labels {
@@ -1644,7 +1702,7 @@ section {
 
 	.products {
 		font-size: 3rem;
-		padding: 3rem;
+
 	}
 
 	.market-logo {
@@ -1657,36 +1715,29 @@ section {
 
 
 
-
 	/*	section four*/
 
 	#winePlusChart,
 	#wineChart {
-		max-width: 75%;
+		max-width: 45%;
 		padding: 4rem;
 	}
 
 
-
-	.charts {
-		align-items: center;
-		display: flex;
-		flex-direction: row-reverse;
+	.chartjs-one {
+		flex-direction: row;
 	}
 
-
-	.chartjs-one {
-		display: flex;
-		flex-direction: column;
+	.chartjs-two {
+		flex-direction: row-reverse;
 	}
 
 	/*	section five*/
 
 	.persona-wrap {
-		align-items: top;
-		display: grid;
-		grid-gap: 3rem;
-		grid-template-columns: 37rem 37rem 37rem;
+
+		grid-gap: 5rem;
+		grid-template-columns:
 
 
 	}
@@ -1697,12 +1748,13 @@ section {
 
 	.persona-one {
 		margin: 0;
-		padding: 3rem;
+		/*		padding: 3rem;*/
 	}
 
 	/*	section six */
 	.sitemap {
 		max-width: 80%;
+		padding: 3rem 0;
 	}
 
 
@@ -1710,12 +1762,20 @@ section {
 	.sign-in-flow {
 		align-items: center;
 		display: flex;
+		padding: 0;
 	}
 
 	/*	section eight*/
 	.wireframe-labels {
 		font-size: 3rem;
+		margin: auto;
 	}
+
+	.lofi-security {
+		grid-gap: 2rem;
+	}
+
+
 
 	.lofi-wireframes {
 		display: grid;

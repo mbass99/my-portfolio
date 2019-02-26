@@ -247,6 +247,12 @@ h6 {
 	font-size: 1.2rem;
 }
 
+p {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	max-width: 80rem;
+}
+
 
 /*IMAGES*/
 img {
@@ -1600,6 +1606,7 @@ section {
 
 	.project-wrap {
 		max-width: 90rem;
+
 	}
 
 	.left-wrap,
@@ -1655,10 +1662,7 @@ section {
 	/*	section three*/
 
 	.market-products {
-		display: grid;
 		grid-gap: 4rem;
-		grid-template-columns: 30rem 30rem 30rem;
-		;
 	}
 
 
@@ -1672,8 +1676,12 @@ section {
 	}
 
 	.drive-logo {
-		height: 15rem;
+		height: 14rem;
 
+	}
+
+	.wunderlist-logo {
+		height: 14rem;
 	}
 
 	.content-conclusions {

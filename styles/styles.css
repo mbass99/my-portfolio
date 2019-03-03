@@ -247,7 +247,7 @@ h6 {
 	font-size: 1.2rem;
 }
 
-p {
+p{
 	font-size: 1.8rem;
 	line-height: 1.5;
 	max-width: 80rem;
@@ -1606,7 +1606,7 @@ section {
 
 	.project-wrap {
 		max-width: 90rem;
-
+		
 	}
 
 	.left-wrap,
@@ -1679,8 +1679,8 @@ section {
 		height: 14rem;
 
 	}
-
-	.wunderlist-logo {
+	
+	.wunderlist-logo{
 		height: 14rem;
 	}
 

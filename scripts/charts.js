@@ -1,5 +1,7 @@
 //CHARTS PAGE
 
+//TASTER CHARTS
+
 //CHART 1 WOULD WINE DRINKERS USE- 54% SHOWED INTEREST  
 
 var chartOne = document.getElementById('wineChart').getContext('2d');
@@ -87,3 +89,41 @@ var myChart = new Chart(chartThree, {
 
     }
 });
+
+
+
+//VILLAGE CHARTS
+
+//WHAT DIGITAL SERVICES HAVE YOU USED IN THE PAST
+
+
+var chartThree = document.getElementById('otherCommunication').getContext('2d');
+var myChart = new Chart(chartThree, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ["Shutterfly Sites", "Class Dojo", "Teno App", "Myly App", "Remind", "Parent Square", "Google Groups", "Basic E-mail", "Livegrade", "Sign Up Genius", "Schoology", "Realtime", "School Cues"],
+        datasets: [{
+            label: "User Needs",
+            backgroundColor: ['rgb(255, 99, 132)',
+                        'rgb(44, 140, 222)', 'rgb(216, 244, 65)', 'rgb(198, 190, 5)', 'rgb(119, 38, 229)', 'rgb(40, 235, 48)', 'rgb(99, 255, 177)', 'rgb(244, 178, 192)', 'rgb(239, 118, 29)', 'rgb(198, 19, 198)', 'rgb(134, 152, 167)', 'rgb(114, 114, 53)', 'rgb(46, 38, 40)', 'rgb(185, 248, 197)', 
+                    ],
+
+
+
+            borderColor: ['rgb(255, 99, 132)',
+                        'rgb(44, 140, 222)', 'rgb(216, 244, 65)', 'rgb(198, 190, 5)', 'rgb(119, 38, 229)', 'rgb(40, 235, 48)', 'rgb(99, 255, 177)', 'rgb(244, 178, 192)', 'rgb(239, 118, 29)', 'rgb(198, 19, 198)', 'rgb(134, 152, 167)', 'rgb(114, 114, 53)', 'rgb(46, 38, 40)', 'rgb(185, 248, 197)',
+                    ],
+            data: [13, 10, 0, 0, 6, 2, 1, 17, 1, 1, 1, 1, 1],
+            borderWidth: 0
+                }]
+    },
+
+    // Configuration options go here
+    options: {
+
+    }
+});
+

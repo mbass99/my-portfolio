@@ -235,6 +235,7 @@ h3 {
 
 h4 {
 	font-size: 1.8rem;
+	font-weight: 300;
 	line-height: 1.5;
 	max-width: 80rem;
 }
@@ -1221,6 +1222,7 @@ section {
 
 	.product-text {
 		font-size: 2rem;
+		font-weight: 300;
 		padding: 2rem;
 		text-align: left;
 

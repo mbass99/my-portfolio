@@ -683,7 +683,7 @@ section {
 }
 
 .persona-name {
-	color: #B30000;
+	color: #0E0B06;
 	line-height: 1.3;
 	padding: 2rem 1rem;
 	text-align: left;
@@ -691,12 +691,14 @@ section {
 }
 
 .persona-text {
+	font-style: italic;
 	padding: 1rem;
 	line-height: 1.6;
 }
 
 .persona-italics {
-	font-style: italic;
+	color: #b30000;
+	/*	font-style: italic;*/
 }
 
 

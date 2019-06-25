@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*development hack*/
+* {
+	/*	outline: solid .1rem #ddd;*/
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*end meyer reset*/
+
+
+/*GOOGLE FONTS WERE HERE*/
+
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Merriweather', serif;*/
+/*red color #b30000*/
+
+
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	color: #0E0B06;
+	font-size: 10px;
+	font-family: 'Merriweather', serif;
+}
+
+/* ALL PAGES */
+
+
+/ .container {
+	background-color: white;
+	display: grid;
+	margin: 0 auto;
+	width: 100%;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding: 1rem 2rem;
+}
+
+.nav-logo {
+	height: auto;
+	max-width: 100%;
+
+}
+
+.nav-flex {
+	align-items: center;
+	display: grid;
+	font-size: 1.2rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-transform: uppercase;
+}
+
+
+header li a {
+	color: #B30000;
+	text-decoration: none;
+}
+
+header li a:hover {
+	color: #ef0e0e;
+	text-decoration: underline;
+	text-decoration-style: double bold;
+}
+
+header li a:visited {
+	color: rgba(98, 22, 22, 0.21);
+}
+
+li .nav-contact {
+	color: #B30000;
+}
+
+
+
+
+/*MOBILE GENERAL TEXT*/
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4.4rem;
+}
+
+h2 {
+	font-size: 3.2rem;
+	font-weight: 200;
+}
+
+h3 {
+
+	font-size: 2.6rem;
+	font-weight: 700
+}
+
+h4 {
+	font-size: 1.8rem;
+	font-weight: 300;
+	line-height: 1.5;
+	max-width: 80rem;
+}
+
+h5 {
+	font-size: 1.6rem
+}
+
+h6 {
+	font-size: 1.2rem;
+}
+
+p {
+	font-size: 1.8rem;
+	line-height: 1.5;
+	max-width: 80rem;
+}
+
+
+/*IMAGES*/
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+/*UNIVERSAL PADDING*/
+
+section {
+	padding: 5rem 0;
+
+}
+
+/*
+
+.two,
+.four,
+.six,
+.eight,
+.ten,
+.twelve {
+	background-color: #D2E7EE;
+
+
+}
+*/
+
+
+
+/*BUTTONS*/
+
+.button {
+	background-color: #B30000;
+	border-color: #B30000;
+	border-radius: 4rem;
+	color: white;
+	font-size: 1.8rem;
+	line-height: 2.6rem;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	text-transform: capitalize;
+	width: 26.6rem;
+
+}
+
+.button:hover {
+	background-color: #ef0e0e;
+	border-color: rgba(137, 91, 91, 0.38);
+	box-shadow: .5rem .5rem .5rem #777777;
+	transform: translateY(-5px);
+}
+
+
+/*FOOTER*/
+.contact-info {
+	align-items: center;
+	background-color: #B30000;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 1rem;
+	text-align: center;
+}

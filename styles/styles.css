@@ -1110,7 +1110,7 @@ section {
 
 	.landing-project-name {
 		color: #B30000;
-		font-size: 2.7rem;
+		font-size: 2.6rem;
 		font-weight: 600;
 		text-align: left;
 		padding: 0;
@@ -1626,9 +1626,11 @@ section {
 	}
 
 
+/*
 	.project-logline {
 		font-size: 2.6rem;
 	}
+*/
 
 	/*	CASE STUDY*/
 

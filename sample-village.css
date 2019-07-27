@@ -234,20 +234,21 @@ h2 {
 h3 {
 	font-family: 'IBM Plex Serif', serif;
 	font-size: 2.6rem;
-	font-weight: 700;
+
 }
 
 h4 {
 	font-family: 'IBM Plex Serif', serif;
 	font-size: 1.8rem;
-	font-weight: 300;
+	font-weight: 700;
 	line-height: 1.5;
 	max-width: 80rem;
 }
 
 h5 {
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
-	font-size: 1.6rem
+	font-size: 1.6rem;
+	font-weight: 700;
 }
 
 h6 {
@@ -345,16 +346,14 @@ section {
 }
 
 .height-section-borders {
-	padding: 2.5rem 0;
-	border-bottom: 1px #777777;
-
+	padding: 2rem 0;
 }
 
 /*village introduction*/
 
 .village-logo {
 	margin: auto;
-	padding: 3rem 0;
+	padding-top: 3rem 0 1rem 0;
 }
 
 
@@ -363,9 +362,14 @@ section {
 	color: #285835;
 }
 
+.who-did-this {
+	font-weight: 300;
+}
+
 .village-section-header {
 	color: #285835;
 	text-align: center;
+	padding: 2rem 0;
 }
 
 .wireframe-wrap {
@@ -378,6 +382,7 @@ section {
 	margin: 30px 0;
 }
 
+
 .village-introduction h3 {
 	padding: 3rem 0;
 	text-align: center;
@@ -388,12 +393,45 @@ section {
 }
 
 .village-project-overview h3 {
-	padding: 2rem 0;
+	padding-bottom: 2rem;
 }
 
 
 
+.chart-number {
+	font-size: 2.4rem;
+	font-weight: 700;
+}
 
+.deliverables-list {
+	padding: 2rem 0;
+}
+
+.deliver-one,
+.deliver-two,
+.deliver-three {
+	padding: 2rem 0;
+}
+
+.performed {
+	font-size: 1.6rem;
+	list-style: disc;
+	list-style-position: inside;
+}
+
+/*
+.market-logo {
+	max-width: 20rem;
+	margin: 0 auto;
+}
+*/
+
+.product-attributes {
+	font-size: 1.6rem;
+	list-style: disc;
+	list-style-position: inside;
+	padding: 0 2rem;
+}
 
 
 /*VILLAGE MEDIA QUERIES*/

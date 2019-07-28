@@ -275,7 +275,7 @@ img {
 /*UNIVERSAL PADDING*/
 
 section {
-	padding: 5rem 0;
+	padding: 2.5rem 0;
 
 }
 
@@ -380,6 +380,7 @@ section {
 	color: #285835;
 	padding: 2rem 0;
 	text-align: center;
+	text-transform: capitalize;
 }
 
 .wireframe-wrap {
@@ -472,7 +473,7 @@ h3 {
 }
 
 .section-thoughts {
-	padding: 2rem 0;
+	padding: 3rem 0;
 	text-decoration-line: underline;
 }
 
@@ -496,9 +497,32 @@ h3 {
 	padding: 2rem 0;
 }
 
-.village-user-story-deep-dive {
+.village-deep-dive {
 	padding: 2rem 0;
 	font-style: italic;
+}
+
+.village-process-label {
+	padding: 2rem 0;
+}
+
+
+.village-lo-fi-wireframes {
+	box-shadow: 0 0 10px #777777;
+	margin: 30px 0;
+}
+
+
+.village-branding p {
+	padding: 1.5rem;
+}
+
+.village-final-logo-and-name {
+	padding: 3rem 0;
+}
+
+.village-conclusions p {
+	padding: 1rem 0;
 }
 
 /*VILLAGE MEDIA QUERIES*/

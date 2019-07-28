@@ -498,12 +498,16 @@ h3 {
 }
 
 .village-deep-dive {
-	padding: 2rem 0;
+	padding: 3rem 0;
 	font-style: italic;
 }
 
 .village-process-label {
 	padding: 2rem 0;
+}
+
+.village-flow-images {
+	border: .5px black solid;
 }
 
 

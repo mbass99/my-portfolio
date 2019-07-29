@@ -227,7 +227,7 @@ h1 {
 h2 {
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
 	font-size: 3.2rem;
-	font-weight: 200;
+	font-weight: 300;
 	text-transform: capitalize;
 }
 
@@ -249,12 +249,11 @@ h4 {
 h5 {
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
 	font-size: 1.6rem;
-	font-weight: 700;
 }
 
 h6 {
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 
 p {
@@ -388,9 +387,10 @@ section {
 	flex-direction: column;
 }
 
-.village-hifi-wireframe-with-border {
+.village-hifi-wireframe-with-shadow-border {
 	box-shadow: 0 0 10px #777777;
 	margin: 30px 0;
+	padding 3rem 0;
 }
 
 
@@ -409,7 +409,7 @@ h3 {
 }
 
 .problem-statement {
-	text-decoration: underline;
+	font-weight: 700;
 }
 
 
@@ -481,6 +481,9 @@ h3 {
 	padding: 4rem 0 2rem;
 }
 
+.section-heading {
+	font-weight: 700;
+}
 
 .village-user-name {
 	padding: 2rem 0 1rem;
@@ -498,12 +501,12 @@ h3 {
 }
 
 .village-deep-dive {
-	padding: 3rem 0;
+	padding: 5rem 0 3rem 0;
 	font-style: italic;
 }
 
 .village-process-label {
-	padding: 2rem 0;
+	padding: 3rem 0;
 }
 
 /*
@@ -526,22 +529,88 @@ h3 {
 .village-lofi-wireframes {
 	border: 1px solid black;
 	/*	box-shadow: 0 0 10px #777777;*/
-	padding-bottom: 3rem;
-
-
+	padding: 3rem 0;
 }
 
 
 .village-branding p {
-	padding: 1.5rem;
+	padding: 1rem;
+}
+
+.village-branding-individual-section-headers {
+	font-weight: 700;
 }
 
 .village-final-logo-and-name {
 	padding: 3rem 0;
 }
 
+.branding-results {
+	color: #285835;
+	font-size: 5rem;
+}
+
+.village-seriff-font {
+	font-family: 'PT Serif', serif;
+	color: #285835;
+
+}
+
+.village-sans-seriff-font {
+	font-family: 'Montserrat', sans-serif;
+	color: #285835;
+}
+
+.village-hifi-individual-section-headers {
+	font-weight: 700;
+}
+
+
+/*
+.village-hifi-wireframe {
+	border: 1px solid black;
+	padding: 3rem 0;
+}
+*/
+
+.village-testing-sub-section-headers {
+	font-weight: 700;
+	padding: 3rem 0 1rem 0;
+}
+
+.village-hifi-testing p {
+	padding: 1rem 0;
+
+}
+
+.village-button-transformation-story {
+	text-align: center;
+}
+
+.new-vs-old-button {
+	padding: 2rem 0;
+}
+
+.village-folder-text-color-change {
+	text-align: center;
+
+}
+
+.new-vs-old-folder {
+	padding: 2rem;
+
+}
+
 .village-conclusions p {
 	padding: 1rem 0;
+}
+
+.village-conclusion-sub-section-headers {
+	font-weight: 700;
+}
+
+.village-conclusions h4 {
+	padding-top: 2rem;
 }
 
 /*VILLAGE MEDIA QUERIES*/

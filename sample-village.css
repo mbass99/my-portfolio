@@ -260,7 +260,8 @@ p {
 	font-family: 'IBM Plex Serif', serif;
 	font-size: 1.8rem;
 	line-height: 1.5;
-	max-width: 80rem;
+	margin: 0 auto;
+	max-width: 60rem;
 	text-align: left;
 }
 
@@ -468,9 +469,6 @@ h3 {
 	text-align: center;
 }
 
-.section-heading {
-	padding: 1rem 0;
-}
 
 .section-thoughts {
 	padding: 3rem 0;
@@ -483,6 +481,7 @@ h3 {
 
 .section-heading {
 	font-weight: 700;
+	padding: 1rem 0;
 }
 
 .village-user-name {
@@ -619,8 +618,93 @@ h3 {
 /*VILLAGE MOBILE(REGULAR SETUP) 375width*/
 
 /*VILLAGE TABLET 768*/
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
 
 
-/*VILLAGE DESKTOP*/
-@media screen and (min-width: 1024px) {}
+	.wireframe-wrap {
+		display: flex;
+		flex-direction: row;
+		max-width: 30%;
+	}
+
+	.deliverables-list {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.deliver-one,
+	.deliver-two,
+	.deliver-three {
+		max-width: 25rem;
+		padding: 0 2rem;
+	}
+
+	.market-logo {
+		padding: 0 6rem 0 6rem;
+		max-width: 50%;
+	}
+
+	.market-products {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.product-one,
+	.product-two,
+	.product-three {
+		border: .5px solid black;
+		padding: 2rem 1rem;
+	}
+
+	/*
+	.product-three img {
+		padding-top: 5rem;
+	}
+*/
+
+	/*
+	.product-two img {
+		padding-top: 1rem;
+	}
+*/
+
+	.village-persona-one,
+	.village-persona-two,
+	.village-persona-three {
+		border: .5px solid black;
+	}
+
+	.village-master-persona-wrap {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 5rem 0;
+	}
+
+	.village-flow-images {
+		margin: 0 20rem;
+		max-width: 50%;
+	}
+
+	.village-user-flows h3 {
+		max-width: 50rem;
+		margin: auto;
+	}
+
+	.village-user-flows h4 {
+		text-align: center;
+		padding: 5rem 0 1rem 0;
+	}
+
+
+
+	.village-final-logo-and-name {
+		margin: auto;
+		max-width: 20rem;
+	}
+
+	.conclusion-wrap {}
+
+	/*VILLAGE DESKTOP*/
+	@media screen and (min-width: 1024px) {}

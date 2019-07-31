@@ -232,7 +232,7 @@ h2 {
 }
 
 h3 {
-/*	font-family: 'IBM Plex Serif', serif;*/
+	/*	font-family: 'IBM Plex Serif', serif;*/
 	font-family: 'IBM Plex Sans Condensed', sans-serif;
 	font-size: 2.6rem;
 	text-transform: capitalize;
@@ -464,7 +464,7 @@ section {
 }
 
 .market-logo {
-/*	padding: 3rem 0 1rem 0;*/
+	/*	padding: 3rem 0 1rem 0;*/
 }
 
 
@@ -492,7 +492,7 @@ section {
 	text-decoration-line: underline;
 }
 
-.village-market-research h3{
+.village-market-research h3 {
 	padding: 3rem 0;
 }
 
@@ -522,13 +522,13 @@ section {
 }
 
 .village-persona-one,
-	.village-persona-two,
-	.village-persona-three {
-		border: .5px solid black;
-	}
+.village-persona-two,
+.village-persona-three {
+	border: .5px solid #AFADAD;
+}
 
 
-.village-user-sub-section-heading{
+.village-user-sub-section-heading {
 	font-weight: 700;
 }
 
@@ -541,16 +541,11 @@ section {
 	padding: 3rem 0;
 }
 
-.village-user-flows h4{
+.village-user-flows h4 {
 	text-align: center;
 	padding: 2rem 0;
 }
 
-/*
-.village-flow-images {
-	border: .5px black solid;
-}
-*/
 
 .village-lofi-sketch-pictures {
 	padding-bottom: 3rem;
@@ -559,21 +554,18 @@ section {
 
 .village-lofi-whiteboard-pictures {
 	padding-bottom: 3rem;
-	;
 
 }
 
 .village-lofi-wireframes {
-	border: 1px solid black;
-	/*	max-height: 37.5rem;*/
+	border: 1px solid #AFADAD;
+
 	margin: 3rem 0;
-	/*	max-width: 81.2rem;*/
+
 
 }
 
-.village-early-stage-wireframes h3{
-	
-}
+.village-early-stage-wireframes h3 {}
 
 .village-branding p {
 	padding: 1rem;
@@ -609,14 +601,14 @@ section {
 
 
 .village-hifi-wireframe-mocks {
-	border: 1px solid black;
+	border: 1px solid #AFADAD;
 	/*	max-height: 37.5rem;*/
 	margin: 3rem 0;
 	/*	max-width: 81.2rem;*/
 }
 
 
-.village-hifi-testing h3{
+.village-hifi-testing h3 {
 	padding: 2rem 0;
 	text-align: center;
 }
@@ -661,7 +653,7 @@ section {
 	padding-top: 2rem;
 }
 
-.conclusion-wrap h4{
+.conclusion-wrap h4 {
 	padding: 2rem 0 .5rem 0;
 }
 
@@ -673,6 +665,7 @@ section {
 /*VILLAGE TABLET 768*/
 @media screen and (min-width: 768px) {
 
+
 	.wireframe-wrap {
 		display: grid;
 		grid-template-columns: 1fr;
@@ -681,22 +674,22 @@ section {
 		padding: 2rem 0;
 	}
 
-	.village-market-research h3{
+	.village-market-research h3 {
 		padding: 4rem 0;
 	}
-	
-	.village-section-header{
+
+	.village-section-header {
 		padding: 4rem 0;
 	}
-	
-	.problem-statement{
+
+	.problem-statement {
 		padding: 4rem;
 	}
 
 	.deliverables-list {
-		display: flex;
-		flex-direction: row;
-		padding: 4rem 0;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+
 	}
 
 	.deliver-one,
@@ -705,81 +698,84 @@ section {
 		max-width: 25rem;
 		padding: 0 2rem;
 	}
-	
+
 
 	.market-products {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 1rem;
+		padding: 0 2rem;
+		width: 100%;
 	}
+
+
 
 	.product-one,
 	.product-two,
 	.product-three {
-		border: .5px solid black;
+		border: .5px solid #AFADAD;
 		padding: 2rem 1rem;
 	}
 
+	.product-three .market-logo {
+		padding: 3.5rem 0;
+	}
 
-	.product-one img{
-		display: block;
-	}
-	
-	.product-two img{
-		margin: 0 auto;
-	}
-	
-	
-	.section-thoughts{
+
+	.section-thoughts {
 		text-align: center;
 	}
-	
-		.village-user-research h4{
+
+	.village-user-research h4 {
 		padding: 5rem 0;
 		text-align: center;
 	}
-	
-	.village-chart-explanation{
+
+	.village-chart-explanation {
 		padding: 3rem 0;
 	}
-	
-	.village-user-personas p{
-		padding: 4rem 0;
+
+	.village-user-personas p {
+		padding-top: 4rem;
 	}
 
-	
-	
+
+
 	.village-persona-one,
 	.village-persona-two,
 	.village-persona-three {
-		padding: 0 2rem;
+		padding: 0 .5rem;
 	}
 
 	.village-master-persona-wrap {
-		display: flex;
-		flex-direction: row;	
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 1rem;
+		padding: 0 2rem;
+		width: 100%;
+
 	}
-	
-	.village-persona-one img{
-		max-width: 90%;
+
+	.village-persona-one img {
 		display: block;
 	}
-	
-	.village-persona-two img{
+
+	.village-persona-two img {
 		display: block;
-		max-width: 65%;
-		
+
+
 	}
-	.village-persona-three img{
+
+	.village-persona-three img {
 		display: block;
-		max-width: 47%;
-		
+
+
 	}
-	
-	.village-user-personas p{
+
+	.village-user-personas p {
 		max-width: 50rem;
 	}
-	
+
 
 	.village-flow-images {
 		margin: 0 10rem;
@@ -796,26 +792,23 @@ section {
 		padding: 4rem 0;
 	}
 
-	.village-user-flows p{
+	.village-user-flows p {
 		max-width: 50rem;
 		padding: 3rem 0;
 	}
-	
-	.village-early-stage-wireframes h3{
+
+	.village-early-stage-wireframes h3 {
 		padding: 4rem 0;
 		text-align: center;
 	}
 
-	.village-lofi-sketch-pictures {
-		max-width: 50%;
-	}
-
-	.village-lofi-whiteboard-pictures {
-		max-width: 50%;
-	}
-
-	.village-lofi-wireframes {
-		max-width: 80%
+	.village-lofi-text-and-image {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-gap: 1rem;
+		padding: 0 2rem;
+		width: 100%;
 	}
 
 	.village-early-stage-wireframes {
@@ -826,35 +819,39 @@ section {
 		grid-template-columns: auto;
 	}
 
-	.village-branding-individual-section-headers{
+	.village-branding-individual-section-headers {
 		padding: 4rem 0;
 		text-align: center;
 	}
-	
-	
+
+	.center-percentages p {
+		text-align: center;
+	}
+
+
 	.village-final-logo-and-name {
 		margin: auto;
 		max-width: 20rem;
 	}
 
-	
-	.village-hifi-individual-section-headers{
+
+	.village-hifi-individual-section-headers {
 		padding: 4rem 0;
 		text-align: center;
 	}
-	
-	.village-tranformation-story{
+
+	.village-tranformation-story {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
-	
+
 	}
-	
-	.village-conclusion-sub-section-headers{
+
+	.village-conclusion-sub-section-headers {
 		padding: 2rem;
 		text-align: center;
 	}
-	
+
 	.conclusion-wrap {
 		padding: 2rem 0;
 	}

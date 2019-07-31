@@ -665,10 +665,13 @@ section {
 /*VILLAGE TABLET 768*/
 @media screen and (min-width: 768px) {
 
+	.village-intro-final-logo {
+		text-align: center;
+	}
 
 	.wireframe-wrap {
 		display: grid;
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 3rem;
 		text-align: center;
 		padding: 2rem 0;
@@ -676,6 +679,9 @@ section {
 
 	.village-market-research h3 {
 		padding: 4rem 0;
+		text-align: center;
+
+
 	}
 
 	.village-section-header {
@@ -723,6 +729,7 @@ section {
 
 
 	.section-thoughts {
+		padding: 3rem 0;
 		text-align: center;
 	}
 
@@ -731,11 +738,14 @@ section {
 		text-align: center;
 	}
 
-	.village-chart-explanation {
-		padding: 3rem 0;
+	.village-survey-product-needs-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 
-	.village-user-personas p {
+
+	.village-user-personas h3 {
+		text-align: center;
 		padding-top: 4rem;
 	}
 
@@ -772,8 +782,9 @@ section {
 
 	}
 
-	.village-user-personas p {
-		max-width: 50rem;
+	.village-user-personas h3 {
+		padding: 4rem 0;
+		text-align: center;
 	}
 
 
@@ -802,21 +813,28 @@ section {
 		text-align: center;
 	}
 
-	.village-lofi-text-and-image {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-		grid-gap: 1rem;
-		padding: 0 2rem;
-		width: 100%;
-	}
+	.village-lofi-text-and-image {}
 
 	.village-early-stage-wireframes {
 		display: grid;
 	}
 
-	.village-dashboard-lofi {
-		grid-template-columns: auto;
+	.village-lofi-sketch-to-digital {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+		width: 100%;
+	}
+
+
+
+
+	.village-lofi-text-and-image {
+		text-align: center;
+	}
+
+	.village-deep-dive {
+		text-align: center;
 	}
 
 	.village-branding-individual-section-headers {

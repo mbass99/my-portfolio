@@ -402,15 +402,6 @@ section {
 
 
 
-/*
-.village-hifi-wireframe-with-shadow-border {
-	box-shadow: 0 0 10px #777777;
-	margin: 30px 0;
-	padding 3rem 0;
-}
-*/
-
-
 .village-introduction h3 {
 	padding: 3rem 0;
 	text-align: center;
@@ -678,7 +669,6 @@ section {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 3rem;
 		text-align: center;
-		padding: 2rem 0;
 	}
 
 	.village-market-research h3 {
@@ -885,11 +875,15 @@ section {
 		margin: 0 auto;
 	}
 
+	.group-hifi-wireframes .village-hifi-wireframe-mocks {
+		margin: 6rem 0;
+	}
+
 	.village-hifi-final-three-mock-grid {
 		display: grid;
 		grid-gap: 2rem;
 		grid-template-columns: 1fr 1fr 1fr;
-		padding: 2rem 0;
+		margin: 3rem 0;
 	}
 
 	.village-hifi-final-three-mock-grid .village-process-label {
@@ -916,6 +910,7 @@ section {
 	}
 
 	.conclusion-wrap {
+		margin: 0 13rem;
 		padding: 2rem 0;
 	}
 

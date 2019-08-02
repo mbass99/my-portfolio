@@ -686,6 +686,7 @@ section {
 		text-align: center;
 
 
+
 	}
 
 	.village-section-header {
@@ -699,7 +700,6 @@ section {
 	.deliverables-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-
 	}
 
 	.deliver-one,
@@ -714,7 +714,6 @@ section {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 1rem;
-		padding: 0 2rem;
 		width: 100%;
 	}
 
@@ -765,7 +764,6 @@ section {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 1rem;
-		padding: 0 2rem;
 		width: 100%;
 
 	}

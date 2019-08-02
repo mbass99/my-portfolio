@@ -538,7 +538,7 @@ section {
 }
 
 .village-process-label {
-	padding: 3rem 0;
+	padding: 2rem 0;
 }
 
 .village-user-flows h4 {
@@ -565,14 +565,17 @@ section {
 
 }
 
-.village-early-stage-wireframes h3 {}
+.village-early-stage-wireframes h3 {
+	padding: 3rem 0;
+}
 
 .village-branding p {
-	padding: 1rem;
+	padding: 1rem 0;
 }
 
 .village-branding-individual-section-headers {
 	font-weight: 700;
+	padding: 3rem 0;
 }
 
 .village-final-logo-and-name {
@@ -597,6 +600,7 @@ section {
 
 .village-hifi-individual-section-headers {
 	font-weight: 700;
+	padding: 3rem 0;
 }
 
 

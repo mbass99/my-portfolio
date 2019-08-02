@@ -867,6 +867,49 @@ section {
 
 	}
 
+	.village-hifi-final-landing-grid img {
+		max-width: 50%;
+		padding: 0 17rem;
+	}
+
+	.village-process-label {
+		padding: 3rem 0;
+		text-align: center;
+	}
+
+	.group-hifi-wireframes {
+		align-items: flex-start;
+		display: grid;
+		grid-gap: 5rem;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin: 0 auto;
+	}
+
+	.village-hifi-final-three-mock-grid {
+		display: grid;
+		grid-gap: 2rem;
+		grid-template-columns: 1fr 1fr 1fr;
+		padding: 2rem 0;
+	}
+
+	.village-hifi-final-three-mock-grid .village-process-label {
+		padding: 2rem 0 0 0;
+	}
+
+	.village-final-hifi-branding-pages img {
+		margin: 0 auto;
+		max-width: 80%;
+
+	}
+
+	.village-final-hifi-branding-pages {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 1rem;
+		padding: 3rem 0;
+	}
+
+
 	.village-conclusion-sub-section-headers {
 		padding: 2rem;
 		text-align: center;

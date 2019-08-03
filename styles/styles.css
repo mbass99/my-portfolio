@@ -164,7 +164,7 @@ html {
 /* ALL PAGES */
 
 
-/ .container {
+.container {
 	background-color: white;
 	display: grid;
 	margin: 0 auto;
@@ -322,6 +322,8 @@ section {
 
 
 /*LANDING PAGE*/
+
+
 
 .hero {
 	padding: 0;

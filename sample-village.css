@@ -501,7 +501,6 @@ section {
 
 
 .village-persona-picture {
-	padding-top: 4rem;
 	margin: auto;
 }
 
@@ -541,7 +540,8 @@ section {
 .village-persona-three {
 	border: .5px solid #AFADAD;
 	margin: 2rem 0;
-	padding: 1rem 0;
+	padding: 2rem 0;
+
 }
 
 
@@ -778,7 +778,6 @@ section {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 1rem;
 		width: 100%;
-
 	}
 
 	.village-persona-one img {

@@ -322,7 +322,7 @@ section {
 	transform: translateY(-5px);
 }
 
-.button-box {
+.village-button-box {
 	text-align: center;
 }
 
@@ -339,10 +339,16 @@ section {
 
 /*VILLAGE CASE STUDY*/
 
+.nav-resume,
+.nav-bio,
+.nav-contact {
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
 /*recurring*/
 
 /*CB IS CONTENT PADDING BETWEEN HEADER & FOOTER*/
-.content-borders {
+.village-content-borders {
 	padding: 0 4rem;
 
 
@@ -628,7 +634,6 @@ section {
 
 .village-folder-text-color-change {
 	text-align: center;
-
 }
 
 .new-vs-old-folder {
@@ -664,7 +669,7 @@ section {
 		text-align: center;
 	}
 
-	.wireframe-wrap {
+	.village-wireframe-wrap {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 3rem;
@@ -909,10 +914,104 @@ section {
 		text-align: center;
 	}
 
-	.conclusion-wrap {
+	.village-conclusion-wrap {
 		margin: 0 13rem;
 		padding: 2rem 0;
 	}
 
 	/*VILLAGE DESKTOP*/
-	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1024px) {
+
+
+		.village-section-header {
+			padding: 5rem 0;
+		}
+
+		.village-content-borders {
+			margin: 0 10rem;
+		}
+
+		.village-button-box {
+			padding: 3rem 0;
+		}
+
+		.village-projet-overview p {
+			padding: 5rem 0;
+		}
+
+		.deliverables-list {
+			grid-template-columns: 30rem 40rem 30rem;
+			margin: 0 16rem;
+			padding: 4rem 0;
+		}
+
+		.village-market-research h3 {
+			padding: 5rem 0;
+			margin: auto;
+			max-width: 70rem;
+		}
+
+		.product-one .product-two .product-three h3 {
+			padding: 0;
+
+		}
+
+		.market-logo {
+			margin: 0 6rem;
+			max-width: 60%;
+		}
+
+		.village-process-label {
+			padding: 5rem 0;
+		}
+
+		.user-flow-grid-one img {
+			margin: 0 28rem;
+		}
+
+		.user-flow-grid-two img {
+			margin: 0 24rem;
+		}
+
+		.user-flow-grid-three img {
+			margin: 0 32rem;
+		}
+
+		.village-dashboard-lofi img {
+			max-width: 75%;
+		}
+
+		.village-hifi-final-landing-grid img {
+			margin: 0 16rem;
+			max-width: 55%;
+		}
+
+		.village-hifi-wireframe-creation p {
+			padding: 4rem 0;
+		}
+
+		.village-final-hifi-branding-pages img {
+			max-width: 50%;
+		}
+
+		.village-branding .village-deep-dive {
+			padding: 3rem 0;
+		}
+
+		.village-testing-sub-section-headers {
+			text-align: center;
+		}
+
+		.color-change-explanation {
+			text-align: center;
+		}
+
+		.village-conclusion-wrap {
+			margin: 0 17rem;
+		}
+
+		.village-conclusion-sub-section-headers {
+			padding: 5rem 0;
+		}
+
+	}

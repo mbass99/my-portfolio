@@ -418,12 +418,9 @@ section {
 	text-align: center;
 }
 
-.village-project-overview h3 {
-	padding-bottom: 3rem;
-}
-
 .problem-statement {
 	font-weight: 700;
+	padding: 3rem 0;
 	text-align: center;
 }
 
@@ -445,6 +442,10 @@ section {
 
 .deliverables-list {
 	padding: 2rem 0;
+}
+
+.deliverables-list h4 {
+	padding: 1rem 0;
 }
 
 .deliver-one,
@@ -469,7 +470,7 @@ section {
 	padding: 1.5rem 0;
 }
 
-.product-attributes {
+.village-product-attributes {
 	font-size: 1.6rem;
 	line-height: 1.2;
 	list-style: disc;
@@ -493,6 +494,12 @@ section {
 	padding: 3rem 0;
 }
 
+.section-thoughts {
+	padding: 3rem 0;
+	text-align: center;
+}
+
+
 .village-persona-picture {
 	padding-top: 4rem;
 	margin: auto;
@@ -500,7 +507,7 @@ section {
 
 .section-heading {
 	font-weight: 700;
-	padding: 1rem 0;
+	padding: 2rem 0;
 }
 
 .village-user-name {
@@ -513,15 +520,28 @@ section {
 	font-style: italic;
 }
 
+.village-user-research h4 {
+	padding: 2rem 0;
+	text-align: center;
+}
 
 .village-user-personas h5 {
 	padding: 2rem 0;
 }
 
+
+.persona-intro {
+	padding: 4rem 0;
+	text-align: center;
+}
+
+
 .village-persona-one,
 .village-persona-two,
 .village-persona-three {
 	border: .5px solid #AFADAD;
+	margin: 2rem 0;
+	padding: 1rem 0;
 }
 
 
@@ -534,9 +554,16 @@ section {
 	font-style: italic;
 }
 
+
 .village-process-label {
 	padding: 2rem 0;
 }
+
+.village-user-flows h3 {
+	text-align: center;
+	padding: 2rem 0;
+}
+
 
 .village-user-flows h4 {
 	text-align: center;
@@ -573,6 +600,7 @@ section {
 .village-branding-individual-section-headers {
 	font-weight: 700;
 	padding: 3rem 0;
+	text-align: center;
 }
 
 .village-final-logo-and-name {
@@ -604,7 +632,7 @@ section {
 .village-hifi-wireframe-mocks {
 	border: 1px solid #AFADAD;
 	/*	max-height: 37.5rem;*/
-	margin: 3rem 0;
+	margin: 2rem 0;
 	/*	max-width: 81.2rem;*/
 }
 
@@ -650,7 +678,7 @@ section {
 }
 
 .village-conclusions h4 {
-	padding-top: 2rem;
+	padding: 2rem 0;
 }
 
 .conclusion-wrap h4 {
@@ -726,11 +754,6 @@ section {
 	}
 
 
-	.section-thoughts {
-		padding: 3rem 0;
-		text-align: center;
-	}
-
 	.village-user-research h4 {
 		padding: 5rem 0;
 		text-align: center;
@@ -741,11 +764,6 @@ section {
 		grid-template-columns: 1fr 1fr;
 	}
 
-
-	.village-user-personas h3 {
-		text-align: center;
-		padding-top: 4rem;
-	}
 
 
 
@@ -779,10 +797,6 @@ section {
 
 	}
 
-	.village-user-personas h3 {
-		padding: 4rem 0;
-		text-align: center;
-	}
 
 
 	.village-flow-images {
@@ -791,8 +805,8 @@ section {
 	}
 
 	.village-user-flows h3 {
-		max-width: 50rem;
-		margin: auto;
+		padding: 3rem 0;
+		text-align: center;
 	}
 
 	.village-user-flows h4 {

@@ -349,7 +349,7 @@ section {
 	background-image: url(../Images/landing-hero-image.jpg);
 	background-size: cover;
 	height: 100vh;
-	opacity: ;
+	opacity: .4;
 	width: 100%;
 	z-index: -2;
 }

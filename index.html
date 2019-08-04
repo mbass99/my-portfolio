@@ -3,61 +3,87 @@
 	<html>
 
 	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134212941-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134212941-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
-			gtag('config', 'UA-134212941-1');
+		gtag('config', 'UA-134212941-1');
+	</script>
 
-		</script>
+	<title>Portfolio | Matt Bass (UI/UX Designer)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--RESET CSS NOW IN STYLESHEET-->
+	<!--FONT AWESOME ICONS-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-		<title>Portfolio | Matt Bass (UI/UX Designer)</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!--RESET CSS NOW IN STYLESHEET-->
-		<!--FONT AWESOME ICONS-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<!--	GOOGLE FONTS IBM PLEX SERIFF & SANS CONDENSED-->
+	<link href=“https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:300i,400,700|IBM+Plex+Serif:300i,400,700&display=swap” rel=“stylesheet”>
+	<!--MAIN STYLESHEET LINK -->
+	<link rel="stylesheet" href="styles/styles.css">
 
-		<!-- GOOGLE FONTS OSWALD & MERRIWEATHER-->
-		<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700,700i|Oswald:200,400,600" rel="stylesheet">
-		<!--MAIN STYLESHEET LINK -->
-		<link rel="stylesheet" href="styles/styles.css">
+</head>
 
-	</head>
+<body>
+	<div class="container">
+		<main>
 
-	<body>
-		<div class="container">
-			<main>
-				<section class="hero">
-					<header id="top-index">
-						<a href="index.html"> <img src="Images/red-final-logo-2019.svg" class="nav-logo" alt="logo"></a>
-						<ul class="nav-flex">
-							<li class="nav-bio"><a href="biography.html">About</a>
-							</li>
-							<li class="nav-resume"><a href="Images/matt-bass-cv.pdf" target="_blank">Resume</a></li>
-							<li class="nav-contact"><a href="mailto:matt@mattbass.design" target="_blank">Contact</a></li>
-						</ul>
-					</header>
-					<div class="hero-wrap">
-						<div class="hero-wrap-left">
-							<!--Avatar -->
-							<img src="Images/bunk-and-i.jpg" class="bunk" alt="Avatar">
-						</div>
-						<div class="hero-wrap-right">
-							<h1 class="introduction"> Hi! I’m <br><span class="colored-name">Matt Bass</span> <br> Native Angeleno <br> &amp; UI/UX Designer</h1>
-						</div>
+			<section class="hero">
+				<header id="top-index">
+					<a href="index.html"> <img src="Images/new-red-june2019-mb-logo.svg" class="nav-logo" alt="logo"></a>
+					<ul class="nav-flex">
+						<li class="nav-bio"><a href="biography.html">About</a>
+						</li>
+						<li class="nav-resume"><a href="Images/matt-bass-cv.pdf" target="_blank">Resume</a></li>
+						<li class="nav-contact"><a href="mailto:matt@mattbass.design" target="_blank">Contact</a></li>
+					</ul>
+				</header>
+				<div class="hero-wrap">
+					<h1 class="introduction"> Hi! I’m <br><span class="colored-name">Matt Bass</span> <br> Native Angeleno <br> &amp; UI/UX Designer</h1>
+					<!--					Avatar moved from hero wrap to bio page-->
+					<!--
+					<div class="hero-wrap-left">
+						
+						<img src="Images/bunk-and-i.jpg" class="bunk" alt="Avatar">
 					</div>
+-->
+					<!-- MOVED INTRODUCTION
+					<div class="hero-wrap-right">
+						
+						
+					</div>
+-->
+				</div>
+			</section>
+			<div class="landing-background">
+				<section class="ux-one">
+					<div class="new-project-wrap">
+
+						<img src="Images/village-hifi-landing-page.jpg" class="taster-main-landing" alt="taster landing page">
+
+
+						<h3 class="landing-project-name">Village</h3>
+						<p>A communication app for school teachers and parents, helping foster stronger community bonds through parent involvement, leading to a better educational experience for children. </p>
+						<div class="button-box">
+							<a href="https://classic-bloc-jams.netlify.com/" target="_blank"><button class="button" alt="bloc jams">Visit Site</button> </a>
+						</div>
+
+
+
+					</div>
+
+
 				</section>
 				<div class="project-list">
 					<!--Taster Project Page-->
-					<section class="one">
-						<h2 class="recent-work">Recent Work</h2>
+					<section class="ux-two">
+						<h2 class="recent-work">Select UX Projects</h2>
 						<div class="project-wrap">
 							<div class="left-wrap">
 								<img src="Images/taster-landing-page-gui.png" class="taster-prototype" alt="taster prototype">
@@ -106,29 +132,28 @@
 
 
 				</div>
-			</main>
-			<!-- FOOTER -->
-			<footer>
-				<ul class="contact-info">
-					<li>
-						<a href="mailto:matt@mattbass.design" class="email" target="_blank"> <span style="color: white;"><i class="fas fa-envelope fa-2x"></i></span></a> </li>
 
-					<li><a href="https://www.linkedin.com/in/mattabass/" class="linkedin" target="_blank">
-							<span style="color: white;">
-								<i class="fab fa-linkedin fa-2x"></i></span></a>
-					</li>
-					<li>
-						<a href="#top-index"> <img src="Images/white-final-logo-2019.svg" class="footer-logo" target="_blank" alt="logo"></a>
-					</li>
+		</main>
+		<!-- FOOTER -->
+		<footer>
+			<ul class="contact-info">
+				<li>
+					<a href="mailto:matt@mattbass.design" class="email" target="_blank"> <span style="color: white;"><i class="fas fa-envelope fa-2x"></i></span></a> </li>
 
-					<li> <a href="https://twitter.com/TheMattBass" class="twitter fa-2x" target="_blank"><span style="color: white;"><i class="fab fa-twitter-square"></i></span></a></li>
-					<li><a href="https://github.com/mbass99" class="github fa-2x"><span style="color: white;"><i class="fab fa-github-square"></i></span></a>
-					</li>
-				</ul>
-			</footer>
-		</div>
-	</body>
+				<li><a href="https://www.linkedin.com/in/mattabass/" class="linkedin" target="_blank">
+						<span style="color: white;">
+							<i class="fab fa-linkedin fa-2x"></i></span></a>
+				</li>
+				<li>
+					<a href="#top-index"> <img src="Images/white-final-logo-2019.svg" class="footer-logo" target="_blank" alt="logo"></a>
+				</li>
 
-	<!-- SCRIPTS -->
+				<li> <a href="https://twitter.com/TheMattBass" class="twitter fa-2x" target="_blank"><span style="color: white;"><i class="fab fa-twitter-square"></i></span></a></li>
+				<li><a href="https://github.com/mbass99" class="github fa-2x"><span style="color: white;"><i class="fab fa-github-square"></i></span></a>
+				</li>
+			</ul>
+		</footer>
+	</div>
+</body>
 
-	</html>
+<!-- SCRIPTS --></html>

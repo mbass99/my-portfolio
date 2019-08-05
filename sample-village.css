@@ -322,9 +322,6 @@ section {
 	transform: translateY(-5px);
 }
 
-.village-button-box {
-	text-align: center;
-}
 
 
 /*FOOTER*/
@@ -357,7 +354,7 @@ section {
 
 /*village introduction*/
 
-.quote {
+.village-quote {
 	font-style: italic;
 	font-weight: 700;
 	color: #285835;
@@ -371,11 +368,11 @@ section {
 
 
 
-.case-study-title {
+.village-case-study-title {
 	color: #285835;
 }
 
-.who-did-this {
+.village-who-did-this {
 	font-weight: 300;
 }
 
@@ -418,19 +415,19 @@ section {
 	text-align: center;
 }
 
-.problem-statement {
+.village-problem-statement {
 	font-weight: 700;
 	padding: 3rem 0;
 	text-align: center;
 }
 
 
-.center-percentages {
+.village-center-percentages {
 	text-align: center;
 	padding: 3rem 0 1rem 0;
 }
 
-.chart-number {
+.village-chart-number {
 	color: #285835;
 	font-size: 6rem;
 	font-weight: 700;
@@ -440,28 +437,28 @@ section {
 	text-align: center;
 }
 
-.deliverables-list {
+.village-deliverables-list {
 	padding: 2rem 0;
 }
 
-.deliverables-list h4 {
+.village-deliverables-list h4 {
 	padding: 1rem 0;
 }
 
-.deliver-one,
-.deliver-two,
-.deliver-three {
+.village-deliver-one,
+.village-deliver-two,
+.village-deliver-three {
 	padding: 2rem 0;
 }
 
-.performed {
+.village-performed {
 	font-size: 1.6rem;
 	list-style: disc;
 	list-style-position: outside;
 	padding: .5rem 0;
 }
 
-.market-logo {
+.village-market-logo {
 	/*	padding: 3rem 0 1rem 0;*/
 }
 
@@ -485,7 +482,7 @@ section {
 }
 
 
-.section-thoughts {
+.village-section-thoughts {
 	padding: 3rem 0;
 	text-decoration-line: underline;
 }
@@ -494,7 +491,7 @@ section {
 	padding: 3rem 0;
 }
 
-.section-thoughts {
+.village-section-thoughts {
 	padding: 3rem 0;
 	text-align: center;
 }
@@ -504,7 +501,7 @@ section {
 	margin: auto;
 }
 
-.section-heading {
+.village-section-heading {
 	font-weight: 700;
 	padding: 2rem 0;
 }
@@ -529,7 +526,7 @@ section {
 }
 
 
-.persona-intro {
+.village-persona-intro {
 	padding: 4rem 0;
 	text-align: center;
 }
@@ -607,7 +604,7 @@ section {
 	padding: 3rem 0;
 }
 
-.branding-results {
+.village-branding-results {
 	color: #285835;
 	font-size: 5rem;
 }
@@ -656,7 +653,7 @@ section {
 	text-align: center;
 }
 
-.new-vs-old-button {
+.village-new-vs-old-button {
 	padding: 2rem 0;
 }
 
@@ -664,7 +661,7 @@ section {
 	text-align: center;
 }
 
-.new-vs-old-folder {
+.village-new-vs-old-folder {
 	padding: 2rem;
 
 }
@@ -681,7 +678,7 @@ section {
 	padding: 2rem 0;
 }
 
-.conclusion-wrap h4 {
+.village-conclusion-wrap h4 {
 	padding: 2rem 0 .5rem 0;
 }
 
@@ -716,24 +713,24 @@ section {
 		padding: 4rem 0;
 	}
 
-	.problem-statement {
+	.village-problem-statement {
 		padding: 4rem;
 	}
 
-	.deliverables-list {
+	.village-deliverables-list {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 
-	.deliver-one,
-	.deliver-two,
-	.deliver-three {
+	.village-deliver-one,
+	.village-deliver-two,
+	.village-deliver-three {
 		max-width: 25rem;
 		padding: 0 2rem;
 	}
 
 
-	.market-products {
+	.village-market-products {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 1rem;
@@ -742,14 +739,14 @@ section {
 
 
 
-	.product-one,
-	.product-two,
-	.product-three {
+	.village-product-one,
+	.village-product-two,
+	.village-product-three {
 		border: .5px solid #AFADAD;
 		padding: 2rem 1rem;
 	}
 
-	.product-three .market-logo {
+	.village-product-three .village-market-logo {
 		padding: 3.5rem 0;
 	}
 
@@ -852,7 +849,7 @@ section {
 		text-align: center;
 	}
 
-	.center-percentages p {
+	.village-center-percentages p {
 		text-align: center;
 	}
 
@@ -885,7 +882,7 @@ section {
 		text-align: center;
 	}
 
-	.group-hifi-wireframes {
+	.village-group-hifi-wireframes {
 		align-items: flex-start;
 		display: grid;
 		grid-gap: 5rem;
@@ -893,8 +890,8 @@ section {
 		margin: 0 auto;
 	}
 
-	.group-hifi-wireframes .village-hifi-wireframe-mocks {
-		margin: 6rem 0;
+	.village-group-hifi-wireframes .village-hifi-wireframe-mocks {
+		/*		margin: 6rem 0;*/
 	}
 
 	.village-hifi-final-three-mock-grid {
@@ -931,100 +928,108 @@ section {
 		margin: 0 13rem;
 		padding: 2rem 0;
 	}
+}
 
-	/*VILLAGE DESKTOP*/
-	@media screen and (min-width: 1024px) {
+/*VILLAGE DESKTOP*/
+@media screen and (min-width: 1024px) {
 
 
-		.village-section-header {
-			padding: 5rem 0;
-		}
+	.village-section-header {
+		padding: 5rem 0;
+	}
 
-		.village-content-borders {
-			margin: 0 10rem;
-		}
+	.village-content-borders {
+		margin: 0 10rem;
+	}
 
-		.village-button-box {
-			padding: 3rem 0;
-		}
+	.village-button-box {
+		padding: 3rem 0;
+		text-align: center;
+	}
 
-		.village-projet-overview p {
-			padding: 5rem 0;
-		}
+	.village-projet-overview p {
+		padding: 5rem 0;
+	}
 
-		.deliverables-list {
-			grid-template-columns: 30rem 40rem 30rem;
-			margin: 0 16rem;
-			padding: 4rem 0;
-		}
+	.village-deliverables-list {
+		grid-template-columns: 30rem 40rem 30rem;
+		margin: 0 16rem;
+		padding: 4rem 0;
+	}
 
-		.village-market-research h3 {
-			padding: 5rem 0;
-			margin: auto;
-			max-width: 70rem;
-		}
+	.village-market-research h3 {
+		padding: 5rem 0;
+		margin: auto;
+		max-width: 70rem;
+	}
 
-		.product-one .product-two .product-three h3 {
-			padding: 0;
-
-		}
-
-		.market-logo {
-			margin: 0 6rem;
-			max-width: 60%;
-		}
-
-		.village-process-label {
-			padding: 5rem 0;
-		}
-
-		.user-flow-grid-one img {
-			margin: 0 28rem;
-		}
-
-		.user-flow-grid-two img {
-			margin: 0 24rem;
-		}
-
-		.user-flow-grid-three img {
-			margin: 0 32rem;
-		}
-
-		.village-dashboard-lofi img {
-			max-width: 75%;
-		}
-
-		.village-hifi-final-landing-grid img {
-			margin: 0 16rem;
-			max-width: 55%;
-		}
-
-		.village-hifi-wireframe-creation p {
-			padding: 4rem 0;
-		}
-
-		.village-final-hifi-branding-pages img {
-			max-width: 50%;
-		}
-
-		.village-branding .village-deep-dive {
-			padding: 3rem 0;
-		}
-
-		.village-testing-sub-section-headers {
-			text-align: center;
-		}
-
-		.color-change-explanation {
-			text-align: center;
-		}
-
-		.village-conclusion-wrap {
-			margin: 0 17rem;
-		}
-
-		.village-conclusion-sub-section-headers {
-			padding: 5rem 0;
-		}
+	.village-product-one .village-product-two .village-product-three h3 {
+		padding: 0;
 
 	}
+
+	.village-market-logo {
+		margin: 0 6rem;
+		max-width: 60%;
+	}
+
+	.village-process-label {
+		padding: 5rem 0;
+	}
+
+	.village-user-flow-grid-one img {
+		margin: 0 28rem;
+	}
+
+	.village-user-flow-grid-two img {
+		margin: 0 24rem;
+	}
+
+	.village-user-flow-grid-three img {
+		margin: 0 32rem;
+	}
+
+	.village-dashboard-lofi img {
+		max-width: 75%;
+	}
+
+	.village-hifi-final-landing-grid img {
+		margin: 0 10rem;
+		max-width: 55%;
+	}
+
+
+
+	.village-hifi-wireframe-creation p {
+		padding: 4rem 0;
+	}
+
+	.village-final-hifi-branding-pages img {
+		max-width: 50%;
+	}
+
+	.village-new-vs-old-button {
+		padding: 3rem 0;
+	}
+
+	.village-branding .village-deep-dive {
+		padding: 3rem 0;
+	}
+
+	.village-testing-sub-section-headers {
+		text-align: center;
+	}
+
+	.village-color-change-explanation {
+		text-align: center;
+	}
+
+	.village-conclusion-wrap {
+		margin: 0 17rem;
+	}
+
+	.village-conclusion-sub-section-headers {
+		padding: 5rem 0;
+	}
+
+}

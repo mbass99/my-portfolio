@@ -1091,7 +1091,7 @@ section {
 }
 
 .village-content-borders {
-	padding: 0 4rem;
+	padding: 4rem 4rem;
 
 
 }
@@ -2206,7 +2206,7 @@ section {
 
 
 	header {
-		max-width: 100rem;
+		max-width: 110rem;
 	}
 
 	.nav-flex {
@@ -2480,8 +2480,8 @@ section {
 
 	.village-deliverables-list {
 		grid-template-columns: 30rem 40rem 30rem;
-		margin: 0 16rem;
-		padding: 4rem 0;
+		margin: 0 9rem;
+/*		padding: 4rem 0;*/
 	}
 
 	.village-market-research h3 {

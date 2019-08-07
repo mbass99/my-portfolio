@@ -226,15 +226,15 @@ li .nav-contact {
 .to-top a:hover {
 	color: #ff0000;
 	text-decoration: underline;
-	
+
 }
 
 .to-top a:visited {
 	color: #de9898;
-	
+
 }
 
-.to-top a:link{
+.to-top a:link {
 	color: #de9898;
 	text-decoration: none;
 }
@@ -501,10 +501,31 @@ section {
 
 }
 
-.section-header {
-	color: #B30000;
-	text-transform: uppercase;
+.taster-section-header {
+	color: #843F60;
 	padding: 2rem 0;
+	text-align: center;
+	text-transform: uppercase;
+	/*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/*header line below 2 of 3*/
+.taster-section-header:before,
+.taster-section-header:after {
+	content: '';
+	border-top: 2px solid #E2C1CF;
+	margin: 0 10px 0 0;
+	flex: 1 0 10px;
+}
+
+/*header line below 3 of 3*/
+.taster-section-header:after {
+	margin: 0 0 0 10px;
 }
 
 .section-questions {
@@ -2490,7 +2511,7 @@ section {
 	.village-deliverables-list {
 		grid-template-columns: 30rem 40rem 30rem;
 		margin: 0 9rem;
-/*		padding: 4rem 0;*/
+		/*		padding: 4rem 0;*/
 	}
 
 	.village-market-research h3 {

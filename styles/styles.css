@@ -220,18 +220,23 @@ li .nav-contact {
 	text-align: center;
 	color: #f2f2f2;
 	padding: 3rem;
+
 }
 
 .to-top a:hover {
 	color: #ff0000;
+	text-decoration: underline;
+	
 }
 
 .to-top a:visited {
 	color: #de9898;
+	
 }
 
 .to-top a:link{
 	color: #de9898;
+	text-decoration: none;
 }
 
 

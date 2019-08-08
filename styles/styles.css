@@ -378,7 +378,7 @@ section {
 	padding-top: 0;
 	background-image: url(../Images/landing-hollywood-sign-night.jpg);
 	background-size: cover;
-	height: 100vh;
+	height: 90vh;
 	opacity: .95;
 	width: 100%;
 	z-index: -2;
@@ -388,7 +388,7 @@ section {
 	align-items: center;
 	display: flex;
 	/*	flex-direction: column;*/
-	height: 77vh;
+	height: 73vh;
 	/*	justify-content: space-around;*/
 	padding: 0 2rem;
 
@@ -407,8 +407,6 @@ section {
 	border-radius: 50%;
 	max-width: 10rem;
 	padding: 3rem 0;
-
-
 }
 
 

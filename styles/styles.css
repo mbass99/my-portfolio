@@ -423,6 +423,7 @@ section {
 .colored-name {
 	color: #F00000;
 	font-size: 4.4rem;
+	letter-spacing: .5rem;
 	text-transform: uppercase;
 
 }
@@ -431,8 +432,9 @@ section {
 .recent-work {
 	text-align: center;
 	color: #ff0000;
-	text-transform: uppercase;
+	letter-spacing: 1rem;
 	padding: 8rem 0 5rem 0;
+	text-transform: uppercase;
 }
 
 .project-wrap {
@@ -1522,11 +1524,6 @@ section {
 	}
 
 
-	.recent-work {
-		font-size: 3rem;
-
-	}
-
 	.project-wrap {
 		align-items: center;
 		display: grid;
@@ -2269,9 +2266,9 @@ section {
 		font-size: 7rem;
 	}
 
-	.recent-work {
+	/* .recent-work {
 		font-size: 6rem;
-	}
+	} */
 
 	.landing-project-name {
 		font-size: 3.2rem;

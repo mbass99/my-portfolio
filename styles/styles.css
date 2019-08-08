@@ -183,6 +183,8 @@ header {
     padding: 2rem 2rem;
 }
 
+
+
 .nav-logo {
     height: auto;
     max-width: 100%;
@@ -241,12 +243,18 @@ li .nav-contact {
     text-decoration: none;
 }
 
+.hand-code {
+    text-align: center;
+    color: #AFADAD;
+    padding: 2rem;
+}
 
 /*MOBILE GENERAL TEXT*/
 
 h1 {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 4.4rem;
+    font-weight: 300;
 }
 
 h2 {
@@ -462,7 +470,7 @@ section {
 .landing-project-name {
     color: #ff0000;
     font-size: 2.6rem;
-    font-weight: 600;
+    font-weight: 400;
     padding: 2.5rem;
     text-align: center;
     text-transform: uppercase;
@@ -1197,9 +1205,10 @@ section {
 }
 
 .village-problem-statement {
-    font-weight: 700;
+    font-weight: 300;
     padding: 3rem 0;
     text-align: center;
+    text-transform: uppercase;
 }
 
 
@@ -1265,17 +1274,15 @@ section {
 
 .village-section-thoughts {
     padding: 3rem 0;
-    text-decoration-line: underline;
+    text-align: center;
+    font-weight: 300;
+    text-transform: lowercase;
 }
 
 .village-market-research h3 {
     padding: 3rem 0;
 }
 
-.village-section-thoughts {
-    padding: 3rem 0;
-    text-align: center;
-}
 
 
 .village-persona-picture {
@@ -2275,9 +2282,6 @@ section {
         font-size: 7rem;
     }
 
-    /* .recent-work {
-		font-size: 6rem;
-	} */
 
     .landing-project-name {
         font-size: 3.2rem;
@@ -2519,6 +2523,7 @@ section {
     .village-deliverables-list {
         grid-template-columns: 30rem 40rem 30rem;
         margin: 0 9rem;
+
         /*		padding: 4rem 0;*/
     }
 

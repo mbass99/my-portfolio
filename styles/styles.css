@@ -1245,7 +1245,8 @@ section {
     font-size: 1.6rem;
     list-style: disc;
     list-style-position: outside;
-    padding: .5rem 0;
+	padding: .5rem 0;
+	text-transform: none;
 }
 
 .village-market-logo {

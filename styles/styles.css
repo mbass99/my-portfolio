@@ -1210,6 +1210,7 @@ section {
     padding: 3rem 0;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: .5rem;
 }
 
 
@@ -1273,12 +1274,22 @@ section {
     text-align: center;
 }
 
+.village-user-function-needs {
+    text-align: center;
+    text-transform: lowercase;
+}
 
 .village-section-thoughts {
+
+    font-weight: 300;
     padding: 3rem 0;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    /* padding: 3rem 0;
+    text-align: center;
     font-weight: 300;
-    text-transform: lowercase;
+    text-transform: lowercase; */
 }
 
 .village-market-research h3 {
@@ -1413,6 +1424,7 @@ section {
 .village-hifi-individual-section-headers {
     font-weight: 700;
     padding: 3rem 0;
+    letter-spacing: .5rem;
 }
 
 
@@ -2528,6 +2540,10 @@ section {
         margin: 0 9rem;
 
         /*		padding: 4rem 0;*/
+    }
+
+    .village-section-thoughts {
+        padding: 5rem 0;
     }
 
     .village-market-research h3 {

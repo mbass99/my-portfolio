@@ -348,10 +348,14 @@ section {
 }
 
 .button:hover {
-    background-color: #FC5858;
+    background-color: #f2f2f2;
+    border-color: #ff0000;
+    color: #ff0000;
+    /* BELOW IS OLD HOVER FROM INITIAL PORTFOLIO */
+    /* background-color: #FC5858;
     border-color: rgba(137, 91, 91, 0.38);
     box-shadow: .5rem .5rem .5rem #777777;
-    transform: translateY(-5px);
+    transform: translateY(-5px); */
 }
 
 .village-button-box {

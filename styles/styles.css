@@ -1255,10 +1255,16 @@ section {
     text-transform: none;
 }
 
+
+
 .village-market-logo {
     /*	padding: 3rem 0 1rem 0;*/
 }
 
+.current-products-used {
+    font-weight: 300;
+
+}
 
 .village-what-is-used {
     padding: 1.5rem 0;

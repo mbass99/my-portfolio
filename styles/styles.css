@@ -1170,6 +1170,11 @@ section {
     font-weight: 300;
 }
 
+.village-project-duration {
+    text-align: center;
+    color: #285835;
+}
+
 .village-section-header {
     color: #285835;
     padding: 2rem 0;

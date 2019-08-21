@@ -515,6 +515,39 @@ section {
 
 /*RECURRING*/
 
+.village-nav-links {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    text-transform: lowercase;
+}
+
+
+.section-navigation {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem 0;
+
+}
+
+.village-nav-links a {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.village-nav-links a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.village-nav-links a:visited {
+    color: #de9898;
+}
+
 .taster-content {
     padding: 0 1rem;
 
@@ -1293,7 +1326,6 @@ section {
 .village-user-function-needs {
     letter-spacing: .5rem;
     text-align: center;
-    text-transform: lowercase;
     padding: 3rem 0;
 }
 
@@ -1310,7 +1342,7 @@ section {
     text-transform: lowercase; */
 }
 
-.village-market-research h3 {
+#village-market-research h3 {
     padding: 3rem 0;
 }
 
@@ -1335,12 +1367,12 @@ section {
     font-style: italic;
 }
 
-.village-user-research h4 {
+#village-user-research h4 {
     padding: 2rem 0;
     text-align: center;
 }
 
-.village-user-personas h5 {
+#village-user-personas h5 {
     padding: 2rem 0;
 }
 
@@ -1379,15 +1411,16 @@ section {
 .village-user-path-intro {
     letter-spacing: .5rem;
     padding: 3rem 0;
+    text-align: center;
 }
 
-.village-user-flows h3 {
+#village-user-flows h3 {
     text-align: center;
     padding: 2rem 0;
 }
 
 
-.village-user-flows h4 {
+.village-user-flow-grid h4 {
     text-align: center;
     padding: 2rem 0;
 }
@@ -1414,13 +1447,14 @@ section {
 
 }
 
-.village-early-stage-wireframes h3 {
+#village-early-stage-wireframes h3 {
     padding: 3rem 0;
 }
 
-.village-branding p {
+#village-branding p {
     padding: 1rem 0;
 }
+
 
 .village-branding-individual-section-headers {
     font-weight: 700;
@@ -1464,7 +1498,7 @@ section {
 }
 
 
-.village-hifi-testing h3 {
+#village-hifi-testing h3 {
     padding: 2rem 0;
     text-align: center;
 }
@@ -1479,7 +1513,7 @@ section {
     padding: 3rem 0 1rem 0;
 }
 
-.village-hifi-testing p {
+#village-hifi-testing p {
     padding: 1rem 0;
 
 }
@@ -1501,7 +1535,7 @@ section {
 
 }
 
-.village-conclusions p {
+#village-conclusions p {
     padding: 1rem 0;
 }
 
@@ -1510,7 +1544,7 @@ section {
     padding: 2rem 0;
 }
 
-.village-conclusions h4 {
+#village-conclusions h4 {
     padding: 2rem 0;
 }
 
@@ -1633,6 +1667,10 @@ section {
     /*	CASE STUDY*/
 
     /*	recurring */
+
+    .section-navigation {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
 
     .taster-content {
         margin: auto;
@@ -2044,7 +2082,7 @@ section {
         text-align: center;
     }
 
-    .village-market-research h3 {
+    #village-market-research h3 {
         padding: 4rem 0;
         text-align: center;
 
@@ -2095,7 +2133,7 @@ section {
     }
 
 
-    .village-user-research h4 {
+    #village-user-research h4 {
         padding: 5rem 0;
         text-align: center;
     }
@@ -2144,29 +2182,29 @@ section {
         max-width: 70%;
     }
 
-    .village-user-flows h3 {
+    #village-user-flows h3 {
         padding: 3rem 0;
         text-align: center;
     }
 
-    .village-user-flows h4 {
+    #village-user-flows h4 {
         text-align: center;
         padding: 4rem 0;
     }
 
-    .village-user-flows p {
+    #village-user-flows p {
         max-width: 50rem;
         padding: 3rem 0;
     }
 
-    .village-early-stage-wireframes h3 {
+    #village-early-stage-wireframes h3 {
         padding: 4rem 0;
         text-align: center;
     }
 
     .village-lofi-text-and-image {}
 
-    .village-early-stage-wireframes {
+    #village-early-stage-wireframes {
         display: grid;
     }
 
@@ -2235,7 +2273,8 @@ section {
     }
 
     .village-group-hifi-wireframes .village-hifi-wireframe-mocks {
-        /*		margin: 6rem 0;*/
+        margin: 7rem 0;
+
     }
 
     .village-hifi-final-three-mock-grid {
@@ -2377,6 +2416,20 @@ section {
     /*	recurring*/
     .case-explanation {
         margin: auto;
+    }
+
+    .section-navigation {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding-top: 10rem;
+        ;
+    }
+
+    .village-user-desires-grid {
+        padding: 5rem 0;
+    }
+
+    .village-dashboard-lofi .village-sign-in-lofi .village-messages-lofi {
+        padding: 10rem;
     }
 
     /*
@@ -2565,7 +2618,7 @@ section {
         text-align: center;
     }
 
-    .village-projet-overview p {
+    .village-project-overview p {
         padding: 5rem 0;
     }
 
@@ -2576,11 +2629,16 @@ section {
         /*		padding: 4rem 0;*/
     }
 
+    .current-products-used {
+        text-align: center;
+        padding: 8rem 0;
+    }
+
     .village-section-thoughts {
         padding: 5rem 0;
     }
 
-    .village-market-research h3 {
+    #village-market-research h3 {
         padding: 5rem 0;
         margin: auto;
         max-width: 70rem;
@@ -2604,6 +2662,10 @@ section {
         margin: 0 28rem;
     }
 
+    .village-lofi-intro {
+        text-align: center;
+    }
+
     .village-user-flow-grid-two img {
         margin: 0 24rem;
     }
@@ -2621,9 +2683,11 @@ section {
         max-width: 55%;
     }
 
+    .village-testing-intro {
+        text-align: center;
+    }
 
-
-    .village-hifi-wireframe-creation p {
+    #village-hifi-wireframe-creation p {
         padding: 4rem 0;
     }
 
@@ -2631,11 +2695,15 @@ section {
         max-width: 50%;
     }
 
+    .village-branding-individual-section-headers {
+        padding: 8rem 0 4rem 0;
+    }
+
     .village-new-vs-old-button {
         padding: 3rem 0;
     }
 
-    .village-branding .village-deep-dive {
+    #village-branding .village-deep-dive {
         padding: 3rem 0;
     }
 
@@ -2652,7 +2720,7 @@ section {
     }
 
     .village-conclusion-sub-section-headers {
-        padding: 5rem 0;
+        padding: 10rem 0 2rem 0;
     }
 
 

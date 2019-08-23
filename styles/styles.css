@@ -2388,8 +2388,8 @@ section {
     .front-end-projects {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 3rem;
-        padding: 0 5rem;
+        grid-gap: 2rem;
+        padding: 0 2rem;
     }
 
     .bloc-jams-image {
@@ -2401,10 +2401,9 @@ section {
         padding-right: 3rem;
     }
 
-    .bus-prototype {
-        max-width: 30rem;
-
-    }
+    /* .bus-prototype {
+        max-width: 50rem;
+    } */
 
     .project-wrap {
         max-width: 90rem;

@@ -1099,7 +1099,8 @@ section {
 }
 
 .content-row {
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
+    padding: 2rem 0;
 
 }
 
@@ -1201,7 +1202,7 @@ section {
 }
 
 .village-who-did-this {
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .village-project-duration {
@@ -1238,7 +1239,8 @@ section {
 
 
 
-.village-introduction h3 {
+.village-introduction h3,
+h4 {
     padding: 3rem 0;
     text-align: center;
     line-height: 1.3;
@@ -1284,6 +1286,7 @@ section {
 .village-deliver-two,
 .village-deliver-three {
     padding: 2rem 0;
+
 }
 
 .village-performed {
@@ -2054,11 +2057,11 @@ section {
         font-size: 1.8rem;
         grid-template-areas: "icon-left icon-right";
         grid-column-gap: 5rem;
-
     }
 
     .icon-left {
         margin: 0;
+        padding-top: 1rem;
 
     }
 
@@ -2638,10 +2641,14 @@ section {
     }
 
     .village-deliverables-list {
-        grid-template-columns: 30rem 40rem 30rem;
+        grid-template-columns: 30rem 30rem 30rem;
         margin: 0 9rem;
 
         /*		padding: 4rem 0;*/
+    }
+
+    .village-deliver-three ul {
+        padding-left: 8rem;
     }
 
     .current-products-used {
@@ -2732,6 +2739,10 @@ section {
 
     .village-conclusion-wrap {
         margin: 0 17rem;
+    }
+
+    .village-conclusion-wrap ul {
+        padding-left: 20rem;
     }
 
     .village-conclusion-sub-section-headers {

@@ -498,6 +498,7 @@ section {
 
 .taster-main-landing {
     border: .8px solid black;
+    max-height: 30rem;
 }
 
 .bloc-jams-image {
@@ -1656,6 +1657,10 @@ section {
         direction: rtl;
     }
 
+    .three .project-wrap {
+        direction: rtl;
+    }
+
     .project-logline {
         padding: 1rem 0;
         text-align: left;
@@ -2380,8 +2385,20 @@ section {
         max-width: 30rem;
     }
 
+    .front-end-projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3rem;
+        padding: 0 5rem;
+    }
+
     .bloc-jams-image {
         max-width: 40rem;
+    }
+
+    .three,
+    .project-logline {
+        padding-right: 3rem;
     }
 
     .bus-prototype {
@@ -2392,7 +2409,6 @@ section {
     .project-wrap {
         max-width: 90rem;
         padding: 5rem;
-
     }
 
     .left-wrap,

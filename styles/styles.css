@@ -1658,10 +1658,14 @@ h4 {
 
     .two .project-wrap {
         direction: rtl;
+        padding-left: 2rem;
     }
 
     .three .project-wrap {
         direction: rtl;
+        align-items: center;
+        padding-left: 2rem;
+
     }
 
     .project-logline {
@@ -2394,9 +2398,11 @@ h4 {
         grid-gap: 2rem;
         padding: 0 2rem;
     }
-.two, .front-end-projects{
-    padding-left: 2rem;
-}
+
+    .two,
+    .front-end-projects {
+        padding-left: 2rem;
+    }
 
     .bloc-jams-image {
         max-width: 40rem;

@@ -2394,6 +2394,9 @@ h4 {
         grid-gap: 2rem;
         padding: 0 2rem;
     }
+.two, .front-end-projects{
+    padding-left: 2rem;
+}
 
     .bloc-jams-image {
         max-width: 40rem;

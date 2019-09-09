@@ -310,7 +310,7 @@ img {
 /*UNIVERSAL PADDING*/
 
 section {
-    padding: 2.5rem 0;
+    padding: 2rem 0;
 
 }
 
@@ -418,11 +418,7 @@ section {
     left: 0;
 }
 
-.bunk {
-    border-radius: 50%;
-    max-width: 10rem;
-    padding: 3rem 0;
-}
+
 
 
 
@@ -512,7 +508,7 @@ section {
 
 
 
-/*CASE STUDY*/
+/* CASE STUDY*/
 
 /*RECURRING*/
 
@@ -1051,7 +1047,7 @@ section {
     padding: 1rem 0;
 }
 
-/*BIOGRAPHY*/
+/*MOBILE BIOGRAPHY*/
 
 .head-background {
     /*	background-color: #d2e7ee;*/
@@ -1064,17 +1060,65 @@ section {
 }
 
 
+
+
 .bio-content {
     padding: 0 1rem;
 }
 
+.icon-left {
+    padding: 3rem 0;
+}
 
 .about-me {
     /*	font-size: 2.2rem;*/
     /*	padding: 2rem 1rem;*/
-    max-width: 40rem;
+    color: #ff0000;
+    text-align: center;
 }
 
+.bunk {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 20rem;
+    padding: 3rem 0;
+
+
+}
+
+.bio-about-me-picture {
+    padding-top: 2rem;
+}
+
+
+.bio-section-header {
+    /* text-align: center; */
+    color: #0E0E0E;
+    padding: 2rem 0;
+    text-align: center;
+    text-transform: capitalize;
+    /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*header line below 2 of 3*/
+.bio-section-header:before,
+.bio-section-header:after {
+    content: '';
+    border-top: 2px solid #ff0000;
+    margin: 0 10px 0 0;
+    flex: 1 0 30px;
+}
+
+/*header line below 3 of 3*/
+.bio-section-header:after {
+    margin: 0 0 0 10px;
+}
 
 .content-two {
     display: grid;
@@ -1083,10 +1127,10 @@ section {
     padding: 3rem 0;
 }
 
-.bio-question-red {
-    color: #B30000;
-
-}
+/* former bio h2 removed */
+/* .bio-question-red {
+    color: #ff0000;
+} */
 
 
 .content-three {
@@ -1094,19 +1138,18 @@ section {
     grid-template-columns: 1fr;
 }
 
-.icon-left {
-    margin: auto;
-}
 
 .content-row {
     /* padding-bottom: 2rem; */
-    padding: 2rem 0;
+    padding: 0rem 2rem;
 
 }
 
 .mini-subhead {
     line-height: 1.3;
     padding: 1rem 0;
+    text-align: center;
+
 }
 
 .golf-group {
@@ -1129,8 +1172,9 @@ section {
 
 .bio-italics {
     font-style: italic;
-    line-height: 1.3;
-
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 3rem 2rem;
 }
 
 
@@ -1239,8 +1283,7 @@ section {
 
 
 
-.village-introduction h3,
-h4 {
+.village-introduction h3 h4 {
     padding: 3rem 0;
     text-align: center;
     line-height: 1.3;
@@ -1571,7 +1614,7 @@ h4 {
 
 
     section {
-        padding: 5rem 0;
+        padding: 3rem 0;
 
     }
 
@@ -1615,9 +1658,6 @@ h4 {
         font-size: 4.7rem;
     }
 
-    .bunk {
-        max-width: 10rem;
-    }
 
 
     .project-wrap {
@@ -2013,10 +2053,24 @@ h4 {
 
 
 
-    /*	BIOGRAPHY*/
+    /*	TABLET BIOGRAPHY*/
 
     #top-bio {
         max-width: 70rem;
+    }
+
+    .bio-section-header {
+        text-align: left;
+        margin: 0 3rem;
+    }
+
+    .content-three {
+        padding: 2rem 0;
+    }
+
+    .about-me {
+        margin: 0 3rem;
+        text-align: left;
     }
 
     .bio-content {
@@ -2024,48 +2078,50 @@ h4 {
         margin: auto
     }
 
-
-    .why-design,
-    .designer,
-    .storyboard,
-    .frustrated,
-    .chaplin,
-    .privacy {
+    .bio-about-me-picture {
         align-items: center;
-        padding: 0 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-row {
+        padding: 0;
     }
 
 
+    .designer {
+        padding: 0rem 3rem;
+    }
+
+    .why-design,
     .storyboard,
     .frustrated,
     .chaplin {
-        padding-top: 3rem;
-    }
-
-
-    .content-two {
         align-items: center;
-        grid-gap: 4rem;
-        grid-template-columns: 1fr auto;
-
+        padding: 0rem 3rem;
     }
 
-    .mini-subhead {}
+    .privacy {
+        align-items: center;
+        padding: 0rem 3rem;
+    }
 
     .bio-italics {
-        padding: 2rem 0;
+        padding: 3rem 0;
     }
 
     .content-three {
         display: grid;
         font-size: 1.8rem;
         grid-template-areas: "icon-left icon-right";
-        grid-column-gap: 5rem;
+        grid-column-gap: 7rem;
+        /* padding-top: 3rem; */
+
     }
 
     .icon-left {
-        margin: 0;
-        padding-top: 1rem;
+        padding: 1rem 0;
+        /* padding-top: 1rem; */
 
     }
 
@@ -2078,6 +2134,7 @@ h4 {
 
 
     .mini-subhead {
+        text-align: left;
         font-size: 2rem;
     }
 
@@ -2617,10 +2674,12 @@ h4 {
     }
 
 
-    /*	BIOGRAPHY*/
+    /*	DESKTOP BIOGRAPHY*/
 
 
-
+    .bio-content {
+        padding: 0;
+    }
 
     #top-bio {
         max-width: 100rem;
@@ -2630,7 +2689,11 @@ h4 {
         max-width: 85rem;
     }
 
-    /*VILLAGE*/
+    .bunk {
+        margin-left: 24rem;
+    }
+
+    /*DESKTOP VILLAGE*/
 
     .village-section-header {
         padding: 5rem 0;

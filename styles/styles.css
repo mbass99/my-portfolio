@@ -452,8 +452,6 @@ section {
     background-color: #F3F1F1;
     margin: 4rem 2rem;
     padding: 3rem 0;
-
-
 }
 
 .project-wrap img {
@@ -486,6 +484,11 @@ section {
     margin: 0 auto;
     padding: 0 1rem 0 1rem;
     text-align: left;
+}
+
+.project-business-arena{
+    font-style: italic;
+    font-weight: 700;
 }
 
 .taster-prototype {

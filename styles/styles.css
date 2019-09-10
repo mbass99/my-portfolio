@@ -486,7 +486,7 @@ section {
     text-align: left;
 }
 
-.project-business-arena{
+.project-business-arena {
     font-style: italic;
     font-weight: 700;
 }
@@ -1286,7 +1286,8 @@ section {
 
 
 
-.village-introduction h3 h4 {
+.village-introduction h3,
+h4 {
     padding: 3rem 0;
     text-align: center;
     line-height: 1.3;

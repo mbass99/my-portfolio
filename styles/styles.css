@@ -557,15 +557,18 @@ section {
 }
 
 .taster-section-header {
+    align-items: center;
     color: #843F60;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1rem;
     padding: 2rem 0;
     text-align: center;
     text-transform: uppercase;
     /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
-    display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+
+
 
 }
 
@@ -585,7 +588,8 @@ section {
 
 .section-questions {
     font-weight: 400;
-    padding: 2rem 0;
+    padding: 5rem 0;
+    text-align: center;
     text-transform: lowercase;
 }
 
@@ -744,6 +748,7 @@ section {
     color: #ff0000;
     font-size: 2.8rem;
     padding: 2rem 0;
+    text-align: center;
 
 }
 
@@ -791,6 +796,7 @@ section {
 .chart-explanation {
     font-size: 1.8rem;
     padding: 1rem 0;
+    text-align: center;
 }
 
 .survey-conclusions {
@@ -1262,6 +1268,7 @@ section {
 
 .village-section-header {
     color: #285835;
+    letter-spacing: 1rem;
     padding: 2rem 0;
     text-align: center;
     text-transform: capitalize;
@@ -1355,7 +1362,7 @@ h4 {
 
 .current-products-used {
     font-weight: 300;
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
 
 }
 

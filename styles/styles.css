@@ -501,11 +501,14 @@ section {
 }
 
 .bloc-jams-image {
-    max-width: 30rem;
+    max-width: 20rem;
+    min-width: 23rem;
+
 }
 
-.bus-prototype {
-    max-width: 30rem;
+.bus-logo {
+    max-width: 20rem;
+    min-width: 20rem;
     outline: 1px solid rgba(0, 0, 0, 0.22);
 }
 
@@ -1487,15 +1490,11 @@ h4 {
 
 .village-lofi-whiteboard-pictures {
     padding-bottom: 3rem;
-
 }
 
 .village-lofi-wireframes {
     border: 1px solid #AFADAD;
-
     margin: 3rem 0;
-
-
 }
 
 #village-early-stage-wireframes h3 {
@@ -2473,10 +2472,6 @@ h4 {
     .project-logline {
         padding-right: 3rem;
     }
-
-    /* .bus-prototype {
-        max-width: 50rem;
-    } */
 
     .project-wrap {
         max-width: 90rem;

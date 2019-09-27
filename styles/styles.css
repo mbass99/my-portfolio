@@ -512,6 +512,24 @@ section {
     outline: 1px solid rgba(0, 0, 0, 0.22);
 }
 
+.spotify-playlist {
+    padding: 3rem;
+    text-align: center;
+}
+
+.music-header {
+    color: #4CD964;
+    text-align: center;
+}
+
+.music-text {
+    color: #AFADAD;
+    line-height: 3rem;
+    padding: 2rem;
+    max-width: 50rem;
+    text-align: center;
+}
+
 
 
 /* CASE STUDY*/
@@ -1724,7 +1742,9 @@ h4 {
         max-width: 40rem;
     }
 
-
+    .music-text {
+        max-width: 35rem;
+    }
 
     /*	CASE STUDY*/
 
@@ -2500,6 +2520,10 @@ h4 {
 		font-size: 2.6rem;
 	}
 */
+
+    .music-text {
+        max-width: 75rem;
+    }
 
     /*	CASE STUDY*/
 

@@ -161,7 +161,7 @@ table {
 }
 
 html {
-    color: ##0E0B06;
+    color: #0E0B06;
     font-size: 10px;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
@@ -437,7 +437,7 @@ section {
 .colored-name {
     color: #ff0000;
     font-size: 4.4rem;
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
     text-transform: uppercase;
 
 }
@@ -445,7 +445,7 @@ section {
 .recent-work {
     text-align: center;
     color: #ff0000;
-    letter-spacing: 1rem;
+    /* letter-spacing: 1rem; */
     padding: 8rem 0 5rem 0;
     text-transform: uppercase;
 }
@@ -581,7 +581,7 @@ section {
     color: #843F60;
     display: flex;
     justify-content: center;
-    letter-spacing: 1rem;
+    /* letter-spacing: 1rem; */
     padding: 2rem 0;
     text-align: center;
     text-transform: uppercase;
@@ -1274,7 +1274,9 @@ section {
 
 
 .village-case-study-title {
-    color: #285835;
+    /* color: #285835; */
+    color: #0E0B06;
+    padding: 3rem 0;
 }
 
 .village-who-did-this {
@@ -1288,7 +1290,7 @@ section {
 
 .village-section-header {
     color: #285835;
-    letter-spacing: 1rem;
+    /* letter-spacing: 1rem; */
     padding: 2rem 0;
     text-align: center;
     text-transform: capitalize;
@@ -1332,7 +1334,7 @@ h4 {
     padding: 3rem 0;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
 }
 
 
@@ -1355,15 +1357,14 @@ h4 {
     padding: 2rem 0;
 }
 
-.village-deliverables-list h4 {
-    padding: 1rem 0;
+.village-deliverables-list h3 {
+    padding: 2rem 0;
 }
 
 .village-deliver-one,
 .village-deliver-two,
 .village-deliver-three {
     padding: 2rem 0;
-
 }
 
 .village-performed {
@@ -1459,7 +1460,7 @@ h4 {
 
 
 .village-persona-intro {
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
     padding: 4rem 0;
     text-align: center;
 }
@@ -1490,7 +1491,7 @@ h4 {
 }
 
 .village-user-path-intro {
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
     padding: 3rem 0;
     text-align: center;
 }
@@ -1507,7 +1508,7 @@ h4 {
 }
 
 .village-lofi-intro {
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
 }
 
 .village-lofi-sketch-pictures {
@@ -1535,7 +1536,7 @@ h4 {
 
 .village-branding-individual-section-headers {
     font-weight: 700;
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
     padding: 3rem 0;
     text-align: center;
 }
@@ -1563,7 +1564,7 @@ h4 {
 .village-hifi-individual-section-headers {
     font-weight: 700;
     padding: 3rem 0;
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
 }
 
 
@@ -1581,7 +1582,7 @@ h4 {
 }
 
 .village-testing-intro {
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
     padding: 3rem;
 }
 
@@ -1617,7 +1618,7 @@ h4 {
 }
 
 .village-conclusion-sub-section-headers {
-    letter-spacing: .5rem;
+    /* letter-spacing: .5rem; */
     padding: 2rem 0;
 }
 
@@ -2172,7 +2173,7 @@ h4 {
         font-size: 2rem;
     }
 
-    /*	VILLAGE*/
+    /*	TABLET VILLAGE*/
 
     #top-village {
         max-width: 70rem;
@@ -2192,9 +2193,6 @@ h4 {
     #village-market-research h3 {
         padding: 4rem 0;
         text-align: center;
-
-
-
     }
 
     .village-section-header {
@@ -2209,6 +2207,10 @@ h4 {
     .village-deliverables-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .village-deliverables-list li {
+        padding-left: 1rem;
     }
 
     .village-deliver-one,
@@ -2749,123 +2751,123 @@ h4 {
     .village-button-box {
         padding: 3rem 0;
         text-align: center;
+
+
+        .village-project-overview p {
+            padding: 5rem 0;
+        }
+
+        .village-deliverables-list {
+            grid-template-columns: 30rem 30rem 30rem;
+            margin: 0 9rem;
+
+            /*		padding: 4rem 0;*/
+        }
+
+        .village-deliver-three ul {
+            padding-left: 8rem;
+        }
+
+        .current-products-used {
+            text-align: center;
+            padding: 8rem 0;
+        }
+
+        .village-section-thoughts {
+            padding: 5rem 0;
+        }
+
+        #village-market-research h3 {
+            padding: 5rem 0;
+            margin: auto;
+            max-width: 70rem;
+        }
+
+        .village-product-one .village-product-two .village-product-three h3 {
+            padding: 0;
+
+        }
+
+        .village-market-logo {
+            margin: 0 6rem;
+        }
+
+
+        .village-process-label {
+            padding: 5rem 0;
+        }
+
+        .village-user-flow-grid-one img {
+            margin: 0 28rem;
+        }
+
+        .village-lofi-intro {
+            text-align: center;
+        }
+
+        .village-user-flow-grid-two img {
+            margin: 0 24rem;
+        }
+
+        .village-user-flow-grid-three img {
+            margin: 0 32rem;
+        }
+
+        .village-dashboard-lofi img {
+            max-width: 75%;
+        }
+
+        .village-hifi-final-landing-grid img {
+            margin: 0 10rem;
+            max-width: 55%;
+        }
+
+        .village-testing-intro {
+            text-align: center;
+        }
+
+        #village-hifi-wireframe-creation p {
+            padding: 4rem 0;
+        }
+
+        .village-final-hifi-branding-pages img {
+            max-width: 50%;
+        }
+
+        .village-branding-individual-section-headers {
+            padding: 8rem 0 4rem 0;
+        }
+
+        .village-new-vs-old-button {
+            padding: 3rem 0;
+        }
+
+        #village-branding .village-deep-dive {
+            padding: 3rem 0;
+        }
+
+        .village-testing-sub-section-headers {
+            text-align: center;
+        }
+
+        .village-color-change-explanation {
+            text-align: center;
+        }
+
+        .village-conclusion-wrap {
+            margin: 0 17rem;
+        }
+
+        .village-conclusion-wrap ul {
+            padding-left: 20rem;
+        }
+
+        .village-conclusion-sub-section-headers {
+            padding: 10rem 0 2rem 0;
+        }
+
+
+
+
+
     }
-
-    .village-project-overview p {
-        padding: 5rem 0;
-    }
-
-    .village-deliverables-list {
-        grid-template-columns: 30rem 30rem 30rem;
-        margin: 0 9rem;
-
-        /*		padding: 4rem 0;*/
-    }
-
-    .village-deliver-three ul {
-        padding-left: 8rem;
-    }
-
-    .current-products-used {
-        text-align: center;
-        padding: 8rem 0;
-    }
-
-    .village-section-thoughts {
-        padding: 5rem 0;
-    }
-
-    #village-market-research h3 {
-        padding: 5rem 0;
-        margin: auto;
-        max-width: 70rem;
-    }
-
-    .village-product-one .village-product-two .village-product-three h3 {
-        padding: 0;
-
-    }
-
-    .village-market-logo {
-        margin: 0 6rem;
-        max-width: 60%;
-    }
-
-    .village-process-label {
-        padding: 5rem 0;
-    }
-
-    .village-user-flow-grid-one img {
-        margin: 0 28rem;
-    }
-
-    .village-lofi-intro {
-        text-align: center;
-    }
-
-    .village-user-flow-grid-two img {
-        margin: 0 24rem;
-    }
-
-    .village-user-flow-grid-three img {
-        margin: 0 32rem;
-    }
-
-    .village-dashboard-lofi img {
-        max-width: 75%;
-    }
-
-    .village-hifi-final-landing-grid img {
-        margin: 0 10rem;
-        max-width: 55%;
-    }
-
-    .village-testing-intro {
-        text-align: center;
-    }
-
-    #village-hifi-wireframe-creation p {
-        padding: 4rem 0;
-    }
-
-    .village-final-hifi-branding-pages img {
-        max-width: 50%;
-    }
-
-    .village-branding-individual-section-headers {
-        padding: 8rem 0 4rem 0;
-    }
-
-    .village-new-vs-old-button {
-        padding: 3rem 0;
-    }
-
-    #village-branding .village-deep-dive {
-        padding: 3rem 0;
-    }
-
-    .village-testing-sub-section-headers {
-        text-align: center;
-    }
-
-    .village-color-change-explanation {
-        text-align: center;
-    }
-
-    .village-conclusion-wrap {
-        margin: 0 17rem;
-    }
-
-    .village-conclusion-wrap ul {
-        padding-left: 20rem;
-    }
-
-    .village-conclusion-sub-section-headers {
-        padding: 10rem 0 2rem 0;
-    }
-
-
-
-
-
-}

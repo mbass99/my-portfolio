@@ -196,7 +196,8 @@ header {
     display: grid;
     grid-gap: 1rem;
     font-size: 1.2rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* REMOVED 1FR 1FR 1FR WHEN TAKING CONTACT OUT */
+    grid-template-columns: 1fr 1fr;
     text-transform: uppercase;
 }
 
@@ -519,7 +520,7 @@ section {
 }
 
 .music-header {
-    color: #4CD964;
+    color: #ff0000;
     text-align: center;
 }
 

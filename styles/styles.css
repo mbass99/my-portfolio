@@ -1605,6 +1605,10 @@ section {
     /*	max-width: 81.2rem;*/
 }
 
+.village-hifi-wireframe-mocks-landing {
+    margin: 0 auto;
+}
+
 
 #village-hifi-testing h3 {
     padding: 2rem 0;
@@ -2237,6 +2241,9 @@ section {
     .village-deliverables-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+        max-width: 90rem;
+
     }
 
     .village-deliverables-list li {
@@ -2307,8 +2314,6 @@ section {
 
     .village-persona-three img {
         display: block;
-
-
     }
 
 
@@ -2392,7 +2397,12 @@ section {
 
     .village-hifi-final-landing-grid img {
         max-width: 50%;
-        padding: 0 17rem;
+        padding: 5rem 0;
+        /* padding: 0 17rem; */
+    }
+
+    .village-hifi-final-landing-grid {
+        text-align: center;
     }
 
     .village-process-label {
@@ -2411,6 +2421,11 @@ section {
     .village-group-hifi-wireframes .village-hifi-wireframe-mocks {
         margin: 7rem 0;
 
+    }
+
+    .village-hifi-wireframe-mocks-landing {
+        margin: auto;
+        max-width: 75%;
     }
 
     .village-hifi-final-three-mock-grid {

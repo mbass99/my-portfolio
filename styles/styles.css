@@ -1369,6 +1369,8 @@ section {
 
 .village-performed {
     font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2rem;
     list-style: disc;
     list-style-position: outside;
     padding: .5rem 0;
@@ -1436,18 +1438,16 @@ section {
 }
 
 .village-user-function-needs {
-    letter-spacing: .5rem;
     text-align: center;
     padding: 3rem 0;
 }
 
 .village-section-thoughts {
-
+    color: #285835;
     font-weight: 300;
-    padding: 3rem 0;
+    padding: 8rem 0;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: .5rem;
     /* padding: 3rem 0;
     text-align: center;
     font-weight: 300;
@@ -1520,19 +1520,18 @@ section {
     padding: 2rem 0;
 }
 
-.village-user-path-intro {
-    /* letter-spacing: .5rem; */
-    padding: 3rem 0;
+.village-user-path-intro h3 {
+    padding: 4rem 0;
     text-align: center;
 }
 
-#village-user-flows h3 {
+/* #village-user-flows h3 {
     text-align: center;
     padding: 2rem 0;
-}
+} */
 
 
-.village-user-flow-grid h3 {
+.village-user-flow-grid-one, .village-user-flow-grid-two, .village-user-flow-grid-three, .village-user-flow-grid-four h3 {
     text-align: center;
     padding: 2rem 0;
 }
@@ -2234,6 +2233,7 @@ section {
     }
 
     .village-problem-statement {
+        letter-spacing: .5rem;
         padding: 4rem;
         text-align: center;
     }
@@ -2319,14 +2319,12 @@ section {
 
 
     .village-flow-images {
-        margin: 0 10rem;
+        /* margin: 0 10rem; */
         max-width: 70%;
     }
-
-    #village-user-flows h3 {
-        padding: 3rem 0;
-        text-align: center;
-    }
+.village-user-flow-grid-one, .village-user-flow-grid-two, .village-user-flow-grid-three, .village-user-flow-grid-four {
+    text-align: center;
+}
 
     #village-user-flows h3 {
         text-align: center;
@@ -2815,8 +2813,8 @@ section {
             padding: 8rem 0;
         }
 
-        .village-section-thoughts {
-            padding: 5rem 0;
+        .village-section-thoughts{
+            padding: 7rem;
         }
 
         #village-market-research h3 {
@@ -2838,20 +2836,9 @@ section {
             padding: 5rem 0;
         }
 
-        .village-user-flow-grid-one img {
-            margin: 0 28rem;
-        }
 
         .village-lofi-intro {
             text-align: center;
-        }
-
-        .village-user-flow-grid-two img {
-            margin: 0 24rem;
-        }
-
-        .village-user-flow-grid-three img {
-            margin: 0 32rem;
         }
 
         .village-dashboard-lofi img {

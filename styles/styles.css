@@ -1507,7 +1507,9 @@ section {
 
 
 .village-user-sub-section-heading {
+    color: #0E0B06;
     font-weight: 700;
+    padding: 3rem 0;
 }
 
 .village-deep-dive {
@@ -1521,6 +1523,7 @@ section {
 }
 
 .village-user-path-intro h3 {
+    color: #0E0B06;
     padding: 4rem 0;
     text-align: center;
 }

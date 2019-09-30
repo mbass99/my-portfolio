@@ -1377,7 +1377,7 @@ section {
 
 
 .village-market-logo {
-    /*	padding: 3rem 0 1rem 0;*/
+    /* padding: 3rem 0 1rem 0; */
 }
 
 .current-products-used {
@@ -2791,6 +2791,14 @@ section {
             margin: 0 6rem;
         }
 
+        /* NEW TWEAKS TO SIZING */
+        .village-product-two .village-logo-placement .village-market-logo {
+            padding: 2.5rem 3rem;
+        }
+
+        .village-product-three .village-logo-placement .village-market-logo {
+            padding: 8rem 3rem;
+        }
 
         .village-process-label {
             padding: 5rem 0;

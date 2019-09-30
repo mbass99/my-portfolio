@@ -655,7 +655,7 @@ section {
 
 
 
-/*REGULAR*/
+/*TASTER MOBILE*/
 
 #top-taster {
     background-color: #0E0E0E;
@@ -1250,14 +1250,15 @@ section {
 
 }
 
+
+/* VILLAGE MOBILE */
+
 .village-content-borders {
     padding: 4rem 4rem;
-
-
 }
 
 
-/*village introduction*/
+
 
 .village-quote {
     font-style: italic;
@@ -1376,9 +1377,11 @@ section {
 
 
 
-.village-market-logo {
-    /* padding: 3rem 0 1rem 0; */
-}
+/* .village-market-logo {
+    padding: 3rem 0 1rem 0;
+} */
+
+
 
 .current-products-used {
     font-weight: 300;
@@ -1402,6 +1405,34 @@ section {
 .village-products {
     padding: 2rem 0;
     text-align: center;
+}
+
+/* ADDED SPECIFIC CLASS and H/W TO LOGOS */
+
+.village-logo-placement {
+    text-align: center;
+}
+
+
+.village-product-one,
+.village-product-two,
+.village-product-three {
+    padding: 5rem 0;
+}
+
+.village-shutterfly {
+    height: 20rem;
+    width: 20rem;
+}
+
+.village-class-dojo {
+    height: 20rem;
+    width: 22rem;
+}
+
+.village-gmail {
+    height: 20rem;
+    width: 35rem;
 }
 
 .village-user-function-needs {
@@ -1750,7 +1781,7 @@ section {
 
 
 
-    /*	CASE STUDY*/
+    /*	TASTER TABLET*/
 
     /*	recurring */
 
@@ -2190,7 +2221,7 @@ section {
     }
 
     #village-market-research h3 {
-        padding: 4rem 0;
+        padding: 2rem 0;
         text-align: center;
     }
 
@@ -2236,9 +2267,6 @@ section {
         padding: 2rem 1rem;
     }
 
-    .village-product-three .village-market-logo {
-        padding: 3.5rem 0;
-    }
 
 
     #village-user-research h3 {
@@ -2534,7 +2562,7 @@ section {
         max-width: 75rem;
     }
 
-    /*	CASE STUDY*/
+    /*	TASTER DESKTOP*/
 
     /*	recurring*/
     .case-explanation {
@@ -2787,9 +2815,9 @@ section {
 
         }
 
-        .village-market-logo {
+        /* .village-shutterfly .village-class-dojo .village-gmail {
             margin: 0 6rem;
-        }
+        } */
 
         .village-process-label {
             padding: 5rem 0;

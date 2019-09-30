@@ -451,7 +451,8 @@ section {
 }
 
 .project-wrap {
-    background-color: #F3F1F1;
+    /* background-color: #F3F1F1; */
+    background-color: #f9f9f9;
     margin: 4rem 2rem;
     padding: 3rem 0;
 }
@@ -1534,7 +1535,10 @@ section {
 } */
 
 
-.village-user-flow-grid-one, .village-user-flow-grid-two, .village-user-flow-grid-three, .village-user-flow-grid-four h3 {
+.village-user-flow-grid-one,
+.village-user-flow-grid-two,
+.village-user-flow-grid-three,
+.village-user-flow-grid-four h3 {
     text-align: center;
     padding: 2rem 0;
 }
@@ -2325,9 +2329,13 @@ section {
         /* margin: 0 10rem; */
         max-width: 70%;
     }
-.village-user-flow-grid-one, .village-user-flow-grid-two, .village-user-flow-grid-three, .village-user-flow-grid-four {
-    text-align: center;
-}
+
+    .village-user-flow-grid-one,
+    .village-user-flow-grid-two,
+    .village-user-flow-grid-three,
+    .village-user-flow-grid-four {
+        text-align: center;
+    }
 
     #village-user-flows h3 {
         text-align: center;
@@ -2816,7 +2824,7 @@ section {
             padding: 8rem 0;
         }
 
-        .village-section-thoughts{
+        .village-section-thoughts {
             padding: 7rem;
         }
 

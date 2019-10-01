@@ -2834,6 +2834,8 @@ section {
             max-width: 70rem;
         }
 
+
+        
         .village-product-one .village-product-two .village-product-three h3 {
             padding: 0;
 
@@ -2867,6 +2869,10 @@ section {
 
         #village-hifi-wireframe-creation p {
             padding: 4rem 0;
+        }
+
+        .village-hifi-wireframe-mocks-landing {
+            max-width: 75%;
         }
 
         .village-final-hifi-branding-pages img {

@@ -165,12 +165,13 @@ html {
     color: #0E0B06;
     font-size: 10px;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* ALL PAGES */
 
 
-/ .container {
+.container {
     background-color: white;
     display: grid;
     margin: 0 auto;
@@ -182,6 +183,12 @@ header {
     justify-content: space-between;
     margin: auto;
     padding: 2rem 2rem;
+}
+
+.head-background {
+    position: fixed;
+    top: 0;
+    width: 100%
 }
 
 
@@ -574,19 +581,23 @@ footer {
 
 }
 
-.village-nav-links a {
-    color: #4f4f4f;
+.village-nav-links a:link {
+    /* color: #4f4f4f; */
+    /* color: #0E0B06; */
+    color: #0080A5;
     text-decoration: none;
-}
-
-.village-nav-links a:hover {
-    color: #ff0000;
-    text-decoration: underline;
 }
 
 .village-nav-links a:visited {
     /* color: #de9898; */
-    color: #9D5454;
+    color: #4f4f4f;
+    text-transform: uppercase;
+}
+
+.village-nav-links a:hover {
+    color: #ff0000;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .taster-content {
@@ -1359,7 +1370,7 @@ footer {
 
 .village-center-percentages {
     text-align: center;
-    padding: 3rem 0 1rem 0;
+    padding: 5rem 0 1rem 0;
 }
 
 .village-chart-number {
@@ -1373,11 +1384,13 @@ footer {
 }
 
 .village-deliverables-list {
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 .village-deliverables-list h3 {
     padding: 2rem 0;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .village-deliver-one,
@@ -1391,7 +1404,7 @@ footer {
     font-weight: 300;
     line-height: 2rem;
     list-style: disc;
-    list-style-position: outside;
+    list-style-position: inside;
     padding: .5rem 0;
     text-transform: none;
 }
@@ -1461,6 +1474,15 @@ footer {
     padding: 3rem 0;
 }
 
+.village-key-takeaways {
+    color: #285835;
+    font-weight: 300;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+
+
 .village-section-thoughts {
     color: #285835;
     font-weight: 300;
@@ -1486,6 +1508,7 @@ footer {
 .village-section-heading {
     font-weight: 700;
     padding: 2rem 0;
+
 }
 
 .village-user-name {
@@ -1498,7 +1521,7 @@ footer {
     font-style: italic;
 }
 
-#village-user-research h3 {
+.village-user-function-needs {
     padding: 2rem 0;
     text-align: center;
 }
@@ -1518,7 +1541,7 @@ footer {
 .village-persona-one,
 .village-persona-two,
 .village-persona-three {
-    border: .5px solid #AFADAD;
+    /* border: .5px solid #AFADAD; */
     margin: 2rem 0;
     padding: 0 0 2rem 0;
 
@@ -1541,28 +1564,39 @@ footer {
     padding: 2rem 0;
 }
 
-.village-user-path-intro h3 {
+.village-user-path-intro {
     color: #0E0B06;
     padding: 4rem 0;
     text-align: center;
 }
 
-/* #village-user-flows h3 {
+
+.village-user-flow-grid h3 {
     text-align: center;
-    padding: 2rem 0;
-} */
+    padding: 3rem 0;
+}
 
+.village-user-flow-grid-four p {
+    padding: 3rem 0;
+}
 
-.village-user-flow-grid-one,
+/* .village-user-flow-grid-one,
 .village-user-flow-grid-two,
 .village-user-flow-grid-three,
 .village-user-flow-grid-four h3 {
+    padding: 3rem 0;
     text-align: center;
-    padding: 2rem 0;
+} */
+
+
+.village-process-label {
+    text-align: center;
+    padding: 3rem 0;
 }
 
 .village-lofi-intro {
-    /* letter-spacing: .5rem; */
+    text-align: center;
+    text-decoration: underline;
 }
 
 .village-lofi-sketch-pictures {
@@ -1685,7 +1719,7 @@ footer {
 }
 
 .village-conclusion-wrap h3 {
-    padding: 2rem 0 .5rem 0;
+    padding: 2rem 0 1rem 0;
 }
 
 /*MEDIA QUERIES*/
@@ -2259,10 +2293,6 @@ footer {
         text-align: center;
     }
 
-    #village-market-research h3 {
-        padding: 2rem 0;
-        text-align: center;
-    }
 
     .village-section-header {
         padding: 4rem 0;
@@ -2282,8 +2312,10 @@ footer {
 
     }
 
+
+    .village-deliver-three,
     .village-deliverables-list li {
-        padding-left: 1rem;
+        padding-left: 3rem;
     }
 
     .village-deliver-one,
@@ -2293,23 +2325,34 @@ footer {
         padding: 0 2rem;
     }
 
+    .current-products-used {
+        padding: 3rem;
+        text-align: center;
+    }
 
     .village-market-products {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1rem;
+        grid-gap: 3rem;
         width: 100%;
     }
 
+    .village-section-heading {
+        text-align: center;
+
+    }
 
 
     .village-product-one,
     .village-product-two,
     .village-product-three {
-        border: .5px solid #AFADAD;
+        /* border: .5px solid #AFADAD; */
         padding: 2rem 1rem;
     }
 
+    .village-section-thoughts {
+        padding: 5rem;
+    }
 
 
     #village-user-research h3 {
@@ -2322,7 +2365,9 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
-
+    .village-chart-explanation {
+        max-width: 40rem;
+    }
 
 
     .village-persona-one,
@@ -2337,6 +2382,7 @@ footer {
         grid-gap: 1rem;
         width: 100%;
     }
+
 
     .village-persona-one img {
         display: block;
@@ -2492,12 +2538,12 @@ footer {
 
 
     .village-conclusion-sub-section-headers {
-        padding: 2rem 0;
+        padding: 5rem 0;
         text-align: center;
     }
 
     .village-conclusion-wrap {
-        margin: 0 13rem;
+        /* margin: 0 13rem; */
         padding: 2rem 0;
     }
 }
@@ -2850,7 +2896,12 @@ footer {
     }
 
     .village-deliver-three ul {
-        padding-left: 8rem;
+        padding-left: 3rem;
+    }
+
+    .village-section-heading {
+        margin: auto;
+        max-width: 70rem;
     }
 
     .current-products-used {
@@ -2859,13 +2910,7 @@ footer {
     }
 
     .village-section-thoughts {
-        padding: 7rem;
-    }
-
-    #village-market-research h3 {
-        padding: 5rem 0;
-        margin: auto;
-        max-width: 70rem;
+        padding: 3rem;
     }
 
 
@@ -2883,6 +2928,13 @@ footer {
         padding: 5rem 0;
     }
 
+    .village-center-percentages {
+        padding: 3rem 0;
+    }
+
+    .village-user-flow-grid-one .village-flow-images {
+        padding-left: 12rem;
+    }
 
     .village-lofi-intro {
         text-align: center;
@@ -2914,7 +2966,7 @@ footer {
     }
 
     .village-branding-individual-section-headers {
-        padding: 8rem 0 4rem 0;
+        padding: 4rem 0;
     }
 
     .village-new-vs-old-button {
@@ -2935,10 +2987,6 @@ footer {
 
     .village-conclusion-wrap {
         margin: 0 17rem;
-    }
-
-    .village-conclusion-wrap ul {
-        padding-left: 20rem;
     }
 
     .village-conclusion-sub-section-headers {

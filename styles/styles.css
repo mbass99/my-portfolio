@@ -1252,7 +1252,7 @@ footer {
     padding: 2rem;
 }
 
-. .design-frustration {
+.design-frustration {
     display: grid;
     grid-template-columns: auto;
 
@@ -1284,7 +1284,10 @@ footer {
 }
 
 
-
+.bold{
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 .village-quote {
     font-style: italic;
@@ -1363,6 +1366,9 @@ footer {
     /* letter-spacing: .5rem; */
 }
 
+#village-project-overview p{
+    padding-bottom: 2rem 0;
+}
 
 .village-center-percentages {
     text-align: center;
@@ -1395,6 +1401,10 @@ footer {
     padding: 2rem 0;
 }
 
+.village-deliver-three ul{
+    width: 50%;
+}
+
 .village-performed {
     font-size: 1.6rem;
     font-weight: 300;
@@ -1425,7 +1435,7 @@ footer {
 
 .village-product-attributes {
     font-size: 1.6rem;
-    line-height: 1.2;
+    line-height: 1.5;
     list-style: disc;
     list-style-position: inside;
     padding: .5rem;
@@ -1494,7 +1504,9 @@ footer {
 #village-market-research h3 {
     padding: 3rem 0;
 }
-
+#village-market-research p{
+    padding: 2rem 0;
+}
 
 
 .village-persona-picture {
@@ -1606,15 +1618,19 @@ footer {
 
 .village-lofi-wireframes {
     border: 1px solid #AFADAD;
-    margin: 3rem 0;
+    /* margin: 3rem 0; */
 }
 
 #village-early-stage-wireframes h3 {
     padding: 3rem 0;
 }
+#village-early-stage-wireframes p{
+    padding: 2rem 0;
+}
+
 
 #village-branding p {
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 
@@ -1663,15 +1679,14 @@ footer {
     margin: 0 auto;
 }
 
-
-#village-hifi-testing h3 {
+#village-hifi-testing p{
     padding: 2rem 0;
-    text-align: center;
 }
 
 .village-testing-intro {
     /* letter-spacing: .5rem; */
     padding: 3rem;
+    text-align: center;
 }
 
 .village-testing-sub-section-headers {
@@ -1679,10 +1694,10 @@ footer {
     padding: 3rem 0 1rem 0;
 }
 
-#village-hifi-testing p {
+/* #village-hifi-testing p {
     padding: 1rem 0;
 
-}
+} */
 
 .village-button-transformation-story {
     text-align: center;
@@ -1702,12 +1717,12 @@ footer {
 }
 
 #village-conclusions p {
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .village-conclusion-sub-section-headers {
     /* letter-spacing: .5rem; */
-    padding: 3rem 0;
+    padding: 2rem 0 0;
 }
 
 #village-conclusions {
@@ -2093,7 +2108,7 @@ footer {
     }
 
     .screen-explanation {
-        padding 3rem 0;
+        padding: 3rem 0;
     }
 
     /*	ten*/
@@ -2157,7 +2172,7 @@ footer {
     .taster-logo-attached,
     .taster-logo-unattached {
         max-width: 85%;
-        padding 3rem 0;
+        padding: 3rem 0;
     }
 
     .logo-options {
@@ -2275,6 +2290,10 @@ footer {
         max-width: 70rem;
     }
 
+
+    .village-introduction p{
+        padding: 5rem 0;
+    }
     .village-intro-final-logo {
         text-align: center;
     }
@@ -2346,7 +2365,6 @@ footer {
     .village-section-thoughts {
         padding: 5rem;
     }
-
 
     #village-user-research h3 {
         padding: 5rem 0;
@@ -2420,6 +2438,8 @@ footer {
         text-align: center;
     }
 
+    
+
     .village-lofi-text-and-image {}
 
     #village-early-stage-wireframes {
@@ -2428,7 +2448,7 @@ footer {
 
     .village-lofi-sketch-to-digital {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 1rem;
         width: 100%;
     }
@@ -2522,6 +2542,15 @@ footer {
 
     }
 
+    .village-color-change-explanation{
+        padding-top: 5rem;
+        text-align: center;
+    }
+
+    .village-testing-sub-section-headers{
+        text-align: center;
+    }
+
     .village-final-hifi-branding-pages {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -2531,13 +2560,18 @@ footer {
 
 
     .village-conclusion-sub-section-headers {
-        padding: 5rem 0;
+        padding-top: 5rem 0;
         text-align: center;
     }
 
+    /* EARLIER PADDING */
     .village-conclusion-wrap {
         /* margin: 0 13rem; */
-        padding: 2rem 0;
+        /* padding: 2rem 0; */
+    }
+    .village-conclusion-wrap {
+        margin: auto;
+        width: 50%;
     }
 }
 
@@ -2764,9 +2798,7 @@ footer {
     .persona-wrap {
 
         grid-gap: 5rem;
-        grid-template-columns:
-
-
+        /* grid-template-columns: */
     }
 
     .persona-text {
@@ -2879,8 +2911,8 @@ footer {
         text-align: center;
     }
 
-    .village-project-overview p {
-        padding: 5rem 0;
+    #village-project-overview p {
+        padding-bottom: 5rem;
     }
 
     .village-deliverables-list {
@@ -2914,6 +2946,10 @@ footer {
         padding: 0;
 
     }
+/* potential pulling in of text */
+    /* .village-persona-one, .village-persona-two, .village-persona-three, h3 p{
+        padding-left: 5rem;
+    } */
 
     /* .village-shutterfly .village-class-dojo .village-gmail {
             margin: 0 6rem;
@@ -2968,21 +3004,26 @@ footer {
         padding: 3rem 0;
     }
 
-    #village-branding .village-deep-dive {
-        padding: 3rem 0;
+    .village-deep-dive {
+        padding: 5rem 0;
     }
 
     .village-testing-sub-section-headers {
         text-align: center;
+        padding: 5rem 0 2rem 0;
+    }
+
+    .village-folder-text-color-change{
+        padding: 5rem 0 2rem;;
     }
 
     .village-color-change-explanation {
         text-align: center;
+        padding-top: 5rem;;
+      
     }
 
-    .village-conclusion-wrap {
-        margin: 0 17rem;
-    }
+
 
     .village-conclusion-sub-section-headers {
         padding: 10rem 0 2rem 0;

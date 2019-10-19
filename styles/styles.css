@@ -543,13 +543,13 @@ footer {
 }
 
 .music-header {
-    color: #ff0000;
+    color: #0E0E0E;
     text-align: center;
     padding: 1rem 0;
 }
 
 .music-text {
-    color: #AFADAD;
+    color: #4f4f4f;
     line-height: 3rem;
     padding: 2rem;
     max-width: 48rem;

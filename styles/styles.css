@@ -1681,6 +1681,10 @@ footer {
     /*	max-width: 81.2rem;*/
 }
 
+.hifi-wireframe-captions{
+    font-style: italic;
+}
+
 .village-hifi-wireframe-mocks-landing {
     margin: 0 auto;
 }
@@ -2550,6 +2554,7 @@ footer {
     }
 
     .village-color-change-explanation {
+        font-style: italic;
         padding-top: 5rem;
         text-align: center;
     }

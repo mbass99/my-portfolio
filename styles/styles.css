@@ -693,6 +693,10 @@ footer {
 
 /*ONE*/
 
+#taster-project-name {
+    text-align: center;
+    padding: 3rem 0;
+}
 
 .wireframe-wrap {
     display: grid;
@@ -1284,7 +1288,7 @@ footer {
 }
 
 
-.bold{
+.bold {
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -1366,7 +1370,7 @@ footer {
     /* letter-spacing: .5rem; */
 }
 
-#village-project-overview p{
+#village-project-overview p {
     padding-bottom: 2rem 0;
 }
 
@@ -1401,7 +1405,7 @@ footer {
     padding: 2rem 0;
 }
 
-.village-deliver-three ul{
+.village-deliver-three ul {
     width: 50%;
 }
 
@@ -1504,7 +1508,8 @@ footer {
 #village-market-research h3 {
     padding: 3rem 0;
 }
-#village-market-research p{
+
+#village-market-research p {
     padding: 2rem 0;
 }
 
@@ -1624,7 +1629,8 @@ footer {
 #village-early-stage-wireframes h3 {
     padding: 3rem 0;
 }
-#village-early-stage-wireframes p{
+
+#village-early-stage-wireframes p {
     padding: 2rem 0;
 }
 
@@ -1679,7 +1685,7 @@ footer {
     margin: 0 auto;
 }
 
-#village-hifi-testing p{
+#village-hifi-testing p {
     padding: 2rem 0;
 }
 
@@ -2291,9 +2297,10 @@ footer {
     }
 
 
-    .village-introduction p{
+    .village-introduction p {
         padding: 5rem 0;
     }
+
     .village-intro-final-logo {
         text-align: center;
     }
@@ -2438,7 +2445,7 @@ footer {
         text-align: center;
     }
 
-    
+
 
     .village-lofi-text-and-image {}
 
@@ -2542,12 +2549,12 @@ footer {
 
     }
 
-    .village-color-change-explanation{
+    .village-color-change-explanation {
         padding-top: 5rem;
         text-align: center;
     }
 
-    .village-testing-sub-section-headers{
+    .village-testing-sub-section-headers {
         text-align: center;
     }
 
@@ -2569,6 +2576,7 @@ footer {
         /* margin: 0 13rem; */
         /* padding: 2rem 0; */
     }
+
     .village-conclusion-wrap {
         margin: auto;
         width: 50%;
@@ -2946,7 +2954,8 @@ footer {
         padding: 0;
 
     }
-/* potential pulling in of text */
+
+    /* potential pulling in of text */
     /* .village-persona-one, .village-persona-two, .village-persona-three, h3 p{
         padding-left: 5rem;
     } */
@@ -3013,14 +3022,16 @@ footer {
         padding: 5rem 0 2rem 0;
     }
 
-    .village-folder-text-color-change{
-        padding: 5rem 0 2rem;;
+    .village-folder-text-color-change {
+        padding: 5rem 0 2rem;
+        ;
     }
 
     .village-color-change-explanation {
         text-align: center;
-        padding-top: 5rem;;
-      
+        padding-top: 5rem;
+        ;
+
     }
 
 

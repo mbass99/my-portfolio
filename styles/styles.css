@@ -434,18 +434,11 @@ footer {
     left: 0;
 }
 
-
-
-
-
 #introduction {
     color: #f2f2f2;
     font-size: 3.2rem;
     line-height: 1.2;
     text-transform: lowercase;
-
-
-
 }
 
 .colored-name {
@@ -455,6 +448,7 @@ footer {
     text-transform: uppercase;
 
 }
+
 
 .recent-work {
     text-align: center;
@@ -2637,7 +2631,7 @@ footer {
 
     .hero-wrap {
         padding: 9rem 17rem;
-        max-width: 110rem;
+        max-width: 170rem;
 
     }
 

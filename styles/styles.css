@@ -182,7 +182,8 @@ header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 2rem 2rem;
+    padding: 2rem 0;
+    max-width: 80%;
 }
 
 .head-background {
@@ -205,7 +206,7 @@ header {
     grid-gap: 3rem;
     font-size: 1.2rem;
     /* REMOVED 1FR 1FR 1FR WHEN TAKING CONTACT OUT */
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     text-transform: uppercase;
 }
 
@@ -384,7 +385,8 @@ footer {
     align-items: center;
     /*	background-color: #B30000;*/
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
     padding: 3rem 0;
     text-align: center;
 }
@@ -420,7 +422,7 @@ footer {
     /* height: 73vh; */
     height: 95vh;
     /*	justify-content: space-around;*/
-    padding: 0 2rem;
+    padding: 0 4rem;
 
 
 
@@ -570,7 +572,7 @@ footer {
     justify-content: space-between; */
     display: grid;
     grid-gap: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     padding: 2rem 0;
 
 }
@@ -1217,7 +1219,7 @@ footer {
 
 .school {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
 }
 
@@ -1278,7 +1280,11 @@ footer {
 /* VILLAGE MOBILE */
 
 .village-content-borders {
-    padding: 4rem 4rem;
+    /* padding: 4rem 4rem; */
+    /* CC SUGGESTED CHANGES */
+    max-width: 80%;
+    margin: auto;
+
 }
 
 
@@ -1400,7 +1406,7 @@ footer {
 }
 
 .village-deliver-three ul {
-    width: 50%;
+    /* width: 50%; */
 }
 
 .village-performed {
@@ -1757,7 +1763,7 @@ footer {
     }
 
     header {
-        max-width: 63rem;
+        max-width: 80%;
     }
 
     header li {
@@ -1770,6 +1776,7 @@ footer {
 
     .contact-info {
         grid-gap: 12rem;
+
     }
 
     /*	LANDING PAGE*/
@@ -1788,7 +1795,8 @@ footer {
         flex-direction: row;
         max-width: 55rem;
         /* margin: auto; */
-        padding-left: 7rem;
+        padding-left: 8rem;
+
     }
 
     #introduction {
@@ -1806,7 +1814,7 @@ footer {
     .project-wrap {
         align-items: center;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         margin: auto;
         max-width: 64rem;
         /*
@@ -1874,7 +1882,7 @@ footer {
     /*	recurring */
 
     .section-navigation {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(5, 1fr);
     }
 
     .taster-content {
@@ -1895,7 +1903,7 @@ footer {
 
     .wireframe-wrap {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         justify-content: space-between;
 
     }
@@ -1921,7 +1929,7 @@ footer {
     .deliverables-list {
         align-items: baseline;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 4rem;
 
 
@@ -1937,7 +1945,7 @@ footer {
 
     .market-products {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
 
     }
@@ -1980,7 +1988,7 @@ footer {
 
     .market-survey-responses {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         padding: 3rem;
     }
 
@@ -2030,7 +2038,7 @@ footer {
 
     .persona-wrap {
 
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
         /*
 		flex-direction: row;
@@ -2077,13 +2085,13 @@ footer {
     /*eight	*/
 
     .lofi-dashboard {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         margin: auto;
     }
 
 
     .lofi-security {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .picture-italics {
@@ -2103,11 +2111,11 @@ footer {
     /*nine*/
 
     .lofi-add-note-tested {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .lofi-security-tested {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
 
     }
 
@@ -2137,7 +2145,7 @@ footer {
         align-items: center;
         display: grid;
         grid-gap: 2rem;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
 
@@ -2168,7 +2176,7 @@ footer {
     }
 
     .landing-pictures {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         justify-content: space-around;
         padding: 3rem 0;
     }
@@ -2181,14 +2189,14 @@ footer {
 
     .logo-options {
         align-items: center;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2 1fr);
         grid-gap: 2rem;
     }
 
 
     .landing-options {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         padding: 3rem 0;
         margin: auto;
     }
@@ -2196,7 +2204,7 @@ footer {
     .dashboard-organization {
         display: grid;
         grid-gap: 3rem;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
 
@@ -2231,7 +2239,7 @@ footer {
     .bio-about-me-picture {
         align-items: center;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .content-row {
@@ -2305,7 +2313,7 @@ footer {
 
     .village-wireframe-wrap {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 3rem;
         text-align: center;
     }
@@ -2324,21 +2332,21 @@ footer {
     .village-deliverables-list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 0 auto;
-        max-width: 90rem;
+        /* margin: 0 auto; */
+        /* max-width: 90rem; */
 
     }
 
 
     .village-deliver-three,
     .village-deliverables-list li {
-        padding-left: 3rem;
+        /* padding-left: 3rem; */
     }
 
     .village-deliver-one,
     .village-deliver-two,
     .village-deliver-three {
-        max-width: 25rem;
+        /* max-width: 25rem; */
         padding: 0 2rem;
     }
 
@@ -2349,7 +2357,7 @@ footer {
 
     .village-market-products {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 3rem;
         width: 100%;
     }
@@ -2378,7 +2386,7 @@ footer {
 
     .village-survey-product-needs-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .village-chart-explanation {
@@ -2394,7 +2402,7 @@ footer {
 
     .village-master-persona-wrap {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem;
         width: 100%;
     }
@@ -2453,7 +2461,7 @@ footer {
 
     .village-lofi-sketch-to-digital {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 1rem;
         width: 100%;
     }
@@ -2516,7 +2524,7 @@ footer {
         align-items: flex-start;
         display: grid;
         grid-gap: 5rem;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         margin: 0 auto;
     }
 
@@ -2533,7 +2541,7 @@ footer {
     .village-hifi-final-three-mock-grid {
         display: grid;
         grid-gap: 2rem;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         margin: 3rem 0;
     }
 
@@ -2559,7 +2567,7 @@ footer {
 
     .village-final-hifi-branding-pages {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 1rem;
         padding: 3rem 0;
     }
@@ -2601,7 +2609,7 @@ footer {
 
 
     header {
-        max-width: 110rem;
+        max-width: 80%;
     }
 
     .contact-info {
@@ -2630,7 +2638,7 @@ footer {
 
 
     .hero-wrap {
-        padding: 9rem 16rem;
+        padding: 9rem 14rem;
         max-width: 170rem;
 
     }
@@ -2655,7 +2663,7 @@ footer {
 
     .front-end-projects {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
         padding: 0 2rem;
     }
@@ -2708,9 +2716,8 @@ footer {
     }
 
     .section-navigation {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(10, 1fr);
         padding-top: 10rem;
-        ;
     }
 
     .village-user-desires-grid {
@@ -2845,7 +2852,7 @@ footer {
 
     .lofi-wireframes {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         margin: auto;
     }
 
@@ -2910,7 +2917,8 @@ footer {
     }
 
     .village-content-borders {
-        margin: 0 10rem;
+        /* margin: 0 10rem; */
+        max-width: 80%;
     }
 
     .village-button-box {
@@ -2923,19 +2931,23 @@ footer {
     }
 
     .village-deliverables-list {
-        grid-template-columns: 30rem 30rem 30rem;
+        grid-template-columns: repeat(3, 1fr);
         margin: 0 9rem;
 
         /*		padding: 4rem 0;*/
     }
 
+    .village-performed {
+        padding-left: 2rem;
+    }
+
     .village-deliver-three ul {
-        padding-left: 3rem;
+        /* padding-left: 3rem; */
     }
 
     .village-section-heading {
         margin: auto;
-        max-width: 70rem;
+        /* max-width: 70rem; */
     }
 
     .current-products-used {

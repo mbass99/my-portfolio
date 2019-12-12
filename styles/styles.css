@@ -779,7 +779,7 @@ footer {
 }
 
 .products {
-    color: #ff0000;
+    color: #0E0B06;
     font-weight: 700;
     padding: 2rem 0;
     text-transform: capitalize;
@@ -802,7 +802,7 @@ footer {
 
 
 .content-conclusions {
-    color: #ff0000;
+    color:  #0E0B06;
     font-size: 2.8rem;
     padding: 2rem 0;
     text-align: center;
@@ -899,13 +899,13 @@ footer {
 }
 
 .persona-text {
-    font-style: italic;
     padding: 1rem;
     line-height: 1.6;
 }
 
 .persona-italics {
-    color: #ff0000;
+    color: #0E0B06;
+    font-style: italic;
     /*	font-style: italic;*/
 }
 
@@ -2113,7 +2113,7 @@ footer {
     }
 
     .wireframe-labels {
-        padding: 2rem 0;
+        padding: 5rem 0;
     }
 
     .lofi-wireframe-intro {

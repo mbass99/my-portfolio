@@ -1402,19 +1402,19 @@ footer {
 }
 
 .village-deliverables-list {
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .village-deliverables-list h3 {
     padding: 2rem 0;
-    text-align: center;
+    /* text-align: center; */
     text-decoration: underline;
 }
 
 .village-deliver-one,
 .village-deliver-two,
 .village-deliver-three {
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
 }
 
 .village-deliver-three ul {
@@ -1428,6 +1428,7 @@ footer {
     list-style: disc;
     list-style-position: inside;
     padding: .5rem 0;
+    text-align: left;
     text-transform: none;
 }
 
@@ -2343,7 +2344,8 @@ footer {
 
     .village-deliverables-list {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        margin: auto;
         /* margin: 0 auto; */
         /* max-width: 90rem; */
 
@@ -2359,7 +2361,7 @@ footer {
     .village-deliver-two,
     .village-deliver-three {
         /* max-width: 25rem; */
-        padding: 0 2rem;
+        /* padding: 0 2rem; */
     }
 
     .current-products-used {
@@ -2943,14 +2945,16 @@ footer {
     }
 
     .village-deliverables-list {
+        grid-gap: 8rem;
         grid-template-columns: repeat(3, 1fr);
-        margin: 0 9rem;
-
+        margin: auto;
+        max-width: 90rem;
+        padding-left: 10rem;
         /*		padding: 4rem 0;*/
     }
 
     .village-performed {
-        padding-left: 2rem;
+        /* padding-left: 2rem; */
     }
 
     .village-deliver-three ul {

@@ -1,0 +1,97 @@
+<!-- CINEMA MAKEUP SCHOOL REDESIGN CASE STUDY PAGE -->
+
+<!DOCTYPE html>
+<html>
+
+<html>
+
+<head>
+
+    <!-- ADD GOOGLE SCRIPT TAG -->
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cinema Makeup School Redesign</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--	GOOGLE FONTS IBM PLEX SERIFF & SANS CONDENSED-->
+    <link
+        href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed|IBM+Plex+Serif:300,400,400i,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head-background">
+            <header>
+                <a href="index.html"> <img src="Images/mb-logo-reboot-aug-2019.svg" class="nav-logo" alt="logo"></a>
+                <ul class="nav-flex">
+                    <li class="nav-bio"><a href="biography.html">About</a>
+                    </li>
+                    <li class="nav-resume">
+                        <a href="Images/mb-cv-october-2019.pdf" target="_blank">Resume</a></li>
+                    <!-- CONTACT REMOVED -->
+                    <!-- <li class="nav-contact"><a href="mailto:matt@mattbass.design" target="_blank">Contact</a></li> -->
+                </ul>
+            </header>
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+        <main>
+            <div class="cms-content-borders">
+                <section class="cms-overview">
+                    <h1 id="cms-case-study-title">Cinema Makeup School Site Redesign</h1>
+                    <!-- ADD WIREFRAME PICTURE-->
+                </section>
+                <section class="cms-initial-research"></section>
+                <section class="cms-problem"></section>
+                <section class="cms-problem-solved"></section>
+                <section class="cms-end-result">
+                    <!-- ADD WIREFRAME -->
+                </section>
+
+                <!-- ADD TOP LINK -->
+                <h3 class="to-top"> <a href="#cms-case-study-title">Back To Top</a></h3>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <ul class="contact-info">
+                <li>
+                    <a href="mailto:matt@mattbass.design" class="email" target="_blank"> <span
+                            style="color: #f2f2f2;"><i class="fas fa-envelope fa-3x"></i></span></a> </li>
+
+                <li><a href="https://www.linkedin.com/in/mattabass/" class="linkedin" target="_blank">
+                        <span style="color: #f2f2f2;">
+                            <i class="fab fa-linkedin fa-3x"></i></span></a>
+                </li>
+
+                <li> <a href="https://twitter.com/TheMattBass" class="twitter fa-3x" target="_blank"><span
+                            style="color: #f2f2f2;"><i class="fab fa-twitter-square"></i></span></a></li>
+
+            </ul>
+        </footer>
+    </div>
+    <script src="" async defer></script>
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+</body>
+
+</html>

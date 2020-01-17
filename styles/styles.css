@@ -1756,7 +1756,7 @@ footer {
     padding: 2rem 0 1rem 0;
 }
 
-/* CINEMA MAKE UP SCHOOL REDESIGN */
+/* CINEMA MAKE UP SCHOOL REDESIGN - MOBILE */
 
 .cms-content-borders{
     margin: auto;
@@ -1766,6 +1766,11 @@ footer {
 .cms-overview{
     padding: 2rem 0;
 }
+.cms-numbered-header{
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+}
 
 .cms-overview-header{
     align-items: center;
@@ -1774,7 +1779,7 @@ footer {
     /* letter-spacing: 1rem; */
     padding: 2rem 0;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
     width: 100%;
 }

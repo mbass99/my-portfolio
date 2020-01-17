@@ -1756,6 +1756,111 @@ footer {
     padding: 2rem 0 1rem 0;
 }
 
+/* CINEMA MAKE UP SCHOOL REDESIGN */
+
+.cms-content-borders{
+    margin: auto;
+    max-width: 80%;
+}
+
+.cms-overview{
+    padding: 2rem 0;
+}
+
+.cms-overview-header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* letter-spacing: 1rem; */
+    padding: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
+    width: 100%;
+}
+
+/*header line below 2 of 3*/
+.cms-overview-header:before,
+.cms-overview-header::after {
+    content: '';
+    border-top: 2px solid #D01F25;
+    margin: 0 10px 0 0;
+    flex: 1 0 10px;
+}
+
+/*header line below 3 of 3*/
+.cms-overview-header:after {
+    margin: 0 0 0 10px;
+}
+#cms-case-study-title{
+    color: #D01F25;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.cms-questions{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* letter-spacing: 1rem; */
+    padding: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
+    width: 100%;
+}
+
+/*header line below 2 of 3*/
+.cms-questions:before,
+.cms-questions:after {
+    content: '';
+    border-top: 2px solid #D01F25;
+    margin: 0 10px 0 0;
+    flex: 1 0 10px;
+}
+
+/*header line below 3 of 3*/
+.cms-questions:after {
+    margin: 0 0 0 10px;
+}
+
+.cms-deliverable{
+    padding: 2rem 0;
+}
+
+.cms-deliverable h3{
+    text-decoration: underline;
+}
+
+.cms-list-answers{
+    font-size: 1.8rem;
+    list-style-type: disc;
+    list-style: inside;
+    padding: 1rem 0;
+}
+
+.cms-problem p{
+    padding: 0 0 1rem;
+}
+
+.cms-problem-solved p{
+    padding: 1rem 0;
+}
+
+.cms-end-result p{
+    padding: 1rem 0;
+}
+
+.cms-sub-header{
+    font-weight: 700;
+    padding: 3rem 0 1rem;
+}
+
+.cms-wireframes{
+    border: .5px solid #AFADAD;
+    margin: 3rem 0;
+}
+
 /*MEDIA QUERIES*/
 
 
@@ -2596,6 +2701,28 @@ footer {
     .village-conclusion-wrap {
         margin: auto;
         width: 50%;
+    }
+
+    /* CINEMA MAKEUP SCHOOL */
+
+
+    .cms-deliverable-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        
+    }
+    .cms-deliverable{
+       
+    }
+
+    .cms-questions{
+        padding: 3rem 0;
+    }
+
+    .cms-wireframes{
+        display: block;
+        margin: 3rem auto;
     }
 }
 

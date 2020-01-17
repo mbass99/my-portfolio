@@ -1762,6 +1762,10 @@ footer {
     margin: auto;
     max-width: 80%;
 }
+.cms-logo{
+    padding: 2rem 0;
+    text-align: center;
+}
 
 .cms-overview{
     padding: 2rem 0;
@@ -1777,7 +1781,7 @@ footer {
     display: flex;
     justify-content: center;
     /* letter-spacing: 1rem; */
-    padding: 2rem 0;
+    padding: 3rem 0;
     text-align: center;
     text-transform: capitalize;
     /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
@@ -2708,17 +2712,19 @@ footer {
         width: 50%;
     }
 
-    /* CINEMA MAKEUP SCHOOL */
+    /* CINEMA MAKEUP SCHOOL TABLET*/
 
-
+.cms-logo{
+    display: block;
+    margin: auto;
+}
     .cms-deliverable-grid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        
-        
+        grid-template-columns: 1fr 1fr auto;
     }
+
     .cms-deliverable{
-       
+        padding: 5rem 0;
     }
 
     .cms-questions{

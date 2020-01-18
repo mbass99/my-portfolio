@@ -1828,7 +1828,7 @@ footer {
 .cms-list-answers{
     font-size: 1.8rem;
     list-style-type: disc;
-    list-style: inside;
+    list-style: outside;
     padding: 1rem 0;
 }
 
@@ -1891,10 +1891,10 @@ footer {
 
     /*	LANDING PAGE*/
 
-    /* .hero {
+    .hero {
         padding: 0;
         100vh;
-    } */
+    }
 
     .hero::before {
         height: 110vh;

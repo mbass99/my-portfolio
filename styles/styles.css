@@ -1833,7 +1833,7 @@ footer {
 .cms-list-answers{
     font-size: 1.8rem;
     list-style-type: disc;
-    list-style: inside;
+    list-style: outside;
     padding: 1rem 0;
 }
 
@@ -1855,9 +1855,18 @@ footer {
 }
 
 .cms-wireframes{
-    border: .5px solid #AFADAD;
+    border: .5px solid 
+    #AFADAD;
     margin: 3rem 0;
 }
+
+.final-mock-and-label h6{
+    font-weight: 700;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+
 
 /*MEDIA QUERIES*/
 
@@ -2643,6 +2652,10 @@ footer {
         padding: 5rem 0;
     }
 
+    .existing-mobile, .existing-desktop{
+        margin: 2rem;
+    }
+
     .cms-questions{
         padding: 3rem 0;
     }
@@ -2651,6 +2664,7 @@ footer {
         display: block;
         margin: 3rem auto;
     }
+
 }
 
 /*DESKTOP*/

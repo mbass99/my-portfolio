@@ -1821,6 +1821,11 @@ footer {
     padding: 2rem 0;
 }
 
+.cms-wireframe-label{
+    font-weight: 700;
+    text-align: center;
+}
+
 .cms-deliverable h3{
     text-decoration: underline;
 }
@@ -1828,7 +1833,7 @@ footer {
 .cms-list-answers{
     font-size: 1.8rem;
     list-style-type: disc;
-    list-style: outside;
+    list-style: inside;
     padding: 1rem 0;
 }
 
@@ -2623,6 +2628,12 @@ footer {
     display: block;
     margin: auto;
     }
+
+    .cms-existing-wireframes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     .cms-deliverable-grid{
         display: grid;
         grid-template-columns: 1fr 1fr auto;
@@ -3086,7 +3097,6 @@ footer {
     .village-color-change-explanation {
         text-align: center;
         padding-top: 5rem;
-
     }
 
 
@@ -3100,8 +3110,9 @@ footer {
        margin: 0 8rem;
    }
 
-   .cms-sub-header{
-       margin: 0 17.5rem;
+   .cms-sub-sections{
+       margin: 0 auto;
+       max-width: 80rem;
    }
 
 }

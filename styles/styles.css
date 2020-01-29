@@ -1,9 +1,9 @@
+/* PORTFOLIO */
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
-
 html,
 body,
 div,
@@ -137,8 +137,6 @@ table {
 
 /*end meyer reset*/
 
-
-
 /*GOOGLE FONTS WERE HERE*/
 
 /*font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -179,7 +177,6 @@ header {
     justify-content: space-between;
     margin: auto;
     padding: 2rem 0;
-    max-width: 80%;
 }
 
 .head-background {
@@ -256,7 +253,6 @@ li .nav-contact {
 .to-top a:visited {
     /* color: #de9898; */
     color: #9D5454;
-
 }
 
 .to-top a:link {
@@ -290,7 +286,6 @@ h3 {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     font-size: 2.6rem;
     text-transform: capitalize;
-
 }
 
 h4 {
@@ -331,21 +326,7 @@ img {
 
 section {
     padding: 2rem 0;
-
 }
-
-
-/*
-.two,
-.four,
-.six,
-.eight,
-.ten,
-.twelve {
-	background-color: #D2E7EE;
-}
-*/
-
 
 
 /*BUTTONS*/
@@ -371,18 +352,12 @@ section {
     background-color: #f2f2f2;
     border-color: #ff0000;
     color: #ff0000;
-    /* BELOW IS OLD HOVER FROM INITIAL PORTFOLIO */
-    /* background-color: #FC5858;
-    border-color: rgba(137, 91, 91, 0.38);
-    box-shadow: .5rem .5rem .5rem #777777;
-    transform: translateY(-5px); */
 }
 
 .village-button-box {
     text-align: center;
 }
 
-/*FOOTER*/
 /*FOOTER*/
 
 footer {
@@ -431,9 +406,6 @@ footer {
     height: 95vh;
     /*	justify-content: space-around;*/
     padding: 0 4rem;
-
-
-
 }
 
 
@@ -456,7 +428,6 @@ footer {
     font-size: 4.4rem;
     /* letter-spacing: .5rem; */
     text-transform: uppercase;
-
 }
 
 
@@ -531,7 +502,6 @@ footer {
     max-width: 20rem;
     min-width: 23rem;
     text-align: center;
-
 }
 
 .bus-logo {
@@ -574,15 +544,10 @@ footer {
 
 
 .section-navigation {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between; */
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     padding: 2rem 0;
-
 }
 
 .village-nav-links a:link {
@@ -606,7 +571,6 @@ footer {
 
 .taster-content {
     padding: 0 1rem;
-
 }
 
 .taster-section-header {
@@ -620,9 +584,6 @@ footer {
     text-transform: uppercase;
     /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
     width: 100%;
-
-
-
 }
 
 /*header line below 2 of 3*/
@@ -695,8 +656,6 @@ footer {
     max-width: 100%;
 }
 
-/*ONE*/
-
 #taster-project-name {
     text-align: center;
     padding: 3rem 0;
@@ -721,7 +680,6 @@ footer {
 .case-explanation {
     text-align: center;
     padding: 2rem 0rem;
-
 }
 
 .text-wrap {
@@ -736,8 +694,6 @@ footer {
     margin: auto;
 }
 
-
-/*TWO*/
 
 .deliverables-list {
     display: grid;
@@ -754,24 +710,15 @@ footer {
 .performed {
     font-size: 1.4rem;
     line-height: 1.4;
-
 }
 
-/*THREE*/
 
-/*
-.market-products {
-	display: flex;
-	flex-direction: column;
-}
-*/
 
 .product-one,
 .product-two,
 .product-three {
     box-shadow: 0 0 5px #e2d4d4;
     padding: 3rem 0;
-
 }
 
 .products {
@@ -792,7 +739,6 @@ footer {
 
 .product-text {
     font-size: 1.8rem;
-
 }
 
 
@@ -802,14 +748,11 @@ footer {
     font-size: 2.8rem;
     padding: 2rem 0;
     text-align: center;
-
 }
 
 .swot-button-center {
     text-align: center;
 }
-
-/*FOUR*/
 
 .survey-intro {
     padding: 1rem 0;
@@ -834,7 +777,6 @@ footer {
     line-height: 1.4;
 }
 
-
 #wineChart {
     max-width: 70%;
     margin: auto;
@@ -856,7 +798,6 @@ footer {
     padding: 1rem 0;
 }
 
-/*FIVE*/
 
 .persona-one,
 .persona-two,
@@ -866,11 +807,6 @@ footer {
 }
 
 .persona-wrap {
-    /*
-
-	display: flex;
-	flex-direction: column;
-*/
     padding: 3rem 0rem;
     display: grid;
     grid-template-columns: 1fr;
@@ -902,11 +838,7 @@ footer {
 .persona-italics {
     color: #0E0B06;
     font-style: italic;
-    /*	font-style: italic;*/
 }
-
-
-/*SIX*/
 
 .sitemap {
     max-width: 90%;
@@ -914,10 +846,8 @@ footer {
 
 .sitemap-text {
     padding: 1rem 0;
-
 }
 
-/*SE7EN*/
 
 .user-flow-intro {
     padding: 1rem 0;
@@ -937,8 +867,6 @@ footer {
     max-width: 90%;
     padding: 1rem;
 }
-
-/*EIGHT*/
 
 .lofi-wireframe-intro {
     padding: 1rem 0;
@@ -966,8 +894,6 @@ footer {
 }
 
 
-/*NINE*/
-
 .testing-results-intro {
     padding: 1rem 0;
 }
@@ -983,8 +909,6 @@ footer {
 .screen-explanation {
     padding: 1rem 0;
 }
-
-/*TEN*/
 
 .research-intro {
     padding: 1rem 0;
@@ -1032,8 +956,6 @@ footer {
 .color-conversation {
     padding: 1rem 0;
 }
-
-/*ELEVEN*/
 
 .hifi-conversation {
     padding: 1rem 0;
@@ -1105,9 +1027,6 @@ footer {
     padding: 1rem 0;
 }
 
-
-/*TWELVE*/
-
 .project-conclusion-text {
     padding: 1rem 0;
 }
@@ -1123,9 +1042,6 @@ footer {
     background-color: #0E0E0E;
     max-width: 100%;
 }
-
-
-
 
 .bio-content {
     padding: 0 1rem;
@@ -1149,8 +1065,6 @@ footer {
     margin-right: auto;
     max-width: 20rem;
     padding: 3rem 0;
-
-
 }
 
 .bio-about-me-picture {
@@ -1192,22 +1106,14 @@ footer {
     padding: 3rem 0;
 }
 
-/* former bio h2 removed */
-/* .bio-question-red {
-    color: #ff0000;
-} */
-
 
 .content-three {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-
 .content-row {
-    /* padding-bottom: 2rem; */
     padding: 0rem 2rem;
-
 }
 
 .mini-subhead {
@@ -1288,11 +1194,8 @@ footer {
 /* VILLAGE MOBILE */
 
 .village-content-borders {
-    /* padding: 4rem 4rem; */
-    /* CC SUGGESTED CHANGES */
     max-width: 80%;
     margin: auto;
-
 }
 
 
@@ -1418,15 +1321,8 @@ footer {
 
 
 
-/* .village-market-logo {
-    padding: 3rem 0 1rem 0;
-} */
-
-
-
 .current-products-used {
     font-weight: 300;
-    /* letter-spacing: .5rem; */
 
 }
 
@@ -1496,10 +1392,6 @@ footer {
     padding: 8rem 0;
     text-align: center;
     text-transform: uppercase;
-    /* padding: 3rem 0;
-    text-align: center;
-    font-weight: 300;
-    text-transform: lowercase; */
 }
 
 #village-market-research h3 {
@@ -1590,14 +1482,6 @@ footer {
     padding: 3rem 0;
 }
 
-/* .village-user-flow-grid-one,
-.village-user-flow-grid-two,
-.village-user-flow-grid-three,
-.village-user-flow-grid-four h3 {
-    padding: 3rem 0;
-    text-align: center;
-} */
-
 
 .village-process-label {
     text-align: center;
@@ -1639,7 +1523,6 @@ footer {
 
 .village-branding-individual-section-headers {
     font-weight: 700;
-    /* letter-spacing: .5rem; */
     padding: 3rem 0;
     text-align: center;
 }
@@ -1673,9 +1556,7 @@ footer {
 
 .village-hifi-wireframe-mocks {
     border: 1px solid #AFADAD;
-    /*	max-height: 37.5rem;*/
     margin: 2rem 0;
-    /*	max-width: 81.2rem;*/
 }
 
 .hifi-wireframe-captions {
@@ -1691,7 +1572,6 @@ footer {
 }
 
 .village-testing-intro {
-    /* letter-spacing: .5rem; */
     padding: 3rem;
     text-align: center;
 }
@@ -1700,11 +1580,6 @@ footer {
     font-weight: 700;
     padding: 3rem 0 1rem 0;
 }
-
-/* #village-hifi-testing p {
-    padding: 1rem 0;
-
-} */
 
 .village-button-transformation-story {
     text-align: center;
@@ -1728,7 +1603,6 @@ footer {
 }
 
 .village-conclusion-sub-section-headers {
-    /* letter-spacing: .5rem; */
     padding: 2rem 0 0;
 }
 
@@ -1764,7 +1638,6 @@ footer {
     align-items: center;
     display: flex;
     justify-content: center;
-    /* letter-spacing: 1rem; */
     padding: 3rem 0;
     text-align: center;
     text-transform: capitalize;
@@ -1866,13 +1739,109 @@ footer {
     text-align: center;
 }
 
-/* TEST FLIP CARD */
+/* DESIGN READS MOBILE */
+
+.design-reads-content-borders{
+    max-width: 80%;
+    margin: auto;
+}
 
 
+.design-reads-final-logo{
+    display: block;
+    margin: auto;
+    padding: 2rem 0
+}
+
+#design-reads-case-study-title{
+    color: #34797E;
+    line-height: 1.3;
+    padding: 5rem 0 3rem;
+    text-align: center;
+}
+
+
+.case-study-wrap{
+    
+}
+
+.who-did-this{
+    font-weight: 700;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.project-duration{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.case-study-section-header{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0;
+    text-align: center;
+    text-transform: capitalize;
+    /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
+    width: 100%;
+}
+
+/*header line below 2 of 3*/
+.case-study-section-header:before,
+.case-study-section-header:after {
+    content: '';
+    border-top: 1rem solid #34797E;
+    margin: 0 1rem 0 0;
+    flex: 1 0 1rem;
+}
+
+/*header line below 3 of 3*/
+.case-study-section-header:after {
+    margin: 0 0 0 1rem;
+}
+
+
+
+.case-study-problem-statement{
+     font-weight: 300;
+    padding: 3rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav-links {
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    text-transform: lowercase;
+}
+.nav-links a:link {
+    /* color: #4f4f4f; */
+    /* color: #0E0B06; */
+    color: #0080A5;
+    text-decoration: none;
+}
+
+.nav-links a:visited {
+    /* color: #de9898; */
+    color: #0E0B06;
+    text-transform: uppercase;
+}
+
+.nav-links a:hover {
+    color: #ff0000;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.deliverables-list h3 {
+    padding: 2rem 0;
+    /* text-align: center; */
+    text-decoration: underline;
+}
 
  
-
-
 /*MEDIA QUERIES*/
 
 
@@ -1905,7 +1874,6 @@ footer {
 
     .contact-info {
         grid-gap: 12rem;
-
     }
 
     /*	LANDING PAGE*/
@@ -1951,8 +1919,6 @@ footer {
         font-weight: 700;
         text-align: left;
         padding: 0;
-
-
     }
 
     .right-wrap .button {
@@ -2012,10 +1978,6 @@ footer {
     }
 
 
-    /*	one */
-
-
-
     .wireframe-wrap {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -2036,7 +1998,6 @@ footer {
         text-align: left;
     }
 
-    /*	two */
 
     .deliverables-list {
         align-items: baseline;
@@ -2053,13 +2014,10 @@ footer {
     }
 
 
-    /*three*/
-
     .market-products {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2rem;
-
     }
 
 
@@ -2092,15 +2050,11 @@ footer {
         text-align: left;
     }
 
-    /*	four*/
-
     .market-survey-responses {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 3rem;
     }
-
-
 
 
     .chartjs-one {
@@ -2136,7 +2090,6 @@ footer {
         line-height: 1.5;
     }
 
-    /*	five*/
 
     .persona-wrap {
         grid-template-columns: repeat(3, 1fr);
@@ -2153,8 +2106,6 @@ footer {
         text-align: left;
     }
 
-    
-    /*	six*/
 
     .sitemap {
         max-width: 80%;
@@ -2164,10 +2115,7 @@ footer {
     .sitemap-text {
         font-size: 2rem;
         margin: auto;
-
     }
-
-    /*	seven*/
 
     .user-flow-intro {
         padding: 2rem 0;
@@ -2177,7 +2125,6 @@ footer {
         padding: 2rem 0;
     }
 
-    /*eight	*/
 
     .lofi-dashboard {
         grid-template-columns: repeat(3, 1fr);
@@ -2198,8 +2145,6 @@ footer {
         grid-row-gap: 3rem;
     }
 
-    /*nine*/
-
     .lofi-add-note-tested {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -2211,8 +2156,6 @@ footer {
     .screen-explanation {
         padding: 3rem 0;
     }
-
-    /*	ten*/
 
     .mind-map {
         max-width: 75%;
@@ -2247,16 +2190,12 @@ footer {
     }
 
 
-    /*eleven*/
-
     .hifi-wireframes {
         display: grid;
         grid-gap: 3rem;
         grid-template-columns: 1fr 1fr 1fr;
         padding: 3rem 0;
     }
-
-    /*twelve*/
 
     .landing-image-one,
     .landing-image-two {
@@ -2436,7 +2375,6 @@ footer {
     .village-product-one,
     .village-product-two,
     .village-product-three {
-        /* border: .5px solid #AFADAD; */
         padding: 2rem 1rem;
     }
 
@@ -2670,6 +2608,8 @@ footer {
         margin: 3rem auto;
     }
 
+/* DESIGN READS TABLET */
+
 }
 
 /*DESKTOP*/
@@ -2810,24 +2750,14 @@ footer {
         padding: 10rem;
     }
 
-    /*
-	.section-header {
-		font-size: 5rem;
-	}
-*/
 
-
-    /*	individual */
-
-    /*	section one*/
+   
     #taster-project-name {
         color: #ff0000;
         font-size: 5rem;
         padding: 3rem;
         text-align: center;
     }
-
-    /*	section two*/
 
     .deliverables-list {
         grid-gap: 11rem;
@@ -2841,14 +2771,10 @@ footer {
         font-size: 2rem;
     }
 
-    /*	section three*/
 
     .market-products {
         grid-gap: 4rem;
     }
-
-
-
 
 
     .pinterest-logo,
@@ -2871,9 +2797,6 @@ footer {
     }
 
 
-
-    /*	section four*/
-
     #winePlusChart,
     #wineChart {
         max-width: 45%;
@@ -2889,12 +2812,9 @@ footer {
         flex-direction: row-reverse;
     }
 
-    /*	section five*/
 
     .persona-wrap {
-
         grid-gap: 5rem;
-        /* grid-template-columns: */
     }
 
     .persona-text {
@@ -2903,24 +2823,19 @@ footer {
 
     .persona-one {
         margin: 0;
-        /*		padding: 3rem;*/
+    
     }
-
-    /*	section six */
     .sitemap {
         max-width: 80%;
         padding: 3rem 0;
     }
 
-
-    /*	section se7en*/
     .sign-in-flow {
         align-items: center;
         display: flex;
         padding: 0;
     }
 
-    /*	section eight*/
     .wireframe-labels {
         font-size: 3rem;
         margin: auto;
@@ -2950,7 +2865,6 @@ footer {
 
     }
 
-    /*	ten */
     .mind-map {
         max-width: 75%;
     }
@@ -3035,21 +2949,10 @@ footer {
         padding: 3rem;
     }
 
-
-
     .village-product-one .village-product-two .village-product-three h3 {
         padding: 0;
-
     }
 
-    /* potential pulling in of text */
-    /* .village-persona-one, .village-persona-two, .village-persona-three, h3 p{
-        padding-left: 5rem;
-    } */
-
-    /* .village-shutterfly .village-class-dojo .village-gmail {
-            margin: 0 6rem;
-        } */
 
     .village-process-label {
         padding: 5rem 0;
@@ -3133,5 +3036,7 @@ footer {
        margin: 0 auto;
        max-width: 80rem;
    }
+
+   /* DESIGN READS DESKTOP */
 
 }

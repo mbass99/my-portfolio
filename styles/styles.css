@@ -176,7 +176,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .head-background {
@@ -314,6 +314,13 @@ p {
     text-align: left;
 }
 
+li{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    padding-top: 1rem;
+}
+
 
 
 /*IMAGES*/
@@ -405,7 +412,7 @@ footer {
     /* height: 73vh; */
     height: 95vh;
     /*	justify-content: space-around;*/
-    padding: 0 4rem;
+    padding: 0 3rem;
 }
 
 
@@ -1193,7 +1200,7 @@ footer {
 /* VILLAGE MOBILE */
 
 .case-study-content-borders {
-    max-width: 80%;
+    padding: 0 2rem;
     margin: auto;
 }
 
@@ -1535,23 +1542,6 @@ footer {
     font-size: 5rem;
 }
 
-.village-seriff-font {
-    font-family: 'PT Serif', serif;
-    color: #285835;
-
-}
-
-.village-sans-seriff-font {
-    font-family: 'Montserrat', sans-serif;
-    color: #285835;
-}
-
-.village-hifi-individual-section-headers {
-    font-weight: 700;
-    padding: 3rem 0;
-    /* letter-spacing: .5rem; */
-}
-
 
 .village-hifi-wireframe-mocks {
     border: 1px solid #AFADAD;
@@ -1745,6 +1735,9 @@ footer {
     margin: auto;
 }
 
+.design-reads-hero{
+    padding: 0;
+}
 
 .design-reads-final-logo{
     display: block;
@@ -1767,20 +1760,84 @@ footer {
     text-align: center;
 }
 
-.ux-section{
-    background-color: #34797E;
+b{
+    font-weight: 700;
+}
+
+.btn-prototype {
+    background-color: white;
+    border: 2px solid #34797E;
+    border-radius: 2px;
+    color: #34797E;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 4rem;
+    padding: 10px 41px;
+  }
+  
+  .btn:hover {
+    background-color: #4148C5;
     color: white;
-    padding: 2rem 0;
+  }
+
+.ux-section{
+    /* background-color: #45667A; */
+    color: #34797E;
+    font-weight: 700;
+    letter-spacing: 2rem;
+    padding: 3rem 0 2rem;
     text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.roles, .responsibilities, .tools, .duration {
+    margin: auto;
+    text-align: center;
+  }
+
+  .detail{
+      padding: 2rem 0;
+  }
+  
+
+.dr-links{
+    color: #4148C5;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 5.5rem;
 }
 
 .row{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem 0;;
 }
      
-  
-  
+.inline {
+    display: inline;
+    line-height: 1.4;
+  } 
 
+  .quote{
+      padding: 1rem;
+  }
+  
+.persona{
+    text-align: center;
+}
+
+.persona .center{
+    padding: 2rem 0;
+}
+
+.persona h5{
+    font-weight: 700;
+}
 
 
 .case-study-wrap{
@@ -1862,6 +1919,8 @@ nav-links {
     /* text-align: center; */
     text-decoration: underline;
 }
+
+
 
  
 /*MEDIA QUERIES*/

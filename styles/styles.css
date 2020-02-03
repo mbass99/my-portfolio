@@ -1735,10 +1735,8 @@ footer {
     margin: auto;
 }
 
-.design-reads-final-logo{
-    display: block;
-    margin: auto;
-    padding: 2rem 0
+.design-reads-hero{
+    padding: 0 0 2rem;
 }
 
 #design-reads-case-study-title{
@@ -2743,6 +2741,56 @@ nav-links {
 
 /* DESIGN READS TABLET */
 
+.dr-case-study-content-borders{
+    padding: 0 5rem;
+}
+
+.roles-duration{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.roles, .duration, .tools{
+    height: 50%;
+}
+
+.dr-button-box{
+    text-align: center;
+}
+
+.dr-links-box{
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.case-study-survey-results h3{
+    text-align: center;
+}
+ .survey-data{
+    padding: 0 10rem 4rem;
+    text-align: center;
+    }
+
+    .case-study-mid-fidelity-wireframes, .case-study-testing-results{
+        text-align: center;
+    }
+
+    .case-study-mid-fidelity-wireframes, .case-study-testing-results p{
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .case-study-style-tile{
+        text-align: center;
+    }
+
+    .case-study-hi-fidelity-wireframes{
+        text-align: center;
+    }
+
+    .dr-hifi{
+        padding-top: 2rem;
+    }
 }
 
 /*DESKTOP*/

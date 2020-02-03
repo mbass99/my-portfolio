@@ -1786,7 +1786,7 @@ b{
     color: #34797E;
     font-weight: 700;
     letter-spacing: 2rem;
-    padding: 3rem 0 2rem;
+    padding: 5rem 0 2rem;
     text-align: center;
 }
 
@@ -1811,7 +1811,7 @@ b{
   line-height: 5.5rem;
 }
 
-.row{
+.case-study-market-products{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -1837,8 +1837,18 @@ b{
 
 .persona h5{
     font-weight: 700;
+    padding-top: 2rem;
 }
 
+.goals, .frustrations {
+    line-height: 2.5rem;
+    list-style:unset;
+    text-align: left;
+  }
+  
+  .goals, .frustrations, .motivations {
+    padding: 0 1rem;
+  }
 
 .case-study-wrap{
     

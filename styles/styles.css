@@ -332,7 +332,7 @@ img {
 /*UNIVERSAL PADDING*/
 
 section {
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 
@@ -1175,7 +1175,6 @@ footer {
 .design-frustration {
     display: grid;
     grid-template-columns: auto;
-
 }
 
 
@@ -1768,20 +1767,10 @@ b{
     font-weight: 700;
     margin-top: 4rem;
     padding: 1rem 4.1rem;
-    
-  }
+}
   
-  .btn:hover {
-    background-color: #4148C5;
-    color: white;
-  }
-
-  .dr-storyboard{
-      padding: 2rem 0;
-  }
-
-.ux-section{
-    /* background-color: #45667A; */
+  
+.ux-section {
     color: #34797E;
     font-weight: 700;
     letter-spacing: 1rem;
@@ -1789,6 +1778,14 @@ b{
     text-align: center;
 }
 
+.btn:hover {
+    background-color: #4148C5;
+    color: white;
+  }
+
+.dr-storyboard{
+    padding: 2rem 0;
+}
 
 
 .case-study-section-header{
@@ -1816,6 +1813,22 @@ b{
     margin: 0 0 0 1rem;
 }
 
+.case-study-competitve-analysis h3{
+    text-transform: uppercase;
+}
+.case-study-user-research h3{
+    text-transform: uppercase;
+}
+
+.case-study-lo-fidelity-wireframes h3{
+    text-transform: uppercase;
+}
+
+.case-study-hi-fidelity-wireframes h3{
+    text-transform: uppercase;
+}
+
+
 
 
 .case-study-problem-statement{
@@ -1830,6 +1843,7 @@ nav-links {
     padding: 1rem 0;
     text-transform: lowercase;
 }
+
 .nav-links a:link {
     /* color: #4f4f4f; */
     /* color: #0E0B06; */
@@ -1881,7 +1895,7 @@ nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 2rem 0;;
+    padding: 2rem 0;
 }
      
 .inline {
@@ -1890,7 +1904,7 @@ nav-links {
     padding: .5rem;
   } 
 
-  .quote{
+.quote{
       padding: 1rem;
   }
   
@@ -1917,10 +1931,6 @@ nav-links {
     padding: 0 1rem;
   }
 
-  /* NEED TO ADDRESS */
-.survey-data{
-    
-}
 
 .characteristic{
     padding-top: 2rem;
@@ -1951,7 +1961,10 @@ nav-links {
 
 .dr-lowfi{
     margin: 2rem 0;
-   
+}
+
+.case-study-mid-fidelity-wireframes .dr-lowfi{
+    border: 1px solid black;
 }
 
 .iteration-flex h4{
@@ -1966,7 +1979,7 @@ nav-links {
     margin: 2rem 0;
 }
 
-.discovery .information-architecture, .visual-design{
+.discovery, .information-architecture, .visual-design{
     padding: 0;
 }
 
@@ -3220,4 +3233,16 @@ nav-links {
 
    /* DESIGN READS DESKTOP */
 
+   .dr-case-study-content-borders{
+       padding: 0 30rem;
+   }
+   .dr-case-study-content-borders .project-introduction{
+    padding: 0;
+   }
+
+   .case-study-mid-fidelity-wireframes{
+      
+   }
+
+   
 }

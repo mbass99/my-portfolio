@@ -1897,6 +1897,10 @@ nav-links {
     justify-content: space-evenly;
     padding: 2rem 0;
 }
+
+.survey-data{
+    padding: 1rem 0;
+}
      
 .inline {
     display: inline;
@@ -1905,7 +1909,7 @@ nav-links {
   } 
 
 .quote{
-      padding: 1rem;
+      padding: 1rem 0;
   }
   
 .persona{
@@ -1983,13 +1987,13 @@ nav-links {
     padding: 0;
 }
 
-
+/*MOBILE ABOVE 375width*/
 
  
 /*MEDIA QUERIES*/
 
 
-/*MOBILE 375width*/
+
 
 /*TABLET 768*/
 @media screen and (min-width: 768px) {

@@ -172,6 +172,12 @@ html {
     width: 100%;
 }
 
+.landing-container {
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -470,13 +476,12 @@ footer {
   
 
 .landing-background {
-    /*	background-color: #010101;*/
-    /* background-color: #0E0E0E; */
     background-color: #141414;
 }
 
 .hero {
     padding: 0;
+    color: #141414;
 }
 
 .hero:before {
@@ -492,10 +497,7 @@ footer {
 .hero-wrap {
     align-items: center;
     display: flex;
-    /*	flex-direction: column;*/
-    /* height: 73vh; */
     height: 95vh;
-    /*	justify-content: space-around;*/
     padding: 0 3rem;
 }
 
@@ -505,6 +507,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
+   
 }
 
 #introduction {
@@ -523,10 +526,10 @@ footer {
 
 
 .recent-work {
-    text-align: center;
     color: #ff0000;
     /* letter-spacing: 1rem; */
     padding: 8rem 0 5rem 0;
+    text-align: center;
     text-transform: uppercase;
 }
 

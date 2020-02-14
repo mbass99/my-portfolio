@@ -327,6 +327,11 @@ li{
     padding-top: 1rem;
 }
 
+.external-site{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
 
 
 /*IMAGES*/
@@ -374,7 +379,8 @@ section {
 /*FOOTER*/
 
 footer {
-    background-color: #0E0E0E;
+    /* background-color: #0E0E0E; */
+    background-color: #0F0F0F;
 }
 
 .contact-info {
@@ -476,15 +482,13 @@ footer {
   
 
 .landing-background {
-    background-color: #141414;
+    /* background-color: #141414; */
+    background-color: #0F0F0F;
 }
 
 .hero {
     padding: 0;
     color: #141414;
-}
-
-.hero:before {
     padding-top: 0;
     background-image: url(../Images/landing-hollywood-sign-night.jpg);
     background-size: cover;
@@ -494,21 +498,31 @@ footer {
     z-index: -2;
 }
 
+/* .hero:before {
+    padding-top: 0;
+    background-image: url(../Images/landing-hollywood-sign-night.jpg);
+    background-size: cover;
+    height: 110vh;
+    opacity: .95;
+    width: 100%;
+    z-index: -2;
+} */
+
 .hero-wrap {
     align-items: center;
     display: flex;
-    height: 95vh;
+    height: 90vh;
     padding: 0 3rem;
 }
 
 
-.hero::before {
+/* .hero::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
    
-}
+} */
 
 #introduction {
     color: #f2f2f2;
@@ -2103,9 +2117,9 @@ nav-links {
         100vh;
     }
 
-    .hero::before {
+    /* .hero::before {
         height: 110vh;
-    }
+    } */
 
     .hero-wrap {
         display: flex;
@@ -2899,13 +2913,13 @@ nav-links {
 
     /*	LANDING PAGE */
 
-    .hero {
+    /* .hero {
         height: 100vh;
-    }
+    } */
 
-    .hero::before {
+    /* .hero::before {
         height: 100vh;
-    }
+    } */
 
 
 

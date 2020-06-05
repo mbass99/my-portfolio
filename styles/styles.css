@@ -266,6 +266,10 @@ li .nav-contact {
     text-decoration: none;
 }
 
+.hand-coding{
+    padding: 8rem 0 5rem;
+}
+
 .hand-code {
     text-align: center;
     color: #AFADAD;
@@ -602,6 +606,8 @@ footer {
     outline: 1px solid rgba(0, 0, 0, 0.22);
     text-align: center;
 }
+
+
 
 .spotify-playlist {
     padding: 3rem;

@@ -316,7 +316,8 @@ h6 {
 
 p {
     color: #4f4f4f;
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    /* font-family: 'IBM Plex Serif', serif; */
     font-size: 1.8rem;
     line-height: 1.5;
     margin: 0 auto;
@@ -354,8 +355,10 @@ section {
 /*BUTTONS*/
 
 .button {
-    background-color: #ff0000;
-    border-color: #ff0000;
+    /* background-color: #ff0000; */
+    /* border-color: #ff0000; */
+    background-color: #046708;
+    border-color: #046708;
     border-radius: 2rem;
     color: white;
     font-size: 1.8rem;
@@ -372,8 +375,10 @@ section {
 
 .button:hover {
     background-color: #f2f2f2;
-    border-color: #ff0000;
-    color: #ff0000;
+    /* border-color: #ff0000; */
+    /* color: #ff0000; */
+    border-color: #046708;
+    color:#046708;
 }
 
 .village-button-box {
@@ -673,7 +678,7 @@ footer {
 
 .taster-section-header {
     align-items: center;
-    color: #843F60;
+    /* color: #843F60; */
     display: flex;
     justify-content: center;
     /* letter-spacing: 1rem; */
@@ -688,7 +693,8 @@ footer {
 .taster-section-header:before,
 .taster-section-header:after {
     content: '';
-    border-top: 2px solid #E2C1CF;
+    /* border-top: 2px solid #E2C1CF; */
+    color: #843F60;
     margin: 0 10px 0 0;
     flex: 1 0 10px;
 }
@@ -1322,7 +1328,8 @@ footer {
 }
 
 .village-who-did-this {
-    font-weight: 700;
+    /* font-weight: 700; */
+    letter-spacing: .5rem;
 }
 
 .village-project-duration {
@@ -1331,16 +1338,18 @@ footer {
 }
 
 .village-section-header {
-    color: #285835;
+    align-items: center;
+    /* color: #285835; */
+    display: flex;
+    justify-content: center;
     /* letter-spacing: 1rem; */
     padding: 2rem 0;
     text-align: center;
     text-transform: capitalize;
     /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
-    display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    
+    
 
 }
 
@@ -1348,7 +1357,7 @@ footer {
 .village-section-header:before,
 .village-section-header:after {
     content: '';
-    border-top: 2px solid #FFC400;
+    border-top: 2px solid #285835;
     margin: 0 10px 0 0;
     flex: 1 0 10px;
 }
@@ -1372,10 +1381,11 @@ footer {
 
 .village-problem-statement {
     font-weight: 300;
+    letter-spacing: .5rem;
     padding: 3rem 0;
     text-align: center;
     text-transform: uppercase;
-    /* letter-spacing: .5rem; */
+    text-align: center;
 }
 
 #village-project-overview p {
@@ -2037,8 +2047,9 @@ nav-links {
 }
 
 .who-did-this{
-    font-weight: 700;
-    padding: 2rem 0;
+    letter-spacing: .5rem;
+    /* font-weight: 700;
+    padding: 2rem 0; */
     text-align: center;
 }
 
@@ -2563,12 +2574,6 @@ nav-links {
         padding: 4rem 0;
     }
 
-    .village-problem-statement {
-        letter-spacing: .5rem;
-        padding: 4rem;
-        text-align: center;
-    }
-
     .village-deliverables-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -2994,7 +2999,7 @@ nav-links {
 
    
     #taster-project-name {
-        color: #ff0000;
+        color: #0E0B06;
         font-size: 5rem;
         padding: 3rem;
         text-align: center;

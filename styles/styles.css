@@ -402,14 +402,14 @@ footer {
 
 /*LANDING PAGE*/
 
-
-  
   
 
 .landing-background {
     /* background-color: #141414; */
     /* background-color:#0e0d0dee; */
     background-color: #171a1a;
+   
+    
 }
 
 /* .hero {
@@ -459,6 +459,7 @@ footer {
    
 } */
 
+
 #introduction {
     color: #f2f2f2;
     font-size: 3.2rem;
@@ -488,6 +489,7 @@ footer {
 
 .select-ux-projects{
     padding: 0;
+    overflow-y: scroll;
 }
 
 .ux-flip-grid, .front-end-flip-grid {
@@ -1133,6 +1135,7 @@ footer {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 #top-bio {

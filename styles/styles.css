@@ -185,7 +185,14 @@ header {
     padding: 2rem;
 }
 
-
+.head-background {
+    /*	background-color: #d2e7ee;*/
+    background-color: #0E0E0E;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
 
 /* The progress container (grey background) */
 .progress-container {
@@ -488,11 +495,10 @@ footer {
 /* landing flip cards */
 
 .select-ux-projects{
-    padding: 0;
-    overflow-y: scroll;
+    padding: 0 5rem;
 }
 
-.ux-flip-grid, .front-end-flip-grid {
+.ux-flip-grid{
     align-items: center;
     display: grid;
     grid-gap: 5rem;
@@ -1129,14 +1135,7 @@ footer {
 
 /*MOBILE BIOGRAPHY*/
 
-.head-background {
-    /*	background-color: #d2e7ee;*/
-    background-color: #0E0E0E;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
+
 
 
 
@@ -2165,7 +2164,7 @@ nav-links {
         padding: 0;
     } */
 
-.ux-flip-grid, .front-end-flip-grid{
+.ux-flip-grid{
     align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2906,7 +2905,7 @@ header{
 
 
     .contact-info {
-        grid-gap: 50rem;
+        grid-gap: 29rem;
     }
 
 
@@ -2935,19 +2934,12 @@ header{
 
     .ux-flip-grid{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         padding: 0 7rem;
     }
        
 
-    .front-end-flip-grid{
-        align-items: center;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin: auto;
-        max-width: 70%;
-    }
 
 
     .music-text {

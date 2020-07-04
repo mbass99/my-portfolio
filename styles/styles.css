@@ -217,10 +217,6 @@ header {
     text-transform: uppercase;
 }
 
-#top-index{
-    /* background: rgba(0, 0, 0, 0.4); */
-   
-}
 
 header li a {
     color: #f2f2f2;
@@ -247,8 +243,8 @@ li .nav-contact {
     text-align: center;
     color: #f2f2f2;
     padding: 3rem;
-
 }
+
 
 .to-top a:hover {
     color: #ff0000;
@@ -2115,9 +2111,7 @@ nav-links {
         padding: 3rem 0;
     }
 
-    #top-index{
-        padding: 4rem 6rem;
-    }
+   
 
     .nav-flex {
         font-size: 1.6rem;
@@ -2898,9 +2892,7 @@ header{
     padding: 2rem 11rem;
 }
 
-#top-index{
-    padding: 5rem 11rem;
-}
+
 
     .taster-content {
         max-width: 90rem;

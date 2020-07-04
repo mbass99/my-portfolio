@@ -185,11 +185,7 @@ header {
     padding: 2rem;
 }
 
-.head-background {
-    position: sticky;
-    top: 0;
-    width: 100%
-}
+
 
 /* The progress container (grey background) */
 .progress-container {
@@ -221,6 +217,10 @@ header {
     text-transform: uppercase;
 }
 
+#top-index{
+    /* background: rgba(0, 0, 0, 0.4); */
+   
+}
 
 header li a {
     color: #f2f2f2;
@@ -389,14 +389,14 @@ section {
 
 footer {
     /* background-color: #0E0E0E; */
-    background-color: #0F0F0F;
+    background-color: #191C1D;
 }
 
 .contact-info {
     align-items: center;
     /*	background-color: #B30000;*/
     display: grid;
-    grid-gap: 2rem;
+    grid-gap: 5rem;
     grid-template-columns: repeat(3, 1fr);
     padding: 3rem 0;
     text-align: center;
@@ -405,6 +405,88 @@ footer {
 
 
 /*LANDING PAGE*/
+
+
+  
+  
+
+.landing-background {
+    /* background-color: #141414; */
+    /* background-color:#0e0d0dee; */
+    background-color: #171a1a;
+}
+
+/* .hero {
+    padding: 0;
+    color: #141414;
+    padding-top: 0;
+    background-image: url(../Images/landing-hollywood-sign-night.jpg);
+    background-size: cover;
+    height: 110vh;
+    opacity: .95;
+    width: 100%;
+    z-index: -2;
+} */
+
+/* new hero */
+
+.hero{
+    padding: 0;
+    background-image: url(../Images/cloud-cornrows.jpg);
+    background-size: cover;
+}
+
+/* .hero:before {
+    padding-top: 0;
+    background-image: url(../Images/landing-hollywood-sign-night.jpg);
+    background-size: cover;
+    height: 110vh;
+    opacity: .95;
+    width: 100%;
+    z-index: -2;
+} */
+
+.hero-wrap {
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    padding: 0 2rem;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+
+/* .hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+} */
+
+#introduction {
+    color: #f2f2f2;
+    font-size: 3.2rem;
+    line-height: 1.2;
+    text-shadow: .3rem .3rem #0E0E0E;
+    text-transform: lowercase;
+}
+
+.colored-name {
+    color: #ff0000;
+    font-size: 4.4rem;
+    /* letter-spacing: .5rem; */
+    text-transform: uppercase;
+}
+
+
+.recent-work {
+    color: #ff0000;
+    /* letter-spacing: 1rem; */
+    padding: 8rem 0 5rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 /* landing flip cards */
 
@@ -453,10 +535,9 @@ footer {
   .flip-card-front {
     backface-visibility: hidden;
     background-color: #141414;
-    border: .5rem solid #f2f2f2;
+    border: .2rem solid #f2f2f234;
     color: #fff;
     -webkit-backface-visibility: hidden;
-    
   }
 
   .flip-card-back {
@@ -466,7 +547,6 @@ footer {
     color: white;
     transform: rotateY(180deg);
     -webkit-backface-visibility: hidden;
-    
   }
 
   .flip-card-back p{
@@ -487,92 +567,6 @@ footer {
     -webkit-backface-visibility: hidden;
     
   }
-  
-  
-
-.landing-background {
-    /* background-color: #141414; */
-    background-color: #0F0F0F;
-}
-
-.hero {
-    padding: 0;
-    color: #141414;
-    padding-top: 0;
-    background-image: url(../Images/landing-hollywood-sign-night.jpg);
-    background-size: cover;
-    height: 110vh;
-    opacity: .95;
-    width: 100%;
-    z-index: -2;
-}
-
-/* .hero:before {
-    padding-top: 0;
-    background-image: url(../Images/landing-hollywood-sign-night.jpg);
-    background-size: cover;
-    height: 110vh;
-    opacity: .95;
-    width: 100%;
-    z-index: -2;
-} */
-
-.hero-wrap {
-    align-items: center;
-    display: flex;
-    height: 90vh;
-    padding: 0 3rem;
-}
-
-
-/* .hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-   
-} */
-
-#introduction {
-    color: #f2f2f2;
-    font-size: 3.2rem;
-    line-height: 1.2;
-    text-transform: lowercase;
-}
-
-.colored-name {
-    color: #ff0000;
-    font-size: 4.4rem;
-    /* letter-spacing: .5rem; */
-    text-transform: uppercase;
-}
-
-
-.recent-work {
-    color: #ff0000;
-    /* letter-spacing: 1rem; */
-    padding: 8rem 0 5rem 0;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-
-
-
-
-/* .landing-project-name {
-    color: #ff0000;
-    font-size: 2.6rem;
-    font-weight: 400;
-    padding: 1rem;
-    text-align: center;
-    text-transform: uppercase;
-} */
-
-
-/* .portfolio-landing-project-logos {
-    text-align: center;
-} */
 
 .project-logline {
     color: #0E0B06;
@@ -756,7 +750,7 @@ footer {
 /*TASTER MOBILE*/
 
 #top-taster {
-    background-color: #0E0E0E;
+    background: rgba(0, 0, 0, 0.4);
     max-width: 100%;
 }
 
@@ -1140,10 +1134,13 @@ footer {
 .head-background {
     /*	background-color: #d2e7ee;*/
     background-color: #0E0E0E;
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 #top-bio {
-    background-color: #0E0E0E;
+    background: rgba(0, 0, 0, 0.4);
     max-width: 100%;
 }
 
@@ -1296,6 +1293,9 @@ footer {
 
 /* VILLAGE MOBILE */
 
+#top-village{
+    background: rgba(0, 0, 0, 0.4);;
+}
 .case-study-content-borders {
     padding: 0 2rem;
     margin: auto;
@@ -2102,6 +2102,10 @@ nav-links {
 @media screen and (min-width: 768px) {
 
     /*GLOBAL*/
+
+    header{
+        padding: 2rem 6rem;
+    }
     #top-taster {
         max-width: 70rem;
     }
@@ -2111,12 +2115,8 @@ nav-links {
         padding: 3rem 0;
     }
 
-    header {
-        max-width: 80%;
-    }
-
-    header li {
-        padding: 1rem;
+    #top-index{
+        padding: 4rem 6rem;
     }
 
     .nav-flex {
@@ -2124,7 +2124,7 @@ nav-links {
     }
 
     .contact-info {
-        grid-gap: 12rem;
+        grid-gap: 15rem;
     }
 
     /*	LANDING PAGE*/
@@ -2138,18 +2138,17 @@ nav-links {
         height: 110vh;
     } */
 
+    /* removed max width 55rem */
     .hero-wrap {
         display: flex;
         flex-direction: row;
-        max-width: 55rem;
-        padding-left: 8rem;
+        padding-left: 6rem;
 
     }
 
     #introduction {
         font-size: 3.7rem;
         line-height: 1.2;
-        text-shadow: .3rem .3rem #0E0E0E;
     }
 
     .colored-name {
@@ -2176,7 +2175,7 @@ nav-links {
     align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: auto;
+    margin: 0 3rem;
 }
   
 
@@ -2801,6 +2800,10 @@ nav-links {
 
     /* CINEMA MAKEUP SCHOOL TABLET*/
 
+
+#top-cms{
+    padding: 2rem 6rem;
+}    
     .cms-logo {
     display: block;
     margin: auto;
@@ -2891,6 +2894,13 @@ nav-links {
 @media screen and (min-width: 1024px) {
 
     /*	GLOBAL*/
+header{
+    padding: 2rem 11rem;
+}
+
+#top-index{
+    padding: 5rem 11rem;
+}
 
     .taster-content {
         max-width: 90rem;
@@ -2905,37 +2915,21 @@ nav-links {
     }
 
 
-    header {
-        max-width: 80%;
-    }
-
     .contact-info {
-        grid-gap: 18rem;
+        grid-gap: 32rem;
     }
 
-    .contact-info li {
-        max-width: 110rem;
-    }
 
     .nav-flex {
         font-size: 1.8rem;
         grid-gap: 3rem;
     }
 
-    /*	LANDING PAGE */
-
-    /* .hero {
-        height: 100vh;
-    } */
-
-    /* .hero::before {
-        height: 100vh;
-    } */
 
 
 
     .hero-wrap {
-        padding: 9rem 14rem;
+        padding: 9rem 10rem;
         max-width: 170rem;
 
     }
@@ -2949,17 +2943,11 @@ nav-links {
     }
 
 
-    .landing-project-name {
-        /* font-size: 3.2rem;
-        text-align: left; */
-    }
-
-
     .ux-flip-grid{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         justify-content: center;
-        max-width: 85%;
+        padding: 0 7rem;
     }
        
 
@@ -3274,27 +3262,30 @@ nav-links {
 
     }
 /* CINEMA MAKEUP SCHOOL DESKTOP */
-   .cms-deliverable-grid{
-       margin: 0 8rem;
-   }
+   
 
-   .cms-sub-sections{
-       margin: 0 auto;
-       max-width: 80rem;
-   }
+    #top-cms{
+        padding: 2rem 12rem;
+    }
 
-   /* DESIGN READS DESKTOP */
-
-   .dr-case-study-content-borders{
-       padding: 0 30rem;
-   }
-   .dr-case-study-content-borders .project-introduction{
-    padding: 0;
-   }
-
-   .case-study-mid-fidelity-wireframes{
-      
-   }
+    .cms-deliverable-grid{
+        margin: 0 8rem;
+    }
+ 
+    .cms-sub-sections{
+        margin: 0 auto;
+        max-width: 80rem;
+    }
+ 
+    /* DESIGN READS DESKTOP */
+ 
+    .dr-case-study-content-borders{
+        padding: 0 30rem;
+    }
+    .dr-case-study-content-borders .project-introduction{
+     padding: 0;
+    }
+ 
+}
 
    
-}

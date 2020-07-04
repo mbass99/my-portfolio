@@ -1138,10 +1138,7 @@ footer {
     z-index: 100;
 }
 
-#top-bio {
-    background: rgba(0, 0, 0, 0.4);
-    max-width: 100%;
-}
+
 
 .bio-content {
     padding: 0 1rem;
@@ -2172,7 +2169,7 @@ nav-links {
     align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 7rem;
+    padding: 0 7rem;
 }
   
 
@@ -2464,9 +2461,7 @@ nav-links {
 
     /*	TABLET BIOGRAPHY*/
 
-    #top-bio {
-        max-width: 70rem;
-    }
+  
 
     .bio-section-header {
         text-align: left;
@@ -3118,9 +3113,7 @@ header{
         padding: 0;
     }
 
-    #top-bio {
-        max-width: 110rem;
-    }
+   
 
     .bio-content {
         max-width: 85rem;

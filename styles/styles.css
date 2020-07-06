@@ -550,7 +550,7 @@ footer {
   .flip-card-back {
     backface-visibility: hidden;
     background-color: #f2f2f2;
-    border: .5rem solid #4f4f4f;
+    /* border: .2rem solid #4f4f4f; */
     color: white;
     transform: rotateY(180deg);
     -webkit-backface-visibility: hidden;

@@ -2892,6 +2892,9 @@ header{
     padding: 2rem 10rem;
 }
 
+.hero{
+    height: 110vh;
+}
 
 
     .taster-content {
@@ -2921,7 +2924,7 @@ header{
 
 
     .hero-wrap {
-        padding: 5rem 10rem;
+        padding: 0rem 10rem;
         max-width: 170rem;
 
     }

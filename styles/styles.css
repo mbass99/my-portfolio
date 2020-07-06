@@ -437,6 +437,9 @@ footer {
     padding: 0;
     background-image: url(../Images/cloud-cornrows.jpg);
     background-size: cover;
+    height: 110vh;
+    width: 100%;
+    z-index: -2;
 }
 
 /* .hero:before {
@@ -452,7 +455,7 @@ footer {
 .hero-wrap {
     align-items: center;
     display: flex;
-    height: 90vh;
+    height: 110vh;
     padding: 0 2rem;
     background: rgba(0, 0, 0, 0.4);
 }

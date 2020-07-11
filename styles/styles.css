@@ -1786,6 +1786,10 @@ footer {
     font-weight: 700;
     text-align: center;
 }
+.cms-data{
+   font-style: italic;
+   text-decoration: underline;
+}
 
 .cms-deliverable h3{
     text-decoration: underline;

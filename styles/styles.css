@@ -360,8 +360,8 @@ section {
 .button {
     /* background-color: #ff0000; */
     /* border-color: #ff0000; */
-    background-color: #046708;
-    border-color: #046708;
+    background-color: #0C610C;
+    border-color: #0C610C;
     border-radius: 2rem;
     color: white;
     font-size: 1.8rem;
@@ -380,8 +380,8 @@ section {
     background-color: #f2f2f2;
     /* border-color: #ff0000; */
     /* color: #ff0000; */
-    border-color: #046708;
-    color:#046708;
+    border-color: #0C610C;
+    color:#0C610C;
 }
 
 .village-button-box {

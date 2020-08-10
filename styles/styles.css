@@ -360,14 +360,15 @@ section {
 .button {
     /* background-color: #ff0000; */
     /* border-color: #ff0000; */
-    background-color: #0C610C;
-    border-color: #0C610C;
+    background-color: #5FB4E7;
+    border-color: #5FB4E7;
     border-radius: 2rem;
-    color: white;
+    color: #0E0B06;
     font-size: 1.8rem;
     line-height: 2.6rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    outline: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
     text-align: center;
@@ -377,11 +378,12 @@ section {
 }
 
 .button:hover {
-    background-color: #f2f2f2;
+    background-color: #C5E1F3;
     /* border-color: #ff0000; */
     /* color: #ff0000; */
-    border-color: #0C610C;
-    color:#0C610C;
+    border-color: #C5E1F3;
+    color:#0E0B06;
+    outline: none;
 }
 
 .village-button-box {

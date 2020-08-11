@@ -1294,9 +1294,9 @@ footer {
 
 /* VILLAGE MOBILE */
 
-#top-village{
+/* #top-village{
     background: rgba(0, 0, 0, 0.4);;
-}
+} */
 .case-study-content-borders {
     padding: 0 2rem;
     margin: auto;
@@ -2550,10 +2550,7 @@ nav-links {
 
     /*	TABLET VILLAGE*/
 
-    #top-village {
-        max-width: 70rem;
-    }
-
+    
     .project-introduction p {
         padding: 5rem 0;
     }
@@ -2895,6 +2892,12 @@ nav-links {
 @media screen and (min-width: 1024px) {
 
     /*	GLOBAL*/
+
+case-study{
+    margin: auto;
+    max-width: 140rem;
+}
+
 header{
     padding: 2rem 10rem;
 }
@@ -2909,7 +2912,7 @@ header{
     }
 
     #top-taster {
-        max-width: 110rem;
+        max-width: 120rem;
     }
 
     section {
@@ -2919,6 +2922,8 @@ header{
 
     .contact-info {
         grid-gap: 29rem;
+        margin: auto;
+        max-width: 130rem;
     }
 
 
@@ -3116,8 +3121,12 @@ header{
 
     .bio-content {
         padding: 0;
+        max-width: 140rem;
     }
 
+   #top-bio{
+       max-width: 140rem;
+   }
    
 
     .bio-content {
@@ -3130,10 +3139,10 @@ header{
 
     /*DESKTOP VILLAGE*/
 
+#top-village{
+    max-width: 140rem;
+}
 
-    #top-village {
-        max-width: 110rem;
-    }
 
     .village-section-header {
         padding: 5rem 0;
@@ -3141,7 +3150,7 @@ header{
 
     .case-study-content-borders {
         /* margin: 0 10rem; */
-        max-width: 80%;
+        max-width: 140rem;
     }
 
     .village-button-box {
@@ -3259,6 +3268,11 @@ header{
 
     #top-cms{
         padding: 2rem 12rem;
+        max-width: 140rem;
+    }
+
+    .cms-content-borders{
+        max-width: 140rem;
     }
 
     .cms-deliverable-grid{
@@ -3271,6 +3285,10 @@ header{
     }
  
     /* DESIGN READS DESKTOP */
+
+#top-design-reads{
+    max-width: 140rem;
+}
  
     .dr-case-study-content-borders{
         padding: 0 30rem;

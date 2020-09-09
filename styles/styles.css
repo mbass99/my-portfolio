@@ -2498,15 +2498,24 @@ nav-links {
     }
 
     .explanation-question{
+        align-items: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 1rem 4rem;
+        padding: 1rem 13rem;
+    }
+
+    .architecture-grid{
+        display: grid;
+        
     }
 
     .bio-content {
+           margin: auto;
         max-width: 60rem;
-        margin: auto;
+     
     }
+
+
 
     .bio-about-me-picture {
         align-items: center;
@@ -2518,6 +2527,46 @@ nav-links {
         padding: 0;
     }
 
+    .architecture-grid{
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+    }
+
+    .bio-entertainment-one{
+        align-items: center;
+        direction: rtl;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 6rem;
+        padding: 1rem 0;
+    }
+
+.bio-entertainment-two{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 6rem;
+    padding: 1rem 0;
+}
+
+.multiple-doors{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+   
+}
+
+.parenting{
+    align-items: center;
+    direction: rtl;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    padding: 3rem 0;
+}
 
     .designer {
         padding: 0rem 3rem;
@@ -3154,6 +3203,22 @@ header{
         margin-left: 24rem;
     }
 
+    .bio-about-me-picture{
+        grid-gap: 10rem;
+    }
+
+    .architecture-grid{
+       grid-template-columns: 2fr 1fr;
+    }
+
+.multiple-doors{
+    max-width: 45%;
+}    
+
+.parenting{
+   grid-template-columns: 2fr 1fr;
+}
+
     /*DESKTOP VILLAGE*/
 
 #top-village{
@@ -3163,6 +3228,7 @@ header{
 
     .village-section-header {
         padding: 5rem 0;
+        margin: 0;
     }
 
     .case-study-content-borders {

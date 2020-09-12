@@ -1145,11 +1145,32 @@ footer {
 
 
 
+/* REMOVE BIO CONTENT to add 2020 Background COLOR */
 
-
-.bio-content {
+/* .bio-content {
     padding: 0 1rem;
+} */
+
+/* New 2020 BIO CONTENT */
+
+
+.bio-about-me-picture{
+    background-color: #DEDAF5;
 }
+
+.bio-about-me-picture h1{
+    text-align: center;
+}
+
+.architecture-first{
+background-color: #DEDAF5;
+}
+
+.personal-third{
+    background-color: #DEDAF5;
+}
+
+/* END NEW 2020 BIO */
 
 .bio-content p{
     padding: 2rem 0;
@@ -2493,6 +2514,18 @@ nav-links {
     /*	TABLET BIOGRAPHY*/
 
   
+/* NEW 2020 BIO PADDING */
+.bio-content section{
+    padding: 3rem 5rem;
+}
+
+.bio-content h2{
+    padding: 3rem 0;
+}
+
+
+/* NEW BIO PADDING END */
+
 .bio-about-me-picture{
     align-items: center;
     display: grid;
@@ -2543,12 +2576,12 @@ nav-links {
     .architecture-grid{
         display: grid;
     }
-
-    .bio-content {
+/* REMOVE BIO CONTENT to add 2020 Background COLOR */
+    /* .bio-content {
            margin: auto;
         max-width: 60rem;
      
-    }
+    } */
 
 
 
@@ -3294,21 +3327,35 @@ header{
 
 
     /*	DESKTOP BIOGRAPHY*/
+/* REMOVE BIO CONTENT to add 2020 Background COLOR */
 
-
-    .bio-content {
+    /* .bio-content {
         padding: 0;
         max-width: 140rem;
-    }
+    } */
+
+    /* NEW 2020 BIO PADDING */
+.bio-content section{
+    padding: 5rem 10rem;
+    margin: 0 auto;
+}
+
+
+
+.bio-content h2{
+    padding: 3rem 0;
+}
+
+/* NEW BIO PADDING END */
 
    #top-bio{
        max-width: 140rem;
    }
    
-
-    .bio-content {
+/* REMOVE BIO CONTENT to add 2020 Background COLOR */
+    /* .bio-content {
         max-width: 85rem;
-    }
+    } */
 
     /* OLD BIO HEADER FITTING */
 /* 
@@ -3329,11 +3376,11 @@ header{
     }
 
     .bunk {
-        grid-column: col-start 3 / span  3;
+        grid-column: col-start 4 / span  3;
     }
 
     .bio-about-me-picture h1{
-        grid-column: col-start 8 / span 4;
+        grid-column: col-start 6 / span 4;
     }
 
     .explanation-question{
@@ -3350,7 +3397,7 @@ header{
     }
 
     .explanation-question p{
-        grid-column: col-start 6 / span 7;
+        grid-column: col-start 5 / span 7;
         grid-row: 1;
     }
 
@@ -3365,12 +3412,12 @@ header{
 
 
     .golf-course{
-        grid-column: col-start 2 / span 3;
+        grid-column: col-start 3 / span 3;
         grid-row: 1;
     }
 
     .architecture-grid p{
-        grid-column: col-start 5 / span 7;
+        grid-column: col-start 6 / span 7;
         grid-row: 1;
     }
 
@@ -3388,12 +3435,12 @@ header{
     }
 
     .bio-entertainment-one p{
-        grid-column: col-start 2 / span 7;
+        grid-column: col-start 3 / span 5;
         grid-row: 1;
     }
 
     .bio-entertainment-one img{
-        grid-column: col-start 9 / span 4;
+        grid-column: col-start 8 / span 4;
         grid-row: 1;
     }
 
@@ -3406,12 +3453,12 @@ header{
 }
 
 .character-drama{
-    grid-column: col-start 3 / span 3;
+    grid-column: col-start 4 / span 3;
     grid-row: 1;
 }
 
 .bio-entertainment-two p{
-    grid-column: col-start 6 / span 7;
+    grid-column: col-start 7 / span 5;
     grid-row: 1;
 }
 
@@ -3425,12 +3472,12 @@ header{
 }
 
 .bio-entertainment-three p{
-    grid-column: col-start 2 / span 6;
+    grid-column: col-start 3 / span 5;
     grid-row: 1;
 }
 
 .multiple-doors{
-    grid-column: col-start 9 / span 4;
+    grid-column: col-start 8 / span 4;
     grid-row: 1;
 }
 
@@ -3449,12 +3496,12 @@ header{
 }
 
 .introvert-child{
-    grid-column: col-start 2 / span 3;
+    grid-column: col-start 3 / span 3;
     grid-row: 1;
 }
 
 .parenting p{
-    grid-column: col-start 5 / span 7;
+    grid-column: col-start 6 / span 4;
     grid-row: 1;
 }
 

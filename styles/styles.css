@@ -261,13 +261,9 @@ li .nav-contact {
 
 }
 
-.to-top a:visited {
-    /* color: #de9898; */
-    color: #A192F9;
-}
 
 .to-top a:link {
-    color: #de9898;
+    color: #f9f8ff;
     text-decoration: none;
 }
 
@@ -1187,7 +1183,7 @@ background-color: #DEDAF5;
     text-align: center;
 }
 
-.bunk {
+#bunk {
     display: block;
     border-radius: 50%;
     margin-left: auto;
@@ -1245,6 +1241,7 @@ background-color: #DEDAF5;
     color: #290CDC;
     text-align: center;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
 }
 
 .content-two {
@@ -2534,7 +2531,7 @@ nav-links {
     grid-template-rows: 1;
 }
 
-.bunk{
+#bunk{
     grid-column: col-start 2 / span 2;
     grid-row: 1;
 }

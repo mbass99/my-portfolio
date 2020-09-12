@@ -3372,7 +3372,7 @@ header{
         padding: 6.4rem;
     }
 
-    .bunk {
+    #bunk {
         grid-column: col-start 4 / span  3;
     }
 

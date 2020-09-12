@@ -141,13 +141,15 @@ table {
 
 /*font-family: 'IBM Plex Sans Condensed', sans-serif;
 /*font-family: 'IBM Plex Serif', serif;
-/*red color #ff0000*/
+/*old red color #ff0000*/
 /*white color #f2f2f2*/
 /*hover color #FC5858*/
 /*visited color #DE9898*/
 /* new visited color color: #9D5454; */
 /* old black body text #0E0B06 */
 /* new grey body text #4f4f4f */
+/* new white color #f9f8ff */
+/* new blue over black #A192F9 */
 
 
 *:before,
@@ -226,42 +228,42 @@ header {
 
 
 header li a {
-    color: #f2f2f2;
+    color: #f9f8ff;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     text-decoration: none;
 }
 
 header li a:hover {
-    color: #ff0000;
+    color: #03DC0B;
     text-decoration: underline;
     text-decoration-style: double bold;
 }
 
 header li a:visited {
     /* color: #DE9898; */
-    color: #9D5454;
+    color: #A192F9;
 }
 
 li .nav-contact {
-    color: #ff0000;
+    color: #f9f8ff;
 }
 
 .to-top {
     text-align: center;
-    color: #f2f2f2;
+    color: #f9f8ff;
     padding: 3rem;
 }
 
 
 .to-top a:hover {
-    color: #ff0000;
+    color: #03DC0B;
     text-decoration: underline;
 
 }
 
 .to-top a:visited {
     /* color: #de9898; */
-    color: #9D5454;
+    color: #A192F9;
 }
 
 .to-top a:link {
@@ -474,7 +476,7 @@ footer {
 
 
 #introduction {
-    color: #f2f2f2;
+    color: #f9f8ff;
     font-size: 3.2rem;
     line-height: 1.2;
     text-shadow: .3rem .3rem #0E0E0E;
@@ -482,7 +484,7 @@ footer {
 }
 
 .colored-name {
-    color: #ff0000;
+    color: #f9f8ff;
     font-size: 4.4rem;
     /* letter-spacing: .5rem; */
     text-transform: uppercase;
@@ -490,7 +492,7 @@ footer {
 
 
 .recent-work {
-    color: #ff0000;
+    color: #f9f8ff;
     /* letter-spacing: 1rem; */
     padding: 8rem 0 5rem 0;
     text-align: center;
@@ -666,12 +668,12 @@ footer {
 
 .village-nav-links a:visited {
     /* color: #de9898; */
-    color: #0E0B06;
+    color: #A192F9;
     text-transform: uppercase;
 }
 
 .village-nav-links a:hover {
-    color: #ff0000;
+    color: #A192F9;
     font-weight: 700;
     text-decoration: none;
 }
@@ -1189,32 +1191,39 @@ footer {
     text-align: center;
 }
 
-
+/* OLD BIO SECTION HEADER */
 .bio-section-header {
     /* text-align: center; */
-    color: #0E0E0E;
+    /* color: #0E0E0E;
     padding: 2rem 0;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: capitalize; */
     /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
-    display: flex;
+    /* display: flex;
     width: 100%;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 /*header line below 2 of 3*/
-.bio-section-header:before,
+/* .bio-section-header:before,
 .bio-section-header:after {
     content: '';
     border-top: 2px solid #ff0000;
     margin: 0 10px 0 0;
     flex: 1 0 30px;
-}
+} */
 
 /*header line below 3 of 3*/
-.bio-section-header:after {
+/* .bio-section-header:after {
     margin: 0 0 0 10px;
+} */
+
+/* NEW BIO SECTION HEADER */
+.bio-section-header{
+    color: #290CDC;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .content-two {
@@ -1976,12 +1985,12 @@ nav-links {
 
 .nav-links a:visited {
     /* color: #de9898; */
-    color: #0E0B06;
+    color: #A192F9;
     text-transform: uppercase;
 }
 
 .nav-links a:hover {
-    color: #ff0000;
+    color: #A192F9;
     font-weight: 700;
     text-decoration: none;
 
@@ -2484,6 +2493,25 @@ nav-links {
     /*	TABLET BIOGRAPHY*/
 
   
+.bio-about-me-picture{
+    align-items: center;
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(8, [col-start] 1fr);
+    grid-template-rows: 1;
+}
+
+.bunk{
+    grid-column: col-start 2 / span 2;
+    grid-row: 1;
+}
+    
+
+.bio-about-me-picture h1{
+    grid-column: col-start 5 / span 4;
+    grid-row: 1;
+}
+
 
     .content-three {
         padding: 2rem 0;
@@ -2525,9 +2553,9 @@ nav-links {
 
 
     .bio-about-me-picture {
-        align-items: center;
+        /* align-items: center;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); */
     }
 
     .content-row {
@@ -3282,12 +3310,30 @@ header{
         max-width: 85rem;
     }
 
+    /* OLD BIO HEADER FITTING */
+/* 
     .bunk {
         margin-left: 24rem;
     }
 
     .bio-about-me-picture{
         grid-gap: 10rem;
+    } */
+
+    .bio-about-me-picture{
+        align-items: center;
+        grid-gap: 4rem;
+        grid-template-columns: repeat(12, [col-start] 1fr);
+        grid-template-rows: 1;
+        padding: 6.4rem;
+    }
+
+    .bunk {
+        grid-column: col-start 3 / span  3;
+    }
+
+    .bio-about-me-picture h1{
+        grid-column: col-start 8 / span 4;
     }
 
     .explanation-question{

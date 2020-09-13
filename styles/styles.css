@@ -150,6 +150,7 @@ table {
 /* new grey body text #4f4f4f */
 /* new white color #f9f8ff */
 /* new blue over black #A192F9 */
+/* 404 Error Green #006604 */
 
 
 *:before,
@@ -406,8 +407,45 @@ footer {
     text-align: center;
 }
 
+/* 404 error */
 
+.error-grid{
+    align-items: center;
+    display: grid;
+ 
+}
+.error-header{
+    color: #006604;
+    padding: 3rem;
+    text-align: center;
+}
+.obi-wan{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 1rem;
+}
 
+.not-the-page{
+    padding: 3rem 2rem;
+}
+
+.not-the-page a:visited {
+    color: #A192F9;
+    text-transform: uppercase;
+}
+
+.not-the-page a:hover {
+    color: #006604;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+
+.move-along{
+    padding: 3rem 0rem;
+    text-align: center;
+}
 /*LANDING PAGE*/
 
   
@@ -496,7 +534,6 @@ footer {
 }
 
 
-/* landing flip cards */
 
 .select-ux-projects{
     padding: 0 5rem;
@@ -2149,6 +2186,7 @@ nav-links {
 /*TABLET 768*/
 @media screen and (min-width: 768px) {
 
+   
     /*GLOBAL*/
 
     header{
@@ -2172,6 +2210,25 @@ nav-links {
     .contact-info {
         grid-gap: 15rem;
     }
+
+
+/* 404 */
+.error-header{
+    padding: 5rem;
+}
+.obi-wan{
+    padding: 5rem;
+    width: 25rem;
+}
+
+.not-the-page{
+    text-align: center;
+    padding: 5rem;
+}
+
+.move-along{
+    padding: 5rem;
+}
 
     /*	LANDING PAGE*/
 
@@ -3098,6 +3155,7 @@ nav-links {
 /*DESKTOP*/
 @media screen and (min-width: 1024px) {
 
+
     /*	GLOBAL*/
 
 case-study{
@@ -3107,6 +3165,7 @@ case-study{
 
 header{
     padding: 2rem 10rem;
+    max-width: 130rem;
 }
 
 .hero{

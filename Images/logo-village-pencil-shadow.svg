@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="130px" viewBox="0 0 49 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 17</title>
+    <defs>
+        <filter x="-69.6%" y="-11.3%" width="239.1%" height="128.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.81043365   0 0 0 0 0.768785691   0 0 0 0 0.00310398559  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <text id="text-2" font-family="Montserrat-Medium, Montserrat" font-size="25" font-weight="400" fill="#345537">
+            <tspan x="2.6" y="100">V</tspan>
+        </text>
+        <filter x="-30.4%" y="-16.7%" width="160.9%" height="146.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.811764706   0 0 0 0 0.768627451   0 0 0 0 0.00392156863  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Branding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-17" filter="url(#filter-1)" transform="translate(13.000000, 9.000000)">
+            <path d="M10.95637,0.500819342 L11.3965561,0.502159411 C14.5678952,0.552371927 17.743222,1.47734852 20.5769991,3.20001085 C22.3051221,4.2505424 22.4803673,5.34565654 22.4929276,7.41911666 C22.4960712,7.93806087 22.4981657,8.60156662 22.4992132,9.4089855 L22.4992132,9.4089855 L22.4992134,12.269812 C22.4982918,13.2348259 22.4965603,14.3115552 22.4940191,15.5 L22.4940191,15.5 L0.5,15.5 L0.5,8.35376783 C0.5,5.59421409 0.464795226,4.13225155 2.48312564,2.90530193 C5.23711386,1.23114354 8.31482023,0.453365604 11.3965561,0.502159411 Z" id="Rectangle" stroke="#FF9E9E" fill="#FF9E9E"></path>
+            <rect id="Rectangle" fill="#FEC102" x="0" y="19" width="23" height="63"></rect>
+            <g id="V" fill="#345537" fill-opacity="1">
+                <use filter="url(#filter-3)" xlink:href="#text-2"></use>
+                <use xlink:href="#text-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

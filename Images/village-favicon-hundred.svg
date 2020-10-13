@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="133px" viewBox="0 0 132 133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 19</title>
+    <defs>
+        <filter x="-57.1%" y="-11.1%" width="214.3%" height="127.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.442452913   0 0 0 0 0.552821169   0 0 0 0 0.561084692  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <text id="text-2" font-family="Montserrat-Medium, Montserrat" font-size="25" font-weight="400" fill="#345537">
+            <tspan x="4.61351351" y="105.931507">V</tspan>
+        </text>
+        <filter x="-25.9%" y="-19.2%" width="151.8%" height="153.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.58717082   0 0 0 0 0.663581295   0 0 0 0 0.640325933  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Branding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-18" transform="translate(15.000000, 16.000000)">
+            <rect id="Rectangle" stroke="#BFD6CF" fill="#BFD6CF" x="0.5" y="1.5" width="97.6486486" height="98" rx="5"></rect>
+            <g id="Group-17" filter="url(#filter-1)" transform="translate(48.731213, 48.543217) rotate(-45.000000) translate(-48.731213, -48.543217) translate(34.731213, -5.456783)">
+                <path d="M12.9387085,0.500441721 L13.3932659,0.502572909 C17.134467,0.562390689 20.8804077,1.66419135 24.2234049,3.71639491 C26.2866866,4.98300495 26.5036951,6.29945818 26.5187146,8.80325425 C26.5225368,9.44042926 26.5250397,10.2612218 26.5262257,11.2654144 L26.5262257,11.2654144 L26.526938,12.2196971 C26.5270567,12.5542907 26.5270567,12.9054208 26.5269381,13.2729397 L26.5269381,13.2729397 L26.5262258,14.4257838 C26.5251557,15.629994 26.523014,16.9834998 26.5198006,18.4863014 L26.5198006,18.4863014 L0.500051249,18.4863014 L0.500990974,9.31769777 C0.513423667,6.36830079 0.623226768,4.74855621 2.87427399,3.36668038 C6.1243326,1.37153013 9.75638723,0.444423132 13.3932659,0.502572909 Z" id="Rectangle" stroke="#FF9E9E" fill="#FF9E9E"></path>
+                <rect id="Rectangle" fill="#FEC102" x="0" y="17" width="27.027027" height="63.7077626"></rect>
+                <g id="V" fill="#345537" fill-opacity="1">
+                    <use filter="url(#filter-3)" xlink:href="#text-2"></use>
+                    <use xlink:href="#text-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

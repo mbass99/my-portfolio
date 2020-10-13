@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="215px" height="65px" viewBox="0 0 215 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Hifi-Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page" transform="translate(-80.000000, -67.000000)">
+            <g id="Group" transform="translate(80.000000, 67.000000)">
+                <text id="ILLAGE" font-family="PTSerif-Regular, PT Serif" font-size="50" font-weight="normal" fill="#345537">
+                    <tspan x="47" y="52">ILLAGE</tspan>
+                </text>
+                <text id="V" font-family="PTSerif-Regular, PT Serif" font-size="50" font-weight="normal" fill="#345537">
+                    <tspan x="0" y="52">V</tspan>
+                </text>
+                <g id="Damn-Good-Pencil-Main" transform="translate(37.000000, 16.000000)">
+                    <polygon id="Triangle" stroke="#202020" fill="#202020" transform="translate(4.000000, 33.500000) scale(1, -1) translate(-4.000000, -33.500000) " points="4 32 6 35 2 35"></polygon>
+                    <path d="M1.01302191,1.21320838 C2.8655019,0.201452206 5.15771133,0.294805065 7.00789106,1.30530492 C7.20416009,1.41249982 7.3344571,1.51013898 7.40391942,1.64453262 C7.49535714,1.82144364 7.49563952,2.03781242 7.49753708,2.31800101 L7.49753708,2.31800101 L7.49928646,4.16339324 L0.5,4.5 L0.5,2.61055245 C0.5,2.18192247 0.486383193,1.86328036 0.593339092,1.60933755 C0.661472975,1.44756891 0.796854554,1.33127101 1.01302191,1.21320838 Z" id="Rectangle" stroke="#FF9E9E" fill="#FF9E9E"></path>
+                    <path d="M7.5,7.5 L7.5,29.5 L0.5,29.5 L0.5,7.5 L7.5,7.5 Z" id="Rectangle" stroke="#FEC102" fill="#FEC102"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -252,7 +252,7 @@ li .nav-contact {
 
 .to-top {
   text-align: center;
-  color: #4f4f4f;
+  /* color: #A192F9; */
   padding: 3rem;
 }
 
@@ -262,7 +262,7 @@ li .nav-contact {
 }
 
 .to-top a:link {
-  color: #f9f8ff;
+  color: #2400B4;
   text-decoration: none;
 }
 

@@ -508,7 +508,7 @@ p {
   border: #3f1fbd 0.2rem solid;
   margin: 3rem auto;
   padding: 0 2rem;
-  width: 35rem;
+  max-width: 37.5rem;
 }
 
 .favicon {

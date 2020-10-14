@@ -173,13 +173,6 @@ html {
   width: 100%;
 }
 
-.landing-container {
-  display: grid;
-  margin: 0 auto;
-  width: 100%;
-  background-color: #fbfbff;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -515,7 +508,7 @@ p {
   border: #3f1fbd 0.2rem solid;
   margin: 3rem auto;
   padding: 0 2rem;
-  width: 37.5rem;
+  width: 35rem;
 }
 
 .favicon {

@@ -1121,6 +1121,7 @@ p {
 .bio-section-header {
   color: #290cdc;
   text-align: center;
+  padding: 2rem 0;
 }
 
 .content-two {
@@ -2271,6 +2272,10 @@ nav-links {
 
   .bio-content h2 {
     padding: 3rem 0;
+  }
+
+  .bio-section-header {
+    padding: 4rem 0;
   }
 
   /* NEW BIO PADDING END */

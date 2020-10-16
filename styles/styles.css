@@ -151,6 +151,7 @@ table {
 /* new white color #f9f8ff */
 /* new blue over black #A192F9 */
 /* 404 Error Green #006604 */
+/* softer hover Green #429F46 */
 
 *:before,
 *:after {
@@ -223,7 +224,7 @@ header li a {
 }
 
 header li a:hover {
-  color: #03dc0b;
+  color: #429f46;
   text-decoration: underline;
   text-decoration-style: double bold;
 }
@@ -244,7 +245,7 @@ li .nav-contact {
 }
 
 .to-top a:hover {
-  color: #03dc0b;
+  color: #429f46;
   text-decoration: underline;
 }
 
@@ -412,7 +413,7 @@ footer {
 }
 
 .not-the-page a:hover {
-  color: #006604;
+  color: #429f46;
   font-weight: 700;
   text-decoration: none;
 }
@@ -623,7 +624,7 @@ p {
 }
 
 .village-nav-links a:hover {
-  color: #a192f9;
+  color: #429F46;
   font-weight: 700;
   text-decoration: none;
 }
@@ -1791,7 +1792,7 @@ nav-links {
 }
 
 .nav-links a:hover {
-  color: #a192f9;
+  color: #429F46;
   font-weight: 700;
   text-decoration: none;
 }
@@ -1998,13 +1999,6 @@ nav-links {
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
     max-width: 64rem;
-  }
-
-  .ux-flip-grid {
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 7rem;
   }
 
   /*	TASTER TABLET*/
@@ -2824,6 +2818,10 @@ nav-links {
 @media screen and (min-width: 1024px) {
   /*	GLOBAL*/
 
+  .hand-coding {
+    padding: 5rem 0;
+  }
+
   case-study {
     margin: auto;
     max-width: 140rem;
@@ -2878,13 +2876,6 @@ nav-links {
 
   .colored-name {
     font-size: 7rem;
-  }
-
-  .ux-flip-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    padding: 0 7rem;
   }
 
   .music-text {

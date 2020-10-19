@@ -217,25 +217,84 @@ header {
   text-transform: uppercase;
 }
 
-header li a {
+.case-study-section-header:before li a {
   color: #f9f8ff;
   font-family: "IBM Plex Sans Condensed", sans-serif;
   text-decoration: none;
 }
 
-header li a:hover {
+#top-index a:link {
+  color: #f3f3f3;
+}
+
+#top-index a:hover {
   color: #429f46;
   text-decoration: underline;
   text-decoration-style: double bold;
 }
 
-header li a:visited {
-  /* color: #DE9898; */
+#top-village a:link {
+  color: #f8f6ff;
+}
+
+#top-village a:hover {
+  color: #429f46;
+  text-decoration: underline;
+  text-decoration-style: double bold;
+}
+
+#top-index a:visited {
   color: #a192f9;
 }
 
-li .nav-contact {
-  color: #f9f8ff;
+#top-village a:visited {
+  color: #a192f9;
+}
+
+#top-index a:link {
+  color: #f8f6ff;
+}
+
+#top-bio a:visited {
+  color: #a192f9;
+}
+
+#top-bio a:hover {
+  color: #429f46;
+  text-decoration: underline;
+  text-decoration-style: double bold;
+}
+
+#top-bio a:link {
+  color: #f8f6ff;
+}
+
+#top-design-reads a:link {
+  color: #f8f6ff;
+}
+
+#top-design-reads a:hover {
+  color: #429f46;
+  text-decoration: underline;
+  text-decoration-style: double bold;
+}
+
+#top-design-reads a:visited {
+  color: #a192f9;
+}
+
+#top-cms a:link {
+  color: #f8f6ff;
+}
+
+#top-cms a:hover {
+  color: #429f46;
+  text-decoration: underline;
+  text-decoration-style: double bold;
+}
+
+#top-cms a:visited {
+  color: #a192f9;
 }
 
 .to-top {
@@ -624,7 +683,7 @@ p {
 }
 
 .village-nav-links a:hover {
-  color: #429F46;
+  color: #429f46;
   font-weight: 700;
   text-decoration: none;
 }
@@ -1792,7 +1851,7 @@ nav-links {
 }
 
 .nav-links a:hover {
-  color: #429F46;
+  color: #429f46;
   font-weight: 700;
   text-decoration: none;
 }

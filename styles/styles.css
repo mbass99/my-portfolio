@@ -297,6 +297,20 @@ header {
   color: #a192f9;
 }
 
+#top-taster a:link {
+  color: #f8f6ff;
+}
+
+#top-taster a:hover {
+  color: #429f46;
+  text-decoration: underline;
+  text-decoration-style: double bold;
+}
+
+#top-taster a:visited {
+  color: #a192f9;
+}
+
 .to-top {
   text-align: center;
   /* color: #A192F9; */

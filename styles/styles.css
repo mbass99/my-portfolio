@@ -147,7 +147,7 @@ table {
 /*visited color #DE9898*/
 /* new visited color color: #9D5454; */
 /* old black body text #0E0B06 */
-/* new grey body text #4f4f4f */
+/* new grey body text #3f3f3f */
 /* new white color #f9f8ff */
 /* new blue over black #A192F9 */
 /* 404 Error Green #006604 */
@@ -333,7 +333,7 @@ header {
 
 .hand-code {
   text-align: center;
-  color: #4f4f4f;
+  color: #3f3f3f;
   padding: 0rem;
 }
 
@@ -377,7 +377,7 @@ h6 {
 }
 
 p {
-  color: #4f4f4f;
+  color: #3f3f3f;
   font-family: "IBM Plex Sans Condensed", sans-serif;
   /* font-family: 'IBM Plex Serif', serif; */
   font-size: 1.8rem;
@@ -561,7 +561,9 @@ p {
 }
 
 .text-emphasis {
-  color: #0000b5;
+  color: #0e0b06;
+  font-weight: 600;
+  /* font-style: italic; */
 }
 
 .italics {
@@ -662,7 +664,7 @@ p {
 }
 
 .music-text {
-  color: #4f4f4f;
+  color: #3f3f3f;
   line-height: 3rem;
   padding: 2rem;
   max-width: 48rem;

@@ -497,6 +497,34 @@ footer {
 }
 /*LANDING PAGE*/
 
+/* DECEMBER LANDING */
+
+.project-landing-text {
+  padding: 3rem 0;
+}
+
+.project-landing-image {
+  height: 30rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.village-landing-grid .project-landing-image {
+  background-image: url(../Images/village-six-housing-stagger-no-shadow.svg);
+}
+
+.design-reads-landing-grid .project-landing-image {
+  background-image: url(../Images/design-reads-landing-mocks.svg);
+}
+
+.cms-landing-grid .project-landing-image {
+  background-image: url(../Images/cms-desktop-frame.svg);
+}
+
+.taster-landing-grid .project-landing-image {
+  background-image: url(../Images/taster-landing-screens-with-shadows.jpg);
+}
+
 /* NEW LANDING START */
 
 .index-test-h2 {
@@ -2057,6 +2085,36 @@ nav-links {
     margin: 0 3rem;
   }
 
+  /* DECEMBER PROJECTS */
+
+  .village-landing-grid,
+  .cms-landing-grid {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .design-reads-landing-grid,
+  .taster-landing-grid {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .project-landing-text {
+    padding: 0 2rem;
+    width: 45%;
+  }
+
+  .project-landing-image {
+    padding: 0 2rem;
+    width: 55%;
+  }
+
   /* NEW LANDING */
 
   #introduction {
@@ -2892,6 +2950,23 @@ nav-links {
 /*DESKTOP*/
 @media screen and (min-width: 1024px) {
   /*	GLOBAL*/
+  /* NEW DECEMBER LANDING */
+
+  .village-landing-grid
+    .design-reads-landing-grid
+    .cms-landing-grid
+    .taster-landing-grid {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+  .project-landing-image {
+    width: 60%;
+    height: 50rem;
+  }
+
+  .project-landing-text {
+    width: 38%;
+  }
 
   .hand-coding {
     padding: 5rem 0;

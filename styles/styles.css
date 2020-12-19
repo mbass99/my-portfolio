@@ -499,14 +499,21 @@ footer {
 
 /* DECEMBER LANDING */
 
+.village-landing-grid,
+.cms-landing-grid,
+.design-reads-landing-grid,
+.taster-landing-grid {
+  padding-top: 3rem;
+}
+
 .project-landing-text {
   padding: 3rem 0;
 }
 
 .project-landing-image {
-  height: 30rem;
-  background-size: cover;
   background-position: center center;
+  background-size: cover;
+  height: 30rem;
 }
 
 .village-landing-grid .project-landing-image {
@@ -525,7 +532,7 @@ footer {
   background-image: url(../Images/taster-landing-screens-with-shadows.jpg);
 }
 
-/* NEW LANDING START */
+/* NEW SUMMER 2020 LANDING START */
 
 .index-test-h2 {
   text-align: center;
@@ -2093,7 +2100,7 @@ nav-links {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 5rem 2rem;
   }
 
   .design-reads-landing-grid,
@@ -2102,7 +2109,7 @@ nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 5rem 2rem;
   }
 
   .project-landing-text {
@@ -2115,7 +2122,7 @@ nav-links {
     width: 55%;
   }
 
-  /* NEW LANDING */
+  /* NEW SUMMER 2020 LANDING */
 
   #introduction {
     font-size: 3.7rem;
@@ -2952,12 +2959,11 @@ nav-links {
   /*	GLOBAL*/
   /* NEW DECEMBER LANDING */
 
-  .village-landing-grid
-    .design-reads-landing-grid
-    .cms-landing-grid
-    .taster-landing-grid {
-    padding-left: 9rem;
-    padding-right: 9rem;
+  .village-landing-grid,
+  .design-reads-landing-grid,
+  .cms-landing-grid,
+  .taster-landing-grid {
+    padding: 5rem 9rem;
   }
   .project-landing-image {
     width: 60%;

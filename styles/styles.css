@@ -517,7 +517,7 @@ footer {
 }
 
 .village-landing-grid .project-landing-image {
-  background-image: url(../Images/village-six-housing-stagger-no-shadow.svg);
+  background-image: url(../Images/village-six-housing-stagger-shadow-light-background-and-border.svg);
 }
 
 .design-reads-landing-grid .project-landing-image {
@@ -525,11 +525,11 @@ footer {
 }
 
 .cms-landing-grid .project-landing-image {
-  background-image: url(../Images/cms-desktop-frame.svg);
+  background-image: url(../Images/cms-desktop-frame-light-background.svg);
 }
 
 .taster-landing-grid .project-landing-image {
-  background-image: url(../Images/taster-landing-screens-with-shadows.jpg);
+  background-image: url(../Images/taster-landing-screens-with-shadows-light-background.jpg);
 }
 
 /* NEW SUMMER 2020 LANDING START */

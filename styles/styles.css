@@ -1599,6 +1599,10 @@ p {
   padding: 2rem 0;
 }
 
+.village-hifi-final-three-mock-grid img{
+  border: none;
+}
+
 #village-branding p {
   padding: 2rem 0;
 }
@@ -2822,6 +2826,12 @@ nav-links {
     grid-gap: 2rem;
     grid-template-columns: repeat(3, 1fr);
     margin: 3rem 0;
+  }
+
+ 
+
+  .village-hifi-final-messages-grid, .hifi-wireframe-captions{
+    text-align: center;
   }
 
   .village-hifi-final-three-mock-grid .village-process-label {

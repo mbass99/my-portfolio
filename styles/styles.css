@@ -510,18 +510,6 @@ footer {
   padding: 3rem 0;
 }
 
-/* VILLAGE 2021 START */
-
-.project-landing-image-reboot{
-  background-position: center center;
-  background-size: cover;
-  height: 30rem;
-}
-
-.village-landing-grid .project-landing-image-reboot {
-  background-image: url(../Images/village-landing-new-lofi-and-hifi.svg);
-
-/* VILLAGE 2021 END */
 
 .project-landing-image {
   background-position: center center;
@@ -530,7 +518,8 @@ footer {
 }
 
 .village-landing-grid .project-landing-image {
-  background-image: url(../Images/village-six-housing-stagger-shadow-light-background-and-border.svg);
+ 
+  background-image: url(../Images/village-landing-new-lofi-and-hifi-larger.svg);
 }
 
 .design-reads-landing-grid .project-landing-image {

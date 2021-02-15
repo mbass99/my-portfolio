@@ -510,6 +510,19 @@ footer {
   padding: 3rem 0;
 }
 
+/* VILLAGE 2021 START */
+
+.project-landing-image-reboot{
+  background-position: center center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.village-landing-grid .project-landing-image-reboot {
+  background-image: url(../Images/village-landing-new-lofi-and-hifi.svg);
+
+/* VILLAGE 2021 END */
+
 .project-landing-image {
   background-position: center center;
   background-size: cover;

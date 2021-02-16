@@ -1391,6 +1391,10 @@ p {
   padding-bottom: 2rem 0;
 }
 
+.village-wireframe-wrap img{
+  border: none;
+}
+
 .village-center-percentages {
   text-align: center;
   padding: 5rem 0 1rem 0;

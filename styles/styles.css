@@ -510,6 +510,15 @@ footer {
   padding: 3rem 0;
 }
 
+.project-landing-text h4{
+  padding-top: 2rem;
+  text-decoration: underline;
+  
+}
+
+.project-landing-text li{
+  font-weight: 300;
+}
 
 .project-landing-image {
   background-position: center center;
@@ -518,7 +527,6 @@ footer {
 }
 
 .village-landing-grid .project-landing-image {
- 
   background-image: url(../Images/village-landing-huge.svg);
 }
 
@@ -1391,7 +1399,7 @@ p {
   padding-bottom: 2rem 0;
 }
 
-.village-wireframe-wrap img{
+.village-wireframe-wrap img {
   border: none;
 }
 
@@ -1603,7 +1611,7 @@ p {
   padding: 2rem 0;
 }
 
-.village-hifi-final-three-mock-grid img{
+.village-hifi-final-three-mock-grid img {
   border: none;
 }
 
@@ -2832,9 +2840,8 @@ nav-links {
     margin: 3rem 0;
   }
 
- 
-
-  .village-hifi-final-messages-grid, .hifi-wireframe-captions{
+  .village-hifi-final-messages-grid,
+  .hifi-wireframe-captions {
     text-align: center;
   }
 

@@ -538,7 +538,7 @@ footer {
 }
 
 .taster-landing-grid .project-landing-image {
-  background-image: url(../Images/taster-landing-screens-with-shadows.jp2);
+  background-image: url(../Images/taster-2021-landing-with-shadows-light-bg.png);
 }
 
 /* NEW SUMMER 2020 LANDING START */
@@ -2993,7 +2993,7 @@ nav-links {
   }
 
   .taster-landing-grid .project-landing-text {
-    padding-left: 10rem;
+    padding-left: 5rem;
   }
   .project-landing-image {
     width: 60%;

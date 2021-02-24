@@ -146,7 +146,7 @@ table {
 /*hover color #FC5858*/
 /*visited color #DE9898*/
 /* new visited color color: #9D5454; */
-/* old black body text #0E0B06 */
+/* old black body text  #0E0B06*/
 /* new grey body text #3f3f3f */
 /* new white color #f9f8ff */
 /* new blue over black #A192F9 */
@@ -378,8 +378,8 @@ h6 {
 
 p {
   color: #3f3f3f;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
-  /* font-family: 'IBM Plex Serif', serif; */
+  /* font-family: "IBM Plex Sans Condensed", sans-serif; */
+  font-family: "IBM Plex Serif", serif;
   font-size: 1.8rem;
   line-height: 1.5;
   margin: 0 auto;
@@ -2049,6 +2049,85 @@ nav-links {
 .information-architecture,
 .visual-design {
   padding: 0;
+}
+
+/* UX WRITING MOBILE */
+
+.ux-writing-overview {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.ux-challenge-header p {
+  font-style: italic;
+}
+
+.pencil-icon {
+  padding-top: 3rem;
+}
+.writing-day-scenario h5 {
+  color: #3f3f3f;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.writing-day-scenario h2 {
+  color: #3344d9;
+}
+
+.writing-day-scenario {
+  padding-bottom: 2rem;
+}
+
+.writing-parameters {
+  padding: 1rem 0;
+}
+
+.writing-parameters h6 {
+  padding: 0.5rem 0;
+  font-weight: 700;
+}
+
+.writing-solutions {
+  padding: 3rem 0;
+}
+
+.writing-solutions h3 {
+  padding-bottom: 2rem;
+}
+
+.ux-headlines,
+.ux-body {
+  padding-bottom: 2rem;
+}
+
+.ux-headlines li,
+.ux-body li,
+.ux-button li {
+  list-style-position: inside;
+  padding: 1rem 0;
+}
+
+.ux-headlines li {
+  padding: 1rem 0;
+}
+
+.ux-writing-primary {
+  color: #0e0b06;
+  font-family: "IBM Plex Serif", serif;
+  list-style-type: disc;
+}
+
+.ux-writing-secondary {
+  color: #3f3f3f;
+  font-weight: 300;
+  font-size: 1.6rem;
+  list-style-type: circle;
+}
+
+.coming-soon {
+  font-size: 2.2rem;
+  font-style: italic;
 }
 
 /*MOBILE ABOVE 375width*/

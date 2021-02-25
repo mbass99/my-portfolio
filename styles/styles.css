@@ -2030,7 +2030,7 @@ nav-links {
 }
 
 .case-study-mid-fidelity-wireframes .dr-lowfi {
-  border: 1px solid black;
+  border: 1px solid #3f3f3f;
 }
 
 .iteration-flex h4 {
@@ -2058,7 +2058,7 @@ nav-links {
   text-align: center;
 }
 
-.ux-challenge-header p {
+.writing-italics {
   font-style: italic;
 }
 
@@ -2072,7 +2072,12 @@ nav-links {
 }
 
 .writing-day-scenario h2 {
-  color: #3344d9;
+  color: #0e0b06;
+  font-style: italic;
+}
+
+.writing-day-challenge h3 {
+  text-decoration: underline;
 }
 
 .writing-day-scenario {
@@ -2094,6 +2099,17 @@ nav-links {
 
 .writing-solutions h3 {
   padding-bottom: 2rem;
+  text-decoration: none;
+}
+
+.ux-headlines h4 {
+  color: #1230b5;
+}
+.ux-body h4 {
+  color: #1230b5;
+}
+.ux-button h4 {
+  color: #1230b5;
 }
 
 .ux-headlines,
@@ -2115,19 +2131,20 @@ nav-links {
 .ux-writing-primary {
   color: #0e0b06;
   font-family: "IBM Plex Serif", serif;
-  list-style-type: disc;
+  list-style-type: decimal;
 }
 
 .ux-writing-secondary {
   color: #3f3f3f;
   font-weight: 300;
   font-size: 1.6rem;
-  list-style-type: circle;
+  list-style-type: lower-alpha;
 }
 
 .coming-soon {
   font-size: 2.2rem;
   font-style: italic;
+  font-weight: 700;
 }
 
 /*MOBILE ABOVE 375width*/

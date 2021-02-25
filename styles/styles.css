@@ -3070,6 +3070,11 @@ nav-links {
   .dr-hifi {
     padding-top: 2rem;
   }
+
+  /* UX WRITING TABLET */
+  .ux-writing-content-borders {
+    padding: 3rem 5rem;
+  }
 }
 
 /*DESKTOP*/

@@ -3630,4 +3630,9 @@ nav-links {
   .dr-case-study-content-borders .project-introduction {
     padding: 0;
   }
+  /* UX WRITING DESKTOP */
+  .ux-writing-content-borders{
+    max-width: 80rem;
+    margin: auto;
+  }
 }

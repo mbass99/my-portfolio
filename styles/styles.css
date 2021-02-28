@@ -2310,12 +2310,12 @@ nav-links {
     grid-gap: 2rem;
   }
 
-  .pinterest-logo,
+  /* .pinterest-logo,
   .wunderlist-logo,
   .drive-logo {
     max-width: 50%;
     padding: 0;
-  }
+  } */
 
   .drive-logo {
     height: 10rem;

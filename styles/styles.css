@@ -543,34 +543,6 @@ footer {
 
 /* NEW SUMMER 2020 LANDING START */
 
-.index-test-h2 {
-  text-align: center;
-}
-
-.index-test-project-box {
-  display: grid;
-  padding: 1rem;
-}
-
-.index-test-project-one {
-  background-color: #e3e3e3;
-  height: 35rem;
-  margin: 3rem 0;
-}
-
-.index-test-project-one img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2rem 0;
-  vertical-align: middle;
-  width: 100%;
-}
-
-.index-test-project-one p {
-  padding: 2rem 1rem;
-}
-
 .landing-background {
   background-color: #f4f2fb;
 }

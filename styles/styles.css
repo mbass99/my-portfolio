@@ -502,7 +502,8 @@ footer {
 .village-landing-grid,
 .cms-landing-grid,
 .design-reads-landing-grid,
-.taster-landing-grid {
+.taster-landing-grid,
+.ux-writing-challenge-landing-grid {
   padding-top: 3rem;
 }
 
@@ -535,6 +536,10 @@ footer {
 
 .cms-landing-grid .project-landing-image {
   background-image: url(../Images/cms-desktop-frame-light-background.webp);
+}
+
+.ux-writing-challenge-landing-grid .project-landing-image {
+  background-image: url(../Images/ux-writing-desktop.jpg);
 }
 
 .taster-landing-grid .project-landing-image {
@@ -2170,17 +2175,14 @@ nav-links {
     margin: 0 18rem;
   }
 
-  .project-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3rem;
-    margin: 0 3rem;
-  }
+  /* REMOVED OLD PROJECT GRID */
 
   /* DECEMBER PROJECTS */
 
+  /* 2.20 moved taster to row reverse and ux writing to row */
   .village-landing-grid,
-  .cms-landing-grid {
+  .cms-landing-grid,
+  .taster-landing-grid {
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
@@ -2189,7 +2191,7 @@ nav-links {
   }
 
   .design-reads-landing-grid,
-  .taster-landing-grid {
+  .ux-writing-challenge-landing-grid {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -2205,6 +2207,27 @@ nav-links {
   .project-landing-image {
     padding: 0 2rem;
     width: 55%;
+  }
+
+  /* 2.20 Landing Image Specific Sizing */
+  .village-landing-grid .project-landing-image {
+    height: 50rem;
+  }
+
+  .design-reads-landing-grid .project-landing-image {
+    height: 40rem;
+  }
+
+  .cms-landing-grid .project-landing-image {
+    height: 45rem;
+  }
+
+  .ux-writing-challenge-landing-grid .project-landing-image {
+    height: 33rem;
+  }
+
+  .taster-landing-grid .project-landing-image {
+    height: 50rem;
   }
 
   /* NEW SUMMER 2020 LANDING */
@@ -3057,6 +3080,7 @@ nav-links {
   .village-landing-grid,
   .design-reads-landing-grid,
   .cms-landing-grid,
+  .ux-writing-challenge-landing-grid,
   .taster-landing-grid {
     padding: 5rem 9rem;
   }
@@ -3065,8 +3089,8 @@ nav-links {
     padding-left: 10rem;
   }
 
-  .taster-landing-grid .project-landing-text {
-    padding-left: 5rem;
+  .ux-writing-challenge-landing-grid .project-landing-text {
+    padding-left: 8rem;
   }
   .project-landing-image {
     width: 60%;

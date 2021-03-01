@@ -3147,11 +3147,7 @@ nav-links {
   }
 
   /* NEW 9.17.2020 */
-  .project-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem;
-  }
+  /* REMOVED PROJECT GRID */
 
   #introduction {
     font-size: 4.4rem;

@@ -2042,6 +2042,15 @@ nav-links {
 .pencil-icon {
   padding-top: 3rem;
 }
+
+.ux-writing-day-one,
+.writing-day-scenario {
+  border-top: #acacac;
+  border-style: dashed none none;
+  border-width: thin;
+  padding-top: 7rem;
+}
+
 .writing-day-scenario h5 {
   color: #3f3f3f;
   font-weight: 700;

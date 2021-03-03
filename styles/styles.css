@@ -311,6 +311,20 @@ header {
   color: #a192f9;
 }
 
+#top-ux-writing a:link {
+  color: #f8f6ff;
+}
+
+#top-ux-writing a:hover {
+  color: #429f46;
+  text-decoration: underline;
+  text-decoration-style: double bold;
+}
+
+#top-ux-writing a:visited {
+  color: #a192f9;
+}
+
 .to-top {
   text-align: center;
   /* color: #A192F9; */

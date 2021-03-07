@@ -2968,7 +2968,7 @@ nav-links {
   }
 
   .village-color-change-explanation {
-    font-style: italic;
+    /* REMOVE ITALICS */
     padding-top: 5rem;
     text-align: center;
   }
@@ -3606,7 +3606,8 @@ nav-links {
   }
 
   .village-color-change-explanation {
-    text-align: center;
+    /* Adjusted from center to left align */
+    text-align: left;
     padding-top: 5rem;
   }
 

@@ -2145,6 +2145,10 @@ nav-links {
   list-style-type: lower-alpha;
 }
 
+.writing-thoughts{
+  padding-top: 3rem;
+}
+
 .writing-thoughts p{
   font-size: 1.6rem;
 }

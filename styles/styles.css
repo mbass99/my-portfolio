@@ -2057,7 +2057,11 @@ nav-links {
   padding-top: 3rem;
 }
 
-.ux-writing-day-one,
+.writing-bold{
+  font-weight: 700;
+}
+
+
 .writing-day-scenario {
   border-top: #acacac;
   border-style: dashed none none;
@@ -2139,6 +2143,10 @@ nav-links {
   font-weight: 300;
   font-size: 1.6rem;
   list-style-type: lower-alpha;
+}
+
+.writing-thoughts p{
+  font-size: 1.6rem;
 }
 
 .coming-soon {

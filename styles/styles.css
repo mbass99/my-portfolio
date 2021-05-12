@@ -576,9 +576,15 @@ footer {
   padding-top: 3rem;
 }
 
-.hero-wrap h3,
+/* REMOVED H3 post acessibility check */
+.hero-wrap
 p {
   padding: 2rem 0;
+  margin: 0;
+}
+
+.hero-wrap h3{
+  text-transform: ;
 }
 
 #introduction {
@@ -586,7 +592,8 @@ p {
   font-size: 3.2rem;
   line-height: 1.4;
   padding: 2rem 0;
-  text-transform: lowercase;
+  /* GM suggestion to remove 5.12.21 */
+  /* text-transform: lowercase; */
 }
 
 .colored-name {

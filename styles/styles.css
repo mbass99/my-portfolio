@@ -3615,8 +3615,12 @@ nav-links {
   }
 
   /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
+  .village-user-flow-grid-four {
+    max-height: 70rem;
+  }
+
+  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
   .village-user-flow-grid img {
-    max-height: 50rem;
     transition: 0.5s ease;
   }
   /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */

@@ -428,10 +428,13 @@ section {
 
 /*BUTTONS*/
 
+/* COLOR CHANGED TO LANDING PURPLE 5.12.21 */
 .button {
-  background-color: #5fb4e7;
+  /* background-color: #5fb4e7; */
+  background-color: #dbd7f2;
   border: solid;
-  border-color: #5fb4e7;
+  /* border-color: #5fb4e7; */
+  border-color: #dbd7f2;
   border-radius: 2rem;
   color: #0e0b06;
   font-size: 1.8rem;
@@ -521,13 +524,23 @@ footer {
   padding-top: 3rem;
 }
 
+/* ADDED SPACE 5.12.21 */
 .project-landing-text {
   padding: 3rem 0;
+}
+
+.project-landing-text h3{
+  padding-bottom: 1rem;
 }
 
 .project-landing-text h4 {
   padding-top: 2rem;
   text-decoration: underline;
+}
+
+/* NEW SPACING 5.12.21 */
+.project-link{
+  padding-top: 4rem;
 }
 
 .project-landing-text li {
@@ -577,13 +590,12 @@ footer {
 }
 
 /* REMOVED H3 post acessibility check */
-.hero-wrap
-p {
+.hero-wrap p {
   padding: 2rem 0;
   margin: 0;
 }
 
-.hero-wrap h3{
+.hero-wrap h3 {
   text-transform: ;
 }
 
@@ -605,7 +617,6 @@ p {
 .text-emphasis {
   color: #0e0b06;
   font-weight: 600;
-  /* font-style: italic; */
 }
 
 .italics {

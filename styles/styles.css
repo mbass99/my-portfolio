@@ -529,7 +529,7 @@ footer {
   padding: 3rem 0;
 }
 
-.project-landing-text h3{
+.project-landing-text h3 {
   padding-bottom: 1rem;
 }
 
@@ -539,7 +539,7 @@ footer {
 }
 
 /* NEW SPACING 5.12.21 */
-.project-link{
+.project-link {
   padding-top: 4rem;
 }
 
@@ -3613,6 +3613,17 @@ nav-links {
   .village-center-percentages {
     padding: 3rem 0;
   }
+  .village-user-flow-grid {
+    max-height: 50rem;
+  }
+  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
+  .village-user-flow-grid img {
+    transition: 0.5s ease;
+  }
+  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
+  .village-user-flow-grid:hover img {
+    transform: scale(1.5);
+  }
 
   .village-user-flow-grid-one .village-flow-images {
     padding-left: 12rem;
@@ -3624,6 +3635,14 @@ nav-links {
 
   .village-dashboard-lofi img {
     max-width: 75%;
+  }
+  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
+  .village-lofi-sketch-pictures {
+    transition: 0.5s ease;
+  }
+  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
+  .village-lofi-sketch-pictures:hover {
+    transform: scale(1.5);
   }
 
   .village-hifi-final-landing-grid img {

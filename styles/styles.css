@@ -581,17 +581,19 @@ footer {
 
 .hero {
   background-color: #dbd7f2;
+  padding-bottom: 4rem;
 }
 
 .hero-wrap {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 /* REMOVED H3 post acessibility check */
 .hero-wrap p {
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
+  padding-top: 2rem;
   margin: 0;
 }
 
@@ -1669,7 +1671,6 @@ footer {
   padding: 3rem 0 1rem 0;
 }
 
-
 .village-button-transformation-story {
   text-align: center;
 }
@@ -2224,7 +2225,7 @@ nav-links {
 
   /*	LANDING PAGE 9.17.2020 */
   .hero-wrap {
-    padding: 2rem 0;
+    /* padding: 2rem 0; */
     margin: 0 18rem;
   }
 
@@ -3226,7 +3227,7 @@ nav-links {
   }
 
   .hero-wrap {
-    padding: 4rem 25rem;
+    /* padding: 4rem 25rem; */
   }
 
   .hero-wrap p {

@@ -1345,6 +1345,10 @@ footer {
   margin: auto;
 }
 
+.village-section-header {
+  border-top: 0.1rem solid #afafaf;
+}
+
 .bold {
   font-weight: 700;
   text-transform: uppercase;

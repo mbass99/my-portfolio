@@ -514,6 +514,55 @@ footer {
 }
 /*LANDING PAGE*/
 
+/*2025 UPDATES*/
+/*ANDING PAGE UPDATES*/
+.upcoming-work{
+  background-color: #0e0e0e;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.upcoming-work h2{
+  color: #acacac;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.upcoming-work p{
+  color: #acacac;
+  text-align: center;
+}
+
+/*TEST PAGE*/
+.case-studies {
+  background-color: #0e0b06;
+}
+
+
+
+.header-text-button{
+ padding: 0rem 4rem;
+}
+
+.case-study-details {
+  border-color: #acacac;
+  border-style: solid;
+  border-width: .05rem;
+  margin: 0 2rem 5rem 2rem;
+  padding: 4rem;
+}
+
+.landing-page-project h3, h4{
+ color: #afafaf; 
+}
+
+
+.project-description {
+padding-top: 2rem;
+}
+
+
 /* DECEMBER LANDING */
 
 .village-landing-grid,

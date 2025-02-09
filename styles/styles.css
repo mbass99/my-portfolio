@@ -421,7 +421,7 @@ img {
 }
 
 /*UNIVERSAL PADDING*/
-
+/* //TODO: REMOVE ALL GLOBAL SECTION PADDING */
 section {
   padding: 2rem;
 }
@@ -2257,6 +2257,7 @@ nav-links {
     max-width: 70rem;
   }
 
+/* //TODO: REMOVE ALL GLOBAL SECTION PADDING */
   section {
     padding: 3rem 0;
   }
@@ -3274,7 +3275,7 @@ nav-links {
   #top-taster {
     max-width: 120rem;
   }
-
+/* //TODO: REMOVE ALL GLOBAL SECTION PADDING */
   section {
     padding: 0 0 7.5rem 0;
   }

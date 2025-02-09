@@ -522,6 +522,18 @@ footer {
   padding-bottom: 12rem;
 }
 
+.project-landing-text p{
+  color: #0e0e0e;
+}
+
+.project-landing-text h3 {
+  color: #0e0e0e;
+}
+
+.project-landing-text h4{
+  color: #0e0e0e;
+}
+
 .hero-wrap p{
   color: #0e0b06;
 }

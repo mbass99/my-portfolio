@@ -567,6 +567,10 @@ footer {
   padding: 6rem;
 }
 
+.text-group{
+  max-width: 70rem;
+}
+
 .text-group h2, h3, h4, h5, p{
   color: #afafaf;
 }

@@ -593,6 +593,65 @@ footer {
   padding-bottom: 2rem;
 }
 
+/* 2025 CASE STUDIES */
+/* DEVPORTAL */
+/*desktop*/
+
+.case-study-container-developerportal{
+ /*TODO: Add BG COLOR*/
+}
+
+.case-study-hero{
+padding: 4rem 12rem;
+}
+
+
+.project-overview, .project-parameters, .project-research, .project-user-flows, .project-ux-designs, .project-handoff-and-support, .project-reflections {
+  padding: 4rem 12rem;
+  border-top: #acacac;
+  border-style: solid;
+  border-width: .5rem;
+}
+
+.project-problem {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+.project-timelines, .project-requirements, .design-deliverables{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.text-group{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header-and-list h3{
+  padding-bottom: 2rem;
+}
+
+.header-and-text h2, h3{
+  padding-bottom: 2rem;
+}
+
+.header-and-list li{
+  padding-left: 2rem;
+}
+
+.header-and-text p{
+  padding-left: 2rem;
+}
+
+.project-problem, .project-challenge, .project-parameters, .project-comp-analysis, .project-user-research{
+padding-top: 4rem;
+}
+
+/*tablet*/
+
+/*mobile*/
+
 
 /* DECEMBER LANDING */
 

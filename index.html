@@ -1,13 +1,11 @@
 <!-- LANDING PAGE -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134212941-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-
 		function gtag() {
 			dataLayer.push(arguments);
 		}
@@ -17,8 +15,6 @@
 		// NEW 2022 GTAG
 		gtag('config', 'G-879D0XYMGE');
 	</script>
-
-
 	<!-- Hotjar Tracking Code for https://www.mattbass.design -->
 	<script>
 		(function (h, o, t, j, a, r) {
@@ -36,8 +32,6 @@
 			a.appendChild(r);
 		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
 	</script>
-
-
 	<title> Portfolio | Matt Bass (Product & UX Design)</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -51,14 +45,11 @@
 		rel="stylesheet">
 	<!--MAIN STYLESHEET LINK -->
 	<link rel="stylesheet" href="styles/styles.css">
-
 </head>
-
 <body>
 	<div class="container">
 		<main>
 			<div class="head-background">
-
 				<header id="top-index">
 					<a href="index.html"> <img src="Images/logo-mb-white-reboot-aug-2019.svg" class="nav-logo"
 							alt="logo"></a>
@@ -71,6 +62,9 @@
 						</li>
 					</ul>
 				</header>
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				  </div>
 			</div>
 			<section class="hero">
 				<div class="hero-wrap">
@@ -146,7 +140,6 @@
 					<!-- REMOVE UX WRITING CHALLENGE 2025-->
 					 <!-- REMOVE TASTER 2025-->
 				</section>
-				
 				<section class="about-me">
 					<div class="individual-landing-box">
 						<div class="text-and-image-box">
@@ -191,21 +184,26 @@
 				</li>
 			</ul>
 		</footer>
+		<script>
+			// When the user scrolls the page, execute myFunction 
+			window.onscroll = function () {
+			  myFunction()
+			};
+	  
+			function myFunction() {
+			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  var scrolled = (winScroll / height) * 100;
+			  document.getElementById("myBar").style.width = scrolled + "%";
+			}
+		  </script>
 	</div>
-
 </body>
 
-
-
 <!--  
-//TODO:ADD Riot Work (maybe password protect)
-//TODO:UPDATE Header text    
+//TODO:ADD Riot Work (maybe password protect)  
 //TODO:Update Color Scheme
                         -->
 
 <!-- SCRIPTS -->
-
-
 </html>
-
-	<!-- REMOVED BELOW PER GM 5.12.21 SUGGESTIONS -->

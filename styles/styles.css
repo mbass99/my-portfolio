@@ -226,17 +226,6 @@ header {
 #top-index a:link {
   color: #f8f6ff;
 }
-/* removing #top-village a:link */
-
-/* removing #top-village a:hover */
-
-/* removing #top-village a:visited */
-
-/* #top-bio a:visited */
-
-/* removing #top-bio a:hover */
-
-/* removing #top-bio a:link */
 
 #top-design-reads a:link {
   color: #f8f6ff;
@@ -395,9 +384,6 @@ img {
   outline: none;
 }
 
-
-
-/* removing .village-button-box */
 
 /*FOOTER*/
 
@@ -560,7 +546,6 @@ max-width: 30rem;
 /*desktop*/
 
 .case-study-container-developerportal{
- /*TODO: Add BG COLOR*/
  background-color: #f0f0f0;
 }
 
@@ -773,8 +758,6 @@ padding-top: 4rem;
 
 /*RECURRING*/
 
-/*TASTER MOBILE*/
-
 .landing-pages {
   display: flex;
   justify-content: space-between;
@@ -812,11 +795,6 @@ padding-top: 4rem;
 .project-conclusion-text {
   padding: 1rem 0;
 }
-
-/*MOBILE BIOGRAPHY*/
-
-
-/* VILLAGE MOBILE */
 
 /* also used in design reads */
 
@@ -1211,7 +1189,6 @@ nav-links {
     padding: 2rem 6rem;
   }
 
-  /* removing top-taster*/
 
   .nav-flex {
     font-size: 1.6rem;
@@ -1311,7 +1288,6 @@ nav-links {
 
   /* end 2025 landing updates */
 
-  /*	TASTER TABLET*/
 
   /*	recurring */
 
@@ -1319,9 +1295,6 @@ nav-links {
     grid-template-columns: repeat(5, 1fr);
   }
 
-  /*	TABLET BIOGRAPHY*/
-
-  /*	TABLET VILLAGE*/
 
   /* CINEMA MAKEUP SCHOOL TABLET*/
 
@@ -1520,8 +1493,6 @@ nav-links {
   .music-text {
     max-width: 60rem;
   }
-
-  /*	TASTER DESKTOP*/
 
   /*	recurring*/
   .case-explanation {

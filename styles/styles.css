@@ -297,34 +297,17 @@ header {
 #top-cms a:visited {
   color: #a192f9;
 }
+/* Removing   #top-taster a:link */
+ 
 
-#top-taster a:link {
-  color: #f8f6ff;
-}
+/* Removing   #top-taster a:hover */
 
-#top-taster a:hover {
-  color: #429f46;
-  text-decoration: underline;
-  text-decoration-style: double bold;
-}
+/* Removing   #top-taster a:visited  */
 
-#top-taster a:visited {
-  color: #a192f9;
-}
 
-#top-ux-writing a:link {
-  color: #f8f6ff;
-}
+/* removing #top-ux-writing a:link and #top-ux-writing a:hover and #top-ux-writing a:visited   */
 
-#top-ux-writing a:hover {
-  color: #429f46;
-  text-decoration: underline;
-  text-decoration-style: double bold;
-}
 
-#top-ux-writing a:visited {
-  color: #a192f9;
-}
 
 .to-top {
   text-align: center;
@@ -682,11 +665,11 @@ padding-top: 4rem;
 
 /* DECEMBER LANDING */
 
-.village-landing-grid,
+
+/* Removing   .taster-landing-grid, and .village-landing-grid,.ux-writing-challenge-landing-grid  */
+
 .cms-landing-grid,
-.design-reads-landing-grid,
-.taster-landing-grid,
-.ux-writing-challenge-landing-grid {
+.design-reads-landing-grid{
   padding-top: 3rem;
 }
 
@@ -731,13 +714,9 @@ padding-top: 4rem;
   background-image: url(../Images/cms-desktop-frame-light-background.webp);
 }
 
-.ux-writing-challenge-landing-grid .project-landing-image {
-  background-image: url(../Images/ux-writing-desktop.jpg);
-}
+/* removing .ux-writing-challenge-landing-grid .project-landing-image */ 
 
-.taster-landing-grid .project-landing-image {
-  background-image: url(../Images/taster-2021-landing-with-shadows-light-bg.webp);
-}
+/* Removing   .taster-landing-grid .project-landing-image  */
 
 /* NEW SUMMER 2020 LANDING START */
 
@@ -842,28 +821,13 @@ padding-top: 4rem;
   font-weight: 300;
   text-align: center;
 }
+/* Removing .taster-prototype  */
 
-.taster-prototype {
-  max-width: 30rem;
-}
 
-.taster-main-landing {
-  border: 0.8px solid black;
-  max-height: 30rem;
-}
+/* .taster-main-landing   */
 
-.bloc-jams-image {
-  max-width: 20rem;
-  min-width: 23rem;
-  text-align: center;
-}
+/* removing bloc-jams-image and .bus-logo */
 
-.bus-logo {
-  max-width: 20rem;
-  min-width: 20rem;
-  outline: 1px solid rgba(0, 0, 0, 0.22);
-  text-align: center;
-}
 
 .spotify-playlist {
   padding: 3rem;
@@ -917,34 +881,17 @@ padding-top: 4rem;
   text-decoration: none;
 }
 
-.taster-content {
-  padding: 0 1rem;
-}
+/* removing .taster-content */
 
-.taster-section-header {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0;
-  text-align: center;
-  text-transform: uppercase;
-  /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
-  width: 100%;
-}
+/* removing .taster-section-header  */
 
-/*header line below 2 of 3*/
-.taster-section-header:before,
-.taster-section-header:after {
-  content: "";
-  color: #843f60;
-  margin: 0 10px 0 0;
-  flex: 1 0 10px;
-}
 
+/* removing .taster-section-header:before,
+.taster-section-header:after  */
+
+/* removing ..taster-section-header:after  */
 /*header line below 3 of 3*/
-.taster-section-header:after {
-  margin: 0 0 0 10px;
-}
+
 
 .section-questions {
   font-weight: 400;
@@ -994,15 +941,11 @@ padding-top: 4rem;
 
 /*TASTER MOBILE*/
 
-#top-taster {
-  background: rgba(0, 0, 0, 0.4);
-  max-width: 100%;
-}
+/* removing #top-taster */
 
-#taster-project-name {
-  text-align: center;
-  padding: 3rem 0;
-}
+
+/* removing #taster-project-name */
+
 
 .wireframe-wrap {
   display: grid;
@@ -1312,11 +1255,8 @@ padding-top: 4rem;
   padding: 1rem 0;
 }
 
-.taster-logo-attached,
-.taster-logo-unattached {
-  width: 50rem;
-  padding: 2rem 0;
-}
+/* removing.taster-logo-attached,
+.taster-logo-unattached */
 
 .landing-pages {
   display: flex;
@@ -2227,19 +2167,18 @@ nav-links {
 
 /* UX WRITING MOBILE */
 
-.ux-writing-overview {
-  padding-top: 5rem;
-  text-align: center;
-}
+/* removing .ux-writing-overview */
+
+
 
 .writing-italics {
   font-style: italic;
 }
 
-.pencil-icon {
-  padding-top: 3rem;
-}
 
+/* removing .pencil-icon */ 
+
+/* removing 
 .writing-bold {
   font-weight: 700;
 }
@@ -2312,21 +2251,11 @@ nav-links {
 
 .ux-headlines li {
   padding: 1rem 0;
-}
+} */
 
-.ux-writing-primary {
-  color: #0e0b06;
-  font-family: "IBM Plex Serif", serif;
-  list-style-type: decimal;
-}
+/* removing .ux-writing-primary and ux-writing-secondary */ {
 
-.ux-writing-secondary {
-  color: #3f3f3f;
-  font-weight: 300;
-  font-size: 1.6rem;
-  list-style-type: lower-alpha;
-}
-
+/* removing 
 .writing-thoughts {
   padding-top: 3rem;
 }
@@ -2339,7 +2268,7 @@ nav-links {
   font-size: 2.2rem;
   font-style: italic;
   font-weight: 700;
-}
+} */
 
 /*MOBILE ABOVE 375width*/
 
@@ -2401,9 +2330,10 @@ nav-links {
   /* DECEMBER PROJECTS */
 
   /* 2.20 moved taster to row reverse and ux writing to row */
-  .village-landing-grid,
-  .cms-landing-grid,
-  .taster-landing-grid {
+
+  /* removing  .taster-landing-grid and .village-landing-grid */
+
+  .cms-landing-grid, {
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
@@ -2411,8 +2341,8 @@ nav-links {
     padding: 5rem 2rem;
   }
 
-  .design-reads-landing-grid,
-  .ux-writing-challenge-landing-grid {
+  /* removing .ux-writing-challenge-landing-grid */
+  .design-reads-landing-grid {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -2443,13 +2373,9 @@ nav-links {
     height: 45rem;
   }
 
-  .ux-writing-challenge-landing-grid .project-landing-image {
-    height: 33rem;
-  }
+  /* removing .ux-writing-challenge-landing-grid .project-landing-image */ 
 
-  .taster-landing-grid .project-landing-image {
-    height: 50rem;
-  }
+  /* removing .taster-landing-grid .project-landing-image */ 
 
   /* NEW SUMMER 2020 LANDING */
 
@@ -2488,11 +2414,7 @@ nav-links {
     grid-template-columns: repeat(5, 1fr);
   }
 
-  .taster-content {
-    margin: auto;
-    max-width: 62rem;
-    padding: 0;
-  }
+  /* removing .taster-content */ 
 
   .center-button {
     text-align: center;
@@ -2711,11 +2633,8 @@ nav-links {
     padding: 3rem 0;
   }
 
-  .taster-logo-attached,
-  .taster-logo-unattached {
-    max-width: 85%;
-    padding: 3rem 0;
-  }
+ /* removing  .taster-logo-attached,
+  .taster-logo-unattached */
 
   .logo-options {
     align-items: center;
@@ -3298,9 +3217,7 @@ nav-links {
   }
 
   /* UX WRITING TABLET */
-  .ux-writing-content-borders {
-    padding: 3rem 5rem;
-  }
+  /* removing .ux-writing-content-borders */
 }
 
 /*DESKTOP*/
@@ -3325,9 +3242,9 @@ nav-links {
   /*	GLOBAL*/
 
   /* APRIL 2021 WIDE SPACING */
+
+  /* removing  #top-taster,   #top-village, */
   #top-index,
-  #top-village,
-  #top-taster,
   #top-cms,
   #top-bio,
   .top-design-reads {
@@ -3358,11 +3275,10 @@ nav-links {
   }
   /* NEW DECEMBER LANDING */
 
-  .village-landing-grid,
+  /* removing .taster-landing-grid and  .village-landing-grid,  .ux-writing-challenge-landing-grid */
+ 
   .design-reads-landing-grid,
-  .cms-landing-grid,
-  .ux-writing-challenge-landing-grid,
-  .taster-landing-grid {
+  .cms-landing-grid {
     /* padding: 5rem 9rem; */
     max-width: 120rem;
     margin: auto;
@@ -3371,10 +3287,8 @@ nav-links {
   .design-reads-landing-grid .project-landing-text {
     padding-left: 10rem;
   }
-
-  .ux-writing-challenge-landing-grid .project-landing-text {
-    padding-left: 10rem;
-  }
+/* .ux-writing-challenge-landing-grid .project-landing-text */
+  
   .project-landing-image {
     width: 60%;
     height: 50rem;
@@ -3398,17 +3312,13 @@ nav-links {
     max-width: 130rem;
   }
 
-  .taster-content {
-    max-width: 90rem;
-  }
+  /* removing .taster-content and  #top-taster */
 
-  #top-taster {
-    max-width: 120rem;
-  }
+
 /* //TODO: REMOVE ALL GLOBAL SECTION PADDING 2025 */
   /* section {
     padding: 0 0 7.5rem 0; 
-  } */
+  } 
 
   .contact-info {
     grid-gap: 29rem;
@@ -3461,12 +3371,8 @@ nav-links {
     padding: 10rem;
   }
 
-  #taster-project-name {
-    color: #0e0b06;
-    font-size: 5rem;
-    padding: 3rem;
-    text-align: center;
-  }
+  /* Removing   #taster-project-name*/
+ 
 
   .deliverables-list {
     grid-gap: 11rem;
@@ -3926,8 +3832,6 @@ nav-links {
     padding: 0;
   }
   /* UX WRITING DESKTOP */
-  .ux-writing-content-borders {
-    max-width: 80rem;
-    margin: auto;
-  }
+
+  /*removing .ux-writing-content-borders */ 
 }

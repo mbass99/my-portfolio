@@ -137,21 +137,6 @@ table {
 
 /*end meyer reset*/
 
-/*GOOGLE FONTS WERE HERE*/
-
-/*font-family: 'IBM Plex Sans Condensed', sans-serif;
-/*font-family: 'IBM Plex Serif', serif;
-/*old red color #ff0000*/
-/*white color #f2f2f2*/
-/*hover color #FC5858*/
-/*visited color #DE9898*/
-/* new visited color color: #9D5454; */
-/* old black body text  #0E0B06*/
-/* new grey body text #3f3f3f */
-/* new white color #f9f8ff */
-/* new blue over black #A192F9 */
-/* 404 Error Green #006604 */
-/* softer hover Green #429F46 */
 
 *:before,
 *:after {
@@ -297,21 +282,9 @@ header {
 #top-cms a:visited {
   color: #a192f9;
 }
-/* Removing   #top-taster a:link */
- 
-
-/* Removing   #top-taster a:hover */
-
-/* Removing   #top-taster a:visited  */
-
-
-/* removing #top-ux-writing a:link and #top-ux-writing a:hover and #top-ux-writing a:visited   */
-
-
 
 .to-top {
   text-align: center;
-  /* color: #A192F9; */
   padding: 3rem;
 }
 
@@ -351,8 +324,6 @@ h2 {
 }
 
 h3 {
-  /* CHANGE TO SERIF Oct 2020 */
-  /*	font-family: 'IBM Plex Serif', serif;*/
   font-family: "IBM Plex Serif", serif;
   font-size: 2.6rem;
   text-transform: capitalize;
@@ -376,7 +347,6 @@ h6 {
 
 p {
   color: #3f3f3f;
-  /* font-family: "IBM Plex Sans Condensed", sans-serif; */
   font-family: "IBM Plex Serif", serif;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -404,33 +374,22 @@ img {
   max-width: 100%;
 }
 
-/*UNIVERSAL PADDING*/
-/* //TODO: REMOVE ALL GLOBAL SECTION PADDING */
-section {
-  padding: 2rem;
-}
-
-/* replacing section universal padding on landing page / cms case study */
 .hero, .select-ux-projects, .hand-codin.cms-overviewg, .cms-initial-research, .cms-problem, .cms-problem-solved, .cms-end-result, .cms-hifi{
   padding: 2rem;
 }
 
-/*design reads replacing section universal padding*/
 .design-reads-hero, .project-introduction, .case-study-problem-and-solution, .dicovery, .case-study-competitve-analysis, .case-study-user-research, .case-study-survey-results, .survey-data, .white, .body-container .storyboarding, .information-architecture, .case-study-user-stories, .case-study-user-flows, .case-study-lo-fidelity-wireframes, .case-study-mid-fidelity-wireframes, .case-study-testing-results, .iteration-flex, .visual-design, .case-study-title, .case-study-hi-fidelity-wireframes, .final-design, .case-study-final-prototype, .case-study-conclusion {
   padding: 2rem;
 }
 
-/*design reads replacing section universal padding*/
 
 
 /*BUTTONS*/
 
-/* COLOR CHANGED TO LANDING PURPLE 5.12.21 */
+
 .button {
-  /* background-color: #5fb4e7; */
   background-color: #dbd7f2;
   border: solid;
-  /* border-color: #5fb4e7; */
   border-color: #dbd7f2;
   border-radius: 2rem;
   color: #0e0b06;
@@ -515,8 +474,6 @@ footer {
 
 /*2025 UPDATES*/
 /*LANDING PAGE UPDATES*/
-/* Redo for media queries*/
-
 
 .upcoming-work{
   background-color: #0e0e0e;
@@ -596,14 +553,7 @@ color: #afadad;
 }
 
 
-
-
-
-
-
 /*TEST PAGE*/
-
-
 
 /* 2025 CASE STUDIES */
 /* DEVPORTAL */
@@ -636,8 +586,6 @@ padding: 4rem 12rem;
   padding-bottom: 2rem;
 }
 
-
-
 .header-and-list h3{
   padding-bottom: 2rem;
 }
@@ -658,22 +606,12 @@ padding: 4rem 12rem;
 padding-top: 4rem;
 }
 
-/*tablet*/
-
-/*mobile*/
-
-
-/* DECEMBER LANDING */
-
-
-/* Removing   .taster-landing-grid, and .village-landing-grid,.ux-writing-challenge-landing-grid  */
 
 .cms-landing-grid,
 .design-reads-landing-grid{
   padding-top: 3rem;
 }
 
-/* ADDED SPACE 5.12.21 */
 .project-landing-text {
   padding: 3rem 0;
 }
@@ -687,7 +625,6 @@ padding-top: 4rem;
   text-decoration: underline;
 }
 
-/* NEW SPACING 5.12.21 */
 .project-link {
   padding-top: 4rem;
 }
@@ -702,9 +639,6 @@ padding-top: 4rem;
   height: 30rem;
 }
 
-.village-landing-grid .project-landing-image {
-  background-image: url(../Images/village-landing-2021-new-smaller-image.webp);
-}
 
 .design-reads-landing-grid .project-landing-image {
   background-image: url(../Images/design-reads-landing-2021.webp);
@@ -713,12 +647,6 @@ padding-top: 4rem;
 .cms-landing-grid .project-landing-image {
   background-image: url(../Images/cms-desktop-frame-light-background.webp);
 }
-
-/* removing .ux-writing-challenge-landing-grid .project-landing-image */ 
-
-/* Removing   .taster-landing-grid .project-landing-image  */
-
-/* NEW SUMMER 2020 LANDING START */
 
 .landing-background {
   background-color: #f4f2fb;
@@ -821,13 +749,6 @@ padding-top: 4rem;
   font-weight: 300;
   text-align: center;
 }
-/* Removing .taster-prototype  */
-
-
-/* .taster-main-landing   */
-
-/* removing bloc-jams-image and .bus-logo */
-
 
 .spotify-playlist {
   padding: 3rem;
@@ -852,411 +773,7 @@ padding-top: 4rem;
 
 /*RECURRING*/
 
-.village-nav-links {
-  font-size: 1.4rem;
-  padding: 1rem 0;
-  text-transform: lowercase;
-}
-
-.section-navigation {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 2rem 0;
-}
-
-.village-nav-links a:link {
-  color: #0080a5;
-  text-decoration: none;
-}
-
-.village-nav-links a:visited {
-  color: #a192f9;
-  text-transform: uppercase;
-}
-
-.village-nav-links a:hover {
-  color: #429f46;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-/* removing .taster-content */
-
-/* removing .taster-section-header  */
-
-
-/* removing .taster-section-header:before,
-.taster-section-header:after  */
-
-/* removing ..taster-section-header:after  */
-/*header line below 3 of 3*/
-
-
-.section-questions {
-  font-weight: 400;
-  padding: 5rem 0;
-  text-align: center;
-  text-transform: lowercase;
-}
-
-.button-center {
-  text-align: center;
-}
-
-.wireframes {
-  margin: auto;
-}
-
-.lofi-dashboard {
-  display: grid;
-  grid-gap: 3rem;
-  grid-template-columns: auto;
-  margin: auto;
-}
-
-.lofi-security {
-  display: grid;
-  grid-gap: 3rem;
-  grid-template-columns: auto;
-  margin: auto;
-}
-
-.lofi-add-note-tested {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: auto;
-}
-
-.lofi-security-tested {
-  display: grid;
-  grid-template-columns: 1fr;
-  margin: auto;
-}
-
-.pic-one,
-.pic-two {
-  margin: auto;
-}
-
 /*TASTER MOBILE*/
-
-/* removing #top-taster */
-
-
-/* removing #taster-project-name */
-
-
-.wireframe-wrap {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 3rem;
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.empty-notes-dash,
-.enter-note-no-text,
-.note-entering,
-.new-note-added-dash {
-  outline: 1px solid rgba(0, 0, 0, 0.22);
-}
-
-.case-explanation {
-  text-align: center;
-  padding: 2rem 0rem;
-}
-
-.text-wrap {
-  text-align: center;
-}
-
-.privacy-wireframe,
-.account-created {
-  border-style: solid;
-  border-width: 0.5px;
-  max-width: 90%;
-  margin: auto;
-}
-
-.deliverables-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 2rem 0;
-}
-
-.body-list-headers {
-  font-size: 2.8rem;
-  font-weight: 700;
-  padding: 2rem 0;
-}
-
-.performed {
-  font-size: 1.4rem;
-  line-height: 1.4;
-}
-
-.product-one,
-.product-two,
-.product-three {
-  box-shadow: 0 0 5px #e2d4d4;
-  padding: 3rem 0;
-}
-
-.products {
-  color: #0e0b06;
-  font-weight: 700;
-  padding: 2rem 0;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.pinterest-logo,
-.wunderlist-logo,
-.drive-logo {
-  display: block;
-  margin: auto;
-  padding: 3rem 0;
-}
-
-.product-text {
-  font-size: 1.8rem;
-}
-
-.content-conclusions {
-  color: #0e0b06;
-  font-size: 2.8rem;
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.swot-button-center {
-  text-align: center;
-}
-
-.survey-intro {
-  padding: 1rem 0;
-}
-
-.market-survey-responses {
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: auto;
-}
-
-.survey-responses-one,
-.survey-responses-two,
-.survey-responses-three {
-  grid-template-columns: auto;
-  padding: 1rem 0;
-}
-
-.list-answers {
-  font-size: 1.8rem;
-  line-height: 1.4;
-}
-
-#wineChart {
-  max-width: 70%;
-  margin: auto;
-}
-
-.winePlusChart {
-  max-width: 70%;
-  margin: auto;
-}
-
-.chart-explanation {
-  font-size: 1.8rem;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-.survey-conclusions {
-  padding: 1rem 0;
-}
-
-.persona-one,
-.persona-two,
-.persona-three {
-  box-shadow: 0 0 5px #e2d4d4;
-}
-
-.persona-wrap {
-  padding: 3rem 0rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 3rem;
-  text-align: left;
-}
-
-.persona-picture {
-  display: block;
-  margin: auto;
-}
-
-.persona-name {
-  color: #0e0b06;
-  line-height: 1.3;
-  padding: 2rem 1rem;
-  text-align: left;
-}
-
-.persona-text {
-  padding: 1rem;
-  line-height: 1.6;
-}
-
-.persona-italics {
-  color: #0e0b06;
-  font-style: italic;
-}
-
-.sitemap {
-  max-width: 90%;
-}
-
-.sitemap-text {
-  padding: 1rem 0;
-}
-
-.user-flow-intro {
-  padding: 1rem 0;
-}
-
-.sign-in-up {
-  max-width: 100%;
-}
-
-.sign-in-flow {
-  display: grid;
-  grid-template-columns: auto;
-  padding: 1rem 0;
-}
-
-.flow-charts {
-  max-width: 90%;
-  padding: 1rem;
-}
-
-.lofi-wireframe-intro {
-  padding: 1rem 0;
-}
-
-.wireframe-labels {
-  font-size: 2rem;
-  padding: 3rem 0;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.lofi-dash-wireframes {
-  margin: auto;
-}
-
-.lofi-security-wireframes {
-  margin: auto;
-}
-
-.picture-italics {
-  text-align: center;
-  font-style: italic;
-  padding: 2rem 0;
-}
-
-.testing-results-intro {
-  padding: 1rem 0;
-}
-
-.picture-explanation-center {
-  font-size: 2.2rem;
-  font-weight: 700;
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.screen-explanation {
-  padding: 1rem 0;
-}
-
-.research-intro {
-  padding: 1rem 0;
-}
-
-.logo-conversation {
-  padding: 1rem 0;
-}
-
-.mind-map {
-  max-width: 90%;
-  padding: 2rem;
-}
-
-.hand-drawn {
-  max-width: 90%;
-  padding: 2rem;
-}
-
-.previous-attempts {
-  max-width: 90%;
-  padding: 2rem;
-}
-
-.font-conversation {
-  padding: 1rem 0;
-}
-
-.styleguide-logo {
-  width: 20rem;
-}
-
-.final-styleguide-logo {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 2rem;
-  padding: 2rem 1rem;
-}
-
-.wine-colors {
-  max-width: 90%;
-  padding: 1rem;
-}
-
-.color-conversation {
-  padding: 1rem 0;
-}
-
-.hifi-conversation {
-  padding: 1rem 0;
-}
-
-.hifi-wireframes {
-  display: grid;
-  grid-template-columns: auto;
-  grid-gap: 2rem;
-}
-
-.landing-pictures {
-  display: grid;
-  grid-template-columns: auto;
-  max-width: 90%;
-  margin: auto;
-}
-
-.logo-options {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: space-between;
-  margin: auto;
-  max-width: 80%;
-}
-
-.logo-corkscrew-conversation {
-  padding: 1rem 0;
-}
-
-/* removing.taster-logo-attached,
-.taster-logo-unattached */
 
 .landing-pages {
   display: flex;
@@ -1298,196 +815,10 @@ padding-top: 4rem;
 
 /*MOBILE BIOGRAPHY*/
 
-/*
-.bio-about-me-picture {
-  /* background-color: #dedaf5; 
-}*/
-
-.bio-about-me-picture h1 {
-  text-align: center;
-}
-
-.architecture-first {
-  background-color: #dedaf5;
-}
-
-.personal-third {
-  background-color: #dedaf5;
-}
-
-.bio-content p {
-  padding: 2rem 0;
-}
-
-.icon-left {
-  padding: 3rem 0;
-}
-
-#bunk {
-  display: block;
-  border-radius: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 20rem;
-  padding: 3rem 0;
-}
-
-.bio-about-me-picture {
-  padding-top: 2rem;
-}
-
-.golf-to-film {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  max-width: 20rem;
-  padding: 3rem 0;
-}
-.emoji {
-  text-align: center;
-}
-
-.bio-section-header {
-  color: #290cdc;
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.content-two {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: auto;
-  padding: 3rem 0;
-}
-
-.content-three {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.content-row {
-  padding: 0rem 2rem;
-}
-
-.mini-subhead {
-  font-weight: 700;
-  line-height: 1.3;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-.golf-group {
-  display: block;
-  max-width: 80%;
-  margin: auto;
-  padding: 2rem 2rem 3rem 2rem;
-}
-
-.school {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 3rem;
-}
-
-.architect,
-.film {
-  margin: auto;
-}
-
-.bio-italics {
-  font-style: italic;
-  font-weight: 300;
-  line-height: 1.4;
-  padding: 3rem 2rem;
-}
-
-.content-two {
-  padding: 3rem 0;
-}
-
-.why-design,
-.designer,
-.storyboard,
-.frustrated,
-.chaplin,
-.privacy {
-  display: block;
-  margin: auto;
-  padding: 2rem;
-}
-
-.design-frustration {
-  display: grid;
-  grid-template-columns: auto;
-}
-
-.design-characters {
-  display: grid;
-  grid-template-columns: auto;
-}
-
-.bio-align-three {
-  display: flex;
-  flex-direction: column;
-}
-
-.privacy-future {
-  display: grid;
-  grid-template-columns: auto;
-}
 
 /* VILLAGE MOBILE */
 
-.case-study-content-borders {
-  padding: 0 2rem;
-  margin: auto;
-}
 
-.village-section-header {
-  border-top: 0.1rem solid #afafaf;
-}
-
-.bold {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.village-quote {
-  font-style: italic;
-  font-weight: 700;
-  color: #285835;
-}
-
-.village-logo {
-  margin: auto;
-  padding: 2rem 0;
-}
-
-#village-case-study-title {
-  color: #0e0b06;
-  padding: 7rem 0 3rem;
-}
-
-.village-who-did-this {
-  letter-spacing: 0.5rem;
-}
-
-.village-project-duration {
-  text-align: center;
-}
-
-.village-section-header {
-  color: #3f1fbd;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 0;
-  text-align: center;
-  text-transform: capitalize;
-  /*header line below 1 of 3 https://www.trysmudford.com/blog/css-header-legend */
-  width: 100%;
-}
 
 .project-introduction h3 {
   padding: 2rem 0;
@@ -1499,312 +830,6 @@ padding-top: 4rem;
   text-align: center;
 }
 
-.village-problem-statement {
-  font-weight: 300;
-  letter-spacing: 0.5rem;
-  padding: 3rem 0;
-  text-align: center;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-#village-project-overview p {
-  padding-bottom: 2rem 0;
-}
-
-.village-wireframe-wrap img {
-  border: none;
-}
-
-.village-center-percentages {
-  text-align: center;
-  padding: 5rem 0 1rem 0;
-}
-
-.village-chart-number {
-  color: #285835;
-  font-size: 6rem;
-  font-weight: 700;
-}
-
-.village-chart-explanation {
-  text-align: center;
-}
-
-.village-deliverables-list h3 {
-  padding: 2rem 0;
-  text-decoration: underline;
-}
-
-.case-study-performed {
-  font-size: 1.6rem;
-  font-weight: 300;
-  line-height: 2rem;
-  list-style: disc;
-  list-style-position: inside;
-  padding: 0.5rem 0;
-  text-align: left;
-  text-transform: none;
-}
-
-.current-products-used {
-  font-weight: 300;
-}
-
-.village-what-is-used {
-  padding: 1.5rem 0;
-}
-
-.village-product-attributes {
-  font-size: 1.6rem;
-  line-height: 1.5;
-  list-style: disc;
-  list-style-position: inside;
-  padding: 0.5rem;
-}
-
-.village-products {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-/* ADDED SPECIFIC CLASS and H/W TO LOGOS */
-
-.village-logo-placement {
-  text-align: center;
-}
-
-.village-product-one,
-.village-product-two,
-.village-product-three {
-  padding: 5rem 0;
-}
-
-.village-shutterfly {
-  height: 20rem;
-  width: 20rem;
-}
-
-.village-class-dojo {
-  height: 20rem;
-  width: 22rem;
-}
-
-.village-gmail {
-  height: 20rem;
-  width: 35rem;
-}
-
-.village-user-function-needs {
-  text-align: center;
-  padding: 3rem 0;
-}
-
-.village-key-takeaways {
-  color: #285835;
-  font-weight: 300;
-  padding: 5rem 0;
-  text-align: center;
-}
-
-.village-section-thoughts {
-  color: #0e0b06;
-  font-weight: 300;
-  letter-spacing: 0.3rem;
-  padding: 8rem 0;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#village-market-research h3 {
-  padding: 3rem 0;
-}
-
-#village-market-research p {
-  padding: 2rem 0;
-}
-
-.village-persona-picture {
-  margin: auto;
-}
-
-.village-section-heading {
-  font-weight: 700;
-  padding: 2rem 0;
-}
-
-.village-user-name {
-  padding: 2rem 0 1rem;
-  color: #285835;
-}
-
-.village-who-is-this-persona {
-  font-weight: 300;
-  font-style: italic;
-}
-
-.village-user-function-needs {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-#village-user-personas h5 {
-  padding: 2rem 0;
-}
-
-.village-persona-intro {
-  padding: 4rem 0;
-  text-align: center;
-}
-
-.village-persona-one,
-.village-persona-two,
-.village-persona-three {
-  margin: 2rem 0;
-  padding: 0 0 2rem 0;
-}
-
-.village-user-sub-section-heading {
-  color: #0e0b06;
-  font-weight: 700;
-  padding: 3rem 0;
-}
-
-.village-deep-dive {
-  padding: 5rem 0 3rem 0;
-  font-style: italic;
-}
-
-.village-process-label {
-  padding: 2rem 0;
-}
-
-.village-user-path-intro {
-  color: #0e0b06;
-  padding: 4rem 0;
-  text-align: center;
-}
-
-.village-user-flow-grid h3 {
-  text-align: center;
-  padding: 3rem 0;
-}
-
-.village-user-flow-grid-four p {
-  padding: 3rem 0;
-}
-
-.village-process-label {
-  text-align: center;
-  padding: 3rem 0;
-}
-
-.village-lofi-intro {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.village-lofi-sketch-pictures {
-  padding-bottom: 3rem;
-}
-
-.village-lofi-whiteboard-pictures {
-  padding-bottom: 3rem;
-}
-
-.village-lofi-wireframes {
-  border: 1px solid #afadad;
-}
-
-#village-early-stage-wireframes h3 {
-  padding: 3rem 0;
-}
-
-#village-early-stage-wireframes p {
-  padding: 2rem 0;
-}
-
-.village-hifi-final-three-mock-grid img {
-  border: none;
-}
-
-#village-branding p {
-  padding: 2rem 0;
-}
-
-.village-branding-individual-section-headers {
-  font-weight: 700;
-  padding: 3rem 0;
-  text-align: center;
-}
-
-.village-final-logo-and-name {
-  padding: 3rem 0;
-}
-
-.village-branding-results {
-  color: #285835;
-  font-size: 5rem;
-}
-
-.village-hifi-wireframe-mocks {
-  border: 1px solid #afadad;
-  margin: 2rem 0;
-}
-
-.hifi-wireframe-captions {
-  font-style: italic;
-}
-
-.village-hifi-wireframe-mocks-landing {
-  margin: 0 auto;
-}
-
-#village-hifi-testing p {
-  padding: 2rem 0;
-}
-
-.village-testing-intro {
-  padding: 3rem;
-  text-align: center;
-}
-
-.village-testing-sub-section-headers {
-  font-weight: 700;
-  padding: 3rem 0 1rem 0;
-}
-
-.village-button-transformation-story {
-  text-align: center;
-}
-
-.village-new-vs-old-button {
-  padding: 2rem 0;
-}
-
-.village-folder-text-color-change {
-  text-align: center;
-}
-
-.village-new-vs-old-folder {
-  padding: 2rem;
-}
-
-#village-conclusions p {
-  padding: 2rem 0;
-}
-
-.village-conclusion-sub-section-headers {
-  padding: 2rem 0 0;
-}
-
-#village-conclusions {
-  padding: 2rem 0;
-}
-
-.village-conclusion-wrap h3 {
-  padding: 2rem 0 1rem 0;
-}
 
 /* CINEMA MAKE UP SCHOOL REDESIGN - MOBILE */
 
@@ -2165,110 +1190,6 @@ nav-links {
   padding: 0;
 }
 
-/* UX WRITING MOBILE */
-
-/* removing .ux-writing-overview */
-
-
-
-.writing-italics {
-  font-style: italic;
-}
-
-
-/* removing .pencil-icon */ 
-
-/* removing 
-.writing-bold {
-  font-weight: 700;
-}
-
-.writing-day-scenario {
-  border-top: #acacac;
-  border-style: dashed none none;
-  border-width: thin;
-  padding-top: 7rem;
-}
-
-.writing-day-scenario h5 {
-  color: #3f3f3f;
-  font-weight: 700;
-  padding-bottom: 1rem;
-}
-
-.writing-day-scenario h2 {
-  color: #0e0b06;
-  font-style: italic;
-}
-
-.writing-day-challenge h3 {
-  text-decoration: underline;
-}
-
-.writing-day-scenario {
-  padding-bottom: 2rem;
-}
-
-.writing-parameters {
-  padding: 1rem 0;
-}
-
-.writing-parameters h6 {
-  padding: 0.5rem 0;
-  font-weight: 700;
-}
-
-.writing-solutions {
-  padding: 3rem 0;
-}
-
-.writing-solutions h3 {
-  padding-bottom: 2rem;
-  text-decoration: none;
-}
-
-.ux-headlines h4 {
-  color: #1230b5;
-}
-.ux-body h4 {
-  color: #1230b5;
-}
-.ux-button h4 {
-  color: #1230b5;
-}
-
-.ux-headlines,
-.ux-body {
-  padding-bottom: 2rem;
-}
-
-.ux-headlines li,
-.ux-body li,
-.ux-button li {
-  list-style-position: inside;
-  padding: 1rem 0;
-}
-
-.ux-headlines li {
-  padding: 1rem 0;
-} */
-
-/* removing .ux-writing-primary and ux-writing-secondary */ {
-
-/* removing 
-.writing-thoughts {
-  padding-top: 3rem;
-}
-
-.writing-thoughts p {
-  font-size: 1.6rem;
-}
-
-.coming-soon {
-  font-size: 2.2rem;
-  font-style: italic;
-  font-weight: 700;
-} */
 
 /*MOBILE ABOVE 375width*/
 
@@ -2286,10 +1207,6 @@ nav-links {
     max-width: 70rem;
   }
 
-/* //TODO: REMOVE ALL GLOBAL SECTION PADDING */
-  section {
-    padding: 3rem 0;
-  }
 
   .nav-flex {
     font-size: 1.6rem;
@@ -2317,21 +1234,10 @@ nav-links {
     padding: 5rem;
   }
 
-  /*	LANDING PAGE 9.17.2020 */
   .hero-wrap {
-    /* padding: 2rem 0; */
-    /* margin: 0 18rem; */
   padding-left: 4rem;
   padding-right: 4rem;
   }
-
-  /* REMOVED OLD PROJECT GRID */
-
-  /* DECEMBER PROJECTS */
-
-  /* 2.20 moved taster to row reverse and ux writing to row */
-
-  /* removing  .taster-landing-grid and .village-landing-grid */
 
   .cms-landing-grid, {
     align-items: center;
@@ -2341,7 +1247,6 @@ nav-links {
     padding: 5rem 2rem;
   }
 
-  /* removing .ux-writing-challenge-landing-grid */
   .design-reads-landing-grid {
     align-items: center;
     display: flex;
@@ -2360,10 +1265,6 @@ nav-links {
     width: 55%;
   }
 
-  /* 2.20 Landing Image Specific Sizing */
-  .village-landing-grid .project-landing-image {
-    height: 50rem;
-  }
 
   .design-reads-landing-grid .project-landing-image {
     height: 40rem;
@@ -2372,12 +1273,6 @@ nav-links {
   .cms-landing-grid .project-landing-image {
     height: 45rem;
   }
-
-  /* removing .ux-writing-challenge-landing-grid .project-landing-image */ 
-
-  /* removing .taster-landing-grid .project-landing-image */ 
-
-  /* NEW SUMMER 2020 LANDING */
 
   #introduction {
     font-size: 3.7rem;
@@ -2414,712 +1309,9 @@ nav-links {
     grid-template-columns: repeat(5, 1fr);
   }
 
-  /* removing .taster-content */ 
-
-  .center-button {
-    text-align: center;
-  }
-
-  .wireframe-wrap {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
-  }
-
-  .privacy-wireframe,
-  .account-created {
-    margin: auto;
-    max-width: 85%;
-  }
-
-  .text-wrap {
-    text-align: center;
-  }
-
-  .case-explanation {
-    text-align: left;
-  }
-
-  .deliverables-list {
-    align-items: baseline;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4rem;
-  }
-
-  .performed {
-    font-size: 1.8rem;
-    line-height: 1.5;
-  }
-
-  .market-products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-  }
-
-  /* .pinterest-logo,
-  .wunderlist-logo,
-  .drive-logo {
-    max-width: 50%;
-    padding: 0;
-  } */
-
-  .drive-logo {
-    height: 10rem;
-  }
-
-  .product-text {
-    font-size: 2rem;
-    font-weight: 300;
-    padding: 2rem;
-    text-align: left;
-  }
-
-  .swot-button-center {
-    text-align: center;
-  }
-
-  .swot-conclusions {
-    padding: 1rem;
-    text-align: left;
-  }
-
-  .market-survey-responses {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 3rem;
-  }
-
-  .chartjs-one {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    padding: 5rem 0;
-  }
-
-  .chartjs-two {
-    align-items: center;
-    display: flex;
-    flex-direction: row-reverse;
-    padding: 5rem 0;
-  }
-
-  #wineChart {
-    max-width: 50%;
-  }
-
-  #winePlusChart {
-    max-width: 50%;
-  }
-
-  .chartjs-three {
-    padding: 5rem 0;
-  }
-
-  .chart-list {
-    font-size: 2.4rem;
-    line-height: 1.5;
-  }
-
-  .persona-wrap {
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-  }
-
-  .persona-name {
-    text-align: left;
-    font-size: 2.2rem;
-  }
-
-  .persona-text {
-    line-height: 1.6;
-    text-align: left;
-  }
-
-  .sitemap {
-    max-width: 80%;
-    padding: 3rem 6rem;
-  }
-
-  .sitemap-text {
-    font-size: 2rem;
-    margin: auto;
-  }
-
-  .user-flow-intro {
-    padding: 2rem 0;
-  }
-
-  .sign-in-flow {
-    padding: 2rem 0;
-  }
-
-  .lofi-dashboard {
-    grid-template-columns: repeat(3, 1fr);
-    margin: auto;
-  }
-
-  .lofi-security {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .wireframe-labels {
-    padding: 5rem 0;
-  }
-
-  .lofi-wireframe-intro {
-    display: grid;
-    grid-row-gap: 3rem;
-  }
-
-  .lofi-add-note-tested {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .lofi-security-tested {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .screen-explanation {
-    padding: 3rem 0;
-  }
-
-  .mind-map {
-    max-width: 75%;
-    padding: 8rem;
-  }
-
-  .hand-drawn {
-    max-width: 75%;
-    padding: 8rem;
-  }
-
-  .styleguide-logo {
-    margin: auto;
-  }
-
-  .final-fonts {
-    align-items: center;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .wine-colors {
-    max-width: 75%;
-    padding: 4rem 8rem;
-  }
-
-  .previous-attempts {
-    padding: 5rem 7rem;
-  }
-
-  .hifi-wireframes {
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 3rem 0;
-  }
-
-  .landing-image-one,
-  .landing-image-two {
-    max-width: 85%;
-  }
-
-  .landing-pictures {
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
-    padding: 3rem 0;
-  }
-
- /* removing  .taster-logo-attached,
-  .taster-logo-unattached */
-
-  .logo-options {
-    align-items: center;
-    grid-template-columns: repeat(2 1fr);
-    grid-gap: 2rem;
-  }
-
-  .landing-options {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 3rem 0;
-    margin: auto;
-  }
-
-  .dashboard-organization {
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   /*	TABLET BIOGRAPHY*/
 
-  /* NEW 2020 BIO PADDING */
-  .bio-content section {
-    padding: 3rem 5rem;
-  }
-
-  .bio-content h2 {
-    padding: 3rem 0;
-  }
-
-  .bio-section-header {
-    padding: 4rem 0;
-  }
-
-  /* NEW BIO PADDING END */
-
-  .bio-about-me-picture {
-    align-items: center;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(8, [col-start] 1fr);
-    grid-template-rows: 1;
-  }
-
-  #bunk {
-    grid-column: col-start 2 / span 2;
-    grid-row: 1;
-  }
-
-  .bio-about-me-picture h1 {
-    grid-column: col-start 5 / span 4;
-    grid-row: 1;
-  }
-
-  .content-three {
-    padding: 2rem 0;
-  }
-
-  #about-me {
-    margin: 0 3rem;
-    text-align: left;
-  }
-
-  .explanation-question {
-    align-items: center;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(8, [col-start] 1fr);
-    grid-template-rows: 1;
-  }
-
-  .emoji {
-    grid-column: col-start 2 / span 2;
-    grid-row: 1;
-  }
-
-  .explanation-question p {
-    grid-column: col-start 4 / span 4;
-    grid-row: 1;
-  }
-
-  .architecture-grid {
-    display: grid;
-  }
-
-  .content-row {
-    padding: 0;
-  }
-
-  .architecture-grid {
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(8, [col-start] 1fr);
-    grid-template-rows: 1;
-    grid-gap: 3rem;
-  }
-
-  .golf-course {
-    grid-column: col-start 1 / span 3;
-    grid-row: 1;
-  }
-
-  .architecture-grid p {
-    grid-column: col-start 4 / span 5;
-    grid-row: 1;
-  }
-
-  .architecture-first p {
-    max-width: 47rem;
-    margin: auto;
-  }
-
-  .bio-entertainment-one {
-    align-items: center;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(8, [col-start] 1fr);
-    grid-template-rows: 1;
-  }
-
-  .bio-entertainment-one p {
-    grid-column: col-start 1 / span 5;
-    grid-row: 1;
-  }
-
-  .bio-entertainment-one img {
-    grid-column: col-start 6 / span 3;
-    grid-row: 1;
-  }
-
-  .bio-entertainment-two {
-    align-items: center;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(8, [col-start] 1fr);
-    grid-template-rows: 1;
-    padding: 3rem 0;
-  }
-
-  .character-drama {
-    grid-column: col-start 1 / span 3;
-    grid-row: 1;
-  }
-
-  .bio-entertainment-two p {
-    grid-column: col-start 4 / span 5;
-    grid-row: 1;
-  }
-
-  .bio-entertainment-three {
-    align-items: center;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(8, [col-start] 1fr);
-    grid-template-rows: 1;
-  }
-
-  .bio-entertainment-three p {
-    grid-column: col-start 1 / span 5;
-    grid-row: 1;
-  }
-
-  .multiple-doors {
-    grid-column: col-start 6 / span 3;
-    grid-row: 1;
-  }
-
-  .storytelling-second p {
-    max-width: 47rem;
-    margin: auto;
-  }
-
-  .parenting {
-    align-items: center;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(8, [col-start] 1fr);
-    grid-template-rows: 1;
-    padding: 3rem 0;
-  }
-
-  .introvert-child {
-    grid-column: col-start 1 / span 4;
-    grid-row: 1;
-  }
-
-  .parenting p {
-    grid-column: col-start 5 / span 4;
-    grid-row: 1;
-  }
-
-  .personal-third p {
-    max-width: 47rem;
-    margin: auto;
-  }
-
-  .music-text {
-    max-width: 47rem;
-    margin: auto;
-  }
-
-  .designer {
-    padding: 0rem 3rem;
-  }
-
-  .why-design,
-  .storyboard,
-  .frustrated,
-  .chaplin {
-    align-items: center;
-    padding: 0rem 3rem;
-  }
-
-  .privacy {
-    align-items: center;
-    padding: 0rem 3rem;
-  }
-
-  .bio-italics {
-    padding: 3rem 0;
-  }
-
-  .content-three {
-    display: grid;
-    font-size: 1.8rem;
-    grid-template-areas: "icon-left icon-right";
-    grid-column-gap: 7rem;
-  }
-
-  .icon-left {
-    padding: 1rem 0;
-  }
-
-  .golf-group {
-    display: block;
-    margin: auto;
-    padding: 3rem;
-  }
-
-  .mini-subhead {
-    text-align: left;
-    font-size: 2rem;
-  }
-
   /*	TABLET VILLAGE*/
-
-  .project-introduction p {
-    padding: 5rem 0;
-  }
-
-  .village-intro-final-logo {
-    text-align: center;
-  }
-
-  .village-wireframe-wrap {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3rem;
-    text-align: center;
-  }
-
-  .village-section-header {
-    padding: 4rem 0;
-  }
-
-  .village-deliverables-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: auto;
-  }
-
-  .current-products-used {
-    padding: 3rem;
-    text-align: center;
-  }
-
-  .village-market-products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3rem;
-    width: 100%;
-  }
-
-  .village-section-heading {
-    text-align: center;
-  }
-
-  .village-product-one,
-  .village-product-two,
-  .village-product-three {
-    padding: 2rem 1rem;
-  }
-
-  .village-section-thoughts {
-    padding: 5rem;
-  }
-
-  #village-user-research h3 {
-    padding: 5rem 0;
-    text-align: center;
-  }
-
-  .village-survey-product-needs-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .village-chart-explanation {
-    max-width: 40rem;
-  }
-
-  .village-persona-one,
-  .village-persona-two,
-  .village-persona-three {
-    padding: 0 0.5rem;
-  }
-
-  .village-master-persona-wrap {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-    width: 100%;
-  }
-
-  .village-persona-one img {
-    display: block;
-  }
-
-  .village-persona-two img {
-    display: block;
-  }
-
-  .village-persona-three img {
-    display: block;
-  }
-
-  .village-flow-images {
-    max-width: 70%;
-  }
-
-  .village-user-flow-grid-one,
-  .village-user-flow-grid-two,
-  .village-user-flow-grid-three,
-  .village-user-flow-grid-four {
-    text-align: center;
-  }
-
-  #village-user-flows h3 {
-    text-align: center;
-    padding: 4rem 0;
-  }
-
-  #village-user-flows p {
-    max-width: 50rem;
-    padding: 3rem 0;
-  }
-
-  #village-early-stage-wireframes h3 {
-    padding: 4rem 0;
-    text-align: center;
-  }
-
-  #village-early-stage-wireframes {
-    display: grid;
-  }
-
-  .village-lofi-sketch-to-digital {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-    width: 100%;
-  }
-
-  .village-lofi-text-and-image {
-    text-align: center;
-  }
-
-  .village-deep-dive {
-    text-align: center;
-  }
-
-  .village-branding-individual-section-headers {
-    padding: 4rem 0;
-    text-align: center;
-  }
-
-  .village-center-percentages p {
-    text-align: center;
-  }
-
-  .village-final-logo-and-name {
-    margin: auto;
-    max-width: 20rem;
-  }
-
-  .village-hifi-individual-section-headers {
-    padding: 4rem 0;
-    text-align: center;
-  }
-
-  .village-tranformation-story {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .village-hifi-final-landing-grid img {
-    max-width: 50%;
-    padding: 5rem 0;
-  }
-
-  .village-hifi-final-landing-grid {
-    text-align: center;
-  }
-
-  .village-process-label {
-    padding: 3rem 0;
-    text-align: center;
-  }
-
-  .village-group-hifi-wireframes {
-    align-items: flex-start;
-    display: grid;
-    grid-gap: 5rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0 auto;
-  }
-
-  .village-group-hifi-wireframes .village-hifi-wireframe-mocks {
-    margin: 7rem 0;
-  }
-
-  .village-hifi-wireframe-mocks-landing {
-    margin: auto;
-    max-width: 75%;
-  }
-
-  .village-hifi-final-three-mock-grid {
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 3rem 0;
-  }
-
-  .village-hifi-final-messages-grid,
-  .hifi-wireframe-captions {
-    text-align: center;
-  }
-
-  .village-hifi-final-three-mock-grid .village-process-label {
-    padding: 2rem 0 0 0;
-  }
-
-  .village-final-hifi-branding-pages img {
-    margin: 0 auto;
-    max-width: 80%;
-  }
-
-  .village-color-change-explanation {
-    /* REMOVE ITALICS */
-    padding-top: 5rem;
-    text-align: center;
-  }
-
-  .village-testing-sub-section-headers {
-    text-align: center;
-  }
-
-  .village-final-hifi-branding-pages {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
-    padding: 3rem 0;
-  }
-
-  .village-conclusion-sub-section-headers {
-    padding-top: 5rem 0;
-    text-align: center;
-  }
-
-  .village-conclusion-wrap {
-    margin: auto;
-    width: 50%;
-  }
 
   /* CINEMA MAKEUP SCHOOL TABLET*/
 
@@ -3215,13 +1407,9 @@ nav-links {
   .dr-hifi {
     padding-top: 2rem;
   }
-
-  /* UX WRITING TABLET */
-  /* removing .ux-writing-content-borders */
 }
 
 /*DESKTOP*/
-/*Desktop Responsive Group*/
 @media screen and (min-width: 1024px) {
 
 /* 2025 Landing */
@@ -3241,12 +1429,8 @@ nav-links {
 
   /*	GLOBAL*/
 
-  /* APRIL 2021 WIDE SPACING */
-
-  /* removing  #top-taster,   #top-village, */
   #top-index,
   #top-cms,
-  #top-bio,
   .top-design-reads {
     max-width: 120rem;
   }
@@ -3262,24 +1446,9 @@ nav-links {
     max-width: 144rem;
     margin: auto;
   }
-
-
-  .explanation-question,
-  .architecture-grid,
-  .bio-entertainment-one,
-  .bio-entertainment-two,
-  .bio-entertainment-three,
-  .parenting {
-    max-width: 120rem;
-    margin: auto;
-  }
-  /* NEW DECEMBER LANDING */
-
-  /* removing .taster-landing-grid and  .village-landing-grid,  .ux-writing-challenge-landing-grid */
  
   .design-reads-landing-grid,
   .cms-landing-grid {
-    /* padding: 5rem 9rem; */
     max-width: 120rem;
     margin: auto;
   }
@@ -3287,7 +1456,6 @@ nav-links {
   .design-reads-landing-grid .project-landing-text {
     padding-left: 10rem;
   }
-/* .ux-writing-challenge-landing-grid .project-landing-text */
   
   .project-landing-image {
     width: 60%;
@@ -3302,7 +1470,7 @@ nav-links {
     padding: 5rem 0;
   }
 
-  case-study {
+  .case-study {
     margin: auto;
     max-width: 140rem;
   }
@@ -3311,14 +1479,6 @@ nav-links {
     padding: 2rem 10rem;
     max-width: 130rem;
   }
-
-  /* removing .taster-content and  #top-taster */
-
-
-/* //TODO: REMOVE ALL GLOBAL SECTION PADDING 2025 */
-  /* section {
-    padding: 0 0 7.5rem 0; 
-  } 
 
   .contact-info {
     grid-gap: 29rem;
@@ -3336,8 +1496,6 @@ nav-links {
     margin: 0;
   }
 
-  /* NEW 9.17.2020 */
-  /* REMOVED PROJECT GRID */
 
   #introduction {
     font-size: 4.4rem;
@@ -3363,442 +1521,7 @@ nav-links {
     padding-top: 10rem;
   }
 
-  .village-user-desires-grid {
-    padding: 5rem 0;
-  }
 
-  .village-dashboard-lofi .village-sign-in-lofi .village-messages-lofi {
-    padding: 10rem;
-  }
-
-  /* Removing   #taster-project-name*/
- 
-
-  .deliverables-list {
-    grid-gap: 11rem;
-  }
-
-  .body-list-headers {
-    font-size: 2.8rem;
-  }
-
-  .performed {
-    font-size: 2rem;
-  }
-
-  .market-products {
-    grid-gap: 4rem;
-  }
-
-  .pinterest-logo,
-  .wunderlist-logo,
-  .drive-logo {
-    max-width: 50%;
-  }
-
-  .drive-logo {
-    height: 14rem;
-  }
-
-  .wunderlist-logo {
-    height: 14rem;
-  }
-
-  .content-conclusions {
-    font-size: 4rem;
-  }
-
-  #winePlusChart,
-  #wineChart {
-    max-width: 45%;
-    padding: 4rem;
-  }
-
-  .chartjs-one {
-    flex-direction: row;
-  }
-
-  .chartjs-two {
-    flex-direction: row-reverse;
-  }
-
-  .persona-wrap {
-    grid-gap: 5rem;
-  }
-
-  .persona-text {
-    line-height: 1.5;
-  }
-
-  .persona-one {
-    margin: 0;
-  }
-  .sitemap {
-    max-width: 80%;
-    padding: 3rem 0;
-  }
-
-  .sign-in-flow {
-    align-items: center;
-    display: flex;
-    padding: 0;
-  }
-
-  .wireframe-labels {
-    font-size: 3rem;
-    margin: auto;
-  }
-
-  .lofi-security {
-    grid-gap: 2rem;
-  }
-
-  .lofi-wireframes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
-  }
-
-  .pic-one,
-  .pic-two {
-    margin: auto;
-  }
-
-  .screen-explanation {
-    padding: 3rem;
-    margin: auto;
-  }
-
-  .mind-map {
-    max-width: 75%;
-  }
-
-  .wine-colors {
-    max-width: 60%;
-  }
-
-  .previous-attempts {
-    max-width: 100%;
-  }
-
-  .landing-options {
-    grid-gap: 7rem;
-  }
-
-  /*	DESKTOP BIOGRAPHY*/
-
-  /* NEW 2020 BIO PADDING */
-  .bio-content section {
-    margin: 0 auto;
-  }
-
-  .bio-content h2 {
-    padding: 3rem 0;
-  }
-
-  /* NEW BIO PADDING END */
-
-  #top-bio {
-    max-width: 140rem;
-  }
-
-  .bio-about-me-picture {
-    align-items: center;
-    grid-gap: 4rem;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: 1;
-    padding: 6.4rem;
-  }
-
-  #bunk {
-    grid-column: col-start 4 / span 3;
-  }
-
-  .bio-about-me-picture h1 {
-    grid-column: col-start 6 / span 4;
-  }
-
-  .explanation-question {
-    align-items: center;
-    grid-gap: 4rem;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: 1;
-    padding: 6.4rem;
-  }
-
-  .emoji {
-    grid-column: col-start 4 / span 2;
-    grid-row: 1;
-  }
-
-  .explanation-question p {
-    grid-column: col-start 5 / span 7;
-    grid-row: 1;
-  }
-
-  .architecture-grid {
-    align-items: center;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: 1;
-    grid-gap: 4rem;
-    padding: 6.4rem 0;
-  }
-
-  .golf-course {
-    grid-column: col-start 3 / span 3;
-    grid-row: 1;
-  }
-
-  .architecture-grid p {
-    grid-column: col-start 6 / span 7;
-    grid-row: 1;
-  }
-
-  .architecture-first p {
-    max-width: 61rem;
-    margin: auto;
-  }
-
-  .bio-entertainment-one {
-    align-items: center;
-    grid-gap: 4rem;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: 1;
-    padding: 6.4rem 0;
-  }
-
-  .bio-entertainment-one p {
-    grid-column: col-start 3 / span 5;
-    grid-row: 1;
-  }
-
-  .bio-entertainment-one img {
-    grid-column: col-start 8 / span 4;
-    grid-row: 1;
-  }
-
-  .bio-entertainment-two {
-    align-items: center;
-    grid-gap: 4rem;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: 1;
-    padding: 3rem 0;
-  }
-
-  .character-drama {
-    grid-column: col-start 4 / span 3;
-    grid-row: 1;
-  }
-
-  .bio-entertainment-two p {
-    grid-column: col-start 7 / span 5;
-    grid-row: 1;
-  }
-
-  .bio-entertainment-three {
-    align-items: center;
-    display: grid;
-    grid-gap: 4rem;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: 1;
-    padding: 6.4rem 0;
-  }
-
-  .bio-entertainment-three p {
-    grid-column: col-start 3 / span 5;
-    grid-row: 1;
-  }
-
-  .multiple-doors {
-    grid-column: col-start 8 / span 4;
-    grid-row: 1;
-  }
-
-  .storytelling-second p {
-    max-width: 61rem;
-    margin: auto;
-  }
-
-  .parenting {
-    align-items: center;
-    display: grid;
-    grid-gap: 3rem;
-    grid-template-columns: repeat(12, [col-start] 1fr);
-    grid-template-rows: 1;
-    padding: 4rem 0;
-  }
-
-  .introvert-child {
-    grid-column: col-start 3 / span 3;
-    grid-row: 1;
-  }
-
-  .parenting p {
-    grid-column: col-start 6 / span 4;
-    grid-row: 1;
-  }
-
-  .personal-third p {
-    max-width: 61rem;
-    margin: auto;
-  }
-
-  .music-text {
-    max-width: 61rem;
-    margin: auto;
-  }
-
-  /*DESKTOP VILLAGE*/
-
-  #top-village {
-    max-width: 140rem;
-  }
-
-  .village-section-header {
-    padding: 5rem 0;
-    margin: 0;
-  }
-
-  .case-study-content-borders {
-    max-width: 140rem;
-  }
-
-  .village-button-box {
-    padding: 3rem 0;
-    text-align: center;
-  }
-
-  #village-project-overview p {
-    padding-bottom: 5rem;
-  }
-
-  .village-deliverables-list {
-    grid-gap: 8rem;
-    grid-template-columns: repeat(3, 1fr);
-    margin: auto;
-    max-width: 90rem;
-    padding-left: 10rem;
-  }
-
-  .village-wireframe-wrap {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .village-hifi-wireframe-mocks {
-    height: 80rem;
-  }
-
-  .village-section-heading {
-    margin: auto;
-  }
-
-  .current-products-used {
-    text-align: center;
-    padding: 8rem 0;
-  }
-
-  .village-section-thoughts {
-    padding: 3rem;
-  }
-
-  .village-product-one .village-product-two .village-product-three h3 {
-    padding: 0;
-  }
-
-  .village-process-label {
-    padding: 5rem 0;
-  }
-
-  .village-center-percentages {
-    padding: 3rem 0;
-  }
-
-  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
-  .village-user-flow-grid-four {
-    max-height: 70rem;
-  }
-
-  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
-  .village-user-flow-grid img {
-    transition: 0.5s ease;
-  }
-  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
-  .village-user-flow-grid:hover img {
-    transform: scale(1.5);
-  }
-
-  .village-user-flow-grid-one .village-flow-images {
-    padding-left: 12rem;
-  }
-
-  .village-lofi-intro {
-    text-align: center;
-  }
-
-  .village-dashboard-lofi img {
-    max-width: 75%;
-  }
-  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
-  .village-lofi-sketch-pictures {
-    transition: 0.5s ease;
-  }
-  /* ADDED ENLARGE OVER SCROLL PER DBM THOUGHTS 5.13.21 */
-  .village-lofi-sketch-pictures:hover {
-    transform: scale(1.5);
-  }
-
-  .village-hifi-final-landing-grid img {
-    margin: 0 10rem;
-    max-width: 55%;
-  }
-
-  .village-testing-intro {
-    text-align: center;
-  }
-
-  #village-hifi-wireframe-creation p {
-    padding: 4rem 0;
-  }
-
-  .village-hifi-wireframe-mocks-landing {
-    max-width: 75%;
-  }
-
-  .village-final-hifi-branding-pages img {
-    max-width: 50%;
-  }
-
-  .village-branding-individual-section-headers {
-    padding: 4rem 0;
-  }
-
-  .village-new-vs-old-button {
-    padding: 3rem 0;
-  }
-
-  .village-deep-dive {
-    padding: 5rem 0;
-  }
-
-  .village-testing-sub-section-headers {
-    text-align: center;
-    padding: 5rem 0 2rem 0;
-  }
-
-  .village-folder-text-color-change {
-    padding: 5rem 0 2rem;
-  }
-
-  .village-color-change-explanation {
-    /* Adjusted from center to left align */
-    text-align: left;
-    padding-top: 5rem;
-  }
-
-  .village-conclusion-sub-section-headers {
-    padding: 10rem 0 2rem 0;
-  }
   /* CINEMA MAKEUP SCHOOL DESKTOP */
 
   #top-cms {
@@ -3831,7 +1554,4 @@ nav-links {
   .dr-case-study-content-borders .project-introduction {
     padding: 0;
   }
-  /* UX WRITING DESKTOP */
-
-  /*removing .ux-writing-content-borders */ 
 }

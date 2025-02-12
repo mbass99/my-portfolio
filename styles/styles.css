@@ -477,7 +477,9 @@ footer {
 
 .upcoming-work{
   background-color: #0e0e0e;
+  padding-left: 2rem;
   padding-top: 12rem;
+  padding-right: 2rem;
   padding-bottom: 12rem;
 }
 
@@ -497,7 +499,6 @@ footer {
   color: #0e0b06;
 }
 
-
 .upcoming-work h2{
   color: #acacac;
   font-weight: 700;
@@ -515,9 +516,7 @@ footer {
   flex-direction: column;
 }
 
-#bunk-and-dad{
-  border-radius: 50%;
-}
+
 
 .case-studies {
   background-color: #0e0b06;
@@ -532,9 +531,28 @@ footer {
   background-color: #0e0e0e;
 }
 
+/*2025 mobile about me section padding fix */
+.text-and-image-box{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .about-me h2, h3, h4, p{
 color: #afadad;
 }
+
+#bunk{
+  border-radius: 50%;
+  margin: auto;
+}
+
+.image-group{
+margin: auto;
+max-height: 30rem;
+max-width: 30rem;
+}
+
+
 
 .hand-coding{
   padding: 4rem 0;
@@ -1207,7 +1225,6 @@ nav-links {
     max-width: 70rem;
   }
 
-
   .nav-flex {
     font-size: 1.6rem;
   }
@@ -1234,12 +1251,16 @@ nav-links {
     padding: 5rem;
   }
 
+
+  /* Landing Page 2025 */
+ 
+
   .hero-wrap {
   padding-left: 4rem;
   padding-right: 4rem;
   }
 
-  .cms-landing-grid, {
+  .cms-landing-grid {
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
@@ -1415,14 +1436,16 @@ nav-links {
 /* 2025 Landing */
 /* about me desktop spacing */
 .text-and-image-box{
-  align-items: center;
+  align-content: center;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .text-group{
-  max-width: 40%;
+  max-width: 50%;
 }
 
 /* 2025 landing updates end */

@@ -485,8 +485,62 @@ footer {
   flex-direction: column;
 }
 
+.case-study-wip{
 
+}
 
+.text-group{
+  max-width: 58.4rem;
+}
+
+/* adding coming soon case study */
+.case-study-in-progress{
+  background-color: #302f3a;
+  padding: 4rem;
+}
+.case-study-in-progress .text-group{
+  margin: auto;
+  text-align: center;
+  max-width: 50rem;
+}
+
+.case-study-in-progress h3{
+  color: #ebe8f8;
+  padding-bottom: 2rem;
+}
+
+.case-study-in-progress h4{
+  color: #c5e1f3;
+  padding-bottom: 2rem;
+}
+
+.case-study-in-progress h5{
+  color: #c5e1f3;
+  padding-bottom: 2rem;
+}
+
+.case-study-in-progress p{
+  color: #c5e1f3;
+  padding-bottom: 2rem;
+}
+
+.case-study-in-progress .text-group .description{
+  text-align: center;
+}
+
+/* Adding Coming Soon */
+.coming-soon{
+  text-align: center;
+  padding: 4rem;
+}
+
+.coming-soon h4{
+  color:  #ebe8f8;
+}
+
+.case-study-in-progress{
+  text-align: center;
+}
 .test-case-studies {
   background-color: #0e0b06;
 }
@@ -593,8 +647,17 @@ padding-top: 4rem;
 
 
 .cms-landing-grid,
-.design-reads-landing-grid{
+.design-reads-landing-grid, 
+.portal-design-system-landing-grid{
   padding-top: 3rem;
+}
+
+.portal-design-system-landing-grid .project-landing-text h4{
+  text-decoration: none;
+}
+.portal-design-system-landing-grid .project-landing-text .project-link p{
+  color: #d60b0b;
+text-transform: uppercase;
 }
 
 .project-landing-text {
@@ -624,6 +687,9 @@ padding-top: 4rem;
   height: 30rem;
 }
 
+.portal-design-system-landing-grid .project-landing-image{
+  background-image: url(../Images/portal-design-system-cover.webp);
+}
 
 .design-reads-landing-grid .project-landing-image {
   background-image: url(../Images/design-reads-landing-2021.webp);
@@ -631,6 +697,10 @@ padding-top: 4rem;
 
 .cms-landing-grid .project-landing-image {
   background-image: url(../Images/cms-desktop-frame-light-background.webp);
+}
+
+.portal-design-system-landing-grid .project-landing-image {
+  background-image: url(../Images/portal-design-system-cover.webp);
 }
 
 .landing-background {
@@ -1226,6 +1296,14 @@ nav-links {
   padding-right: 4rem;
   }
 
+  .portal-design-system-landing-grid {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem 2rem;
+  }
+
   .cms-landing-grid {
     align-items: center;
     display: flex;
@@ -1247,6 +1325,9 @@ nav-links {
     width: 45%;
   }
 
+
+
+
   .project-landing-image {
     padding: 0 2rem;
     width: 55%;
@@ -1258,6 +1339,10 @@ nav-links {
   }
 
   .cms-landing-grid .project-landing-image {
+    height: 45rem;
+  }
+
+  .portal-design-system-landing-grid .project-landing-image{
     height: 45rem;
   }
 
@@ -1433,7 +1518,8 @@ nav-links {
   }
  
   .design-reads-landing-grid,
-  .cms-landing-grid {
+  .cms-landing-grid, 
+  .portal-design-system-landing-grid{
     max-width: 120rem;
     margin: auto;
   }

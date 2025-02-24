@@ -346,7 +346,8 @@ img {
   max-width: 100%;
 }
 
-.hero, .select-ux-projects, .hand-codin.cms-overviewg, .cms-initial-research, .cms-problem, .cms-problem-solved, .cms-end-result, .cms-hifi{
+/*removed select ux padding from here and moved to individual case study*/
+.hero, .hand-codin.cms-overview, .cms-initial-research, .cms-problem, .cms-problem-solved, .cms-end-result, .cms-hifi{
   padding: 2rem;
 }
 
@@ -354,6 +355,10 @@ img {
   padding: 2rem;
 }
 
+.select-ux-projects {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 
 /*BUTTONS*/
@@ -475,7 +480,7 @@ footer {
   padding-bottom: 5rem;
 }
 
-.upcoming-work p{
+.upcoming-work h3{
   color: #acacac;
   text-align: center;
 }
@@ -641,20 +646,56 @@ padding: 4rem 12rem;
 padding-top: 4rem;
 }
 
-
+/* moved l/r padding here instead of select ux projects*/
 .cms-landing-grid,
 .design-reads-landing-grid, 
-.portal-design-system-landing-grid{
+.portal-design-system-landing-grid,
+.valorant-beta-landing-grid {
   padding-top: 3rem;
+  margin-left: 2rem;
+ margin-right: 2rem;
+}
+
+
+
+.portal-design-system-landing-grid{
+  border-bottom-style: solid;
+  border-width: .2rem;
+  border-color: #302f3a;
+}
+
+.valorant-beta-landing-grid{
+  border-bottom-style: solid;
+  border-width: .2rem;
+  border-color: #302f3a;
+}
+
+.cms-landing-grid{
+  border-bottom-style: solid;
+  border-width: .2rem;
+  border-color: #302f3a;
 }
 
 .portal-design-system-landing-grid .project-landing-text h4{
   text-decoration: none;
 }
-.portal-design-system-landing-grid .project-landing-text .project-link p{
-  color: #d60b0b;
+.portal-design-system-landing-grid .project-landing-text .project-link p {
+color: #d60b0b;
 text-transform: uppercase;
 }
+
+.project-landing-text p{
+  padding-top: 1rem;
+}
+
+.valorant-beta-landing-grid .project-landing-text h4{
+  text-decoration: none;
+}
+.valorant-beta-landing-grid .project-landing-text .project-link p {
+  color: #d60b0b;
+  text-transform: uppercase;
+  }
+
 
 .project-landing-text {
   padding: 3rem 0;
@@ -697,6 +738,10 @@ text-transform: uppercase;
 
 .portal-design-system-landing-grid .project-landing-image {
   background-image: url(../Images/portal-design-system-cover.webp);
+}
+/* Add Val beta image*/
+.valorant-beta-landing-grid .project-landing-image{
+  background-image: url(../Images/val-console-beta-landing.webp);
 }
 
 .landing-background {
@@ -1297,7 +1342,22 @@ nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5rem 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .valorant-beta-landing-grid{
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
   }
 
   .cms-landing-grid {
@@ -1305,7 +1365,10 @@ nav-links {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 5rem 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .design-reads-landing-grid {
@@ -1313,7 +1376,10 @@ nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5rem 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .project-landing-text {
@@ -1339,6 +1405,10 @@ nav-links {
   }
 
   .portal-design-system-landing-grid .project-landing-image{
+    height: 40rem;
+  }
+
+  .valorant-beta-landing-grid .project-landing-image{
     height: 40rem;
   }
 
@@ -1515,7 +1585,8 @@ nav-links {
  
   .design-reads-landing-grid,
   .cms-landing-grid, 
-  .portal-design-system-landing-grid{
+  .portal-design-system-landing-grid,
+  .valorant-beta-landing-grid{
     max-width: 120rem;
     margin: auto;
   }

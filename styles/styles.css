@@ -1286,6 +1286,60 @@ nav-links {
   padding: 0;
 }
 
+/*2025 CASE STUDY SECTIONS - MOBILE*/
+.case-study-overview, 
+.project-problem-statement, 
+.project-audience, 
+.project-roles, 
+.project-scope, 
+.project-process-overview, 
+.project-overview-outcomes, 
+.project-my-workflow {
+  border-bottom-style: solid;
+  border-width: .2rem;
+  border-color: #302f3a;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.case-study-overview h1{
+  padding-bottom: 2rem;
+}
+
+.project-problem-statement h2, h3, p{
+  padding-bottom: 1rem;
+}
+
+.case-study-overview h2, h3, p{
+  padding-bottom: 2rem;
+}
+
+.project-audience h2, h3, p{
+  padding-bottom: 2rem;
+}
+
+.project-roles h2, h3, p{
+  padding-bottom: 2rem;
+}
+
+.project-scope h2, h3, p{
+  padding-bottom: 2rem;
+}
+
+.project-process-overview h2, h3, p{
+  padding-bottom: 2rem;
+}
+
+.project-overview-outcomes h2, h3, p{
+  padding-bottom: 2rem;
+}
+
+.project-my-workflow h2, h3, p{
+  padding: 2rem 0;
+}
+
 
 /*MOBILE ABOVE 375width*/
 

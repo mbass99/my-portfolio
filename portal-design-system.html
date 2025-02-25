@@ -1,0 +1,166 @@
+<!-- PORTAL DESIGN SYSTEM-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134212941-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		// OLD GTAG
+		// gtag('config', 'UA-134212941-1');
+		// NEW 2022 GTAG
+		gtag('config', 'G-879D0XYMGE');
+	</script>
+	<!-- Hotjar Tracking Code for https://www.mattbass.design -->
+	<script>
+		(function (h, o, t, j, a, r) {
+			h.hj = h.hj || function () {
+				(h.hj.q = h.hj.q || []).push(arguments)
+			};
+			h._hjSettings = {
+				hjid: 1724686,
+				hjsv: 6
+			};
+			a = o.getElementsByTagName('head')[0];
+			r = o.createElement('script');
+			r.async = 1;
+			r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+	</script>
+	<title> Portfolio | Matt Bass (Product & UX Design)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--FONT AWESOME ICONS-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+	<!--	GOOGLE FONTS IBM PLEX SERIFF & SANS CONDENSED-->
+	<link
+		href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<!--MAIN STYLESHEET LINK -->
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+	<div class="container">
+        <main>
+            <div class="head-background">
+				<header id="top-index">
+					<a href="index.html"> <img src="Images/logo-mb-white-reboot-aug-2019.svg" class="nav-logo"
+							alt="logo"></a>
+					<ul class="nav-flex">
+						<!--Remove Bio Link In Nav-->
+						<!--Prep to move link
+						<li class="nav-bio"><a href="biography-2020.html">About</a>
+						</li>-->
+						<li class="nav-resume"><a href="Images/mattbass-uxdesigner-2025.pdf" target="_blank">Resume</a>
+						</li>
+					</ul>
+				</header>
+				<div class="progress-container">
+					<div class="progress-bar" id="myBar"></div>
+				  </div>
+			</div>
+            <section class="case-study-overview">
+<h1>Portal Design System</h1>
+<p>Design system focused on internal facing, game management software tools for game teams.</p>
+            </section>
+            <section class="project-problem-statement">
+                <h2>Problem Statement</h2>
+                <h3>Value Proposition</h3>
+                <p>Despite having a variety of internal tooling and a strong developer culture, Riot had an external design system for players, but not one focused on supporting game management tools. Players and developers have different goals and needs, and each needs a design system to reflect those user bases.  There was value in creating a unified tooling design system, which might streamline the development process, ensure consistency across teams and products, and reduce technical debt and reliance on external frameworks</p>
+            <h3>Problem to solve</h3>
+            <p>Building and maintenance of a design system can be time and resource consuming.  Part of those resources also involve planning, alignment and goals, to build in a manner that can be scaled out to retain long term value as additional teams use the system. Additionally products and teams have different needs, and centralized alignment is needed to retain consistency.</p>
+            <p>Lacking a centralized or defined solution, meant teams often spun up different internal tooling, with UI that that served similar use cases as ones already in existence on other teams, but presented differently.  This meant duplicate work and maintenance, and sometimes a diminished level of polish or user experience, due to a lack of time or design input when created. A unified system could improve consistency and experience, while making it easier to create features across teams with increased efficiency.</p>
+            <h3>How did we decide to build this?</h3>
+        <p>This was initiated when the EM on my team was talking to another team, and discovered we were both spinning up separate portals.  They were scoped to create of a design system, and we had broader reach and the potential to help with implementation. Alignment and leveraging of both teams meant we could potentially provide wider org value, particularly since the goal of our portal was the ability for other teams integrate with our product, and move their workflow there.</p>    
+        </section>
+        <section class="project-audience">
+            <h2>Who are we designing for?</h2>
+            <p>For both teams working on this project, Developers would be the primary users of the system.  Often dealing with lots of information in one location, they require a balance of information density and clarity.  Documentation allowing them to quickly pull an element from storybook, and have it work regardless of what team built it, and saving time due to any unneeded customizations.  The developer workflow is often in code editors and github, which are prone to accidental errors, and we could, and should improve that experience when moving their process to a new location. </p>
+            <p>The secondary audience our team needed to support were less technical users (such as product managers, qa engineers, producers and designers). They are often less comfortable in code editors and github, so we needed processes and UI that help guide them along without always requiring a developer to hold their hand through completing a task, as was the current workflow.</p>
+        </section>
+        <section class="project-roles">
+            <h2>Project Roles</h2>
+            <h3>Team 1</h3>
+            <!--Add List-->
+            <h3>Team 2</h3>
+             <!--Add List-->
+            <h3>Stakeholders</h3>
+             <!--Add List-->
+        </section>
+        <section class="project-scope">
+            <h2>Timeline & Budget</h2>
+            <p>This would be merging two work-streams already in progress, and we needed to adjust and align. The UI contractor who begun the work for the other portal had a limited scope focused on the needs of the other portal, with under 6 months left on his contract, so we couldn’t derail that work from completion. </p>
+       <p>Using the baseline of what he had in place we needed to figure out where the gaps existed so we could expand upon that initial work.  This included fleshing out elements for a broader experience, as well as defining and and standardizing best practices for design system consistency across products and use cases.</p>
+       <p>Additionally, there were two scope changes that occurred while we were in flight on the work, in addition to more general broad internal company pivots and teammate shuffling. We needed to rework our typography to align with separate work being done across other teams. Additionally, the other portal pivoted away from the work they had started, no longer required a custom design system and stepped away from the project. </p>
+        </section>
+        <section class="project-process-overview">
+            <h2>What did we do, and why?</h2>
+            <p>Riot was growing and had limited design representation at that time within their developer platform initiative, so we had somewhat limited resources between myself and the one other designer. We needed to jump into each others workflows, and have frequent communication meetings, as well as async conversations in slack and Figma comments.</p>
+        <p>Creating usability and consistency on the ground floor, could prove incredibly valuable to multiple teams and the organization as a whole, particularly since there was hope that a good portion of core internal game features could be housed under the hood of our portal.</p>
+        <p>His initial work was focused around tables, and some account navigation and menus, based around the specific dataset goals of his stakeholders. We needed to scale out from there to create the ground floor for broader use cases, and built out a “to-do” list in figma.</p>
+        <p>Embedded in the developer side of the house meant easy access to prospective users and their products, to understand their workflow patterns and best practices.</p>
+        <p>Using competitive analysis from products like Amazon, Epic and Firebase, we looked to understand those developer centric products.</p>
+        <h3>UX Patterns</h3>
+        
+        <p></p>
+        <h3>UI Elements</h3>
+        </section>
+        <section class="project-overview-outcomes">
+            <h2>What were the results?</h2>
+       <!--Add Content-->
+            <h2>What would we have done differently?</h2>
+              <!--Add Content-->
+        </section>
+<section class="project-my-workflow">
+    <h2>My Projert Impact + Process</h2>
+     <!--Add Content-->
+     <p></p>
+    <h2>What ended up happening?</h2>
+  <!--Add Content-->
+    <h2>What would I have done differently?</h2>
+      <!--Add Content-->
+</section>
+        </main>
+        </div><!-- FOOTER -->
+		<footer>
+			<ul class="contact-info">
+				<li>
+					<a href="mailto:matt@mattbass.design" class="email" target="_blank"> <span style="color: #f2f2f2;"
+							title="link to email"><i class="fas fa-envelope fa-2x" aria-hidden="true"></i></span></a>
+				</li>
+
+				<li><a href="https://www.linkedin.com/in/mattabass/" class="linkedin" target="_blank">
+						<span style="color: #f2f2f2;">
+							<i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></span></a>
+				</li>
+
+				<li> <a href="https://twitter.com/TheMattBass" class="twitter fa-2x" target="_blank"><span
+							style="color: #f2f2f2;"><i class="fab fa-twitter-square" aria-hidden="true"></i></span></a>
+				</li>
+			</ul>
+		</footer>
+		<script>
+			// When the user scrolls the page, execute myFunction 
+			window.onscroll = function () {
+			  myFunction()
+			};
+	  
+			function myFunction() {
+			  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			  var scrolled = (winScroll / height) * 100;
+			  document.getElementById("myBar").style.width = scrolled + "%";
+			}
+		  </script>
+	</div>
+</body>
+
+<!-- SCRIPTS -->
+</html>

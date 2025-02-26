@@ -717,10 +717,11 @@ text-transform: uppercase;
 .project-landing-text li {
   font-weight: 300;
 }
-
+/*Changed background size*/
 .project-landing-image {
   background-position: center center;
-  background-size: cover;
+  /* background-size: cover; */
+  background-size: 100% auto;
   height: 30rem;
 }
 
@@ -1705,7 +1706,7 @@ nav-links {
   .design-reads-landing-grid,
   .cms-landing-grid, 
   .portal-design-system-landing-grid,
-  .valorant-beta-landing-grid{
+  .valorant-beta-landing-grid {
     max-width: 120rem;
     margin: auto;
   }
@@ -1715,12 +1716,12 @@ nav-links {
   }
   
   .project-landing-image {
-    width: 60%;
+    width: 45%;
     height: 50rem;
   }
 
   .project-landing-text {
-    width: 38%;
+    width: 45%;
   }
 
   .hand-coding {

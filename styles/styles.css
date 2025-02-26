@@ -1567,6 +1567,19 @@ nav-links {
 }
 
 
+/* Portal Design System */
+.roles-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.roles-flex div{
+  max-width: 33%;
+}
+
+
   /* CINEMA MAKEUP SCHOOL TABLET*/
 
   #top-cms {
@@ -1791,7 +1804,14 @@ nav-links {
     padding-top: 6rem;
     padding-bottom: 6rem;
     max-width: 120rem;
+    margin: auto;
   }
+
+
+.roles-flex{
+  margin: auto;
+  max-width: 80rem;
+}
 
   .case-study-overview h1{
     margin: 0 auto;

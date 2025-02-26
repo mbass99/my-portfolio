@@ -1310,36 +1310,85 @@ nav-links {
 
 .project-problem-statement h2, h3, p{
   padding-bottom: 1rem;
+
 }
 
 .case-study-overview h2, h3, p{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-audience h2, h3, p{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-roles h2, h3, p{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-scope h2, h3, p{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-process-overview h2, h3, p{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-overview-outcomes h2, h3, p{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-my-workflow h2, h3, p{
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
+.case-study-overview h3{
+  border-left-style: solid;
+  border-width: .5rem;
+  border-color: #1c128e;
+  padding-left: 1rem;
+}
+.project-problem-statement h3{
+  border-left-style: solid;
+  border-width: .5rem;
+  border-color: #1c128e;
+  padding-left: 1rem;
+} 
+.project-audience h3{
+  border-left-style: solid;
+  border-width: .5rem;
+  border-color: #1c128e;
+  padding-left: 1rem;
+} 
+.project-roles h3{
+  border-left-style: solid;
+  border-width: .5rem;
+  border-color: #1c128e;
+  padding-left: 1rem;
+} 
+.project-scope h3{
+  border-left-style: solid;
+  border-width: .5rem;
+  border-color: #1c128e;
+  padding-left: 1rem;
+} 
+.project-process-overview h3{
+  border-left-style: solid;
+  border-width: .5rem;
+  border-color: #1c128e;
+  padding-left: 1rem;
+} 
+.project-overview-outcomes h3{
+  border-left-style: solid;
+  border-width: .5rem;
+  border-color: #1c128e;
+  padding-left: 1rem;
+} 
+.project-my-workflow h3 {
+  border-left-style: solid;
+  border-width: .5rem;
+  border-color: #1c128e;
+  padding-left: 1rem;
+}
 
 /*MOBILE ABOVE 375width*/
 
@@ -1499,6 +1548,22 @@ nav-links {
   .section-navigation {
     grid-template-columns: repeat(5, 1fr);
   }
+
+
+  /*2025 CASE STUDY SECTIONS -TABLET*/
+  .case-study-overview, 
+.project-problem-statement, 
+.project-audience, 
+.project-roles, 
+.project-scope, 
+.project-process-overview, 
+.project-overview-outcomes, 
+.project-my-workflow{
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
 
 
   /* CINEMA MAKEUP SCHOOL TABLET*/
@@ -1709,6 +1774,111 @@ nav-links {
   .section-navigation {
     grid-template-columns: repeat(10, 1fr);
     padding-top: 10rem;
+  }
+
+  /*2025 CASE STUDY SECTIONS - DESKTOP*/
+  .case-study-overview, 
+  .project-problem-statement, 
+  .project-audience, 
+  .project-roles, 
+  .project-scope, 
+  .project-process-overview, 
+  .project-overview-outcomes, 
+  .project-my-workflow{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    max-width: 120rem;
+  }
+
+  .case-study-overview h1{
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .project-problem-statement h2{
+    padding-bottom: 2rem;
+  }
+
+  .project-roles h2{
+    padding-bottom: 2rem;
+    
+  }
+
+  .project-problem-statement h2, h3{
+    line-height: 2rem;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .project-audience h2, h3{
+    line-height: 2rem;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .project-roles h2, h3{
+    line-height: 2rem;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  }
+  .project-scope h2, h3{
+    line-height: 2rem;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .project-roles li{
+    margin: 0 auto;
+    max-width: 80rem;
+  }
+  .project-process-overview h2, h3{
+    line-height: 2rem;
+    margin: 0 auto;
+    max-width: 80rem;padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  } 
+  .project-overview-outcomes h2, h3{
+    line-height: 2rem;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  } 
+  .project-my-workflow h2, h3{
+    line-height: 2rem;
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+ 
+
+
+  .show-and-tell-flex {
+display: flex;
+flex-direction: row;
+padding-top: 3rem;
+padding-bottom: 3rem;
+  }
+
+  .tell{
+    max-width: 50%;
+  }
+  .show{
+    max-width: 30%;
   }
 
 

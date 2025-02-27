@@ -1309,36 +1309,36 @@ nav-links {
   padding-bottom: 2rem;
 }
 
-.project-problem-statement h2, h3, p{
+.project-problem-statement h2, h3, h4, p{
   padding-bottom: 1rem;
 
 }
 
-.case-study-overview h2, h3, p{
+.case-study-overview h2, h3, h4, p{
   padding-bottom: 1rem;
 }
 
-.project-audience h2, h3, p{
+.project-audience h2, h3, h4, p{
   padding-bottom: 1rem;
 }
 
-.project-roles h2, h3, p{
+.project-roles h2, h3, h4, p{
   padding-bottom: 1rem;
 }
 
-.project-scope h2, h3, p{
+.project-scope h2, h3, h4, p{
   padding-bottom: 1rem;
 }
 
-.project-process-overview h2, h3, p{
+.project-process-overview h2, h3, h4, p{
   padding-bottom: 1rem;
 }
 
-.project-overview-outcomes h2, h3, p{
+.project-overview-outcomes h2, h3, h4, p{
   padding-bottom: 1rem;
 }
 
-.project-my-workflow h2, h3, p{
+.project-my-workflow h2, h3, h4, p{
   padding: 1rem 0;
 }
 
@@ -1348,48 +1348,74 @@ nav-links {
   border-color: #1c128e;
   padding-left: 1rem;
 }
+
+.case-study-overview,
+.project-problem-statement,
+.project-audience,
+.project-roles,
+.project-scope,
+.project-process-overview,
+ h4{
+  color: #1c128e;
+}
+
 .project-problem-statement h3{
   border-left-style: solid;
-  border-width: .5rem;
+  border-width: .4rem;
   border-color: #1c128e;
   padding-left: 1rem;
 } 
+
 .project-audience h3{
   border-left-style: solid;
-  border-width: .5rem;
+  border-width: .4rem;
   border-color: #1c128e;
   padding-left: 1rem;
 } 
+
+
 .project-roles h3{
   border-left-style: solid;
-  border-width: .5rem;
+  border-width: .4rem;
   border-color: #1c128e;
   padding-left: 1rem;
 } 
 .project-scope h3{
   border-left-style: solid;
-  border-width: .5rem;
+  border-width: .4rem;
   border-color: #1c128e;
   padding-left: 1rem;
 } 
 .project-process-overview h3{
   border-left-style: solid;
-  border-width: .5rem;
+  border-width: .4rem;
   border-color: #1c128e;
   padding-left: 1rem;
 } 
+
+.show-and-tell-flex{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
 .project-overview-outcomes h3{
   border-left-style: solid;
-  border-width: .5rem;
+  border-width: .4rem;
   border-color: #1c128e;
   padding-left: 1rem;
 } 
 .project-my-workflow h3 {
   border-left-style: solid;
-  border-width: .5rem;
+  border-width: .4rem;
   border-color: #1c128e;
   padding-left: 1rem;
 }
+
+
+
+
+
 
 /*MOBILE ABOVE 375width*/
 
@@ -1889,17 +1915,21 @@ nav-links {
 
 
   .show-and-tell-flex {
-display: flex;
+    align-items: center;
 flex-direction: row;
+justify-content: space-evenly;
+margin-left: 5rem;
+margin-right: 5rem;
 padding-top: 3rem;
 padding-bottom: 3rem;
+max-width: 120rem;
   }
 
   .tell{
-    max-width: 50%;
+    max-width: 30%;
   }
   .show{
-    max-width: 30%;
+    max-width: 40%;
   }
 
 

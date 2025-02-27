@@ -47,7 +47,7 @@
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-	<div class="container">
+	<d class="container">
         <main>
             <div class="head-background">
 				<header id="top-index">
@@ -124,40 +124,68 @@
        <p>Additionally, there were two scope changes that occurred while we were in flight on the work, in addition to more general broad internal company pivots and teammate shuffling. We needed to rework our typography to align with separate work being done across other teams. Additionally, the other portal pivoted away from the work they had started, no longer required a custom design system and stepped away from the project. </p>
         </section>
         <section class="project-process-overview">
-            
             <h2>What did we do, and why?</h2>
             <p>Riot was growing and had limited design representation at that time within their developer platform initiative, so we had somewhat limited resources between myself and the one other designer. We needed to jump into each others workflows, and have frequent communication meetings, as well as async conversations in slack and Figma comments.</p>
         <p>Creating usability and consistency on the ground floor, could prove incredibly valuable to multiple teams and the organization as a whole, particularly since there was hope that a good portion of core internal game features could be housed under the hood of our portal.</p>
         <p>His initial work was focused around tables, and some account navigation and menus, based around the specific dataset goals of his stakeholders. We needed to scale out from there to create the ground floor for broader use cases, and built out a “to-do” list in figma.</p>
         <p>Embedded in the developer side of the house meant easy access to prospective users and their products, to understand their workflow patterns and best practices.</p>
         <p>Using competitive analysis from products like Amazon, Epic and Firebase, we looked to understand those developer centric products.</p>
-        <div class="show-and-tell-flex">
-            <div class="tell"> 
         <h3>UX Patterns</h3>
         <!--ADD SENTENCES OR LISTS-->
         <p>Content was designed for density, readability and clarity, given the data intensive workflows we were building towards.</p>
-        <p>Appropriate guard rails within our flows and processes were important, which included use of modals, colors and intentional button placement to identify potential positive and destructive actions within task flows.  Where possible we wanted to try and reduce destructive human errors, such as accidental clicks and “fat finger” inputs.</p>
+                <p>Appropriate guard rails within our flows and processes were important. We used modals, colors and intentional button placement to identify destructive actions.  
+                </p> 
+            <p>Where possible we wanted to try reduce human errors, such as accidental clicks and “fat finger” inputs, particularly when they might lead to live incidents.</p>
+            <div class="show-and-tell-flex">
+                <div class="tell">
+                    <h4>Destructive Actions & Errors</h4>
+            <p>Deletion might be needed, but live incidents are more problematic than taking precautions to avoid them. </p>
+                <p>So  "delete" is de-emphasized by using outlined button, with red and an icon for proper emphasis.</p>
+                <p>The "type to confirm" code is an additional security option, similar to deleting a github repo.</p>
+            <p>Clear cause and effect and instructions also help guide and inform the user to next steps.</p>
+            </div>
+            <div class="show">
+                <!--INSERT IMAGE--> 
+                <img src="/Images/pds-deletemodal.jpg" alt="delete modal">
+            </div>
+        </div>
+       
         <p>Presented instructions on features created for power users, which intentionally included less guard rail friction than a guided process.</p>
         <p>Guidance around how to organize content hierarchies consistently, using tabs to separate out related features and data sets.</p>
         <p>Use features to expedite task completion such as “type to complete” in search fields, and copy/paste functionality in data fields.</p>
         <p>Drive information discoverability through a guide not hide mindset, and making data accessible vs inaccessible in drop-downs.</p>
-        <p>Refined menu functionality and hierarchy, improving usability and scalability.</p>
-<div class="show">
-    <!--ADD IMAGE-->
-</div>
-</div>
+        <div class="show-and-tell-flex">
+    <div class="tell">
+        <h4>Menu Navigation</h4>
+        <p>Initial plan was hover to view more options. Because that may cause friction if the user moves their mouse, we pivoted to expandable, nested content that went one level deep. This improved usability, while still being scalable.</p>
+    </div>
+    <div class="show">
+        <!--Navigation Image-->
+        <img src="/Images/pds-menu-beforeandafter.jpg" alt="design system menu changes">
+    </div>
         </div>
         <div class="show-and-tell-flex">
-            <div class="tell">
+            <div class="tell"></div>
+            <div class="show"><!--INSERT IMAGE--> </div>
+        </div>
                 <h3>UI Elements</h3>
                 <p>Elements were created based on atomic design methodology.</p>
                 <p>We refined the color scheme for usability, and standardized color definition to identify success and error states.</p>
-            <p>evamped the top navigation and user settings for clarity, which allowed us to create an access based system for Rioters to access all of their portals through one location. </p>    
-        <p>Riot had a broader initiative around updating their fonts, and brought that visual designer in to make sure we had proper alignment, and could create the proper mix of information density adn clarity for our users.</p>    
-        <p>Created reusable template pages for errors that helped users identify what potentially may have happened, and return to their previous location.</p>
+            <p>Revamped the top navigation and user settings for clarity, which allowed us to create an access based system for Rioters to access all of their portals through one location. </p>    
+            <div class="show-and-tell-flex">
+                <div class="tell">
+                    <h4>Typography</h4>
+                    <p>We built out a typography system with "Inter" focused on providing the right combination of information density and clairty. </p>
+                       <p> However, Riot had a broader font initiative and I brought in that designer to make sure everything was aligned. </p> 
+                       <p>She suggested we simplify things, to make implementation easier, and we scaled back to reduce the number of options.</p>    
+                </div>
+                <div class="show">
+                    <!--INSERT IMAGE--> 
+                    <img src="/Images/pds-fonts.jpg" alt="font system">
+                </div>
             </div>
-            <div class="show"><!--INSERT IMAGE--> </div>
-        </div>
+            
+        <p>Created reusable template pages for errors that helped users identify what potentially may have happened, and return to their previous location.</p>
 </section>
         <section class="project-overview-outcomes">
             <h2>What were the results?</h2>

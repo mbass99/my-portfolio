@@ -1377,7 +1377,7 @@ nav-links {
 
 .project-problem-statement h3{
   border-left: solid .4rem #1c128e;
-  height: 3rem;
+  height: 2rem;
   line-height: 4rem;
   margin-bottom: 1.5rem;
   padding-left: 1rem;
@@ -1899,6 +1899,12 @@ nav-links {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+
+  .project-problem-statement h3{
+    height: 2rem;
+    line-height: 2rem;
+  }
+
   .project-audience h2, h3{
     margin: 0 auto;
     max-width: 80rem;

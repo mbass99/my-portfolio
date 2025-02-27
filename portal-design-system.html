@@ -47,7 +47,7 @@
 	<link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-	<d class="container">
+	<div class="container">
         <main>
             <div class="head-background">
 				<header id="top-index">
@@ -66,7 +66,9 @@
 					<div class="progress-bar" id="myBar"></div>
 				  </div>
 			</div>
+            <div class="case-study-spacer">
             <section class="case-study-overview">
+               
                 <div class="left-content">
 <h1>Portal Design System</h1>
 <p>Design system focused on internal facing, game management software tools for game teams.</p>
@@ -74,9 +76,12 @@
 <div class="right-content">
 <!--Add Image-->   
 </div>
-        
-</section>
+      
+            </section>
+            </div>
+            <div class="case-study-spacer">
             <section class="project-problem-statement">
+     
                 <h2>Problem Statement</h2>
                 <h3>Value Proposition</h3>
                 <p>Despite having a variety of internal tooling and a strong developer culture, Riot had an external design system for players, but not one focused on supporting game management tools. Players and developers have different goals and needs, and each needs a design system to reflect those user bases.  There was value in creating a unified tooling design system, which might streamline the development process, ensure consistency across teams and products, and reduce technical debt and reliance on external frameworks</p>
@@ -84,16 +89,21 @@
             <p>Building and maintenance of a design system can be time and resource consuming.  Part of those resources also involve planning, alignment and goals, to build in a manner that can be scaled out to retain long term value as additional teams use the system. Additionally products and teams have different needs, and centralized alignment is needed to retain consistency.</p>
             <p>Lacking a centralized or defined solution, meant teams often spun up different internal tooling, with UI that that served similar use cases as ones already in existence on other teams, but presented differently.  This meant duplicate work and maintenance, and sometimes a diminished level of polish or user experience, due to a lack of time or design input when created. A unified system could improve consistency and experience, while making it easier to create features across teams with increased efficiency.</p>
             <h3>How did we decide to build this?</h3>
-        <p>This was initiated when the EM on my team was talking to another team, and discovered we were both spinning up separate portals.  They were scoped to create of a design system, and we had broader reach and the potential to help with implementation. Alignment and leveraging of both teams meant we could potentially provide wider org value, particularly since the goal of our portal was the ability for other teams integrate with our product, and move their workflow there.</p>    
-        </section>
-        <section class="project-audience">
+        <p>This was initiated when the EM on my team was talking to another team, and discovered we were both spinning up separate portals.  They were scoped to create of a design system, and we had broader reach and the potential to help with implementation. Alignment and leveraging of both teams meant we could potentially provide wider org value, particularly since the goal of our portal was the ability for other teams integrate with our product, and move their workflow there.</p>       
+             </section>
+            </div>
+            <div class="case-study-spacer">
+            <section class="project-audience">
+            
             <h2>Who are we designing for?</h2>
             <p>For both teams working on this project, Developers would be the primary users of the system.  Often dealing with lots of information in one location, they require a balance of information density and clarity.  Documentation allowing them to quickly pull an element from storybook, and have it work regardless of what team built it, and saving time due to any unneeded customizations.  The developer workflow is often in code editors and github, which are prone to accidental errors, and we could, and should improve that experience when moving their process to a new location. </p>
             <p>The secondary audience our team needed to support were less technical users (such as product managers, qa engineers, producers and designers). They are often less comfortable in code editors and github, so we needed processes and UI that help guide them along without always requiring a developer to hold their hand through completing a task, as was the current workflow.</p>
-        </section>
-        <section class="project-roles">
-            <h2>Project Roles</h2>
-            <div class="roles-flex">
+            </section>
+            </div>
+            <div class="case-study-spacer">
+            <section class="project-roles">
+                <h2>Project Roles</h2>
+                    <div class="roles-flex">
             <div>
             <h3>Team 1</h3>
             <!--Add List-->
@@ -115,15 +125,20 @@
              <li>Game Teams</li>
              <li>Player Platform Team Members (Designers, PM's, Developers etc)</li>
             </div>
-        </div>
+                    </div>
             </section>
-        <section class="project-scope">
+            </div>
+            <div class="case-study-spacer">
+            <section class="project-scope">
             <h2>Timeline & Budget</h2>
             <p>This would be merging two work-streams already in progress, and we needed to adjust and align. The UI contractor who begun the work for the other portal had a limited scope focused on the needs of the other portal, with under 6 months left on his contract, so we couldn’t derail that work from completion. </p>
        <p>Using the baseline of what he had in place we needed to figure out where the gaps existed so we could expand upon that initial work.  This included fleshing out elements for a broader experience, as well as defining and and standardizing best practices for design system consistency across products and use cases.</p>
        <p>Additionally, there were two scope changes that occurred while we were in flight on the work, in addition to more general broad internal company pivots and teammate shuffling. We needed to rework our typography to align with separate work being done across other teams. Additionally, the other portal pivoted away from the work they had started, no longer required a custom design system and stepped away from the project. </p>
-        </section>
-        <section class="project-process-overview">
+   
+            </section>
+            </div>
+            <div class="case-study-spacer">
+            <section class="project-process-overview">
             <h2>What did we do, and why?</h2>
             <p>Riot was growing and had limited design representation at that time within their developer platform initiative, so we had somewhat limited resources between myself and the one other designer. We needed to jump into each others workflows, and have frequent communication meetings, as well as async conversations in slack and Figma comments.</p>
         <p>Creating usability and consistency on the ground floor, could prove incredibly valuable to multiple teams and the organization as a whole, particularly since there was hope that a good portion of core internal game features could be housed under the hood of our portal.</p>
@@ -186,8 +201,12 @@
             </div>
             
         <p>Created reusable template pages for errors that helped users identify what potentially may have happened, and return to their previous location.</p>
-</section>
-        <section class="project-overview-outcomes">
+  
+            </section>
+            </div>
+            <div class="case-study-spacer">
+            <section class="project-overview-outcomes">
+            <div class="case-study-spacer">
             <h2>What were the results?</h2>
        <!--Add Content-->
        <p>For our portal, we built the first pass with the old designs, then revamped the site with the new design elements when it launched live to the organization.</p>
@@ -198,9 +217,12 @@
               <!--Add Content-->
               <p>While the design system was an early success upon launching our portal, several months down the road things had changed.  We were a group of teams with different goals building together. Priorities shifted within initiatives, which also meant reduced manpower and communication between teams, and we were still in process of creating a system of documentation.  As other teams began integrating with our portal, those builds were frequently breaking, partially due to our custom UI library. This resulted in the decision to scrap our custom system for a generic alternative to remove the friction in the workflow.</p>
         <p>As part of the conversation around this decision, we mused that design systems often have standalone teams dedicated to their building and maintenance, which wasn’t the case here.  Additionally, the other team scrapped their plans, which then meant we were responsible for shouldering more of the workload than we initially planned.  So while a valid attempt to create consistency and provide cross team value, there was too much change with broader internal roadmaps to continue what we started.</p>
+    </div>        
             </section>
-<section class="project-my-workflow">
-    
+            </div>
+            <div class="case-study-spacer">
+            <section class="project-my-workflow">
+   
     <h2>My Project Impact + Process</h2>
      <!--Add Content-->
      <p>I was already operating as a full stack designer on our portal, doing everything from research through copy.  I began working with the external contractor to align on needs and relevant experiences across competitive products.  We wanted to create a system of best practices that refined what was in place, and expanded upon it.</p>
@@ -230,9 +252,11 @@
 <h3>What would I have done differently?</h3>
 <!--Add Content-->
 <p></p>
-</section>
+
+            </section>
+            </div>
         </main>
-        </div><!-- FOOTER -->
+><!-- FOOTER -->
 		<footer>
 			<ul class="contact-info">
 				<li>

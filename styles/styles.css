@@ -1308,10 +1308,12 @@ nav-links {
   border-bottom-style: solid;
   border-width: .2rem;
   border-color: #302f3a;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem 1rem;
+}
+
+.case-study-spacer{
+  margin: auto;
+  max-width: 95%;
 }
 
 .case-study-overview h1{
@@ -1353,9 +1355,6 @@ nav-links {
   padding-bottom: 1rem;
 }
 
-.case-study-overview h3{
- 
-}
 
 .case-study-overview h4{
   color: #1c128e;
@@ -1452,6 +1451,10 @@ nav-links {
   line-height: 2rem;
   padding-left: 1rem;
 }
+
+
+/*Case Study Div Content*/
+
 
 
 /*MOBILE ABOVE 375width*/
@@ -1623,11 +1626,13 @@ nav-links {
 .project-process-overview, 
 .project-overview-outcomes, 
 .project-my-workflow{
-  margin-left: 3rem;
-  margin-right: 3rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 2rem;
 }
+
+.case-study-spacer{
+  max-width: 90%;
+}
+
 
 
 /* Portal Design System */
@@ -1861,10 +1866,7 @@ nav-links {
   .project-process-overview, 
   .project-overview-outcomes, 
   .project-my-workflow{
-    margin-left: 6rem;
-    margin-right: 6rem;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+  padding: 6rem;
     max-width: 120rem;
     margin: auto;
   }

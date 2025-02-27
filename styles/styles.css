@@ -560,9 +560,18 @@ footer {
   padding-right: 2rem;
 }
 
-.about-me h2, h3, h4, p{
+.about-me h2{
 color: #afadad;
 }
+
+.about-me h3{
+  color: #afadad;
+  }
+  
+.about-me p{
+  color: #afadad;
+}
+
 
 /* 2025 added greyscale for image */
 #bunk{
@@ -1309,112 +1318,140 @@ nav-links {
   padding-bottom: 2rem;
 }
 
-.project-problem-statement h2, h3, h4, p{
-  padding-bottom: 1rem;
-
-}
-
-.case-study-overview h2, h3, h4, p{
-  padding-bottom: 1rem;
-}
-
-.project-audience h2, h3, h4, p{
-  padding-bottom: 1rem;
-}
-
-.project-roles h2, h3, h4, p{
-  padding-bottom: 1rem;
-}
-
-.project-scope h2, h3, h4, p{
-  padding-bottom: 1rem;
-}
-
-.project-process-overview h2, h3, h4, p{
-  padding-bottom: 1rem;
-}
-
-.project-overview-outcomes h2, h3, h4, p{
-  padding-bottom: 1rem;
-}
-
-.project-my-workflow h2, h3, h4, p{
-  padding: 1rem 0;
-}
-
-.case-study-overview h3{
-  border-left-style: solid;
-  border-width: .5rem;
-  border-color: #1c128e;
-  padding-left: 1rem;
-}
-
-.case-study-overview,
 .project-problem-statement,
+.case-study-overview,
+.project-audience,
+.project-roles,
+.project-scope
+.project-process-overview,
+.project-overview-outcomes,
+.project-my-workflow, h2 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+
+.project-problem-statement,
+.case-study-overview,
 .project-audience,
 .project-roles,
 .project-scope,
 .project-process-overview,
- h4{
+.project-overview-outcomes,
+.project-my-workflow, h4 {
+  padding-bottom: 1rem;
+}
+
+.project-problem-statement,
+.case-study-overview,
+.project-audience,
+.project-roles,
+.project-scope,
+.project-process-overview,
+.project-overview-outcomes,
+.project-my-workflow, p {
+  padding-bottom: 1rem;
+}
+
+.case-study-overview h3{
+ 
+}
+
+.case-study-overview h4{
+  color: #1c128e;
+}
+.project-problem-statement h4{
+  color: #1c128e;
+}
+.project-audience h4{
+  color: #1c128e;
+}
+.project-roles h4{
+  color: #1c128e;
+}
+.project-scope h4{
+  color: #1c128e;
+}
+.project-process-overview h4 {
   color: #1c128e;
 }
 
 .project-problem-statement h3{
-  border-left-style: solid;
-  border-width: .4rem;
-  border-color: #1c128e;
+  border-left: solid .4rem #1c128e;
+  height: 3rem;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
   padding-left: 1rem;
 } 
 
 .project-audience h3{
-  border-left-style: solid;
-  border-width: .4rem;
-  border-color: #1c128e;
+  border-left: solid .4rem #1c128e;
+  height: 3rem;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
   padding-left: 1rem;
 } 
 
 
 .project-roles h3{
-  border-left-style: solid;
-  border-width: .4rem;
-  border-color: #1c128e;
+  border-left: solid .4rem #1c128e;
+  height: 3rem;
+  line-height: 4rem;
   padding-left: 1rem;
 } 
+
+.roles-flex{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 4rem;
+}
+
+.roles-flex div{
+  padding-top: rem;
+}
+
 .project-scope h3{
-  border-left-style: solid;
-  border-width: .4rem;
-  border-color: #1c128e;
+  border-left: solid .4rem #1c128e;
+  height: 3rem;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
   padding-left: 1rem;
 } 
 .project-process-overview h3{
-  border-left-style: solid;
-  border-width: .4rem;
-  border-color: #1c128e;
+  border-left: solid .4rem #1c128e;
+  height: 3rem;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
   padding-left: 1rem;
 } 
+
+.project-process-overview h4{
+  padding-top: 4rem;
+}
 
 .show-and-tell-flex{
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  padding-bottom: 4rem;
 }
 
 .project-overview-outcomes h3{
   border-left-style: solid;
   border-width: .4rem;
   border-color: #1c128e;
+  line-height: 2rem;
   padding-left: 1rem;
 } 
+
 .project-my-workflow h3 {
   border-left-style: solid;
   border-width: .4rem;
   border-color: #1c128e;
+  line-height: 2rem;
   padding-left: 1rem;
 }
-
-
-
-
 
 
 /*MOBILE ABOVE 375width*/
@@ -1595,7 +1632,6 @@ nav-links {
 
 /* Portal Design System */
 .roles-flex{
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 3rem;
@@ -1856,21 +1892,18 @@ nav-links {
   }
 
   .project-problem-statement h2, h3{
-    line-height: 2rem;
     margin: 0 auto;
     max-width: 80rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .project-audience h2, h3{
-    line-height: 2rem;
     margin: 0 auto;
     max-width: 80rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .project-roles h2, h3{
-    line-height: 2rem;
     margin: 0 auto;
     max-width: 80rem;
     padding-top: 2rem;
@@ -1878,7 +1911,6 @@ nav-links {
 
   }
   .project-scope h2, h3{
-    line-height: 2rem;
     margin: 0 auto;
     max-width: 80rem;
     padding-top: 2rem;
@@ -1890,21 +1922,18 @@ nav-links {
     max-width: 80rem;
   }
   .project-process-overview h2, h3{
-    line-height: 2rem;
     margin: 0 auto;
     max-width: 80rem;padding-top: 2rem;
     padding-bottom: 2rem;
 
   } 
   .project-overview-outcomes h2, h3{
-    line-height: 2rem;
     margin: 0 auto;
     max-width: 80rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
   } 
   .project-my-workflow h2, h3{
-    line-height: 2rem;
     margin: 0 auto;
     max-width: 80rem;
     padding-top: 2rem;

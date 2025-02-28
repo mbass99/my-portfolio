@@ -609,7 +609,7 @@ max-width: 30rem;
 /* DEVPORTAL */
 /*desktop*/
 
-.case-study-container-developerportal{
+.case-study-container-developerportal {
  background-color: #f0f0f0;
 }
 
@@ -1303,17 +1303,21 @@ nav-links {
 .project-roles, 
 .project-scope, 
 .project-process-overview, 
-.project-overview-outcomes, 
-.project-my-workflow {
+.project-overview-outcomes {
   border-bottom-style: solid;
   border-width: .2rem;
   border-color: #302f3a;
-  padding: 2rem 1rem;
-}
-
-.case-study-spacer{
   margin: auto;
   max-width: 95%;
+}
+.project-my-workflow{
+  margin: auto;
+  max-width: 95%;
+}
+
+
+.case-study-spacer{
+  padding: 2rem 1rem;
 }
 
 .case-study-overview h1{
@@ -1359,18 +1363,23 @@ nav-links {
 .case-study-overview h4{
   color: #1c128e;
 }
+
 .project-problem-statement h4{
   color: #1c128e;
 }
+
 .project-audience h4{
   color: #1c128e;
 }
+
 .project-roles h4{
   color: #1c128e;
 }
+
 .project-scope h4{
   color: #1c128e;
 }
+
 .project-process-overview h4 {
   color: #1c128e;
 }
@@ -1380,22 +1389,25 @@ nav-links {
   height: 2rem;
   line-height: 4rem;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   padding-left: 1rem;
 } 
 
 .project-audience h3{
   border-left: solid .4rem #1c128e;
-  height: 3rem;
+  height: 2rem;
   line-height: 4rem;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   padding-left: 1rem;
 } 
 
-
 .project-roles h3{
   border-left: solid .4rem #1c128e;
-  height: 3rem;
+  height: 2rem;
   line-height: 4rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   padding-left: 1rem;
 } 
 
@@ -1404,10 +1416,7 @@ nav-links {
   flex-direction: column;
   gap: 3rem;
   padding-bottom: 4rem;
-}
-
-.roles-flex div{
-  padding-top: rem;
+  padding-top: 2rem;
 }
 
 .project-scope h3{
@@ -1415,13 +1424,15 @@ nav-links {
   height: 3rem;
   line-height: 4rem;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   padding-left: 1rem;
 } 
 .project-process-overview h3{
   border-left: solid .4rem #1c128e;
-  height: 3rem;
+  height: 2rem;
   line-height: 4rem;
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   padding-left: 1rem;
 } 
 
@@ -1433,7 +1444,19 @@ nav-links {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.list-bullet{
+  list-style-type: circle;
+  padding-left: 1rem;
+}
+
+.list-roman-numeral{
+  list-style-position: inside;
+  list-style-type: lower-roman;
+  padding-left: 1rem;
 }
 
 .project-overview-outcomes h3{
@@ -1441,6 +1464,8 @@ nav-links {
   border-width: .4rem;
   border-color: #1c128e;
   line-height: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   padding-left: 1rem;
 } 
 
@@ -1448,16 +1473,16 @@ nav-links {
   border-left-style: solid;
   border-width: .4rem;
   border-color: #1c128e;
-  line-height: 2rem;
+  height: 2rem;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   padding-left: 1rem;
 }
 
-
 /*Case Study Div Content*/
 
-
-
-/*MOBILE ABOVE 375width*/
+/*END MOBILE 375width*/
 
 /*MEDIA QUERIES*/
 
@@ -1469,7 +1494,6 @@ nav-links {
   header {
     padding: 2rem 6rem;
   }
-
 
   .nav-flex {
     font-size: 1.6rem;
@@ -1497,11 +1521,8 @@ nav-links {
   .move-along {
     padding: 5rem;
   }
-
-
   /* Landing Page 2025 */
  
-
   .hero-wrap {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -1557,14 +1578,10 @@ nav-links {
     width: 45%;
   }
 
-
-
-
   .project-landing-image {
     padding: 0 2rem;
     width: 55%;
   }
-
 
   .design-reads-landing-grid .project-landing-image {
     height: 40rem;
@@ -1599,7 +1616,6 @@ nav-links {
     max-width: 64rem;
   }
 
-
   /* 2025 TABLET LANDING UPDATES */
   /* about me spacing*/
   .text-and-image-box{
@@ -1609,13 +1625,11 @@ nav-links {
 
   /* end 2025 landing updates */
 
-
   /*	recurring */
 
   .section-navigation {
     grid-template-columns: repeat(5, 1fr);
   }
-
 
   /*2025 CASE STUDY SECTIONS -TABLET*/
   .case-study-overview, 
@@ -1626,14 +1640,12 @@ nav-links {
 .project-process-overview, 
 .project-overview-outcomes, 
 .project-my-workflow{
-  padding: 2rem;
-}
-
-.case-study-spacer{
   max-width: 90%;
 }
 
-
+.case-study-spacer{
+  padding: 2rem;
+}
 
 /* Portal Design System */
 .roles-flex{
@@ -1645,8 +1657,6 @@ nav-links {
 .roles-flex div{
   max-width: 33%;
 }
-
-
   /* CINEMA MAKEUP SCHOOL TABLET*/
 
   #top-cms {
@@ -1742,7 +1752,6 @@ nav-links {
     padding-top: 2rem;
   }
 }
-
 /*DESKTOP*/
 @media screen and (min-width: 1024px) {
 
@@ -1866,11 +1875,10 @@ nav-links {
   .project-process-overview, 
   .project-overview-outcomes, 
   .project-my-workflow{
-  padding: 6rem;
+    padding: 6rem;
     max-width: 120rem;
     margin: auto;
   }
-
 
 .roles-flex{
   margin: auto;
@@ -1898,11 +1906,6 @@ nav-links {
     max-width: 80rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .project-problem-statement h3{
-    height: 2rem;
-    line-height: 2rem;
   }
 
   .project-audience h2, h3{
